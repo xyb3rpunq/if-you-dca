@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "fetchedAt": "2026-08-10T02:15:53.563Z",
+  "fetchedAt": "2026-08-10T04:19:07.109Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -9,10 +9,11 @@
         "anchorMonth": "2026-07",
         "ratio": 0.997223,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×0.9972 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×0.9972 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "spx": {
       "status": "ok",
@@ -21,10 +22,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "gold": {
       "status": "ok",
@@ -33,10 +35,11 @@
         "anchorMonth": "2026-07",
         "ratio": 0.998044,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×0.9980 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×0.9980 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "silver": {
       "status": "ok",
@@ -45,10 +48,11 @@
         "anchorMonth": "2026-07",
         "ratio": 0.999809,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×0.9998 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×0.9998 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "oil": {
       "status": "ok",
@@ -57,10 +61,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1.025038,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0250 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0250 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "btc": {
       "status": "ok",
@@ -69,10 +74,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1.000437,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0004 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0004 agar sejajar dengan deret historis"
       },
       "count": 203,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "eth": {
       "status": "ok",
@@ -81,10 +87,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1.000513,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0005 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0005 agar sejajar dengan deret historis"
       },
       "count": 133,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "goog": {
       "status": "ok",
@@ -93,10 +100,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 150,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0.88
     },
     "mu": {
       "status": "ok",
@@ -105,10 +113,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 2.55
     },
     "aapl": {
       "status": "ok",
@@ -117,10 +126,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 19.3
     },
     "nvda": {
       "status": "ok",
@@ -129,10 +139,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 9.2
     },
     "orcl": {
       "status": "ok",
@@ -141,10 +152,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 25.95
     },
     "mstr": {
       "status": "ok",
@@ -153,10 +165,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "pltr": {
       "status": "ok",
@@ -165,10 +178,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 72,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 0
     },
     "bbca": {
       "status": "ok",
@@ -177,10 +191,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 64.62
     },
     "bmri": {
       "status": "ok",
@@ -189,10 +204,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 278,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 165.58
     },
     "hrta": {
       "status": "ok",
@@ -201,10 +217,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 111,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 30.19
     },
     "bumi": {
       "status": "ok",
@@ -213,10 +230,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 252,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 12.84
     },
     "arci": {
       "status": "ok",
@@ -225,10 +243,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 63,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 3.22
     },
     "untr": {
       "status": "ok",
@@ -237,10 +256,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 187.12
     },
     "asii": {
       "status": "ok",
@@ -249,10 +269,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 166.02
     },
     "bbni": {
       "status": "ok",
@@ -261,10 +282,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 300,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 109.55
     },
     "adro": {
       "status": "ok",
@@ -273,10 +295,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 218,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 431.27
     },
     "indf": {
       "status": "ok",
@@ -285,10 +308,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 255,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 90.91
     },
     "antm": {
       "status": "ok",
@@ -297,10 +321,11 @@
         "anchorMonth": "2026-07",
         "ratio": 1,
         "tailMonths": 1,
-        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+        "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
       },
       "count": 255,
-      "to": "2026-08"
+      "to": "2026-08",
+      "dividendContributionPct": 74.98
     }
   }
 }

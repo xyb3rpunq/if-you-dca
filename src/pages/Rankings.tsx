@@ -16,12 +16,13 @@ import {
 } from '../lib/format.ts';
 import { useRankings } from '../lib/useRankings.ts';
 
-type SortKey = 'return' | 'value' | 'multiple' | 'xirr' | 'volatility' | 'drawdown' | 'symbol';
+type SortKey = 'return' | 'real' | 'value' | 'multiple' | 'xirr' | 'volatility' | 'drawdown' | 'symbol';
 
 const COLUMNS: { key: SortKey; labelKey: Parameters<ReturnType<typeof useSettings>['t']>[0]; term?: string }[] = [
   { key: 'symbol', labelKey: 'rank.asset' },
   { key: 'value', labelKey: 'metric.value' },
   { key: 'return', labelKey: 'metric.return', term: 'totalReturn' },
+  { key: 'real', labelKey: 'metric.realReturn', term: 'realReturn' },
   { key: 'multiple', labelKey: 'metric.multiple', term: 'multiple' },
   { key: 'xirr', labelKey: 'metric.xirr', term: 'xirr' },
   { key: 'volatility', labelKey: 'metric.volatility', term: 'volatility' },
@@ -29,7 +30,7 @@ const COLUMNS: { key: SortKey; labelKey: Parameters<ReturnType<typeof useSetting
 ];
 
 export function Rankings() {
-  const { lang, t } = useSettings();
+  const { lang, basis, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
   const [sort, setSort] = useState<SortKey>('return');
@@ -42,7 +43,7 @@ export function Rankings() {
     const needle = query.trim().toLowerCase();
 
     const filtered = rankings.assets.filter((asset) => {
-      if (!asset.periods[period]) return false;
+      if (!asset.periods[basis][period]) return false;
       if (category !== 'all' && asset.category !== category) return false;
       if (needle && !asset.symbol.toLowerCase().includes(needle) && !asset.name.toLowerCase().includes(needle)) {
         return false;
@@ -52,13 +53,15 @@ export function Rankings() {
 
     const pick = (id: string, key: SortKey): number | string => {
       const asset = filtered.find((a) => a.id === id);
-      const p = asset?.periods[period];
+      const p = asset?.periods[basis][period];
       if (!asset || !p) return 0;
       switch (key) {
         case 'symbol':
           return asset.symbol;
         case 'value':
           return p.currentValue;
+        case 'real':
+          return p.realTotalReturnPct ?? Number.NEGATIVE_INFINITY;
         case 'multiple':
           return p.multiple;
         case 'xirr':
@@ -79,14 +82,14 @@ export function Rankings() {
         typeof left === 'string' && typeof right === 'string' ? left.localeCompare(right) : Number(left) - Number(right);
       return descending ? -cmp : cmp;
     });
-  }, [rankings, period, category, query, sort, descending]);
+  }, [rankings, period, basis, category, query, sort, descending]);
 
   if (loading) return <LoadingState label={t('common.loading')} />;
   if (error) return <ErrorState error={error} onRetry={reload} />;
   if (!rankings) return null;
 
-  const stats = rankings.summaryStats[period];
-  const invested = rows[0]?.periods[period]?.totalInvested ?? 0;
+  const stats = rankings.summaryStats[basis][period];
+  const invested = rows[0]?.periods[basis][period]?.totalInvested ?? 0;
 
   const onSort = (key: SortKey) => {
     if (key === sort) setDescending((v) => !v);
@@ -155,7 +158,7 @@ export function Rankings() {
 
       <section className="panel overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[48rem] text-sm">
+          <table className="w-full min-w-[56rem] text-sm">
             <thead>
               <tr className="border-b border-line text-[11px] tracking-wide text-muted uppercase">
                 {COLUMNS.map((column) => (
@@ -182,7 +185,7 @@ export function Rankings() {
             </thead>
             <tbody>
               {rows.map((asset, index) => {
-                const p = asset.periods[period];
+                const p = asset.periods[basis][period];
                 if (!p) return null;
                 return (
                   <tr key={asset.id} className="border-b border-line/50 last:border-0 hover:bg-panel-raised/60">
@@ -200,6 +203,14 @@ export function Rankings() {
                             {formatMonth(p.from, lang)}
                           </Badge>
                         )}
+                        {asset.hasDividendData && (
+                          <Badge
+                            tone="mint"
+                            title={t('basis.dividendAdds', { value: `+${asset.dividendContributionPct.toFixed(0)}%` })}
+                          >
+                            div
+                          </Badge>
+                        )}
                       </div>
                       <div className="mt-0.5 ml-7 truncate text-[11px] text-muted">{asset.name}</div>
                     </td>
@@ -208,6 +219,9 @@ export function Rankings() {
                     </td>
                     <td className={`tnum px-3 py-2.5 text-right font-medium ${toneFor(p.totalReturnPct)}`}>
                       {formatPercent(p.totalReturnPct)}
+                    </td>
+                    <td className={`tnum px-3 py-2.5 text-right ${toneFor(p.realTotalReturnPct)}`}>
+                      {formatPercent(p.realTotalReturnPct)}
                     </td>
                     <td className="tnum px-3 py-2.5 text-right text-muted">{formatMultiple(p.multiple)}</td>
                     <td className={`tnum px-3 py-2.5 text-right ${toneFor(p.xirr)}`}>{formatRate(p.xirr)}</td>

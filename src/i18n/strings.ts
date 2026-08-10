@@ -199,6 +199,43 @@ export const strings = {
 
   'settings.language': { id: 'Bahasa', en: 'Language' },
   'settings.currency': { id: 'Mata uang', en: 'Currency' },
+  'settings.basis': { id: 'Perhitungan return', en: 'Return basis' },
+  'basis.total': { id: 'Dividen ikut', en: 'With dividends' },
+  'basis.price': { id: 'Harga saja', en: 'Price only' },
+  'basis.total.full': {
+    id: 'Total return — dividen diinvestasikan ulang',
+    en: 'Total return — dividends reinvested',
+  },
+  'basis.price.full': { id: 'Price return — pergerakan harga saja', en: 'Price return — price movement only' },
+  'basis.explainTotal': {
+    id: 'Angka di halaman ini mengasumsikan setiap dividen langsung dibelikan saham yang sama. Untuk saham dividen tinggi, ini bisa mengubah hasil secara drastis.',
+    en: 'The figures on this page assume every dividend is immediately used to buy more of the same stock. For high-dividend stocks this can change the outcome dramatically.',
+  },
+  'basis.explainPrice': {
+    id: 'Angka di halaman ini hanya menghitung pergerakan harga. Dividen yang pernah dibayarkan tidak dihitung sama sekali — untuk saham IDX berdividen tinggi, hasilnya tampak jauh lebih buruk dari kenyataan.',
+    en: 'The figures on this page count price movement only. Dividends already paid are ignored entirely — for high-dividend IDX stocks this understates the real outcome substantially.',
+  },
+  'basis.noDividendData': {
+    id: 'Aset ini tidak membagikan dividen, jadi kedua perhitungan menghasilkan angka yang sama.',
+    en: 'This asset pays no dividend, so both bases produce the same figures.',
+  },
+  'basis.dividendAdds': {
+    id: 'Dividen menambah {value} sepanjang riwayat aset ini.',
+    en: 'Dividends added {value} over this asset’s history.',
+  },
+
+  'metric.realReturn': { id: 'Return riil', en: 'Real return' },
+  'metric.realXirr': { id: 'XIRR riil', en: 'Real XIRR' },
+  'metric.realInvested': { id: 'Setoran (nilai hari ini)', en: 'Invested (today’s money)' },
+  'metric.inflationDrag': { id: 'Termakan inflasi', en: 'Lost to inflation' },
+  'real.lead': {
+    id: 'Setelah inflasi rupiah: setoranmu dari tahun-tahun lalu dinaikkan ke daya beli hari ini sebelum dibandingkan.',
+    en: 'After rupiah inflation: contributions from earlier years are restated in today’s purchasing power before comparison.',
+  },
+  'real.estimated': {
+    id: 'Data inflasi resmi tersedia sampai {year}; bulan setelahnya diperkirakan dari tren terakhir.',
+    en: 'Official inflation data runs to {year}; later months are extrapolated from the latest trend.',
+  },
 } as const satisfies Record<string, Entry>;
 
 export type StringKey = keyof typeof strings;
@@ -247,6 +284,31 @@ export const glossary: GlossaryTerm[] = [
       en: '1× means you exactly broke even. Below 1× means a loss. Like Total Return, it ignores how long the money took to get there.',
     },
     formula: 'Nilai Akhir / Total Setoran',
+  },
+  {
+    key: 'totalVsPrice',
+    term: { id: 'Total Return vs Price Return', en: 'Total Return vs Price Return' },
+    short: {
+      id: 'Price return cuma menghitung naik-turun harga. Total return juga menghitung dividen yang kamu terima.',
+      en: 'Price return counts only price movement. Total return also counts the dividends you received.',
+    },
+    long: {
+      id: 'Perusahaan yang untung bisa membagikan sebagian labanya sebagai dividen tunai. Uang itu nyata dan masuk ke rekeningmu, tapi tidak muncul di grafik harga — bahkan harga sahamnya biasanya turun sedikit di hari dividen dibagikan. Akibatnya, kalau kamu hanya melihat grafik, saham yang rajin membagi dividen terlihat jauh lebih buruk daripada kenyataannya. Selisihnya besar untuk saham IDX: pada UNTR selama 10 tahun, price return −4,7% sementara total return +51,8%. Dari rugi jadi untung, hanya karena dividennya dihitung. Perhitungan total return di situs ini mengasumsikan setiap dividen langsung dibelikan saham yang sama — kalau kamu membelanjakan dividennya, hasil aslinya ada di antara kedua angka itu.',
+      en: 'A profitable company may pay part of its earnings out as cash dividends. That money is real and lands in your account, but it never shows up on the price chart — in fact the share price usually dips slightly on the day a dividend is paid. So if you only look at the chart, a reliable dividend payer looks far worse than it really was. The gap is large for IDX stocks: over 10 years UNTR shows −4.7% on price return but +51.8% on total return. From a loss to a gain, purely by counting the dividends. Total return here assumes every dividend is immediately reinvested into the same stock — if you spend the dividends instead, your real outcome sits between the two numbers.',
+    },
+  },
+  {
+    key: 'realReturn',
+    term: { id: 'Return Riil', en: 'Real Return' },
+    short: {
+      id: 'Hasil investasimu setelah dikurangi inflasi — berapa banyak barang yang benar-benar bisa kamu beli.',
+      en: 'Your return after inflation — how much more you can actually buy.',
+    },
+    long: {
+      id: 'Uang Rp900 ribu di 2016 bisa membeli lebih banyak barang daripada Rp900 ribu hari ini. Kalau setoranmu tumbuh 30% dalam sepuluh tahun sementara harga-harga naik 33%, secara angka kamu untung tapi secara daya beli kamu justru mundur. Return riil menghitungnya dengan menaikkan setiap setoran lama ke nilai rupiah hari ini lebih dulu, baru dibandingkan dengan nilai akhir. Ini nyaris tidak pernah ditampilkan kalkulator investasi, padahal justru angka inilah yang menentukan apakah kamu benar-benar jadi lebih kaya.',
+      en: 'Rp900,000 in 2016 bought more than Rp900,000 does today. If your contributions grew 30% over ten years while prices rose 33%, the numbers say you gained but your purchasing power went backwards. Real return handles this by restating every past contribution in today’s rupiah before comparing it to the final value. Investment calculators almost never show this, yet it is the number that decides whether you actually became better off.',
+    },
+    formula: 'Setoran riil = Σ (setoran × CPI_sekarang / CPI_bulan_itu)',
   },
   {
     key: 'cagr',

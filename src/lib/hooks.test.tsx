@@ -3,7 +3,9 @@ import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
 import { useCryptoLive, useJson } from './data.ts';
-import { usePriceSeries } from './usePrices.ts';
+import { useDeflators } from './useInflation.ts';
+import { seriesFor, usePriceSeries } from './usePrices.ts';
+import type { PriceFile } from './usePrices.ts';
 import { useUsdRate } from './useRankings.ts';
 
 const originalFetch = globalThis.fetch;
@@ -120,6 +122,55 @@ describe('useCryptoLive', () => {
     const afterUnmount = spy.mock.calls.length;
     await new Promise((r) => setTimeout(r, 150));
     expect(spy.mock.calls.length).toBe(afterUnmount);
+  });
+});
+
+describe('seriesFor', () => {
+  const file = {
+    monthly: [{ m: '2020-01', c: 100 }],
+    monthlyTotal: [{ m: '2020-01', c: 70 }],
+  } as unknown as PriceFile;
+
+  it('memilih deret sesuai basis yang diminta', () => {
+    expect(seriesFor(file, 'total')?.[0]?.c).toBe(70);
+    expect(seriesFor(file, 'price')?.[0]?.c).toBe(100);
+  });
+
+  it('jatuh kembali ke deret harga kalau total return belum ada', () => {
+    // Berkas hasil pipeline versi lama tidak punya monthlyTotal; halaman harus
+    // tetap tampil dengan angka price return, bukan kosong.
+    const lama = { monthly: [{ m: '2020-01', c: 100 }] } as unknown as PriceFile;
+    expect(seriesFor(lama, 'total')?.[0]?.c).toBe(100);
+    expect(seriesFor({ ...lama, monthlyTotal: [] } as unknown as PriceFile, 'total')?.[0]?.c).toBe(100);
+  });
+
+  it('mengembalikan null tanpa berkas', () => {
+    expect(seriesFor(undefined, 'total')).toBeNull();
+  });
+});
+
+describe('useDeflators', () => {
+  it('membangun faktor inflasi dengan bulan acuan berfaktor satu', async () => {
+    routeFetch({
+      'inflation.json': {
+        source: 'uji',
+        latestActualYear: 2025,
+        monthly: [
+          { m: '2024-07', cpi: 100 },
+          { m: '2025-07', cpi: 110 },
+        ],
+      },
+    });
+    const { result } = renderHook(() => useDeflators('2025-07'));
+    await waitFor(() => expect(result.current.deflators.size).toBeGreaterThan(0));
+    expect(result.current.deflators.get('2025-07')).toBeCloseTo(1, 9);
+    expect(result.current.deflators.get('2024-07')).toBeCloseTo(1.1, 6);
+  });
+
+  it('mengembalikan peta kosong tanpa bulan acuan', () => {
+    routeFetch({});
+    const { result } = renderHook(() => useDeflators(null));
+    expect(result.current.deflators.size).toBe(0);
   });
 });
 

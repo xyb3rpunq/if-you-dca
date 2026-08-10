@@ -38,6 +38,11 @@ jobs:
       - name: Ambil harga terbaru dari Yahoo Finance
         run: node scripts/fetch-prices.mjs ${{ inputs.only && format('--only={0}', inputs.only) || '' }}
 
+      - name: Ambil data inflasi dari Bank Dunia
+        # Bank Dunia hanya memperbarui setahun sekali, tapi menariknya tiap kali jauh
+        # lebih murah daripada mengingat kapan terakhir disegarkan.
+        run: node scripts/fetch-inflation.mjs
+
       - name: Hitung ulang simulasi DCA
         run: node scripts/compute-dca.mjs
 

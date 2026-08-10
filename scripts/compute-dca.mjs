@@ -3,6 +3,13 @@
  * pakai ke `data/computed/`. Frontend tinggal `fetch()` — tidak ada perhitungan berat
  * di browser, jadi halaman tetap ringan dibuka dari HP.
  *
+ * Setiap aset dihitung dalam DUA basis:
+ *   total — dividen dianggap diinvestasikan ulang (basis bawaan, paling jujur untuk
+ *           membandingkan strategi jangka panjang)
+ *   price — pergerakan harga saja
+ * Pengguna memilih sendiri di UI. Untuk saham dividen tinggi selisihnya bukan
+ * kosmetik: sebagian bahkan berpindah dari rugi ke untung.
+ *
  * Rumusnya tidak ditulis ulang di sini: script ini mengimpor modul TypeScript yang
  * sama dengan yang dipakai frontend (`src/lib/finance/`) lewat type stripping bawaan
  * Node 24. Satu sumber kebenaran, satu set unit test.
@@ -12,13 +19,12 @@
 
 import { resolve } from 'node:path';
 
-import { combinePortfolio, simulateDca } from '../src/lib/finance/dca.ts';
-import { addMonths, monthIndex } from '../src/lib/finance/months.ts';
+import { combinePortfolio, convertSeries, simulateDca } from '../src/lib/finance/dca.ts';
+import { buildDeflators, realMetrics } from '../src/lib/finance/inflation.ts';
+import { addMonths } from '../src/lib/finance/months.ts';
 import { correlation, monthlyReturns } from '../src/lib/finance/risk.ts';
-import { convertSeries } from '../src/lib/finance/dca.ts';
-import { COMPUTED_DIR, PRICES_DIR, loadAssets, readJson, sanitizeMonthly, writeJson } from './lib/series.mjs';
+import { COMPUTED_DIR, DATA_DIR, PRICES_DIR, loadAssets, readJson, sanitizeMonthly, writeJson } from './lib/series.mjs';
 
-// Label sengaja pendek: ini muncul di pemilih periode yang harus muat di layar 375px.
 const PERIODS = [
   { key: '1y', months: 12, label_id: '1 thn', label_en: '1y' },
   { key: '3y', months: 36, label_id: '3 thn', label_en: '3y' },
@@ -27,7 +33,9 @@ const PERIODS = [
   { key: 'max', months: null, label_id: 'Sejak awal', label_en: 'All time' },
 ];
 
-/** Ambil deret gabungan kalau ada, kalau tidak jatuh ke snapshot TradingView. */
+const BASES = ['total', 'price'];
+const CHART_PERIODS = ['10y', 'max'];
+
 async function loadSeries(id) {
   const merged = await readJson(resolve(PRICES_DIR, `${id}.json`), null);
   if (merged) return merged;
@@ -37,9 +45,9 @@ async function loadSeries(id) {
 const round = (value, digits = 6) =>
   value == null || !Number.isFinite(value) ? null : Number(value.toFixed(digits));
 
-/** Ringkas hasil simulasi jadi bentuk yang enak dikirim ke browser. */
-function summarize(result) {
+function summarize(result, deflators) {
   if (!result) return null;
+  const real = realMetrics(result.series, result.contribution, result.currentValue, deflators, result.totalReturnPct);
   return {
     from: result.from,
     to: result.to,
@@ -61,6 +69,11 @@ function summarize(result) {
     beta: round(result.beta, 4),
     alpha: round(result.alpha, 6),
     partial: result.partial,
+    // Hasil yang sama, dinyatakan dalam daya beli bulan terakhir.
+    realTotalInvested: real ? Math.round(real.realTotalInvested) : null,
+    realTotalReturnPct: round(real?.realTotalReturnPct, 4),
+    realXirr: round(real?.realXirr, 6),
+    inflationDragPct: round(real?.inflationDragPct, 4),
   };
 }
 
@@ -75,7 +88,14 @@ async function main() {
   const config = await loadAssets();
   const { monthlyContributionIDR, fxAsset, benchmark, riskFreeRateAnnual } = config.defaults;
 
-  // ── Muat semua deret harga, bersihkan anomali ──────────────────────────────
+  // ── Muat inflasi ──────────────────────────────────────────────────────────
+  const inflation = await readJson(resolve(DATA_DIR, 'inflation.json'), null);
+  if (!inflation) {
+    console.warn('  ! data/inflation.json tidak ada — metrik riil dilewati. Jalankan scripts/fetch-inflation.mjs.');
+  }
+  const cpiMonthly = (inflation?.monthly ?? []).map((p) => ({ m: p.m, cpi: p.cpi, estimated: Boolean(p.est) }));
+
+  // ── Muat semua deret harga, bersihkan anomali ─────────────────────────────
   const loaded = new Map();
   const anomalyReport = {};
   let latestMonth = '0000-00';
@@ -86,82 +106,83 @@ async function main() {
       console.warn(`  ! ${asset.id}: tidak ada data harga, dilewati`);
       continue;
     }
-    const { monthly, anomalies } = sanitizeMonthly(raw.monthly, asset.sanity ?? {});
-    if (anomalies.length > 0) {
-      anomalyReport[asset.id] = anomalies;
-      console.warn(`  ! ${asset.id}: ${anomalies.length} titik data diperbaiki/dibuang`);
+    const price = sanitizeMonthly(raw.monthly, asset.sanity ?? {});
+    // Seri total return divalidasi dengan aturan yang sama; kalau file lama belum
+    // punya `monthlyTotal`, ia jatuh kembali ke seri harga agar tetap bisa dihitung.
+    const total = raw.monthlyTotal?.length
+      ? sanitizeMonthly(raw.monthlyTotal, asset.sanity ?? {})
+      : { monthly: price.monthly, anomalies: [] };
+
+    if (price.anomalies.length > 0) {
+      anomalyReport[asset.id] = price.anomalies;
+      console.warn(`  ! ${asset.id}: ${price.anomalies.length} titik data diperbaiki/dibuang`);
     }
-    loaded.set(asset.id, { asset, meta: raw, monthly });
-    const last = monthly[monthly.length - 1];
+
+    loaded.set(asset.id, { asset, meta: raw, series: { price: price.monthly, total: total.monthly } });
+    const last = price.monthly[price.monthly.length - 1];
     if (last && last.m > latestMonth) latestMonth = last.m;
   }
 
-  const fx = loaded.get(fxAsset)?.monthly ?? null;
+  const deflators = cpiMonthly.length ? buildDeflators(cpiMonthly, latestMonth) : new Map();
+
+  const fx = loaded.get(fxAsset)?.series.price ?? null;
   if (!fx) throw new Error(`Deret kurs "${fxAsset}" tidak ditemukan — aset USD tidak bisa dihitung.`);
 
-  // Benchmark dikonversi ke rupiah juga, supaya Beta & Alpha membandingkan hal
-  // yang sejenis: sama-sama dilihat dari kacamata investor berbasis rupiah.
+  // Benchmark dikonversi ke rupiah juga, dan disiapkan per basis supaya Beta &
+  // Alpha membandingkan hal yang sejenis: sama-sama termasuk dividen, atau sama-sama tidak.
   const benchmarkEntry = loaded.get(benchmark);
-  const benchmarkSeries = benchmarkEntry
-    ? convertSeries(benchmarkEntry.monthly, benchmarkEntry.asset.quoteCurrency === 'IDR' ? null : fx)
-    : null;
+  const benchmarkSeries = {};
+  for (const basis of BASES) {
+    benchmarkSeries[basis] = benchmarkEntry
+      ? convertSeries(benchmarkEntry.series[basis], benchmarkEntry.asset.quoteCurrency === 'IDR' ? null : fx)
+      : null;
+  }
 
-  // ── Hitung DCA per aset per periode ───────────────────────────────────────
+  // ── Hitung DCA per aset, per basis, per periode ───────────────────────────
   const rankings = [];
   const returnsForCorrelation = new Map();
 
   for (const [id, entry] of loaded) {
-    const { asset, meta, monthly } = entry;
+    const { asset, meta, series } = entry;
     const needsFx = asset.quoteCurrency !== config.baseCurrency;
     const seriesFx = needsFx ? fx : null;
 
-    const inBase = convertSeries(monthly, seriesFx);
-    const firstMonth = monthly[0]?.m ?? null;
-    const lastMonth = monthly[monthly.length - 1]?.m ?? null;
-
     const periods = {};
-    for (const period of PERIODS) {
-      const from = period.months == null ? undefined : addMonths(latestMonth, -(period.months - 1));
-      // Aset yang belum listing selama periode itu tetap dihitung sejak bulan
-      // pertamanya, tapi ditandai `partial` supaya UI tidak menyamakannya
-      // dengan aset yang datanya penuh.
-      const result = simulateDca({
-        prices: monthly,
-        fx: seriesFx,
-        contribution: monthlyContributionIDR,
-        from,
-        to: latestMonth,
-        riskFreeAnnual: riskFreeRateAnnual,
-        benchmark: id === benchmark ? null : benchmarkSeries,
-      });
-      periods[period.key] = summarize(result);
-    }
-
-    // Deret grafik hanya disimpan untuk 10 tahun & max — dua yang benar-benar
-    // dipakai di UI. Menyimpan semuanya membengkakkan JSON tanpa manfaat.
     const chartSeries = {};
-    for (const key of ['10y', 'max']) {
-      const period = PERIODS.find((p) => p.key === key);
-      const from = period.months == null ? undefined : addMonths(latestMonth, -(period.months - 1));
-      const result = simulateDca({
-        prices: monthly,
-        fx: seriesFx,
-        contribution: monthlyContributionIDR,
-        from,
-        to: latestMonth,
-        riskFreeAnnual: riskFreeRateAnnual,
-      });
-      if (result) {
-        chartSeries[key] = result.series.map((p) => ({
-          m: p.m,
-          i: Math.round(p.invested),
-          v: Math.round(p.value),
-        }));
+
+    for (const basis of BASES) {
+      periods[basis] = {};
+      chartSeries[basis] = {};
+      const prices = series[basis];
+
+      for (const period of PERIODS) {
+        const from = period.months == null ? undefined : addMonths(latestMonth, -(period.months - 1));
+        const result = simulateDca({
+          prices,
+          fx: seriesFx,
+          contribution: monthlyContributionIDR,
+          from,
+          to: latestMonth,
+          riskFreeAnnual: riskFreeRateAnnual,
+          benchmark: id === benchmark ? null : benchmarkSeries[basis],
+        });
+        periods[basis][period.key] = summarize(result, deflators);
+
+        // Deret grafik hanya untuk periode yang benar-benar dipakai di UI.
+        if (result && CHART_PERIODS.includes(period.key)) {
+          chartSeries[basis][period.key] = result.series.map((p) => ({
+            m: p.m,
+            i: Math.round(p.invested),
+            v: Math.round(p.value),
+          }));
+        }
       }
     }
 
+    const inBase = convertSeries(series.price, seriesFx);
     const lastPoint = inBase[inBase.length - 1];
     const prevPoint = inBase[inBase.length - 2];
+    const priceMonthly = series.price;
 
     const record = {
       id,
@@ -174,12 +195,14 @@ async function main() {
       source: meta.source ?? 'unknown',
       resolvedSymbol: meta.resolvedSymbol ?? null,
       coingecko: asset.coingecko ?? null,
-      dataFrom: firstMonth,
-      dataTo: lastMonth,
+      dataFrom: priceMonthly[0]?.m ?? null,
+      dataTo: priceMonthly[priceMonthly.length - 1]?.m ?? null,
       lastMonthIsPartial: Boolean(meta.lastMonthIsPartial),
-      lastPriceNative: round(monthly[monthly.length - 1]?.c ?? null, 6),
+      lastPriceNative: round(priceMonthly[priceMonthly.length - 1]?.c ?? null, 6),
       lastPriceIDR: Math.round(lastPoint?.c ?? 0),
       changeMoMPct: prevPoint?.c ? round(((lastPoint.c - prevPoint.c) / prevPoint.c) * 100, 3) : null,
+      hasDividendData: Boolean(meta.hasDividendData),
+      dividendContributionPct: meta.dividendContributionPct ?? 0,
       note_id: asset.note_id ?? null,
       note_en: asset.note_en ?? null,
       periods,
@@ -188,30 +211,35 @@ async function main() {
     rankings.push(record);
     await writeJson(resolve(COMPUTED_DIR, 'dca', `${id}.json`), { ...record, chartSeries });
 
-    const returns = monthlyReturns(inBase.slice(-61));
+    const returns = monthlyReturns(convertSeries(series.total, seriesFx).slice(-61));
     if (returns.length >= 24) returnsForCorrelation.set(id, returns);
   }
 
-  // ── Statistik ringkas per periode ─────────────────────────────────────────
+  // ── Statistik ringkas per basis per periode ───────────────────────────────
   const summaryStats = {};
-  for (const period of PERIODS) {
-    const values = rankings
-      .map((r) => r.periods[period.key]?.totalReturnPct)
-      .filter((v) => v != null && Number.isFinite(v));
-    const full = rankings.filter((r) => r.periods[period.key] && !r.periods[period.key].partial).length;
-    summaryStats[period.key] = {
-      count: values.length,
-      fullHistoryCount: full,
-      mean: values.length ? round(values.reduce((a, b) => a + b, 0) / values.length, 3) : null,
-      median: round(median(values), 3),
-      positive: values.filter((v) => v > 0).length,
-      negative: values.filter((v) => v <= 0).length,
-      best: values.length ? round(Math.max(...values), 3) : null,
-      worst: values.length ? round(Math.min(...values), 3) : null,
-    };
+  for (const basis of BASES) {
+    summaryStats[basis] = {};
+    for (const period of PERIODS) {
+      const values = rankings
+        .map((r) => r.periods[basis][period.key]?.totalReturnPct)
+        .filter((v) => v != null && Number.isFinite(v));
+      const full = rankings.filter(
+        (r) => r.periods[basis][period.key] && !r.periods[basis][period.key].partial,
+      ).length;
+      summaryStats[basis][period.key] = {
+        count: values.length,
+        fullHistoryCount: full,
+        mean: values.length ? round(values.reduce((a, b) => a + b, 0) / values.length, 3) : null,
+        median: round(median(values), 3),
+        positive: values.filter((v) => v > 0).length,
+        negative: values.filter((v) => v <= 0).length,
+        best: values.length ? round(Math.max(...values), 3) : null,
+        worst: values.length ? round(Math.min(...values), 3) : null,
+      };
+    }
   }
 
-  // ── Matriks korelasi (5 tahun terakhir, dalam rupiah) ─────────────────────
+  // ── Matriks korelasi (5 tahun terakhir, basis total, dalam rupiah) ────────
   const ids = [...returnsForCorrelation.keys()];
   const matrix = {};
   for (const a of ids) {
@@ -221,7 +249,6 @@ async function main() {
     }
   }
 
-  // ── Contoh portofolio default: 50/50 dari budget bulanan ──────────────────
   const samplePortfolio = (() => {
     const picks = ['spx', 'bbca'].filter((id) => loaded.has(id));
     if (picks.length < 2) return null;
@@ -230,7 +257,7 @@ async function main() {
       .map((id) => {
         const entry = loaded.get(id);
         const result = simulateDca({
-          prices: entry.monthly,
+          prices: entry.series.total,
           fx: entry.asset.quoteCurrency === config.baseCurrency ? null : fx,
           contribution: half,
           from: addMonths(latestMonth, -119),
@@ -244,6 +271,7 @@ async function main() {
     if (!combined) return null;
     return {
       assets: picks,
+      basis: 'total',
       contributionPerAsset: half,
       totalInvested: Math.round(combined.totalInvested),
       currentValue: Math.round(combined.currentValue),
@@ -257,6 +285,8 @@ async function main() {
     baseCurrency: config.baseCurrency,
     contribution: monthlyContributionIDR,
     latestMonth,
+    bases: BASES,
+    defaultBasis: 'total',
     periods: PERIODS,
     summaryStats,
     assets: rankings,
@@ -264,7 +294,7 @@ async function main() {
 
   await writeJson(resolve(COMPUTED_DIR, 'correlations.json'), {
     generatedAt: new Date().toISOString(),
-    window: '60 bulan terakhir, return bulanan dalam IDR',
+    window: '60 bulan terakhir, return bulanan dalam IDR, basis total return',
     ids,
     matrix,
   });
@@ -277,21 +307,32 @@ async function main() {
     assetCount: rankings.length,
     fxRate: round(fx[fx.length - 1]?.c ?? null, 2),
     sources: [...new Set(rankings.map((r) => r.source))],
+    inflation: inflation
+      ? {
+          source: inflation.source,
+          latestActualYear: inflation.latestActualYear,
+          estimatedFrom: inflation.estimatedFrom,
+          fetchedAt: inflation.fetchedAt,
+        }
+      : null,
+    dividendCoverage: rankings.filter((r) => r.hasDividendData).length,
     anomalies: anomalyReport,
     samplePortfolio,
   });
 
   console.log(`\n✓ ${rankings.length} aset dihitung sampai ${latestMonth}`);
-  for (const period of PERIODS) {
-    const s = summaryStats[period.key];
-    console.log(
-      `  ${period.key.padEnd(4)} median ${String(s.median).padStart(9)}%  ` +
-        `positif ${s.positive}/${s.count}  data penuh ${s.fullHistoryCount}`,
-    );
+  for (const basis of BASES) {
+    const label = basis === 'total' ? 'total return (dividen ikut)' : 'price return (harga saja)';
+    console.log(`\n  ${label}`);
+    for (const period of PERIODS) {
+      const s = summaryStats[basis][period.key];
+      console.log(
+        `    ${period.key.padEnd(4)} median ${String(s.median).padStart(9)}%  positif ${s.positive}/${s.count}`,
+      );
+    }
   }
-  if (Object.keys(anomalyReport).length > 0) {
-    console.log(`\n  Anomali data tercatat di data/computed/meta.json`);
-  }
+  console.log(`\n  Dividen tersedia untuk ${rankings.filter((r) => r.hasDividendData).length} aset`);
+  if (deflators.size === 0) console.log('  Metrik riil TIDAK dihitung (data inflasi tidak ada)');
 }
 
 main().catch((err) => {

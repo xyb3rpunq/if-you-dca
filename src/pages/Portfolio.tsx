@@ -11,7 +11,7 @@ import { addMonths } from '../lib/finance/months.ts';
 import { annualizedVolatility, monthlyReturns } from '../lib/finance/risk.ts';
 import type { PricePoint } from '../lib/finance/types.ts';
 import { formatMoney, formatMonth, formatMultiple, formatPercent, formatRate, toneFor } from '../lib/format.ts';
-import { usePriceSeries } from '../lib/usePrices.ts';
+import { seriesFor, usePriceSeries } from '../lib/usePrices.ts';
 import { useRankings } from '../lib/useRankings.ts';
 
 const FX_ID = 'usdidr';
@@ -37,7 +37,7 @@ function futureValue(monthlyContribution: number, annualRate: number, years: num
 }
 
 export function Portfolio() {
-  const { lang, t } = useSettings();
+  const { lang, basis, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const correlations = useJson<CorrelationsFile>('computed/correlations.json');
 
@@ -64,10 +64,10 @@ export function Portfolio() {
     return selected
       .map((id) => {
         const asset = rankings.assets.find((a) => a.id === id);
-        const file = series[id];
-        if (!asset || !file) return null;
+        const prices = seriesFor(series[id], basis);
+        if (!asset || !prices) return null;
         const result = simulateDca({
-          prices: file.monthly,
+          prices,
           fx: asset.quoteCurrency === 'IDR' ? null : fx,
           contribution: weights[id] ?? 0,
           from,
@@ -76,7 +76,7 @@ export function Portfolio() {
         return result ? { id, asset, result } : null;
       })
       .filter((p): p is NonNullable<typeof p> => Boolean(p));
-  }, [rankings, latestMonth, selected, series, weights, from]);
+  }, [rankings, latestMonth, selected, series, weights, from, basis]);
 
   const combined = useMemo(
     () => (parts.length ? combinePortfolio(parts.map((p) => ({ id: p.id, result: p.result }))) : null),
@@ -95,9 +95,9 @@ export function Portfolio() {
     if (totalWeight <= 0) return null;
 
     const normalized = parts.map((p) => {
-      const file = series[p.id];
-      if (!file) return null;
-      const inBase = convertSeries(file.monthly, p.asset.quoteCurrency === 'IDR' ? null : fx).filter(
+      const prices = seriesFor(series[p.id], basis);
+      if (!prices) return null;
+      const inBase = convertSeries(prices, p.asset.quoteCurrency === 'IDR' ? null : fx).filter(
         (point) => !from || point.m >= from,
       );
       const base = inBase[0]?.c;
@@ -122,7 +122,7 @@ export function Portfolio() {
     }
     if (index.length < 13) return null;
     return annualizedVolatility(monthlyReturns(index));
-  }, [rankings, parts, series, weights, combined, from]);
+  }, [rankings, parts, series, weights, combined, from, basis]);
 
   const averageCorrelation = useMemo(() => {
     const matrix = correlations.data?.matrix;

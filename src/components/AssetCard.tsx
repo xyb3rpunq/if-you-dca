@@ -30,8 +30,8 @@ export function AssetCard({
   period: PeriodKey;
   livePrice?: number | null;
 }) {
-  const { lang, t } = useSettings();
-  const result = asset.periods[period];
+  const { lang, basis, t } = useSettings();
+  const result = asset.periods[basis][period];
   if (!result) return null;
 
   const profit = result.currentValue - result.totalInvested;

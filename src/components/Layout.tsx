@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 
 import { useSettings } from '../i18n/context.tsx';
 import type { Lang } from '../i18n/strings.ts';
+import type { ReturnBasis } from '../lib/data.ts';
 import type { Currency } from '../lib/format.ts';
 import { Segmented } from './ui.tsx';
 
@@ -33,7 +34,7 @@ function Wordmark() {
 }
 
 export function Layout() {
-  const { lang, currency, setLang, setCurrency, t } = useSettings();
+  const { lang, currency, basis, setLang, setCurrency, setBasis, t } = useSettings();
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
@@ -87,6 +88,15 @@ export function Layout() {
                   { value: 'USD', label: '$' },
                 ]}
               />
+              <Segmented<ReturnBasis>
+                ariaLabel={t('settings.basis')}
+                value={basis}
+                onChange={setBasis}
+                options={[
+                  { value: 'total', label: t('basis.total') },
+                  { value: 'price', label: t('basis.price') },
+                ]}
+              />
             </div>
             <button
               type="button"
@@ -115,7 +125,7 @@ export function Layout() {
                 </NavLink>
               ))}
             </nav>
-            <div className="mt-3 flex gap-2 border-t border-line pt-3 sm:hidden">
+            <div className="mt-3 flex flex-wrap gap-2 border-t border-line pt-3 sm:hidden">
               <Segmented<Lang>
                 ariaLabel={t('settings.language')}
                 value={lang}
@@ -134,10 +144,31 @@ export function Layout() {
                   { value: 'USD', label: '$' },
                 ]}
               />
+              <Segmented<ReturnBasis>
+                ariaLabel={t('settings.basis')}
+                value={basis}
+                onChange={setBasis}
+                options={[
+                  { value: 'total', label: t('basis.total') },
+                  { value: 'price', label: t('basis.price') },
+                ]}
+              />
             </div>
           </div>
         )}
       </header>
+
+      {/* Basis perhitungan mengubah setiap angka di situs ini, jadi basis yang
+          sedang aktif dinyatakan terus-menerus — bukan hanya sebagai tombol kecil
+          di header yang gampang terlewat. */}
+      <div className="border-b border-line bg-panel/40">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-baseline gap-x-2 gap-y-1 px-4 py-2 text-[11px]">
+          <span className={basis === 'total' ? 'font-medium text-mint' : 'font-medium text-gold'}>
+            {t(basis === 'total' ? 'basis.total.full' : 'basis.price.full')}
+          </span>
+          <span className="text-muted">{t(basis === 'total' ? 'basis.explainTotal' : 'basis.explainPrice')}</span>
+        </div>
+      </div>
 
       <main id="main" className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:py-8">
         <Outlet />

@@ -18,6 +18,8 @@
 
 import { resolve } from 'node:path';
 
+import { applyDividendFactors, mergeSeries } from '../src/lib/finance/merge.ts';
+import { currentMonth } from '../src/lib/finance/months.ts';
 import { PRICES_DIR, loadAssets, readJson, writeJson } from './lib/series.mjs';
 
 const args = Object.fromEntries(
@@ -53,7 +55,14 @@ async function fetchWithRetry(url, attempts = 4) {
   throw lastError ?? new Error('gagal tanpa penjelasan');
 }
 
-/** Ambil bar bulanan Yahoo dan petakan ke kunci "YYYY-MM" di timezone bursanya. */
+/**
+ * Ambil bar bulanan Yahoo — harga mentah DAN harga tersesuaikan dividen.
+ *
+ * Keduanya diperlukan. `close` adalah harga yang benar-benar terjadi di pasar;
+ * `adjclose` adalah harga yang sama setelah dividen diperlakukan sebagai
+ * diinvestasikan ulang. Rasio keduanya adalah satu-satunya cara mendapatkan
+ * kontribusi dividen tanpa berlangganan data korporasi aksi.
+ */
 async function fetchYahooMonthly(symbol) {
   const url =
     `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}` +
@@ -64,7 +73,8 @@ async function fetchYahooMonthly(symbol) {
   if (!result) throw new Error(json?.chart?.error?.description ?? 'respons kosong');
 
   const timestamps = result.timestamp ?? [];
-  const closes = result.indicators?.adjclose?.[0]?.adjclose ?? result.indicators?.quote?.[0]?.close ?? [];
+  const rawCloses = result.indicators?.quote?.[0]?.close ?? [];
+  const adjCloses = result.indicators?.adjclose?.[0]?.adjclose ?? [];
   const tz = result.meta?.exchangeTimezoneName ?? 'Etc/UTC';
 
   let formatter;
@@ -74,17 +84,26 @@ async function fetchYahooMonthly(symbol) {
     formatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Etc/UTC', year: 'numeric', month: '2-digit' });
   }
 
-  const byMonth = new Map();
+  const closeByMonth = new Map();
+  const factorByMonth = new Map();
   for (let i = 0; i < timestamps.length; i += 1) {
-    const close = closes[i];
     const time = timestamps[i];
-    if (!Number.isFinite(close) || !Number.isFinite(time) || close <= 0) continue;
-    byMonth.set(formatter.format(new Date(time * 1000)).slice(0, 7), close);
+    if (!Number.isFinite(time)) continue;
+    const month = formatter.format(new Date(time * 1000)).slice(0, 7);
+    const raw = rawCloses[i];
+    const adj = adjCloses[i];
+    // Sebagian instrumen (indeks, kurs) tidak punya adjclose sama sekali; di situ
+    // harga mentah dipakai untuk kedua-duanya dan faktornya tetap 1.
+    const price = Number.isFinite(raw) && raw > 0 ? raw : Number.isFinite(adj) && adj > 0 ? adj : null;
+    if (price == null) continue;
+    closeByMonth.set(month, price);
+    factorByMonth.set(month, Number.isFinite(adj) && adj > 0 ? adj / price : 1);
   }
 
-  const monthly = [...byMonth.entries()].map(([m, c]) => ({ m, c })).sort((a, b) => (a.m < b.m ? -1 : 1));
+  const monthly = [...closeByMonth.entries()].map(([m, c]) => ({ m, c })).sort((a, b) => (a.m < b.m ? -1 : 1));
   return {
     monthly,
+    dividendFactors: factorByMonth,
     currency: result.meta?.currency ?? null,
     marketPrice: result.meta?.regularMarketPrice ?? null,
     marketTime: result.meta?.regularMarketTime ?? null,
@@ -92,59 +111,6 @@ async function fetchYahooMonthly(symbol) {
   };
 }
 
-/**
- * Sambung snapshot TradingView dengan ekor Yahoo, setelah menyamakan levelnya.
- * Mengembalikan deret gabungan plus catatan bagaimana sambungan itu dibuat, supaya
- * asal-usul tiap angka bisa ditelusuri dan tidak jadi kotak hitam.
- */
-function mergeSeries(tv, yahoo) {
-  if (!tv?.monthly?.length) {
-    return { monthly: yahoo.monthly, seam: { mode: 'yahoo-only', ratio: 1, note: 'tidak ada snapshot TradingView' } };
-  }
-  if (!yahoo?.monthly?.length) {
-    return { monthly: tv.monthly, seam: { mode: 'tradingview-only', ratio: 1, note: 'Yahoo tidak mengembalikan data' } };
-  }
-
-  const yahooByMonth = new Map(yahoo.monthly.map((p) => [p.m, p.c]));
-  const thisMonth = new Date().toISOString().slice(0, 7);
-
-  // Bulan berjalan belum tutup di kedua sumber, jadi tidak dipakai sebagai jangkar.
-  const overlap = tv.monthly.filter((p) => yahooByMonth.has(p.m) && p.m !== thisMonth);
-  if (overlap.length === 0) {
-    return { monthly: tv.monthly, seam: { mode: 'tradingview-only', ratio: 1, note: 'tidak ada bulan beririsan' } };
-  }
-
-  const anchor = overlap[overlap.length - 1];
-  const yahooAtAnchor = yahooByMonth.get(anchor.m);
-  const ratio = yahooAtAnchor > 0 ? anchor.c / yahooAtAnchor : 1;
-
-  // Rasio jauh dari 1 berarti kedua simbol bukan instrumen yang sama (salah ticker,
-  // beda satuan, beda penyesuaian split). Menyambungnya justru merusak data.
-  if (!Number.isFinite(ratio) || ratio < 0.5 || ratio > 2) {
-    return {
-      monthly: tv.monthly,
-      seam: {
-        mode: 'tradingview-only',
-        ratio: Number(ratio.toFixed(4)),
-        note: `rasio sambungan ${ratio.toFixed(3)} di luar batas wajar pada ${anchor.m} — ekor Yahoo ditolak`,
-      },
-    };
-  }
-
-  const tail = yahoo.monthly.filter((p) => p.m > anchor.m).map((p) => ({ m: p.m, c: p.c * ratio, source: 'yahoo' }));
-  const head = tv.monthly.filter((p) => p.m <= anchor.m);
-
-  return {
-    monthly: [...head, ...tail],
-    seam: {
-      mode: 'merged',
-      anchorMonth: anchor.m,
-      ratio: Number(ratio.toFixed(6)),
-      tailMonths: tail.length,
-      note: `${tail.length} bulan dari Yahoo diskalakan ×${ratio.toFixed(4)} agar sejajar dengan level TradingView`,
-    },
-  };
-}
 
 async function main() {
   const config = await loadAssets();
@@ -161,8 +127,13 @@ async function main() {
       if (yahoo.monthly.length === 0) throw new Error('tidak ada bar bulanan');
 
       const tv = await readJson(resolve(PRICES_DIR, `${asset.id}.tv.json`), null);
-      const { monthly, seam } = mergeSeries(tv, yahoo);
+      const { monthly, seam } = mergeSeries(tv?.monthly, yahoo.monthly, currentMonth());
       const last = monthly[monthly.length - 1];
+
+      const { monthly: monthlyTotal, factorAtStart } = applyDividendFactors(monthly, yahoo.dividendFactors);
+      // Faktor yang meleset dari 1 di awal deret berarti dividen memang pernah dibayar.
+      const hasDividendData = factorAtStart < 0.999;
+      const dividendContributionPct = hasDividendData ? (1 / factorAtStart - 1) * 100 : 0;
 
       // Sengaja hanya dua berkas per aset: snapshot TradingView (jarang berubah) dan
       // hasil gabungan. Menyimpan salinan mentah Yahoo juga akan menulis ulang 25 berkas
@@ -171,7 +142,7 @@ async function main() {
       await writeJson(resolve(PRICES_DIR, `${asset.id}.json`), {
         id: asset.id,
         symbol: asset.symbol,
-        source: seam.mode === 'merged' ? 'tradingview+yahoo' : seam.mode,
+        source: seam.mode === 'merged' ? 'tradingview+yahoo' : seam.mode === 'recent-only' ? 'yahoo' : 'tradingview',
         resolvedSymbol: tv?.resolvedSymbol ?? asset.yahoo,
         description: tv?.description ?? asset.name,
         currency: tv?.currency ?? yahoo.currency ?? asset.quoteCurrency,
@@ -184,11 +155,25 @@ async function main() {
         count: monthly.length,
         from: monthly[0]?.m ?? null,
         to: last?.m ?? null,
+        hasDividendData,
+        dividendContributionPct: Number(dividendContributionPct.toFixed(2)),
+        dividendFactorAtStart: Number(factorAtStart.toFixed(6)),
+        // Dua seri berdampingan: `monthly` adalah harga apa adanya (price return),
+        // `monthlyTotal` sudah termasuk dividen yang diinvestasikan ulang. Pengguna
+        // memilih mana yang dipakai; keduanya tidak boleh saling menimpa.
         monthly,
+        monthlyTotal,
       });
 
-      report.assets[asset.id] = { status: 'ok', seam, count: monthly.length, to: last?.m ?? null };
-      console.log(`✓ ${String(monthly.length).padStart(3)} bulan → ${last?.m}  [${seam.mode}]`);
+      report.assets[asset.id] = {
+        status: 'ok',
+        seam,
+        count: monthly.length,
+        to: last?.m ?? null,
+        dividendContributionPct: Number(dividendContributionPct.toFixed(2)),
+      };
+      const dividendNote = hasDividendData ? `  dividen +${dividendContributionPct.toFixed(0)}%` : '';
+      console.log(`✓ ${String(monthly.length).padStart(3)} bulan → ${last?.m}  [${seam.mode}]${dividendNote}`);
     } catch (err) {
       failures += 1;
       report.assets[asset.id] = { status: 'failed', error: err.message };

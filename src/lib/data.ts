@@ -22,9 +22,24 @@ export interface PeriodResult {
   beta: number | null;
   alpha: number | null;
   partial: boolean;
+  /** Total setoran dinyatakan dalam daya beli bulan terakhir. */
+  realTotalInvested: number | null;
+  realTotalReturnPct: number | null;
+  realXirr: number | null;
+  /** Selisih return nominal dan riil — bagian yang dimakan inflasi. */
+  inflationDragPct: number | null;
 }
 
 export type PeriodKey = '1y' | '3y' | '5y' | '10y' | 'max';
+
+/**
+ * `total` memperlakukan dividen sebagai diinvestasikan ulang; `price` hanya
+ * pergerakan harga. Untuk saham dividen tinggi selisihnya bisa membalik
+ * kesimpulan, jadi pilihannya diserahkan ke pengguna dan tidak pernah disamarkan.
+ */
+export type ReturnBasis = 'total' | 'price';
+
+export type PeriodsByBasis = Record<ReturnBasis, Record<PeriodKey, PeriodResult | null>>;
 
 export interface AssetRecord {
   id: string;
@@ -43,9 +58,12 @@ export interface AssetRecord {
   lastPriceNative: number | null;
   lastPriceIDR: number;
   changeMoMPct: number | null;
+  hasDividendData: boolean;
+  /** Kontribusi dividen sepanjang riwayat, dalam persen dari harga awal. */
+  dividendContributionPct: number;
   note_id: string | null;
   note_en: string | null;
-  periods: Record<PeriodKey, PeriodResult | null>;
+  periods: PeriodsByBasis;
 }
 
 export interface PeriodMeta {
@@ -71,8 +89,10 @@ export interface RankingsFile {
   baseCurrency: string;
   contribution: number;
   latestMonth: string;
+  bases: ReturnBasis[];
+  defaultBasis: ReturnBasis;
   periods: PeriodMeta[];
-  summaryStats: Record<PeriodKey, SummaryStat>;
+  summaryStats: Record<ReturnBasis, Record<PeriodKey, SummaryStat>>;
   assets: AssetRecord[];
 }
 
@@ -83,7 +103,15 @@ export interface ChartPoint {
 }
 
 export interface AssetDetail extends AssetRecord {
-  chartSeries: Partial<Record<'10y' | 'max', ChartPoint[]>>;
+  chartSeries: Record<ReturnBasis, Partial<Record<'10y' | 'max', ChartPoint[]>>>;
+}
+
+export interface InflationFile {
+  source: string;
+  fetchedAt: string;
+  latestActualYear: number;
+  estimatedFrom: string | null;
+  monthly: { m: string; cpi: number; est?: boolean }[];
 }
 
 export interface CorrelationsFile {

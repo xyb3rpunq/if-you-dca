@@ -29,6 +29,30 @@ Semuanya dwibahasa (ID/EN). Setiap jumlah uang ditampilkan **dalam rupiah dan do
 toggle di header hanya memilih mana yang tampil besar, bukan menyembunyikan yang lain. Preferensi
 tersimpan di `localStorage`.
 
+### Dividen: dihitung atau tidak, kamu yang pilih
+
+Toggle **"Dividen ikut / Harga saja"** di header mengubah seluruh angka di situs:
+
+| | UNTR, DCA 10 tahun |
+|---|---|
+| Harga saja (*price return*) | **−4,8%** |
+| Dividen ikut (*total return*) | **+51,8%** |
+
+Selisih itu bukan kosmetik — beberapa saham IDX berpindah dari rugi ke untung. Bawaannya
+**total return**, karena mengabaikan dividen membuat saham dividen tinggi tampak rugi padahal
+tidak. Basis yang sedang aktif selalu dinyatakan di banner bawah header, bukan disembunyikan
+di balik tombol kecil.
+
+Perhitungan total return mengasumsikan setiap dividen langsung dibelikan saham yang sama. Kalau
+kamu membelanjakan dividennya, hasil aslinya ada di antara kedua angka itu.
+
+### Return riil setelah inflasi
+
+Rp900.000 tahun 2016 bukan Rp900.000 hari ini. Setiap setoran lama dinaikkan ke daya beli bulan
+terakhir sebelum dibandingkan dengan nilai akhir — bukan sekadar mengurangi return dengan inflasi
+rata-rata. Sumbernya CPI Indonesia dari Bank Dunia (gratis, tanpa key). Untuk UNTR di atas, total
+return +51,8% menjadi **+33,8% riil**.
+
 ## Arsitektur
 
 GitHub Pages hanya menyajikan berkas statis — tidak ada tempat menyembunyikan API key dan tidak
@@ -207,12 +231,11 @@ satu sumber kebenaran, tidak ada rumus yang di-copy dua kali.
 - Harga saham tertinggal beberapa jam. Feed real-time untuk saham berbayar, dan proyek ini
   memilih jujur soal itu daripada memasang label "live" yang keliru.
 - Riwayat TradingView terbatas 300 bar bulanan (±25 tahun) — cukup untuk seluruh periode di sini.
-- **Dividen belum dihitung.** Seri harga sudah disesuaikan split tapi bukan dividen, jadi semua
-  angka di sini adalah *price return*, bukan *total return*. Untuk saham dividen tinggi selisihnya
-  besar: diukur terhadap `adjclose` Yahoo, dividen UNTR selama 10 tahun setara ~104% dari harga
-  sahamnya, BBCA ~26%, ORCL ~16%. Saham yang tidak membagi dividen (NVDA ~2%) nyaris tidak
-  terpengaruh. Ini koreksi yang direncanakan berikutnya.
-- Simulasi juga mengabaikan biaya broker dan pajak. Hasil nyata akan sedikit lebih rendah.
+- Simulasi mengabaikan biaya broker dan pajak. Hasil nyata akan sedikit lebih rendah.
+- Data inflasi Bank Dunia hanya tahunan dan tertinggal beberapa bulan; bulan terbaru
+  diekstrapolasi dan ditandai sebagai perkiraan di UI.
+- Total return mengasumsikan dividen langsung diinvestasikan ulang tanpa pajak dan tanpa biaya
+  transaksi. Di dunia nyata ada keduanya.
 - Graham Number tidak berlaku untuk perusahaan merugi, dan cenderung menyebut perusahaan
   perangkat lunak "kemahalan" karena aset utamanya tidak ada di neraca.
 

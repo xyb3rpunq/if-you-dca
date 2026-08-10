@@ -120,7 +120,7 @@ Reduced-motion dihormati.
 ### Pengujian
 
 Setiap fungsi yang diekspor wajib punya tes, dan suite dijalankan ulang setiap kali ada
-perubahan — bukan sekali di akhir. Per audit terakhir: **57/57 fungsi tertutup, 129 tes**.
+perubahan — bukan sekali di akhir. Per audit terakhir: **64/64 fungsi tertutup, 165 tes**.
 Fungsi yang gagal secara diam-diam (validator data, konversi mata uang, aritmetika bulan)
 diprioritaskan di atas rumus utamanya. Kalau sebuah fungsi hidup di `.mjs` dan sulit diuji,
 pindahkan ke modul TypeScript bersama lalu re-export.
@@ -129,7 +129,24 @@ Hook React diuji dengan jsdom + Testing Library. `cleanup()` harus dipanggil eks
 `afterEach` — auto-cleanup hanya aktif kalau `globals: true`, dan tanpa itu hook dari tes
 sebelumnya terus melakukan polling ke `fetch` global milik tes berikutnya.
 
-### Temuan terukur: data harga TIDAK memperhitungkan dividen
+### Dividen: SUDAH diperbaiki, sebagai pilihan pengguna
+
+Setiap aset kini punya dua deret (`monthly` = price, `monthlyTotal` = total return) dan dua set
+hasil (`periods.price`, `periods.total`). Toggle di header memilih basisnya, bawaannya `total`.
+Faktornya dari `adjclose ÷ close` Yahoo per bulan; bulan tanpa data memakai faktor terakhir yang
+diketahui, bukan 1 — memakai 1 di tengah deret menciptakan lompatan palsu.
+
+Dampaknya besar: median 10 tahun naik dari 163% ke 209%, dan aset yang untung dari 22/25 jadi
+**25/25**. UNTR berpindah dari −4,7% ke +51,8%.
+
+### Return riil
+
+CPI Indonesia dari Bank Dunia (`FP.CPI.TOTL`, tahunan, indeks 2010=100) diinterpolasi geometrik
+ke bulanan, diangkurkan ke **pertengahan tahun** karena nilai tahunan adalah rata-rata — anchor
+ke Januari menggeser kurva setengah tahun. Setiap setoran dinaikkan ke daya beli bulan terakhir
+sebelum dibandingkan; bukan sekadar mengurangi return nominal dengan inflasi rata-rata.
+
+### Temuan awal yang memicu perbaikan di atas
 
 Diukur 10 Agustus 2026 dengan membandingkan seri TradingView terhadap `close` dan `adjclose`
 Yahoo pada bulan yang sama:
@@ -141,15 +158,14 @@ Yahoo pada bulan yang sama:
 | ORCL | 1,000 | 1,161 |
 | NVDA | 1,000 | 1,018 |
 
-Artinya: seri TradingView identik dengan harga mentah Yahoo (disesuaikan split saja), dan
-seluruh angka di situs ini adalah **price return**, bukan **total return**. Untuk saham dividen
-tinggi seperti UNTR, dividen 10 tahun bernilai sekitar sebesar harga sahamnya sendiri — angka
-−4,9% yang tampil sekarang seharusnya sekitar +100% kalau dividen ikut dihitung. Perbaikannya:
-kalikan seri dengan faktor `adjclose ÷ close` dari Yahoo per bulan.
+Artinya seri TradingView identik dengan harga mentah Yahoo (disesuaikan split saja). Catatan
+penting untuk sesi berikutnya: **TradingView dan Yahoo bukan dua sumber independen** untuk ticker
+ini — nilainya sebagai riwayat panjang yang bersih dan bebas CORS, bukan sebagai cross-check.
 
 ### Belum dikerjakan
 
-- Dividen belum ikut dihitung (lihat temuan di atas) — ini prioritas koreksi tertinggi.
-- Fundamental belum punya API key ⇒ Value Lens menampilkan keadaan kosong yang jujur. Tinggal
-  pasang `FMP_API_KEY` di Secrets.
+- Fundamental belum punya API key ⇒ Value Lens menampilkan keadaan kosong yang jujur. Hanya
+  pemilik repo yang bisa memasang `FMP_API_KEY` di Secrets. Perlu diketahui: tier gratis FMP dan
+  Finnhub praktis tidak meliput ticker `.JK`, jadi realistis hanya 7 saham AS yang akan dapat data.
 - Konstituen S&P 500 penuh belum dimuat; strukturnya sudah siap (tambah entry di `assets.json`).
+  Kalau jumlah aset melonjak, `rankings.json` perlu dipecah jadi indeks ringkas + detail per aset.

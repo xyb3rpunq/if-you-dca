@@ -3,12 +3,14 @@ import { useSearchParams } from 'react-router-dom';
 
 import { GrowthChart } from '../components/GrowthChart.tsx';
 import { categoryLabel } from '../components/AssetCard.tsx';
-import { Badge, ErrorState, LoadingState, Money, PageHeading, Segmented, Stat } from '../components/ui.tsx';
+import { Badge, ErrorState, Explain, LoadingState, Money, PageHeading, Segmented, Stat } from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
 import type { AssetRecord, ChartPoint } from '../lib/data.ts';
-import { combinePortfolio, simulateDca } from '../lib/finance/index.ts';
+import { combinePortfolio, convertSeries, simulateDca } from '../lib/finance/index.ts';
 import type { DcaResult } from '../lib/finance/index.ts';
+import { realMetrics } from '../lib/finance/inflation.ts';
 import { addMonths, monthsBetween } from '../lib/finance/months.ts';
+import { useDeflators } from '../lib/useInflation.ts';
 import {
   formatMoney,
   formatMonth,
@@ -19,7 +21,7 @@ import {
   formatRatio,
   toneFor,
 } from '../lib/format.ts';
-import { usePriceSeries } from '../lib/usePrices.ts';
+import { seriesFor, usePriceSeries } from '../lib/usePrices.ts';
 import { useRankings } from '../lib/useRankings.ts';
 
 const PRESETS = [
@@ -33,12 +35,13 @@ const PRESETS = [
 type PresetKey = (typeof PRESETS)[number]['key'] | 'custom';
 
 const FX_ID = 'usdidr';
+const BENCHMARK_ID = 'spx';
 
 /** Rentang minimal yang masih bisa disimulasikan: dua setoran. */
 const MIN_MONTHS = 2;
 
 export function Simulator() {
-  const { lang, t } = useSettings();
+  const { lang, basis, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const [params, setParams] = useSearchParams();
 
@@ -71,7 +74,9 @@ export function Simulator() {
     setParams(next, { replace: true });
   }, [selected, amount, preset, customFrom, customTo, setParams]);
 
-  const needed = useMemo(() => [...new Set([...selected, FX_ID])], [selected]);
+  // Benchmark ikut dimuat supaya Beta & Alpha bisa dihitung di sisi klien; tanpa itu
+  // kedua metrik hanya menampilkan em dash dan kolomnya jadi sia-sia.
+  const needed = useMemo(() => [...new Set([...selected, FX_ID, BENCHMARK_ID])], [selected]);
   const { series, loading: pricesLoading, error: pricesError } = usePriceSeries(needed);
 
   const latestMonth = rankings?.latestMonth ?? null;
@@ -104,25 +109,31 @@ export function Simulator() {
     if (!rankings || !latestMonth || !range?.valid) return [];
     const fx = series[FX_ID]?.monthly ?? null;
     const { from, to } = range;
+    // Benchmark dikonversi ke rupiah dan memakai basis yang sama dengan asetnya,
+    // supaya Beta membandingkan hal yang sejenis.
+    const benchmarkPrices = seriesFor(series[BENCHMARK_ID], basis);
+    const benchmark = benchmarkPrices ? convertSeries(benchmarkPrices, fx) : null;
 
     return selected
       .map((id) => {
         const asset = rankings.assets.find((a) => a.id === id);
         const file = series[id];
-        if (!asset || !file) return null;
+        const prices = seriesFor(file, basis);
+        if (!asset || !file || !prices) return null;
         const result = simulateDca({
-          prices: file.monthly,
+          prices,
           fx: asset.quoteCurrency === 'IDR' ? null : fx,
           contribution: amount / selected.length,
           from,
           to,
+          benchmark: id === BENCHMARK_ID ? null : benchmark,
         });
         return result ? { asset, file, result } : null;
       })
       .filter((entry): entry is { asset: AssetRecord; file: (typeof series)[string]; result: DcaResult } =>
         Boolean(entry),
       );
-  }, [rankings, latestMonth, range, selected, series, amount]);
+  }, [rankings, latestMonth, range, selected, series, amount, basis]);
 
   const combined = useMemo(
     () => (results.length > 0 ? combinePortfolio(results.map((r) => ({ id: r.asset.id, result: r.result }))) : null),
@@ -133,6 +144,12 @@ export function Simulator() {
     () => (combined?.series ?? []).map((p) => ({ m: p.m, i: Math.round(p.invested), v: Math.round(p.value) })),
     [combined],
   );
+
+  const { deflators, meta: inflationMeta } = useDeflators(latestMonth);
+  const real = useMemo(() => {
+    if (!combined || deflators.size === 0) return null;
+    return realMetrics(combined.series, amount, combined.currentValue, deflators, combined.totalReturnPct);
+  }, [combined, amount, deflators]);
 
   const grouped = useMemo(() => {
     if (!rankings) return [];
@@ -367,6 +384,42 @@ export function Simulator() {
               />
             </div>
           </section>
+
+          {real && (
+            <section className="panel p-5">
+              <h2 className="flex items-center text-base">
+                {t('metric.realReturn')}
+                <Explain termKey="realReturn" />
+              </h2>
+              <p className="mt-1 max-w-2xl text-xs leading-relaxed text-muted">{t('real.lead')}</p>
+              <div className="mt-4 grid grid-cols-2 gap-4 border-t border-line pt-4 sm:grid-cols-4">
+                <Stat label={t('metric.realInvested')} idr={real.realTotalInvested} size="sm" />
+                <Stat
+                  label={t('metric.realReturn')}
+                  value={formatPercent(real.realTotalReturnPct)}
+                  tone={toneFor(real.realTotalReturnPct)}
+                  size="sm"
+                />
+                <Stat
+                  label={t('metric.realXirr')}
+                  value={formatRate(real.realXirr)}
+                  tone={toneFor(real.realXirr)}
+                  size="sm"
+                />
+                <Stat
+                  label={t('metric.inflationDrag')}
+                  value={formatPercent(-real.inflationDragPct)}
+                  tone="text-down"
+                  size="sm"
+                />
+              </div>
+              {inflationMeta && (
+                <p className="mt-3 text-[11px] text-muted/80">
+                  {t('real.estimated', { year: inflationMeta.latestActualYear })} — {inflationMeta.source}
+                </p>
+              )}
+            </section>
+          )}
 
           <section className="panel p-4">
             <GrowthChart points={chartPoints} usdRate={usdRate} height={280} />

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import { loadJson } from './data.ts';
+import type { ReturnBasis } from './data.ts';
 import type { PricePoint } from './finance/types.ts';
 
 export interface PriceFile {
@@ -16,8 +17,25 @@ export interface PriceFile {
   count: number;
   from: string;
   to: string;
+  hasDividendData: boolean;
+  dividendContributionPct: number;
+  /** Harga apa adanya — price return. */
   monthly: PricePoint[];
+  /** Harga setelah dividen diinvestasikan ulang — total return. */
+  monthlyTotal?: PricePoint[];
   seam?: { mode: string; ratio: number; note: string };
+}
+
+/**
+ * Pilih deret sesuai basis yang dipilih pengguna.
+ *
+ * Jatuh kembali ke deret harga kalau `monthlyTotal` belum ada — berkas data lama
+ * hasil pipeline versi sebelumnya tetap bisa dibaca tanpa menghancurkan halaman.
+ */
+export function seriesFor(file: PriceFile | undefined, basis: ReturnBasis): PricePoint[] | null {
+  if (!file) return null;
+  if (basis === 'total' && file.monthlyTotal?.length) return file.monthlyTotal;
+  return file.monthly;
 }
 
 /**

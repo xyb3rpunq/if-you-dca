@@ -1,23 +1,31 @@
 {
-  "generatedAt": "2026-08-10T02:43:53.556Z",
+  "generatedAt": "2026-08-10T04:19:34.821Z",
   "latestMonth": "2026-08",
   "baseCurrency": "IDR",
   "contribution": 900000,
   "assetCount": 25,
-  "fxRate": 17858.27,
+  "fxRate": 17763.53,
   "sources": [
     "tradingview+yahoo"
   ],
+  "inflation": {
+    "source": "World Bank — FP.CPI.TOTL (Indonesia)",
+    "latestActualYear": 2025,
+    "estimatedFrom": "2025-08",
+    "fetchedAt": "2026-08-10T04:07:18.085Z"
+  },
+  "dividendCoverage": 16,
   "anomalies": {},
   "samplePortfolio": {
     "assets": [
       "spx",
       "bbca"
     ],
+    "basis": "total",
     "contributionPerAsset": 900000,
     "totalInvested": 216000000,
-    "currentValue": 395325532,
-    "totalReturnPct": 83.021,
-    "xirr": 0.117943
+    "currentValue": 413153694,
+    "totalReturnPct": 91.275,
+    "xirr": 0.12633
   }
 }

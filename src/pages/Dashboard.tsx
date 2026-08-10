@@ -19,7 +19,7 @@ import { useRankings } from '../lib/useRankings.ts';
 const SNAPSHOT_IDS = ['usdidr', 'spx', 'gold', 'btc'];
 
 export function Dashboard() {
-  const { lang, t } = useSettings();
+  const { lang, basis, t } = useSettings();
   const { rankings, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
 
@@ -32,15 +32,18 @@ export function Dashboard() {
   const ranked = useMemo(() => {
     if (!rankings) return [];
     return rankings.assets
-      .filter((a) => a.periods[period] && a.role !== 'fx')
-      .sort((a, b) => (b.periods[period]?.totalReturnPct ?? 0) - (a.periods[period]?.totalReturnPct ?? 0));
-  }, [rankings, period]);
+      .filter((a) => a.periods[basis][period] && a.role !== 'fx')
+      .sort(
+        (a, b) =>
+          (b.periods[basis][period]?.totalReturnPct ?? 0) - (a.periods[basis][period]?.totalReturnPct ?? 0),
+      );
+  }, [rankings, period, basis]);
 
   if (loading) return <LoadingState label={t('common.loading')} />;
   if (error) return <ErrorState error={error} onRetry={reload} />;
   if (!rankings) return null;
 
-  const stats = rankings.summaryStats[period];
+  const stats = rankings.summaryStats[basis][period];
   const snapshot = SNAPSHOT_IDS.map((id) => rankings.assets.find((a) => a.id === id)).filter(
     (a): a is AssetRecord => Boolean(a),
   );
