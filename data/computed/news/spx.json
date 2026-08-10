@@ -1,9 +1,30 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-10T14:52:36.296Z",
+  "generatedAt": "2026-08-10T16:45:43.483Z",
   "count": 8,
   "items": [
+    {
+      "title": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
+      "url": "https://finance.yahoo.com/technology/article/tech-stocks-still-have-plenty-of-believers-on-wall-street-inflow-data-shows-163544665.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-08-10T16:35:44.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500 on Pace for Fresh Record Despite Early Struggles",
+      "url": "https://finance.yahoo.com/m/e8524e85-93a2-3155-af48-254d0c9aaf2f/s%26p-500-on-pace-for-fresh.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-08-10T16:08:46.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Berkshire Hathaway Stock Nears Record. Wall Street Liked Its Earnings Report.",
+      "url": "https://finance.yahoo.com/m/e475df9f-2fb6-32b3-9b1a-476197a1c0f2/berkshire-hathaway-stock.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-08-10T15:49:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "SPX: S&P 500 Futures Wobble as Peace Talks Falter. Inflation Data Up Next. - TradingView",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1N1RnN0YzhWaHdzSHJGVjdFY1pZQ3lRN0xhUG1PcEFzQ2hhbWtzVDN6Q2pvRXEzeGdqLWxuQmxxdDNmeVlYNHprazFINVRmRzI5anlqMWoxZVVYQWhDZ0pUOWVneW5BYXdXR29qV2Uwa3hPb3YyclpFQm84UV9nSEpXeDJCbjV1Z054aXNGYUhSdHlLWHBiOC01MDNidC1FSWlfWjAtd1F1a1YtV3Rnel9jSnJlVUs5WTd3MGRwTUx5eWRheHlHNnJOdC0?oc=5",
@@ -37,27 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUROZTZBVVQycEduWkl3alp1UVhwRFBod1pEa2tzcWVkX3dQeVNZazJNQW40b1kwVjdZZEdNaVF1YzRUWkQ5eXJERmdUN2FzdWhhYll3UGtTUl9Dam9Da0Z0V1AxZnJBQlFoX3pkeGpuOTRaU2IwVWZYeXNUZWFrQUZKUS1tYUVsbkJsMXVNenFqZWVkenFKc3VOT1FtR3Zo0gGmAUFVX3lxTE4tU1c4NXJCNzFlRjRWdU5PaHBOMnpVVWZuMGthSUlMVVdDSWd6NmJwWWgwQTdmaWREODRjOGpHTl9HaWc0T20yWF80SDVONnpKQXFlMUU3ZTl0QXR3N1BqVGtJRDVyNTFZaTg4TV9nV2QzY3VhX0hpcWhOa3NnRW8zVFdManpKQ2pUV2ZobXg4SU1mUmZFWHRHdmg1VlBxdHFmSkkyMVE?oc=5",
       "publisher": "Stockwatch.id",
       "publishedAt": "2026-08-03T06:40:17.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Wall Street Menghijau: S&P 500 Lewati 7.200, Dow Jones Melonjak 790 Poin - Stockwatch.id",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOblFGeFZXYmlEZXV3U0FOR2U5N2hJM1FvcV82ekVMM0I0MGJ6RHBiaEFjejVxaTRlLVFWQ2VJVzBGMWx1R3lmRWJ1MHZDbDdWN1dGbF85OTA4U1ZVeUhUcFNaVnNIU0Y2d1JQWEtNN2hiYzJJUGw3WnJFdGFYaUJBUmJ4cHFZQUlpNUhhdklyQmlkLUpaMHfSAZsBQVVfeXFMT3ZDUmpJV1JWQkFoLUFSaWNoM0pOelRVbFdLLVhDX3ZqclFGM0lhblhfUW5wd3JvMEhRaGtQc2NDNkRESG5fVmlicDJQODBnQnFWVkJaNjUzQVlpMkY4UVhNcDZsY3hBVndFLXlXejctZTVOY2FJVW95VDdQMjVLWDJkTjRHSjQ3VGRjY3p6QzEtMWNzVkw2czJlTkU?oc=5",
-      "publisher": "Stockwatch.id",
-      "publishedAt": "2026-08-02T14:37:31.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Wall Street Cetak Rekor Baru, Indeks S&P 500 Tembus Level 7.100 untuk Pertama Kali - Stockwatch.id",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYk9Vc1lBMnY5RmpjY24yUGhMcnprdzNYNFA0SUdremhUSUZfZmpFWW5JaVpCSUVuZWJoNTFfXzk5MWI0Wi1WQVZmTXRFSnRsOFUwbVVyTV9BMGlVYkxVLUtkbklSU2x6N2gybV9UcHpHY2E2Q09ObzkyRzVwZ1E0WVNnS0pLaHRweERGMnpGOVQwc3lDNkY3Nkt2U3JXa2Q4WGN3NNIBqgFBVV95cUxQSFNpZDNOVk9qZ1pGY2daX1lVT3EzZk5Vb3RQY1JjRTc1NjJndUcwaUw0RGJ2YkFTTV9KQXRZQURqMTBXcUNkdVFHbkJFZTlaLU9JX2EzMHpxeF9EVU9fN3ZMaGJReUFnNDdGeFpQNUpOa3ByelAwQ3JwczA2ZURKZk1nMVk2YXZZY2pIS1NpaGotNTNtU1BqQzRMa1piTnJDLUVicEZoNnFzQQ?oc=5",
-      "publisher": "Stockwatch.id",
-      "publishedAt": "2026-08-02T14:05:34.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Wall Street Bervariasi: S&P 500 dan Nasdaq Cetak Rekor Baru di Tengah Panasnya Konflik AS-Iran - Stockwatch.id",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS3hGWG85aExDdnN2MlFyZ1E1MnYwNk1zeGc2d3ZtN09jTEdKN0QzcDdHTkN5R0t3RmZhb2xZWllyT09ERGRvY2xycjJrdXRnQUFIeVhxTlZRQ1JfWGNJMzdtWU9ocFAydXNxdHRPTEFUb3BpajBJMmtVZWozY0QzZXpIcjRERVFYVV9pbnVINGhrS1lpWjZjbDRIVWZZS185Sko5TUFyakhDM0hMMDJnRXRaZjbSAboBQVVfeXFMT1BBamNtU0lDUzR3ZFdmVzBmc1BmTTg0Ti11SUo5OUJMQklqMkE2bXBTWURnWmdyUEpLLWltay1YQnRVUkFSZWw5V1hFTUNxc3l4RmVZVlZ3dFJISGYwbnpPMVJzNThRNXdPQXRSVFc3am9rLWJBY3pTLVhKU2NsZ1NCdG9ucklNWmxXa2Q1eUhlN0stZFc5b3RQeXl0a084OVo0MkVMVFd6R1RGdFlMSWwtRS1fcy1BZXV3?oc=5",
-      "publisher": "Stockwatch.id",
-      "publishedAt": "2026-08-02T12:23:56.000Z",
       "source": "google-news"
     }
   ]
