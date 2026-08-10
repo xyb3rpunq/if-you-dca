@@ -1,9 +1,23 @@
 {
   "id": "mu",
   "symbol": "MU",
-  "generatedAt": "2026-08-10T05:51:52.221Z",
+  "generatedAt": "2026-08-10T09:17:54.810Z",
   "count": 8,
   "items": [
+    {
+      "title": "Micron Stock Gains Even as Apple Looks to China for Memory-Chip Supply",
+      "url": "https://finance.yahoo.com/m/14ff16a9-1887-316e-aed1-5f3c0161aae3/micron-stock-gains-even-as.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500, Nasdaq, Dow Futures Mixed As Hormuz Uncertainty Weighs: Why AAPL, TSM, MU, SPCX, ASTS, SLS Stocks Are In Focus",
+      "url": "https://finance.yahoo.com/m/6527e649-c983-3778-be22-1ab58151af8f/s%26p-500%2C-nasdaq%2C-dow-futures.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-10T08:24:48.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Why Micron is Decisively Better Positioned Than Intel Now",
       "url": "https://finance.yahoo.com/m/589a3dda-7b14-3a53-a6d3-92a1791c3dd3/why-micron-is-decisively.html",
@@ -33,31 +47,17 @@
       "source": "yahoo"
     },
     {
-      "title": "Unpacking the Latest Pullback in Micron Stock",
-      "url": "https://finance.yahoo.com/m/5aa74010-26f4-3d73-aba2-25bb4a1fa985/unpacking-the-latest-pullback.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-09T20:20:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
-      "url": "https://finance.yahoo.com/m/74b0a384-b0c9-32b5-ba68-c5672f1e42a2/micron-has-surged-207%25-this.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-09T17:45:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
-      "url": "https://finance.yahoo.com/m/36c6f414-f8a1-3769-9f1e-460ae6f08327/opinion%3A-the-best-ai-memory.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-09T17:43:00.000Z",
-      "source": "yahoo"
-    },
-    {
       "title": "Profil & Cara Beli Saham Micron Technology (MU) dari Indonesia - Gotrade",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrTEY2d1ZoeEljaVBfU2FZalAyMzZSaWEtaG5EU2RtU2VOVy05bDlZTmhmdEVPSnhpdUJtWldrcW1JSHhsRW1WdEFkYzlQcE5HV3RKZ3Vlb3FUVGpDeEE?oc=5",
       "publisher": "Gotrade",
       "publishedAt": "2026-08-09T08:54:41.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Apa Itu Koin Micron Technology Tokenized Stock (Ondo) (MUON)? - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WYlR1endFZmZKX252RVRtRmxybHFUTEF6akIwV3NBZjdQdWptZXlTUEFwLXNYc3A0bGlUWWEwZmRadEFnWDFZRXNnb2lNQU1jRkd4cXNsclFPVFk?oc=5",
+      "publisher": "Ajaib",
+      "publishedAt": "2026-07-28T02:19:16.000Z",
       "source": "google-news"
     }
   ]
