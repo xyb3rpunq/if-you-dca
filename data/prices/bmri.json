@@ -6,7 +6,7 @@
   "description": "PT Bank Mandiri (Persero) Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-08-09T21:52:24.356Z",
+  "fetchedAt": "2026-08-10T02:13:19.930Z",
   "historicalSnapshotAt": "2026-08-09T21:41:52.738Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 4240,
+  "marketPrice": 4270,
   "lastMonthIsPartial": true,
   "count": 278,
   "from": "2003-07",
@@ -1131,7 +1131,7 @@
     },
     {
       "m": "2026-08",
-      "c": 4240,
+      "c": 4270,
       "source": "yahoo"
     }
   ]

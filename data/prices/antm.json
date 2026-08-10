@@ -6,7 +6,7 @@
   "description": "PT ANTAM (Persero) Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-08-09T21:52:24.356Z",
+  "fetchedAt": "2026-08-10T02:13:19.930Z",
   "historicalSnapshotAt": "2026-08-09T21:42:05.679Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 3160,
+  "marketPrice": 3210,
   "lastMonthIsPartial": true,
   "count": 255,
   "from": "2005-06",
@@ -1039,7 +1039,7 @@
     },
     {
       "m": "2026-08",
-      "c": 3160,
+      "c": 3210,
       "source": "yahoo"
     }
   ]

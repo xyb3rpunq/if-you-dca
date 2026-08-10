@@ -6,7 +6,7 @@
   "description": "PT United Tractors Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-08-09T21:52:24.356Z",
+  "fetchedAt": "2026-08-10T02:13:19.930Z",
   "historicalSnapshotAt": "2026-08-09T21:41:58.273Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 23675,
+  "marketPrice": 23800,
   "lastMonthIsPartial": true,
   "count": 300,
   "from": "2001-09",
@@ -1219,7 +1219,7 @@
     },
     {
       "m": "2026-08",
-      "c": 23675,
+      "c": 23800,
       "source": "yahoo"
     }
   ]

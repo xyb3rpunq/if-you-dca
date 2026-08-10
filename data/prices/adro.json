@@ -6,7 +6,7 @@
   "description": "PT Alamtri Resources Indonesia Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-08-09T21:52:24.356Z",
+  "fetchedAt": "2026-08-10T02:13:19.930Z",
   "historicalSnapshotAt": "2026-08-09T21:42:02.566Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 2540,
+  "marketPrice": 2520,
   "lastMonthIsPartial": true,
   "count": 218,
   "from": "2008-07",
@@ -891,7 +891,7 @@
     },
     {
       "m": "2026-08",
-      "c": 2540,
+      "c": 2520,
       "source": "yahoo"
     }
   ]

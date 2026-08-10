@@ -1,0 +1,7 @@
+{
+  "generatedAt": "2026-08-10T02:13:44.972Z",
+  "available": false,
+  "reason": "no-api-key",
+  "message": "Data fundamental butuh API key gratis dari Financial Modeling Prep atau Finnhub. Tambahkan sebagai GitHub Secret bernama FMP_API_KEY, lalu jalankan ulang workflow refresh-data.",
+  "assets": {}
+}
