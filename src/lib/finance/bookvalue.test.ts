@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { grahamNumber, marginOfSafety, reconcileBookValue } from './value.ts';
+import { grahamNumber, marginOfSafety, reconcileBookValue, reconcilePriceRatio } from './value.ts';
 
 const FX = 17_780;
 
@@ -63,6 +63,47 @@ describe('reconcileBookValue', () => {
     const out = reconcileBookValue({ price: 235, bookValuePerShare: 5.52, fxRate: FX });
     expect(out.converted).toBe(false);
     expect(out.bookValuePerShare).toBe(5.52);
+  });
+});
+
+describe('reconcilePriceRatio', () => {
+  it('mengoreksi P/S yang penyebutnya dalam mata uang lain', () => {
+    // Kasus nyata: ADRO 37.123 → sekitar 2,09 setelah dibagi kurs.
+    const out = reconcilePriceRatio(37_122.85, FX);
+    expect(out.converted).toBe(true);
+    expect(out.value as number).toBeCloseTo(37_122.85 / FX, 9);
+    expect(out.value as number).toBeCloseTo(2.09, 2);
+    expect(out.note).toContain('dibagi kurs');
+  });
+
+  it('TIDAK menyentuh valuasi tinggi yang sungguhan', () => {
+    // MSTR benar-benar berdagang di P/S 77 dan PLTR di 67. Mengoreksinya akan
+    // merusak angka yang sebenarnya benar — inilah kenapa ambangnya sangat tinggi.
+    expect(reconcilePriceRatio(77, FX).converted).toBe(false);
+    expect(reconcilePriceRatio(77, FX).value).toBe(77);
+    expect(reconcilePriceRatio(67, FX).value).toBe(67);
+    expect(reconcilePriceRatio(147, FX).value).toBe(147);
+  });
+
+  it('membuang rasio yang tetap mustahil setelah dikoreksi', () => {
+    // Dibagi kurs pun masih di luar akal; lebih baik kosong daripada salah.
+    const out = reconcilePriceRatio(1e12, FX);
+    expect(out.value).toBeNull();
+    expect(out.note).toContain('tidak masuk akal');
+  });
+
+  it('tanpa kurs, rasio mustahil dibuang alih-alih ditebak', () => {
+    expect(reconcilePriceRatio(37_122.85, null).value).toBeNull();
+  });
+
+  it('meneruskan ketiadaan data', () => {
+    expect(reconcilePriceRatio(null, FX).value).toBeNull();
+    expect(reconcilePriceRatio(Number.NaN, FX).value).toBeNull();
+  });
+
+  it('ambang bisa disetel untuk rasio yang skalanya berbeda', () => {
+    expect(reconcilePriceRatio(80, FX, { suspectAbove: 50 }).converted).toBe(false);
+    expect(reconcilePriceRatio(80, FX, { suspectAbove: 50, min: 0.001 }).value).toBeCloseTo(0.0045, 4);
   });
 });
 

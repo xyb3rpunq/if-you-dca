@@ -15,7 +15,7 @@
 
 import { resolve } from 'node:path';
 
-import { reconcileBookValue } from '../src/lib/finance/value.ts';
+import { reconcileBookValue, reconcilePriceRatio } from '../src/lib/finance/value.ts';
 import { COMPUTED_DIR, PRICES_DIR, loadAssets, readJson, writeJson } from './lib/series.mjs';
 import { debtToEquityRatio, fetchQuoteSummary, fetchTimeseries, raw } from './lib/yahoo.mjs';
 
@@ -65,7 +65,8 @@ function extract(result, fxRate) {
     pb,
     bookValueConverted: reconciled.converted,
     bookValueNote: reconciled.note,
-    ps: raw(detail.priceToSalesTrailing12Months),
+    // Pendapatan per saham mengalami masalah satuan yang sama dengan nilai buku.
+    ps: reconcilePriceRatio(raw(detail.priceToSalesTrailing12Months), fxRate).value,
     peg: raw(stats.pegRatio),
     eps: trailingEps,
     forwardEps: raw(stats.forwardEps),

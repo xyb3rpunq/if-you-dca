@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:06:06.914Z",
+  "generatedAt": "2026-08-10T11:14:47.286Z",
   "available": true,
   "provider": "yahoo-finance",
   "coverage": "18/18",
@@ -131,7 +131,7 @@
       },
       "ticker": "GOOG",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "mu": {
       "price": 877.57,
@@ -259,7 +259,7 @@
       },
       "ticker": "MU",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "aapl": {
       "price": 313.33,
@@ -387,7 +387,7 @@
       },
       "ticker": "AAPL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "nvda": {
       "price": 223.96,
@@ -515,7 +515,7 @@
       },
       "ticker": "NVDA",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "orcl": {
       "price": 147.02,
@@ -643,7 +643,7 @@
       },
       "ticker": "ORCL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "mstr": {
       "price": 100.01,
@@ -771,7 +771,7 @@
       },
       "ticker": "MSTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "pltr": {
       "price": 172.01,
@@ -899,7 +899,7 @@
       },
       "ticker": "PLTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "bbca": {
       "price": 6375,
@@ -1027,7 +1027,7 @@
       },
       "ticker": "BBCA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "bmri": {
       "price": 4180,
@@ -1155,7 +1155,7 @@
       },
       "ticker": "BMRI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "hrta": {
       "price": 2200,
@@ -1283,7 +1283,7 @@
       },
       "ticker": "HRTA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "bumi": {
       "price": 187,
@@ -1293,7 +1293,7 @@
       "pb": 2.640394,
       "bookValueConverted": true,
       "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
-      "ps": 43034.434,
+      "ps": 2.430542,
       "peg": 0.1,
       "eps": 5.87,
       "forwardEps": null,
@@ -1411,7 +1411,7 @@
       },
       "ticker": "BUMI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "arci": {
       "price": 1265,
@@ -1421,7 +1421,7 @@
       "pb": 4.465372,
       "bookValueConverted": true,
       "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
-      "ps": 58858.062,
+      "ps": 3.324245,
       "peg": null,
       "eps": 87.68,
       "forwardEps": null,
@@ -1539,7 +1539,7 @@
       },
       "ticker": "ARCI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "untr": {
       "price": 24050,
@@ -1667,7 +1667,7 @@
       },
       "ticker": "UNTR.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "asii": {
       "price": 5000,
@@ -1795,7 +1795,7 @@
       },
       "ticker": "ASII.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "bbni": {
       "price": 3650,
@@ -1923,7 +1923,7 @@
       },
       "ticker": "BBNI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "adro": {
       "price": 2530,
@@ -1933,7 +1933,7 @@
       "pb": 0.840541,
       "bookValueConverted": true,
       "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
-      "ps": 37122.85,
+      "ps": 2.096662,
       "peg": 0.85,
       "eps": 306.83,
       "forwardEps": 516.36,
@@ -2051,7 +2051,7 @@
       },
       "ticker": "ADRO.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "indf": {
       "price": 7325,
@@ -2179,7 +2179,7 @@
       },
       "ticker": "INDF.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     },
     "antm": {
       "price": 3140,
@@ -2307,7 +2307,7 @@
       },
       "ticker": "ANTM.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-10T11:06:06.914Z"
+      "fetchedAt": "2026-08-10T11:14:47.286Z"
     }
   }
 }

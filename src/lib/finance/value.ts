@@ -34,6 +34,48 @@ export interface BookValueReconciliation {
 /** Di luar rentang ini, P/B hampir pasti hasil salah satuan, bukan penilaian pasar. */
 const PB_PLAUSIBLE = { min: 0.02, max: 60 };
 
+export interface RatioReconciliation {
+  value: number | null;
+  converted: boolean;
+  note: string | null;
+}
+
+/**
+ * Koreksi rasio berbasis harga yang penyebutnya dilaporkan dalam mata uang lain.
+ *
+ * Masalah yang sama dengan nilai buku muncul juga di price-to-sales: penyedia data
+ * melaporkan pendapatan per saham dalam dolar sementara harganya dalam rupiah,
+ * sehingga P/S ADRO terbaca 37.123 alih-alih sekitar 2,1.
+ *
+ * Ambang kecurigaan sengaja dipasang sangat tinggi (`suspectAbove`), bukan sekadar
+ * "di atas normal". Ada saham yang memang berdagang di P/S 77 — MSTR salah satunya —
+ * dan mengoreksinya akan merusak angka yang sebenarnya benar. Yang dikoreksi hanya
+ * yang mustahil, dan hanya kalau hasil koreksinya mendarat di rentang wajar.
+ */
+export function reconcilePriceRatio(
+  ratio: number | null | undefined,
+  fxRate: number | null | undefined,
+  options: { suspectAbove?: number; min?: number; max?: number } = {},
+): RatioReconciliation {
+  const { suspectAbove = 500, min = 0.01, max = 200 } = options;
+
+  if (ratio == null || !Number.isFinite(ratio)) return { value: null, converted: false, note: null };
+  if (ratio <= suspectAbove) return { value: ratio, converted: false, note: null };
+
+  if (fxRate != null && Number.isFinite(fxRate) && fxRate > 0) {
+    const converted = ratio / fxRate;
+    if (converted >= min && converted <= max) {
+      return {
+        value: converted,
+        converted: true,
+        note: `penyebut rasio dilaporkan dalam mata uang lain — dibagi kurs ${fxRate.toFixed(0)}`,
+      };
+    }
+  }
+
+  return { value: null, converted: false, note: `rasio ${ratio.toFixed(0)} tidak masuk akal — dibuang` };
+}
+
 /**
  * Samakan satuan nilai buku per saham dengan satuan harganya.
  *
