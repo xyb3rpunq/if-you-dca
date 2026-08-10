@@ -1,0 +1,68 @@
+name: Segarkan data pasar
+
+on:
+  schedule:
+    # Yahoo Finance memperbarui harga penutupan beberapa jam setelah bursa tutup,
+    # jadi jadwalnya mengejar jam tutup, bukan jam buka.
+    # 10:30 WIB — setelah IDX tutup hari sebelumnya + sesi AS selesai.
+    - cron: '30 3 * * 1-6'
+    # 22:00 WIB — sesi IDX hari ini sudah tutup.
+    - cron: '0 15 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Batasi ke aset tertentu (dipisah koma, mis. aapl,spx). Kosongkan untuk semua.'
+        required: false
+        default: ''
+
+# Job ini menulis balik ke repo, jadi butuh izin tulis. Tidak ada izin lain yang diberikan.
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Ambil harga terbaru dari Yahoo Finance
+        run: node scripts/fetch-prices.mjs ${{ inputs.only && format('--only={0}', inputs.only) || '' }}
+
+      - name: Hitung ulang simulasi DCA
+        run: node scripts/compute-dca.mjs
+
+      - name: Ambil rasio fundamental
+        # Tanpa secret, script menulis penanda "tidak tersedia" dan tetap sukses —
+        # jadi langkah ini aman dijalankan bahkan sebelum API key dipasang.
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: node scripts/compute-fundamentals.mjs
+
+      - name: Jalankan unit test rumus keuangan
+        # Data boleh berubah; rumusnya tidak. Kalau test gagal, jangan commit apa pun.
+        run: |
+          npm ci
+          npm test
+
+      - name: Commit hasilnya kalau memang ada perubahan
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if git diff --staged --quiet; then
+            echo 'Tidak ada perubahan data — tidak ada commit.'
+          else
+            git commit -m "data: segarkan harga pasar $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

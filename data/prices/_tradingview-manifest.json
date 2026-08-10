@@ -1,0 +1,206 @@
+{
+  "source": "tradingview-desktop",
+  "fetchedAt": "2026-08-09T21:41:32.290Z",
+  "assets": {
+    "usdidr": {
+      "status": "ok",
+      "resolvedSymbol": "FX_IDC:USDIDR",
+      "currency": "IDR",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "spx": {
+      "status": "ok",
+      "resolvedSymbol": "SP_DLY:SPX",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "gold": {
+      "status": "ok",
+      "resolvedSymbol": "TVC:GOLD",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "silver": {
+      "status": "ok",
+      "resolvedSymbol": "TVC:SILVER",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "oil": {
+      "status": "ok",
+      "resolvedSymbol": "TVC:USOIL",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "btc": {
+      "status": "ok",
+      "resolvedSymbol": "INDEX:BTCUSD",
+      "currency": "USD",
+      "count": 203,
+      "from": "2009-10",
+      "to": "2026-08"
+    },
+    "eth": {
+      "status": "ok",
+      "resolvedSymbol": "INDEX:ETHUSD",
+      "currency": "USD",
+      "count": 133,
+      "from": "2015-08",
+      "to": "2026-08"
+    },
+    "goog": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:GOOG",
+      "currency": "USD",
+      "count": 150,
+      "from": "2014-03",
+      "to": "2026-08"
+    },
+    "mu": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:MU",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "aapl": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:AAPL",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "nvda": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:NVDA",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "orcl": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:ORCL",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "mstr": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:MSTR",
+      "currency": "USD",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "pltr": {
+      "status": "ok",
+      "resolvedSymbol": "BATS:PLTR",
+      "currency": "USD",
+      "count": 72,
+      "from": "2020-09",
+      "to": "2026-08"
+    },
+    "bbca": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:BBCA",
+      "currency": "IDR",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "bmri": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:BMRI",
+      "currency": "IDR",
+      "count": 278,
+      "from": "2003-07",
+      "to": "2026-08"
+    },
+    "hrta": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:HRTA",
+      "currency": "IDR",
+      "count": 111,
+      "from": "2017-06",
+      "to": "2026-08"
+    },
+    "bumi": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:BUMI",
+      "currency": "IDR",
+      "count": 252,
+      "from": "2005-06",
+      "to": "2026-08"
+    },
+    "arci": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:ARCI",
+      "currency": "IDR",
+      "count": 63,
+      "from": "2021-06",
+      "to": "2026-08"
+    },
+    "untr": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:UNTR",
+      "currency": "IDR",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "asii": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:ASII",
+      "currency": "IDR",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "bbni": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:BBNI",
+      "currency": "IDR",
+      "count": 300,
+      "from": "2001-09",
+      "to": "2026-08"
+    },
+    "adro": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:ADRO",
+      "currency": "IDR",
+      "count": 218,
+      "from": "2008-07",
+      "to": "2026-08"
+    },
+    "indf": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:INDF",
+      "currency": "IDR",
+      "count": 255,
+      "from": "2005-06",
+      "to": "2026-08"
+    },
+    "antm": {
+      "status": "ok",
+      "resolvedSymbol": "IDX_DLY:ANTM",
+      "currency": "IDR",
+      "count": 255,
+      "from": "2005-06",
+      "to": "2026-08"
+    }
+  }
+}

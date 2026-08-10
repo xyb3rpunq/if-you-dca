@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-09T22:15:32.398Z",
+  "latestMonth": "2026-08",
+  "baseCurrency": "IDR",
+  "contribution": 900000,
+  "assetCount": 25,
+  "fxRate": 17858.27,
+  "sources": [
+    "tradingview+yahoo"
+  ],
+  "anomalies": {},
+  "samplePortfolio": {
+    "assets": [
+      "spx",
+      "bbca"
+    ],
+    "contributionPerAsset": 900000,
+    "totalInvested": 216000000,
+    "currentValue": 394444660,
+    "totalReturnPct": 82.613,
+    "xirr": 0.117518
+  }
+}

@@ -1,0 +1,9 @@
+# Repo ini ditulis di Windows tapi pipeline datanya jalan di runner Linux.
+# Tanpa normalisasi, tiap cron akan melihat seluruh berkas JSON "berubah" hanya
+# karena akhir barisnya, lalu mem-commit perubahan yang sebenarnya kosong.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,306 @@
+{
+  "source": "yahoo-finance",
+  "fetchedAt": "2026-08-09T21:52:24.356Z",
+  "assets": {
+    "usdidr": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 0.997223,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×0.9972 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "spx": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "gold": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 0.998044,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×0.9980 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "silver": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 0.999809,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×0.9998 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "oil": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1.025038,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0250 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "btc": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1.000437,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0004 agar sejajar dengan level TradingView"
+      },
+      "count": 203,
+      "to": "2026-08"
+    },
+    "eth": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1.000513,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0005 agar sejajar dengan level TradingView"
+      },
+      "count": 133,
+      "to": "2026-08"
+    },
+    "goog": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 150,
+      "to": "2026-08"
+    },
+    "mu": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "aapl": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "nvda": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "orcl": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "mstr": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "pltr": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 72,
+      "to": "2026-08"
+    },
+    "bbca": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "bmri": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 278,
+      "to": "2026-08"
+    },
+    "hrta": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 111,
+      "to": "2026-08"
+    },
+    "bumi": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 252,
+      "to": "2026-08"
+    },
+    "arci": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 63,
+      "to": "2026-08"
+    },
+    "untr": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "asii": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "bbni": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 300,
+      "to": "2026-08"
+    },
+    "adro": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 218,
+      "to": "2026-08"
+    },
+    "indf": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 255,
+      "to": "2026-08"
+    },
+    "antm": {
+      "status": "ok",
+      "seam": {
+        "mode": "merged",
+        "anchorMonth": "2026-07",
+        "ratio": 1,
+        "tailMonths": 1,
+        "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
+      },
+      "count": 255,
+      "to": "2026-08"
+    }
+  }
+}

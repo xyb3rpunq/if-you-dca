@@ -1,0 +1,149 @@
+@import 'tailwindcss';
+
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+/*
+  Value Terminal — terminal trading gelap yang bertemu gravitas laporan tahunan.
+  Bukan ungu-gradien web3, bukan cream-terracotta landing page.
+*/
+@theme {
+  --color-void: #0a0f0d;
+  --color-panel: #0f1613;
+  --color-panel-raised: #131c18;
+  --color-line: #1c2620;
+  --color-line-bright: #2a3830;
+  --color-ink: #eef2ef;
+  --color-muted: #7f9488;
+  --color-gold: #c9a24b;
+  --color-gold-dim: #8a6f34;
+  --color-mint: #4ade9e;
+  --color-down: #d9694f;
+
+  --font-display: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --radius-panel: 0.75rem;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-void);
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-void);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: 'cv05', 'ss03';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+  }
+
+  /* Angka harus sejajar di kolom tabel — itu yang bikin terasa "terminal". */
+  .tnum {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-gold) 35%, transparent);
+  }
+}
+
+@layer components {
+  .panel {
+    background-color: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-panel);
+  }
+
+  /* Nomor pahlawan: angka besar dulu, konteks menyusul di bawahnya. */
+  .hero-number {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+}
+
+/*
+  Elemen ciri khas: titik mint yang berdenyut di sebelah harga yang benar-benar live.
+  Hanya dipakai untuk kripto — satu-satunya kelas aset yang datanya sungguh real-time
+  di sini. Harga saham memakai label "diperbarui X lalu", bukan denyut ini, supaya
+  tidak ada yang mengira datanya lebih segar dari kenyataan.
+*/
+@keyframes vt-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-mint) 70%, transparent);
+    opacity: 1;
+  }
+  70% {
+    box-shadow: 0 0 0 0.42rem transparent;
+    opacity: 0.85;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+    opacity: 1;
+  }
+}
+
+.live-dot {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 9999px;
+  background-color: var(--color-mint);
+  animation: vt-pulse 2.4s ease-out infinite;
+}
+
+@keyframes vt-flash {
+  from {
+    background-color: color-mix(in oklab, var(--color-mint) 22%, transparent);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+.price-flash {
+  animation: vt-flash 900ms ease-out;
+  border-radius: 0.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot,
+  .price-flash,
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  /* Titiknya tetap harus terlihat sebagai penanda "live", cuma tidak berdenyut. */
+  .live-dot {
+    box-shadow: 0 0 0 0.18rem color-mix(in oklab, var(--color-mint) 28%, transparent);
+  }
+}
