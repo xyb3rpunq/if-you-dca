@@ -4,6 +4,59 @@ import { Link } from 'react-router-dom';
 
 import { useSettings } from '../i18n/context.tsx';
 import { glossary } from '../i18n/strings.ts';
+import { dualMoney } from '../lib/format.ts';
+import { useUsdRate } from '../lib/useRankings.ts';
+
+const MONEY_SIZES = {
+  hero: 'hero-number text-4xl sm:text-5xl',
+  lg: 'hero-number text-2xl',
+  md: 'tnum text-lg',
+  sm: 'tnum text-sm',
+} as const;
+
+const MONEY_SUB_SIZES = {
+  hero: 'text-sm',
+  lg: 'text-xs',
+  md: 'text-[11px]',
+  sm: 'text-[10px]',
+} as const;
+
+/**
+ * Nilai portofolio dalam rupiah DAN dolar sekaligus.
+ *
+ * Toggle mata uang di header memilih mana yang tampil besar; yang satunya tetap
+ * ikut ditampilkan lebih kecil di bawahnya. Investor rupiah yang memegang aset
+ * dolar perlu membaca keduanya sekaligus, dan memaksanya bolak-balik menekan
+ * toggle untuk itu adalah gesekan yang tidak perlu.
+ *
+ * Hanya untuk jumlah uang (setoran, nilai, untung/rugi). Harga instrumen tetap
+ * dalam mata uang aslinya — mengubah level indeks S&P jadi rupiah cuma jadi derau.
+ */
+export function Money({
+  idr,
+  size = 'md',
+  tone = '',
+  align = 'left',
+}: {
+  idr: number | null | undefined;
+  size?: keyof typeof MONEY_SIZES;
+  tone?: string;
+  align?: 'left' | 'right';
+}) {
+  const { lang, currency } = useSettings();
+  const rate = useUsdRate();
+
+  const pair = dualMoney(idr, rate, currency, lang);
+  if (!pair) return <span className="text-muted">—</span>;
+  const { primary, secondary } = pair;
+
+  return (
+    <span className={`inline-flex flex-col ${align === 'right' ? 'items-end' : 'items-start'}`}>
+      <span className={`${MONEY_SIZES[size]} ${tone}`}>{primary}</span>
+      {secondary && <span className={`tnum ${MONEY_SUB_SIZES[size]} text-muted`}>{secondary}</span>}
+    </span>
+  );
+}
 
 /**
  * Ikon (?) yang menjelaskan istilah teknis di tempat.
@@ -76,13 +129,17 @@ export function Explain({ termKey, className = '' }: { termKey: string; classNam
 export function Stat({
   label,
   value,
+  idr,
   tone = 'text-ink',
   hint,
   termKey,
   size = 'md',
 }: {
   label: string;
-  value: ReactNode;
+  /** Nilai apa adanya (persentase, rasio). Untuk jumlah uang pakai `idr`. */
+  value?: ReactNode;
+  /** Jumlah dalam rupiah — dirender otomatis sebagai rupiah + dolar. */
+  idr?: number | null;
   tone?: string;
   hint?: string;
   termKey?: string;
@@ -96,7 +153,13 @@ export function Stat({
         <span className="truncate">{label}</span>
         {termKey && <Explain termKey={termKey} />}
       </div>
-      <div className={`mt-1 ${valueClass} ${tone}`}>{value}</div>
+      <div className="mt-1">
+        {idr !== undefined ? (
+          <Money idr={idr} size={size === 'lg' ? 'lg' : size} tone={tone} />
+        ) : (
+          <span className={`${valueClass} ${tone}`}>{value}</span>
+        )}
+      </div>
       {hint && <div className="mt-0.5 text-[11px] text-muted">{hint}</div>}
     </div>
   );

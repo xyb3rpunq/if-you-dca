@@ -3,13 +3,26 @@ import type { Lang } from '../i18n/strings.ts';
 export type Currency = 'IDR' | 'USD';
 
 /**
+ * Rupiah mengikuti bahasa antarmuka, dolar SELALU memakai konvensi internasional.
+ *
+ * Kalau tidak, halaman berbahasa Indonesia menampilkan "$10.000" — dan titik di
+ * situ berarti ribuan bagi pembaca Indonesia tapi desimal bagi notasi dolar.
+ * Sepuluh ribu dolar dan sepuluh dolar adalah selisih seribu kali lipat, jadi
+ * ambiguitas ini tidak bisa dibiarkan demi konsistensi lokal semata.
+ */
+function localeFor(currency: Currency, lang: Lang): string {
+  if (currency === 'USD') return 'en-US';
+  return lang === 'id' ? 'id-ID' : 'en-US';
+}
+
+/**
  * Rupiah dalam jutaan/miliar, bukan deret 9 digit.
  * "Rp3,5 mrd" bisa dibaca dalam sekejap; "Rp3.495.312.007" tidak — dan dashboard ini
  * memang dirancang untuk dilihat sambil lalu dari HP.
  */
 export function formatMoney(value: number | null | undefined, currency: Currency, lang: Lang): string {
   if (value == null || !Number.isFinite(value)) return '—';
-  const locale = lang === 'id' ? 'id-ID' : 'en-US';
+  const locale = localeFor(currency, lang);
 
   if (currency === 'USD') {
     if (Math.abs(value) >= 1_000_000_000) return `$${(value / 1_000_000_000).toLocaleString(locale, { maximumFractionDigits: 2 })}B`;
@@ -31,10 +44,43 @@ export function formatMoney(value: number | null | undefined, currency: Currency
   return `Rp${value.toLocaleString(locale, { maximumFractionDigits: 0 })}`;
 }
 
+export interface DualMoney {
+  primary: string;
+  /** null kalau kurs tidak tersedia, sehingga dolar tidak bisa dihitung. */
+  secondary: string | null;
+}
+
+/**
+ * Pilih pasangan rupiah/dolar untuk satu jumlah uang.
+ *
+ * Dipisahkan dari komponennya supaya bisa diuji sebagai fungsi murni: aturan
+ * "tampilkan keduanya, yang mana di atas tergantung toggle, dan jangan pernah
+ * mengarang dolar tanpa kurs" adalah logika yang bisa salah diam-diam.
+ */
+export function dualMoney(
+  idr: number | null | undefined,
+  usdRate: number | null,
+  currency: Currency,
+  lang: Lang,
+): DualMoney | null {
+  if (idr == null || !Number.isFinite(idr)) return null;
+
+  const usd = usdRate != null && usdRate > 0 ? idr / usdRate : null;
+  // Tanpa kurs yang sah, dolar tidak pernah ditampilkan — termasuk saat toggle
+  // sedang di posisi USD. Lebih baik menampilkan rupiah saja daripada menebak.
+  if (currency === 'USD' && usd != null) {
+    return { primary: formatMoney(usd, 'USD', lang), secondary: formatMoney(idr, 'IDR', lang) };
+  }
+  return {
+    primary: formatMoney(idr, 'IDR', lang),
+    secondary: usd != null ? formatMoney(usd, 'USD', lang) : null,
+  };
+}
+
 /** Angka utuh dengan pemisah ribuan — untuk tooltip dan tabel yang butuh presisi. */
 export function formatExact(value: number | null | undefined, currency: Currency, lang: Lang): string {
   if (value == null || !Number.isFinite(value)) return '—';
-  const locale = lang === 'id' ? 'id-ID' : 'en-US';
+  const locale = localeFor(currency, lang);
   const prefix = currency === 'USD' ? '$' : 'Rp';
   return `${prefix}${Math.round(value).toLocaleString(locale)}`;
 }
@@ -64,7 +110,7 @@ export function formatRatio(value: number | null | undefined, digits = 2): strin
 /** Harga dalam mata uang aslinya — presisi menyesuaikan besaran angkanya. */
 export function formatPrice(value: number | null | undefined, currency: string, lang: Lang): string {
   if (value == null || !Number.isFinite(value)) return '—';
-  const locale = lang === 'id' ? 'id-ID' : 'en-US';
+  const locale = localeFor(currency === 'IDR' ? 'IDR' : 'USD', lang);
   const digits = Math.abs(value) >= 1000 ? 0 : Math.abs(value) >= 1 ? 2 : 4;
   const formatted = value.toLocaleString(locale, { minimumFractionDigits: digits, maximumFractionDigits: digits });
   return currency === 'IDR' ? `Rp${formatted}` : `$${formatted}`;

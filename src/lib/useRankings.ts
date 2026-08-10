@@ -10,6 +10,24 @@ import type { RankingsFile } from './data.ts';
  */
 export function useRankings() {
   const { data, error, loading, reload } = useJson<RankingsFile>('computed/rankings.json');
-  const usdRate = data?.assets.find((a) => a.id === 'usdidr')?.lastPriceNative ?? null;
-  return { rankings: data, usdRate, error, loading, reload };
+  return { rankings: data, usdRate: fxRateOf(data), error, loading, reload };
+}
+
+/** Kurs USD/IDR dari snapshot peringkat. Nol atau negatif diperlakukan sebagai
+ *  tidak ada — membaginya hanya menghasilkan Infinity atau angka bertanda terbalik. */
+export function fxRateOf(data: RankingsFile | null): number | null {
+  const rate = data?.assets.find((a) => a.id === 'usdidr')?.lastPriceNative ?? null;
+  return rate && rate > 0 ? rate : null;
+}
+
+/**
+ * Kurs saja, untuk komponen yang perlu menampilkan rupiah dan dolar berdampingan
+ * tanpa ikut menerima seluruh data peringkat lewat prop.
+ *
+ * Tidak menambah permintaan jaringan: `useJson` memakai cache modul, jadi ini
+ * membaca berkas yang sudah diambil halaman induknya.
+ */
+export function useUsdRate(): number | null {
+  const { data } = useJson<RankingsFile>('computed/rankings.json');
+  return fxRateOf(data);
 }

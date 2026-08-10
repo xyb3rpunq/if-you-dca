@@ -59,7 +59,9 @@ export default defineConfig({
     sourcemap: false,
   },
   test: {
+    // Node sebagai bawaan karena hampir semua yang diuji adalah fungsi murni;
+    // berkas yang butuh DOM memilih sendiri lewat `@vitest-environment jsdom`.
     environment: 'node',
-    include: ['src/**/*.test.ts'],
+    include: ['src/**/*.test.ts', 'src/**/*.test.tsx', 'scripts/**/*.test.mjs'],
   },
 });

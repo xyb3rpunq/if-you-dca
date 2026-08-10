@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { categoryLabel } from '../components/AssetCard.tsx';
-import { Badge, ErrorState, Explain, LoadingState, PageHeading, Segmented, Stat } from '../components/ui.tsx';
+import { Badge, ErrorState, Explain, LoadingState, Money, PageHeading, Segmented, Stat } from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
 import type { PeriodKey } from '../lib/data.ts';
 import {
@@ -29,7 +29,7 @@ const COLUMNS: { key: SortKey; labelKey: Parameters<ReturnType<typeof useSetting
 ];
 
 export function Rankings() {
-  const { lang, currency, t } = useSettings();
+  const { lang, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
   const [sort, setSort] = useState<SortKey>('return');
@@ -86,7 +86,6 @@ export function Rankings() {
   if (!rankings) return null;
 
   const stats = rankings.summaryStats[period];
-  const divisor = currency === 'USD' && usdRate ? usdRate : 1;
   const invested = rows[0]?.periods[period]?.totalInvested ?? 0;
 
   const onSort = (key: SortKey) => {
@@ -148,7 +147,8 @@ export function Rankings() {
           <>
             {' · '}
             {lang === 'id' ? 'total setoran' : 'total invested'}{' '}
-            <span className="tnum text-ink">{formatMoney(invested / divisor, currency, lang)}</span>
+            <span className="tnum text-ink">{formatMoney(invested, 'IDR', lang)}</span>
+            {usdRate && <span className="tnum"> ({formatMoney(invested / usdRate, 'USD', lang)})</span>}
           </>
         )}
       </p>
@@ -203,7 +203,9 @@ export function Rankings() {
                       </div>
                       <div className="mt-0.5 ml-7 truncate text-[11px] text-muted">{asset.name}</div>
                     </td>
-                    <td className="tnum px-3 py-2.5 text-right">{formatMoney(p.currentValue / divisor, currency, lang)}</td>
+                    <td className="px-3 py-2.5 text-right">
+                      <Money idr={p.currentValue} size="sm" align="right" />
+                    </td>
                     <td className={`tnum px-3 py-2.5 text-right font-medium ${toneFor(p.totalReturnPct)}`}>
                       {formatPercent(p.totalReturnPct)}
                     </td>

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 import { categoryLabel } from '../components/AssetCard.tsx';
 import { GrowthChart } from '../components/GrowthChart.tsx';
-import { ErrorState, Explain, LoadingState, PageHeading, Segmented, Stat } from '../components/ui.tsx';
+import { ErrorState, Explain, LoadingState, Money, PageHeading, Segmented, Stat } from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
 import { useJson } from '../lib/data.ts';
 import type { ChartPoint, CorrelationsFile } from '../lib/data.ts';
@@ -37,7 +37,7 @@ function futureValue(monthlyContribution: number, annualRate: number, years: num
 }
 
 export function Portfolio() {
-  const { lang, currency, t } = useSettings();
+  const { lang, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const correlations = useJson<CorrelationsFile>('computed/correlations.json');
 
@@ -143,7 +143,6 @@ export function Portfolio() {
   if (error) return <ErrorState error={error} onRetry={reload} />;
   if (!rankings) return null;
 
-  const divisor = currency === 'USD' && usdRate ? usdRate : 1;
   const allocated = selected.reduce((acc, id) => acc + (weights[id] ?? 0), 0);
   const remaining = budget - allocated;
   const chartPoints: ChartPoint[] = (combined?.series ?? []).map((p) => ({
@@ -250,12 +249,12 @@ export function Portfolio() {
             <div className="text-[11px] tracking-wide text-muted uppercase">
               {lang === 'id' ? 'Kalau rencana ini dijalankan 10 tahun terakhir' : 'If this plan ran for the last 10 years'}
             </div>
-            <div className={`hero-number mt-1 text-4xl ${toneFor(combined.totalReturnPct)}`}>
-              {formatMoney(combined.currentValue / divisor, currency, lang)}
+            <div className="mt-1">
+              <Money idr={combined.currentValue} size="hero" tone={toneFor(combined.totalReturnPct)} />
             </div>
             <div className="mt-2 text-sm text-muted">
               {lang === 'id' ? 'dari setoran' : 'from'}{' '}
-              <span className="tnum text-ink">{formatMoney(combined.totalInvested / divisor, currency, lang)}</span> ·{' '}
+              <span className="tnum text-ink">{formatMoney(combined.totalInvested, 'IDR', lang)}</span> ·{' '}
               {formatMonth(combined.from, lang)} – {formatMonth(combined.to, lang)}
             </div>
             <div className="mt-5 grid grid-cols-2 gap-4 border-t border-line pt-4 sm:grid-cols-4">
@@ -303,12 +302,12 @@ export function Portfolio() {
               {scenarios.map((scenario) => (
                 <div key={scenario.key} className="rounded-lg border border-line bg-void/50 p-4">
                   <div className="text-[11px] tracking-wide text-muted uppercase">{t(scenario.key)}</div>
-                  <div className={`hero-number mt-1.5 text-xl ${scenario.tone}`}>
-                    {formatMoney(
-                      futureValue(allocated, scenario.rate, horizon, combined.currentValue) / divisor,
-                      currency,
-                      lang,
-                    )}
+                  <div className="mt-1.5">
+                    <Money
+                      idr={futureValue(allocated, scenario.rate, horizon, combined.currentValue)}
+                      size="md"
+                      tone={scenario.tone}
+                    />
                   </div>
                   {/* Laju yang dipakai selalu ditampilkan — angka proyeksi tanpa asumsinya
                       hanyalah tebakan yang terlihat pasti. */}
@@ -352,11 +351,11 @@ export function Portfolio() {
                       <td className="tnum px-3 py-2.5 text-right text-muted">
                         {allocated > 0 ? `${(((weights[id] ?? 0) / allocated) * 100).toFixed(0)}%` : '—'}
                       </td>
-                      <td className="tnum px-3 py-2.5 text-right text-muted">
-                        {formatMoney(result.totalInvested / divisor, currency, lang)}
+                      <td className="px-3 py-2.5 text-right">
+                        <Money idr={result.totalInvested} size="sm" align="right" tone="text-muted" />
                       </td>
-                      <td className="tnum px-3 py-2.5 text-right">
-                        {formatMoney(result.currentValue / divisor, currency, lang)}
+                      <td className="px-3 py-2.5 text-right">
+                        <Money idr={result.currentValue} size="sm" align="right" />
                       </td>
                       <td className={`tnum px-4 py-2.5 text-right ${toneFor(result.totalReturnPct)}`}>
                         {formatPercent(result.totalReturnPct)}

@@ -19,13 +19,15 @@ berbasis rupiah. Statis, gratis dijalankan, di-deploy dari GitHub.
 | Halaman | Isi |
 |---|---|
 | **Dashboard** | Kondisi pasar, hasil terbaik & terburuk berdampingan, harga kripto live |
-| **Simulator DCA** | Nominal & durasi bebas, multi-aset, grafik nilai vs setoran, hasil bisa dibagikan lewat URL |
+| **Simulator DCA** | Nominal bebas, preset durasi **atau rentang tanggal bebas**, multi-aset, grafik nilai vs setoran, hasil bisa dibagikan lewat URL |
 | **Peringkat** | Seluruh aset, sortir per kolom, filter kategori, statistik ringkas |
 | **Value Lens** | Rasio fundamental lewat saringan Graham + Graham Number + margin of safety |
 | **Rencana Saya** | Alokasi budget multi-aset, cek diversifikasi, rentang skenario ke depan |
 | **Istilah** | Semua jargon dijelaskan dengan bahasa sehari-hari |
 
-Semuanya dwibahasa (ID/EN), dengan toggle mata uang IDR/USD yang tersimpan di `localStorage`.
+Semuanya dwibahasa (ID/EN). Setiap jumlah uang ditampilkan **dalam rupiah dan dolar sekaligus** —
+toggle di header hanya memilih mana yang tampil besar, bukan menyembunyikan yang lain. Preferensi
+tersimpan di `localStorage`.
 
 ## Arsitektur
 
@@ -205,8 +207,12 @@ satu sumber kebenaran, tidak ada rumus yang di-copy dua kali.
 - Harga saham tertinggal beberapa jam. Feed real-time untuk saham berbayar, dan proyek ini
   memilih jujur soal itu daripada memasang label "live" yang keliru.
 - Riwayat TradingView terbatas 300 bar bulanan (±25 tahun) — cukup untuk seluruh periode di sini.
-- Simulasi mengabaikan biaya broker, pajak, dan dividen tunai (kecuali yang sudah tercermin di
-  harga adjusted). Hasil nyata akan sedikit lebih rendah.
+- **Dividen belum dihitung.** Seri harga sudah disesuaikan split tapi bukan dividen, jadi semua
+  angka di sini adalah *price return*, bukan *total return*. Untuk saham dividen tinggi selisihnya
+  besar: diukur terhadap `adjclose` Yahoo, dividen UNTR selama 10 tahun setara ~104% dari harga
+  sahamnya, BBCA ~26%, ORCL ~16%. Saham yang tidak membagi dividen (NVDA ~2%) nyaris tidak
+  terpengaruh. Ini koreksi yang direncanakan berikutnya.
+- Simulasi juga mengabaikan biaya broker dan pajak. Hasil nyata akan sedikit lebih rendah.
 - Graham Number tidak berlaku untuk perusahaan merugi, dan cenderung menyebut perusahaan
   perangkat lunak "kemahalan" karena aset utamanya tidak ada di neraca.
 

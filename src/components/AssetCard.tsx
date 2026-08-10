@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSettings } from '../i18n/context.tsx';
 import type { AssetRecord, PeriodKey } from '../lib/data.ts';
 import { formatMoney, formatMonth, formatMultiple, formatPercent, formatRate, toneFor } from '../lib/format.ts';
-import { Badge } from './ui.tsx';
+import { Badge, Money } from './ui.tsx';
 
 export function categoryLabel(category: string, lang: 'id' | 'en'): string {
   const labels: Record<string, { id: string; en: string }> = {
@@ -24,19 +24,16 @@ export function categoryLabel(category: string, lang: 'id' | 'en'): string {
 export function AssetCard({
   asset,
   period,
-  usdRate,
   livePrice,
 }: {
   asset: AssetRecord;
   period: PeriodKey;
-  usdRate: number | null;
   livePrice?: number | null;
 }) {
-  const { lang, currency, t } = useSettings();
+  const { lang, t } = useSettings();
   const result = asset.periods[period];
   if (!result) return null;
 
-  const divisor = currency === 'USD' && usdRate ? usdRate : 1;
   const profit = result.currentValue - result.totalInvested;
 
   return (
@@ -56,16 +53,15 @@ export function AssetCard({
       </div>
 
       <div>
-        <div className={`hero-number text-2xl ${toneFor(profit)}`}>
-          {formatMoney(result.currentValue / divisor, currency, lang)}
-        </div>
+        <Money idr={result.currentValue} size="lg" tone={toneFor(profit)} />
         <div className="mt-1 flex flex-wrap items-baseline gap-x-2 text-xs">
           <span className={`tnum font-medium ${toneFor(result.totalReturnPct)}`}>
             {formatPercent(result.totalReturnPct)}
           </span>
           <span className="tnum text-muted">{formatMultiple(result.multiple)}</span>
           <span className="text-muted">
-            · {lang === 'id' ? 'dari setoran' : 'from'} {formatMoney(result.totalInvested / divisor, currency, lang)}
+            · {lang === 'id' ? 'dari setoran' : 'from'}{' '}
+            <span className="tnum">{formatMoney(result.totalInvested, 'IDR', lang)}</span>
           </span>
         </div>
       </div>

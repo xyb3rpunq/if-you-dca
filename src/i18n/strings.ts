@@ -91,6 +91,18 @@ export const strings = {
   'sim.asset': { id: 'Aset', en: 'Asset' },
   'sim.chartValue': { id: 'Nilai portofolio', en: 'Portfolio value' },
   'sim.chartInvested': { id: 'Total setoran', en: 'Total invested' },
+  'sim.custom': { id: 'Bebas', en: 'Custom' },
+  'sim.from': { id: 'Dari bulan', en: 'From month' },
+  'sim.to': { id: 'Sampai bulan', en: 'To month' },
+  'sim.rangeMonths': { id: '{n} setoran bulanan', en: '{n} monthly contributions' },
+  'sim.rangeInvalid': {
+    id: 'Bulan mulai harus sebelum bulan akhir, dan rentangnya minimal 2 bulan.',
+    en: 'The start month must precede the end month, and the range needs at least 2 months.',
+  },
+  'sim.rangeClamped': {
+    id: 'Data tersedia mulai {from}. Rentangnya dipotong ke situ.',
+    en: 'Data starts at {from}. The range has been trimmed to match.',
+  },
   'sim.emptyPick': { id: 'Pilih minimal satu aset untuk memulai.', en: 'Pick at least one asset to start.' },
   'sim.breakdown': { id: 'Rincian per aset', en: 'Per-asset breakdown' },
   'sim.combined': { id: 'Gabungan', en: 'Combined' },

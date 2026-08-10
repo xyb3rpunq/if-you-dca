@@ -20,7 +20,7 @@ const SNAPSHOT_IDS = ['usdidr', 'spx', 'gold', 'btc'];
 
 export function Dashboard() {
   const { lang, t } = useSettings();
-  const { rankings, usdRate, error, loading, reload } = useRankings();
+  const { rankings, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
 
   const cryptoIds = useMemo(
@@ -128,7 +128,6 @@ export function Dashboard() {
               key={asset.id}
               asset={asset}
               period={period}
-              usdRate={usdRate}
               livePrice={asset.coingecko ? live.prices[asset.coingecko] : null}
             />
           ))}
@@ -139,7 +138,7 @@ export function Dashboard() {
         <h2 className="mb-3 text-lg">{t('dash.worst')}</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {ranked.slice(-3).reverse().map((asset) => (
-            <AssetCard key={asset.id} asset={asset} period={period} usdRate={usdRate} />
+            <AssetCard key={asset.id} asset={asset} period={period} />
           ))}
         </div>
         <p className="mt-3 max-w-2xl text-xs leading-relaxed text-muted">

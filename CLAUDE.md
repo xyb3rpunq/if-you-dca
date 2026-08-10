@@ -117,9 +117,39 @@ Reduced-motion dihormati.
   konsisten dengan halaman Peringkat.
 - Bahasa Indonesia adalah bahasa utama di `src/i18n/strings.ts`; Inggris mengikuti.
 
+### Pengujian
+
+Setiap fungsi yang diekspor wajib punya tes, dan suite dijalankan ulang setiap kali ada
+perubahan — bukan sekali di akhir. Per audit terakhir: **57/57 fungsi tertutup, 129 tes**.
+Fungsi yang gagal secara diam-diam (validator data, konversi mata uang, aritmetika bulan)
+diprioritaskan di atas rumus utamanya. Kalau sebuah fungsi hidup di `.mjs` dan sulit diuji,
+pindahkan ke modul TypeScript bersama lalu re-export.
+
+Hook React diuji dengan jsdom + Testing Library. `cleanup()` harus dipanggil eksplisit di
+`afterEach` — auto-cleanup hanya aktif kalau `globals: true`, dan tanpa itu hook dari tes
+sebelumnya terus melakukan polling ke `fetch` global milik tes berikutnya.
+
+### Temuan terukur: data harga TIDAK memperhitungkan dividen
+
+Diukur 10 Agustus 2026 dengan membandingkan seri TradingView terhadap `close` dan `adjclose`
+Yahoo pada bulan yang sama:
+
+| Ticker | tv ÷ Yahoo `close` | tv ÷ Yahoo `adjclose` (Sep 2016) |
+|---|---|---|
+| UNTR | 1,000 | **2,037** |
+| BBCA | 1,000 | 1,256 |
+| ORCL | 1,000 | 1,161 |
+| NVDA | 1,000 | 1,018 |
+
+Artinya: seri TradingView identik dengan harga mentah Yahoo (disesuaikan split saja), dan
+seluruh angka di situs ini adalah **price return**, bukan **total return**. Untuk saham dividen
+tinggi seperti UNTR, dividen 10 tahun bernilai sekitar sebesar harga sahamnya sendiri — angka
+−4,9% yang tampil sekarang seharusnya sekitar +100% kalau dividen ikut dihitung. Perbaikannya:
+kalikan seri dengan faktor `adjclose ÷ close` dari Yahoo per bulan.
+
 ### Belum dikerjakan
 
+- Dividen belum ikut dihitung (lihat temuan di atas) — ini prioritas koreksi tertinggi.
 - Fundamental belum punya API key ⇒ Value Lens menampilkan keadaan kosong yang jujur. Tinggal
   pasang `FMP_API_KEY` di Secrets.
 - Konstituen S&P 500 penuh belum dimuat; strukturnya sudah siap (tambah entry di `assets.json`).
-- Rentang tanggal kustom di Simulator masih preset (1/3/5/10/max), belum date picker bebas.

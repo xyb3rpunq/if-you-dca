@@ -1,14 +1,16 @@
 import { describe, expect, it } from 'vitest';
 
-import { annualize, cagr, compoundInterest, multiple, ruleOf72, totalReturnPct } from './basic.ts';
+import { annualize, cagr, compoundInterest, monthlyRate, multiple, ruleOf72, totalReturnPct } from './basic.ts';
 import { combinePortfolio, convertSeries, simulateDca } from './dca.ts';
-import { addMonths, monthsBetween, monthToDate } from './months.ts';
+import { addMonths, currentMonth, fromMonthIndex, monthIndex, monthsBetween, monthToDate } from './months.ts';
 import {
   annualizedVolatility,
   beta,
   correlation,
+  covariance,
   jensensAlpha,
   maxDrawdown,
+  mean,
   monthlyReturns,
   sharpeRatio,
   sortinoRatio,
@@ -38,13 +40,44 @@ describe('aritmetika bulan', () => {
     expect(addMonths('2024-01', 0)).toBe('2024-01');
   });
 
+  it('menangani lompatan bertahun-tahun di kedua arah', () => {
+    expect(addMonths('2020-06', 120)).toBe('2030-06');
+    expect(addMonths('2020-06', -120)).toBe('2010-06');
+    expect(addMonths('2024-12', 1)).toBe('2025-01');
+    expect(addMonths('2024-01', -1)).toBe('2023-12');
+  });
+
   it('menghitung jarak bulan', () => {
     expect(monthsBetween('2020-01', '2020-04')).toBe(3);
     expect(monthsBetween('2020-01', '2030-01')).toBe(120);
+    expect(monthsBetween('2020-04', '2020-01')).toBe(-3);
+    expect(monthsBetween('2020-01', '2020-01')).toBe(0);
+  });
+
+  it('monthIndex dan fromMonthIndex saling membalik', () => {
+    for (const key of ['1999-01', '2020-06', '2026-08', '2030-12']) {
+      expect(fromMonthIndex(monthIndex(key))).toBe(key);
+    }
+    // Januari adalah indeks 0 dalam tahunnya, jadi selisih 12 tepat satu tahun.
+    expect(monthIndex('2021-01') - monthIndex('2020-01')).toBe(12);
+  });
+
+  it('fromMonthIndex memberi nol di depan untuk bulan satu digit', () => {
+    expect(fromMonthIndex(monthIndex('2024-03'))).toBe('2024-03');
+    expect(fromMonthIndex(monthIndex('2024-09'))).toBe('2024-09');
   });
 
   it('memetakan bulan ke tanggal 1 UTC', () => {
     expect(monthToDate('2024-03').toISOString()).toBe('2024-03-01T00:00:00.000Z');
+    expect(monthToDate('2024-12').toISOString()).toBe('2024-12-01T00:00:00.000Z');
+  });
+
+  it('currentMonth memakai UTC, bukan zona waktu lokal', () => {
+    // Tengah malam WIB tanggal 1 masih tanggal 30 di UTC. Kunci bulan harus
+    // konsisten dengan deret harga yang seluruhnya berbasis UTC.
+    expect(currentMonth(new Date('2026-08-10T02:00:00Z'))).toBe('2026-08');
+    expect(currentMonth(new Date('2026-08-31T23:59:59Z'))).toBe('2026-08');
+    expect(currentMonth(new Date('2026-09-01T00:00:00Z'))).toBe('2026-09');
   });
 });
 
@@ -76,6 +109,21 @@ describe('rumus dasar', () => {
 
   it('annualize membalik pertumbuhan total jadi laju tahunan', () => {
     expect(annualize(2, 10)).toBeCloseTo(0.0717735, 6);
+    expect(annualize(0, 10)).toBeNull();
+    expect(annualize(2, 0)).toBeNull();
+  });
+
+  it('monthlyRate memajemukkan ke laju tahunan yang sama persis', () => {
+    // 12 bulan pada laju bulanan hasil konversi harus kembali ke 12% setahun,
+    // bukan sekadar 12/12 = 1% yang mengabaikan efek majemuk.
+    const monthly = monthlyRate(0.12);
+    expect((1 + monthly) ** 12 - 1).toBeCloseTo(0.12, 12);
+    expect(monthly).toBeLessThan(0.01);
+    expect(monthlyRate(0)).toBeCloseTo(0, 12);
+  });
+
+  it('compoundInterest tanpa pemajemukan mengembalikan pokoknya', () => {
+    expect(compoundInterest(1000, 0.1, 0, 5)).toBe(1000);
   });
 });
 
@@ -145,6 +193,26 @@ describe('XIRR', () => {
 });
 
 describe('ukuran risiko', () => {
+  it('mean menghitung rata-rata dan aman untuk array kosong', () => {
+    expect(mean([2, 4, 6])).toBeCloseTo(4, 12);
+    expect(mean([-1, 1])).toBeCloseTo(0, 12);
+    expect(mean([])).toBe(0);
+  });
+
+  it('covariance nol untuk deret yang tidak berhubungan sama sekali', () => {
+    const flat = [0.01, 0.01, 0.01, 0.01];
+    expect(covariance(flat, [0.02, -0.01, 0.03, 0.005]) as number).toBeCloseTo(0, 12);
+    expect(covariance([1], [1])).toBeNull();
+  });
+
+  it('covariance menyelaraskan panjang deret dari ujung terbaru', () => {
+    // Aset yang baru listing punya deret lebih pendek; yang dibandingkan harus
+    // bulan-bulan yang sama, jadi kelebihan data lama dipotong dari depan.
+    const short = [0.01, -0.02, 0.03];
+    const long = [0.99, 0.99, 0.01, -0.02, 0.03];
+    expect(covariance(short, long) as number).toBeCloseTo(covariance(short, short) as number, 12);
+  });
+
   it('stdev sampel cocok dengan hitungan tangan', () => {
     // Rata-rata 4, deviasi kuadrat 4+1+0+1+4 = 10, dibagi n−1 = 4, akar = 1,5811
     expect(stdev([2, 3, 4, 5, 6]) as number).toBeCloseTo(1.5811388, 6);
