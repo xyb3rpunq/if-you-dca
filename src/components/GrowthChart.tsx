@@ -32,7 +32,10 @@ export function GrowthChart({ points, usdRate, height = 260 }: GrowthChartProps)
     if (!container) return;
 
     const chart = createChart(container, {
-      height,
+      // Library yang mengatur ukurannya sendiri dari kontainer (tinggi kontainer
+      // dikunci lewat style di bawah). Observer buatan sendiri hanya menangani
+      // lebar dan melewatkan perubahan device-pixel ratio saat zoom.
+      autoSize: true,
       layout: {
         background: { type: ColorType.Solid, color: 'transparent' },
         textColor: '#7f9488',
@@ -74,14 +77,7 @@ export function GrowthChart({ points, usdRate, height = 260 }: GrowthChartProps)
 
     chartRef.current = chart;
 
-    const observer = new ResizeObserver((entries) => {
-      const width = entries[0]?.contentRect.width;
-      if (width) chart.applyOptions({ width });
-    });
-    observer.observe(container);
-
     return () => {
-      observer.disconnect();
       chart.remove();
       chartRef.current = null;
       valueRef.current = null;
