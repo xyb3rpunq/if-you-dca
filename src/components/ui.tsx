@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { useSettings } from '../i18n/context.tsx';
 import { glossary } from '../i18n/strings.ts';
-import { dualMoney } from '../lib/format.ts';
+import { dualMoney, formatMoney } from '../lib/format.ts';
 import { useUsdRate } from '../lib/useRankings.ts';
 
 const MONEY_SIZES = {
@@ -227,6 +227,59 @@ export function Segmented<T extends string>({
             }`}
           >
             {option.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Kolom setoran bulanan.
+ *
+ * Muncul di setiap halaman yang menampilkan hasil, karena "kalau saya menyetor
+ * segini" adalah pertanyaan pertama siapa pun — dan memaksa pengguna pindah halaman
+ * hanya untuk mengubah satu angka membuat sisa halaman terasa bukan miliknya.
+ *
+ * Nilainya tersimpan global, jadi angka yang sama berlaku di seluruh situs.
+ */
+export function ContributionInput({ compact = false }: { compact?: boolean }) {
+  const { lang, contribution, setContribution, t } = useSettings();
+  const presets = [500_000, 1_000_000, 2_000_000, 5_000_000];
+
+  return (
+    <div className={compact ? 'flex flex-wrap items-center gap-2' : ''}>
+      <label className="flex items-center gap-2">
+        <span className="text-xs whitespace-nowrap text-muted">{t('sim.amount')}</span>
+        <span className="flex items-center gap-1.5 rounded-lg border border-line bg-void px-2.5 py-1.5 focus-within:border-gold-dim">
+          <span className="text-xs text-muted">Rp</span>
+          <input
+            type="number"
+            inputMode="numeric"
+            min={10_000}
+            step={100_000}
+            value={contribution}
+            onChange={(e) => setContribution(Number(e.target.value))}
+            aria-label={t('sim.amount')}
+            className="tnum w-24 bg-transparent text-sm outline-none"
+          />
+          <span className="text-[11px] whitespace-nowrap text-muted">{t('common.perMonth')}</span>
+        </span>
+      </label>
+      <div className="mt-2 flex flex-wrap gap-1 sm:mt-0">
+        {presets.map((amount) => (
+          <button
+            key={amount}
+            type="button"
+            aria-pressed={contribution === amount}
+            onClick={() => setContribution(amount)}
+            className={`rounded-md border px-2 py-0.5 text-[11px] transition-colors ${
+              contribution === amount
+                ? 'border-gold-dim bg-gold/15 text-gold'
+                : 'border-line text-muted hover:text-ink'
+            }`}
+          >
+            {formatMoney(amount, 'IDR', lang)}
           </button>
         ))}
       </div>

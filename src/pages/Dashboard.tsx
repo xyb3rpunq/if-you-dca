@@ -2,7 +2,15 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { AssetCard, categoryLabel } from '../components/AssetCard.tsx';
-import { Explain, ErrorState, Freshness, LoadingState, Segmented, Stat } from '../components/ui.tsx';
+import {
+  ContributionInput,
+  ErrorState,
+  Explain,
+  Freshness,
+  LoadingState,
+  Segmented,
+  Stat,
+} from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
 import type { AssetRecord, PeriodKey } from '../lib/data.ts';
 import { useRealtime } from '../lib/live/useRealtime.ts';
@@ -19,7 +27,7 @@ import { useRankings } from '../lib/useRankings.ts';
 const SNAPSHOT_IDS = ['usdidr', 'spx', 'gold', 'btc'];
 
 export function Dashboard() {
-  const { lang, basis, t } = useSettings();
+  const { lang, basis, contribution, t } = useSettings();
   const { rankings, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
 
@@ -47,7 +55,7 @@ export function Dashboard() {
     value: p.key,
     label: lang === 'id' ? p.label_id : p.label_en,
   }));
-  const amount = formatMoney(rankings.contribution, 'IDR', lang);
+  const amount = formatMoney(contribution, 'IDR', lang);
 
   return (
     <div className="space-y-8">
@@ -61,9 +69,12 @@ export function Dashboard() {
           {t('dash.heroLead', { amount })}
         </p>
 
-        <div className="mt-5 flex flex-wrap items-center gap-3">
+        <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-3">
           <span className="text-xs text-muted">{t('dash.pickPeriod')}</span>
           <Segmented<PeriodKey> ariaLabel={t('dash.pickPeriod')} value={period} onChange={setPeriod} options={periodOptions} />
+        </div>
+        <div className="mt-3">
+          <ContributionInput compact />
         </div>
 
         {stats.median != null && (

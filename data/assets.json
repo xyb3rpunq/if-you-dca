@@ -2,8 +2,8 @@
   "version": 1,
   "baseCurrency": "IDR",
   "defaults": {
-    "monthlyContributionIDR": 900000,
-    "portfolioBudgetIDR": 1800000,
+    "monthlyContributionIDR": 1000000,
+    "portfolioBudgetIDR": 2000000,
     "benchmark": "spx",
     "fxAsset": "usdidr",
     "riskFreeRateAnnual": 0.04

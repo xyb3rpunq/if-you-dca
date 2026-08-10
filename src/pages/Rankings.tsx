@@ -2,7 +2,17 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { categoryLabel } from '../components/AssetCard.tsx';
-import { Badge, ErrorState, Explain, LoadingState, Money, PageHeading, Segmented, Stat } from '../components/ui.tsx';
+import {
+  Badge,
+  ContributionInput,
+  ErrorState,
+  Explain,
+  LoadingState,
+  Money,
+  PageHeading,
+  Segmented,
+  Stat,
+} from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
 import type { PeriodKey } from '../lib/data.ts';
 import {
@@ -14,7 +24,8 @@ import {
   formatRatio,
   toneFor,
 } from '../lib/format.ts';
-import { useRankings } from '../lib/useRankings.ts';
+import { scaleMoneyFields } from '../lib/finance/scale.ts';
+import { useContributionScale, useRankings } from '../lib/useRankings.ts';
 
 type SortKey = 'return' | 'real' | 'value' | 'multiple' | 'xirr' | 'volatility' | 'drawdown' | 'symbol';
 
@@ -32,6 +43,7 @@ const COLUMNS: { key: SortKey; labelKey: Parameters<ReturnType<typeof useSetting
 export function Rankings() {
   const { lang, basis, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
+  const { factor, contribution } = useContributionScale();
   const [period, setPeriod] = useState<PeriodKey>('10y');
   const [sort, setSort] = useState<SortKey>('return');
   const [descending, setDescending] = useState(true);
@@ -89,7 +101,7 @@ export function Rankings() {
   if (!rankings) return null;
 
   const stats = rankings.summaryStats[basis][period];
-  const invested = rows[0]?.periods[basis][period]?.totalInvested ?? 0;
+  const invested = (rows[0]?.periods[basis][period]?.totalInvested ?? 0) * factor;
 
   const onSort = (key: SortKey) => {
     if (key === sort) setDescending((v) => !v);
@@ -142,9 +154,13 @@ export function Rankings() {
         />
       </section>
 
+      <section>
+        <ContributionInput compact />
+      </section>
+
       <p className="text-xs text-muted">
         {lang === 'id' ? 'Semua angka mengasumsikan setoran' : 'All figures assume contributions of'}{' '}
-        <span className="tnum text-ink">{formatMoney(rankings.contribution, 'IDR', lang)}</span>
+        <span className="tnum text-ink">{formatMoney(contribution, 'IDR', lang)}</span>
         {t('common.perMonth')}
         {invested > 0 && (
           <>
@@ -185,8 +201,9 @@ export function Rankings() {
             </thead>
             <tbody>
               {rows.map((asset, index) => {
-                const p = asset.periods[basis][period];
-                if (!p) return null;
+                const raw = asset.periods[basis][period];
+                if (!raw) return null;
+                const p = scaleMoneyFields(raw, factor);
                 return (
                   <tr key={asset.id} className="border-b border-line/50 last:border-0 hover:bg-panel-raised/60">
                     <td className="px-3 py-2.5">

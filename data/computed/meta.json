@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T05:31:22.781Z",
+  "generatedAt": "2026-08-10T05:38:28.613Z",
   "latestMonth": "2026-08",
   "baseCurrency": "IDR",
-  "contribution": 900000,
+  "contribution": 1000000,
   "assetCount": 25,
   "fxRate": 17765.53,
   "sources": [
@@ -22,9 +22,9 @@
       "bbca"
     ],
     "basis": "total",
-    "contributionPerAsset": 900000,
-    "totalInvested": 216000000,
-    "currentValue": 412667396,
+    "contributionPerAsset": 1000000,
+    "totalInvested": 240000000,
+    "currentValue": 458519329,
     "totalReturnPct": 91.05,
     "xirr": 0.126106
   }

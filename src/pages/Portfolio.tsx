@@ -15,7 +15,7 @@ import { seriesFor, usePriceSeries } from '../lib/usePrices.ts';
 import { useRankings } from '../lib/useRankings.ts';
 
 const FX_ID = 'usdidr';
-const DEFAULT_BUDGET = 1_800_000;
+const DEFAULT_BUDGET = 2_000_000;
 const DEFAULT_PICKS = ['spx', 'bbca'];
 const HORIZONS = [5, 10, 20] as const;
 

@@ -41,7 +41,7 @@ const BENCHMARK_ID = 'spx';
 const MIN_MONTHS = 2;
 
 export function Simulator() {
-  const { lang, basis, t } = useSettings();
+  const { lang, basis, contribution, setContribution, t } = useSettings();
   const { rankings, usdRate, error, loading, reload } = useRankings();
   const [params, setParams] = useSearchParams();
 
@@ -49,7 +49,9 @@ export function Simulator() {
     const raw = params.get('aset');
     return raw ? raw.split(',').filter(Boolean) : ['spx'];
   });
-  const [amount, setAmount] = useState(() => Number(params.get('jumlah') ?? 900_000));
+  // URL menang atas preferensi tersimpan: tautan hasil yang dibagikan harus
+  // menampilkan angka yang sama persis bagi siapa pun yang membukanya.
+  const [amount, setAmount] = useState(() => Number(params.get('jumlah') ?? contribution));
   const [customFrom, setCustomFrom] = useState(() => params.get('dari') ?? '');
   const [customTo, setCustomTo] = useState(() => params.get('sampai') ?? '');
   const [preset, setPreset] = useState<PresetKey>(() => {
@@ -210,7 +212,13 @@ export function Simulator() {
               min={10_000}
               step={50_000}
               value={amount}
-              onChange={(e) => setAmount(Math.max(0, Number(e.target.value)))}
+              onChange={(e) => {
+                const next = Math.max(0, Number(e.target.value));
+                setAmount(next);
+                // Nominal yang diketik di sini juga jadi asumsi di halaman lain,
+                // supaya pengguna tidak menemukan angka berbeda saat berpindah.
+                if (next > 0) setContribution(next);
+              }}
               className="tnum w-full bg-transparent text-sm outline-none"
             />
             <span className="text-xs whitespace-nowrap text-muted">{t('common.perMonth')}</span>

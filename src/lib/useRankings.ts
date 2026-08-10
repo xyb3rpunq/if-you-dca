@@ -1,5 +1,7 @@
+import { useSettings } from '../i18n/context.tsx';
 import { useJson } from './data.ts';
 import type { RankingsFile } from './data.ts';
+import { scaleFactor } from './finance/scale.ts';
 
 /**
  * Sumber data bersama untuk hampir semua halaman.
@@ -30,4 +32,17 @@ export function fxRateOf(data: RankingsFile | null): number | null {
 export function useUsdRate(): number | null {
   const { data } = useJson<RankingsFile>('computed/rankings.json');
   return fxRateOf(data);
+}
+
+/**
+ * Faktor pengali dari setoran dasar pipeline ke setoran pilihan pengguna.
+ *
+ * Hasil DCA linier terhadap setoran, jadi mengalikan hasil pra-hitung memberi angka
+ * yang persis sama dengan menghitung ulang — tanpa mengunduh satu berkas harga pun.
+ */
+export function useContributionScale(): { factor: number; base: number; contribution: number } {
+  const { contribution } = useSettings();
+  const { data } = useJson<RankingsFile>('computed/rankings.json');
+  const base = data?.contribution ?? 0;
+  return { factor: scaleFactor(contribution, base), base, contribution };
 }

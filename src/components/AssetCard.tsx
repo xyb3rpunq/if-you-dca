@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useSettings } from '../i18n/context.tsx';
 import type { AssetRecord, PeriodKey } from '../lib/data.ts';
 import { formatMoney, formatMonth, formatMultiple, formatPercent, formatRate, toneFor } from '../lib/format.ts';
+import { scaleMoneyFields } from '../lib/finance/scale.ts';
+import { useContributionScale } from '../lib/useRankings.ts';
 import { Badge, Money } from './ui.tsx';
 
 export function categoryLabel(category: string, lang: 'id' | 'en'): string {
@@ -31,9 +33,11 @@ export function AssetCard({
   livePrice?: number | null;
 }) {
   const { lang, basis, t } = useSettings();
-  const result = asset.periods[basis][period];
-  if (!result) return null;
+  const { factor } = useContributionScale();
+  const raw = asset.periods[basis][period];
+  if (!raw) return null;
 
+  const result = scaleMoneyFields(raw, factor);
   const profit = result.currentValue - result.totalInvested;
 
   return (

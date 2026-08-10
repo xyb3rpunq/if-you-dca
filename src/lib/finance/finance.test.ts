@@ -278,6 +278,147 @@ describe('ukuran risiko', () => {
   });
 });
 
+describe('xnpv secara langsung', () => {
+  const flows = [
+    { when: new Date('2021-01-01T00:00:00Z'), amount: -1000 },
+    { when: new Date('2022-01-01T00:00:00Z'), amount: 1100 },
+  ];
+
+  it('nol tepat pada laju yang benar', () => {
+    expect(xnpv(0.1, flows)).toBeCloseTo(0, 9);
+  });
+
+  it('menurun secara monoton terhadap laju diskonto', () => {
+    // Sifat inilah yang membuat pencarian akar dengan bisection dijamin bertemu.
+    expect(xnpv(0, flows)).toBeCloseTo(100, 9);
+    expect(xnpv(0.2, flows)).toBeCloseTo(-83.3333, 4);
+    expect(xnpv(0, flows)).toBeGreaterThan(xnpv(0.1, flows));
+    expect(xnpv(0.1, flows)).toBeGreaterThan(xnpv(0.2, flows));
+  });
+
+  it('arus kas tunggal tidak terdiskonto sama sekali', () => {
+    expect(xnpv(0.5, [{ when: new Date('2021-01-01T00:00:00Z'), amount: -1000 }])).toBe(-1000);
+  });
+
+  it('deret kosong bernilai nol, laju ≤ −100% bernilai NaN', () => {
+    expect(xnpv(0.1, [])).toBe(0);
+    expect(Number.isNaN(xnpv(-1, flows))).toBe(true);
+    expect(Number.isNaN(xnpv(-2, flows))).toBe(true);
+  });
+});
+
+describe('Sharpe & Alpha dengan angka yang bisa dihitung tangan', () => {
+  const returns = [0.02, -0.01, 0.03, -0.02, 0.01, 0.0];
+
+  it('Sharpe cocok dengan hitungan manual', () => {
+    // rata-rata 0,005; stdev sampel 0,0187083; bebas risiko bulanan 0,00327374
+    // ⇒ (0,005 − 0,00327374) / 0,0187083 × √12 = 0,31963
+    expect(sharpeRatio(returns, 0.04) as number).toBeCloseTo(0.3196, 3);
+  });
+
+  it('Sharpe null saat tidak ada gejolak sama sekali', () => {
+    // Pembaginya nol. Mengembalikan angka tak hingga akan tampak seperti aset
+    // sempurna, padahal artinya rasio itu tidak terdefinisi.
+    expect(sharpeRatio([0.01, 0.01, 0.01, 0.01], 0.04)).toBeNull();
+    expect(sharpeRatio([0.01], 0.04)).toBeNull();
+  });
+
+  it('Alpha menangkap kelebihan tetap di atas pasar', () => {
+    // Aset persis mengikuti pasar plus 0,5% tiap bulan ⇒ beta 1, alpha bulanan
+    // 0,5%, disetahunkan 1,005^12 − 1 = 6,168%.
+    const market = [0.01, 0.02, -0.01, 0.03];
+    const asset = market.map((r) => r + 0.005);
+    expect(beta(asset, market) as number).toBeCloseTo(1, 9);
+    expect(jensensAlpha(asset, market, 0.04) as number).toBeCloseTo(0.061678, 5);
+  });
+
+  it('Alpha negatif untuk aset yang tertinggal dari pasar', () => {
+    const market = [0.01, 0.02, -0.01, 0.03];
+    const asset = market.map((r) => r - 0.004);
+    expect(jensensAlpha(asset, market, 0.04) as number).toBeLessThan(0);
+  });
+});
+
+describe('volatilitas, return bulanan, dan korelasi — kasus batas', () => {
+  it('volatilitas tahunan bernilai tepat 20% untuk gejolak ±5% bergantian', () => {
+    // stdev sampel = 0,0577350; ×√12 = 0,2 persis.
+    expect(annualizedVolatility([0.05, -0.05, 0.05, -0.05]) as number).toBeCloseTo(0.2, 9);
+  });
+
+  it('volatilitas null kalau titiknya kurang dari dua', () => {
+    expect(annualizedVolatility([])).toBeNull();
+    expect(annualizedVolatility([0.05])).toBeNull();
+  });
+
+  it('monthlyReturns melewati pasangan yang harga sebelumnya tidak sah', () => {
+    // Harga nol seharusnya sudah dibersihkan sanitizeMonthly sebelum sampai sini;
+    // ini memastikan lapisan ini pun tidak menghasilkan pembagian dengan nol.
+    const r = monthlyReturns([
+      { m: '2024-01', c: 100 },
+      { m: '2024-02', c: 0 },
+      { m: '2024-03', c: 50 },
+    ]);
+    expect(r).toHaveLength(1);
+    expect(r[0] as number).toBeCloseTo(-1, 9);
+    expect(r.every((x) => Number.isFinite(x))).toBe(true);
+  });
+
+  it('monthlyReturns pada deret kosong atau satu titik menghasilkan kosong', () => {
+    expect(monthlyReturns([])).toEqual([]);
+    expect(monthlyReturns([{ m: '2024-01', c: 100 }])).toEqual([]);
+  });
+
+  it('korelasi menyelaraskan panjang deret dari ujung terbaru', () => {
+    // Aset yang baru listing punya deret lebih pendek; bulan yang dibandingkan
+    // harus sama, jadi kelebihan data lama dipotong dari depan.
+    const pendek = [0.01, 0.02, 0.03];
+    const panjang = [0.9, 0.01, 0.02, 0.03];
+    expect(correlation(pendek, panjang) as number).toBeCloseTo(1, 9);
+  });
+
+  it('korelasi null saat salah satu deret datar', () => {
+    expect(correlation([0.01, 0.01, 0.01], [0.01, 0.02, 0.03])).toBeNull();
+  });
+
+  it('max drawdown mengabaikan nilai tidak hingga alih-alih rusak', () => {
+    expect(maxDrawdown([100, Number.NaN, 50]) as number).toBeCloseTo(-0.5, 9);
+    expect(maxDrawdown([100])).toBeNull();
+  });
+});
+
+describe('convertSeries — kasus batas kurs', () => {
+  const usd = [
+    { m: '2024-01', c: 100 },
+    { m: '2024-02', c: 100 },
+  ];
+
+  it('tanpa kurs, deret dikembalikan apa adanya', () => {
+    expect(convertSeries(usd, null).map((p) => p.c)).toEqual([100, 100]);
+    expect(convertSeries(usd, []).map((p) => p.c)).toEqual([100, 100]);
+  });
+
+  it('kurs yang seluruhnya setelah rentang harga memakai kurs paling awal', () => {
+    // Tanpa aturan ini, aset yang riwayatnya lebih panjang dari data kurs akan
+    // kehilangan seluruh bulan awalnya secara diam-diam.
+    const fx = [{ m: '2025-01', c: 16_000 }];
+    expect(convertSeries(usd, fx).map((p) => p.c)).toEqual([1_600_000, 1_600_000]);
+  });
+
+  it('kurs nol atau negatif diabaikan, bukan dipakai', () => {
+    const fx = [
+      { m: '2024-01', c: 15_000 },
+      { m: '2024-02', c: 0 },
+    ];
+    expect(convertSeries(usd, fx).map((p) => p.c)).toEqual([1_500_000, 1_500_000]);
+  });
+
+  it('tidak mengubah array masukan', () => {
+    const snapshot = structuredClone(usd);
+    convertSeries(usd, [{ m: '2024-01', c: 15_000 }]);
+    expect(usd).toEqual(snapshot);
+  });
+});
+
 describe('simulasi DCA', () => {
   it('harga datar: nilai akhir = total setoran, return 0%', () => {
     const result = simulateDca({ prices: flatSeries('2020-01', 24, 100), contribution: 900_000 });
@@ -407,6 +548,36 @@ describe('portofolio gabungan', () => {
     expect(combined.totalInvested).toBe(a.totalInvested + b.totalInvested);
     expect(combined.currentValue).toBeCloseTo(a.currentValue + b.currentValue, 6);
     expect(combined.series).toHaveLength(12);
+  });
+
+  it('menolak masukan yang tidak bisa digabung', () => {
+    expect(combinePortfolio([])).toBeNull();
+    // Bagian dengan deret kosong tidak punya bulan untuk digabung sama sekali.
+    const kosong = { id: 'x', result: { series: [] } } as unknown as Parameters<typeof combinePortfolio>[0][number];
+    expect(combinePortfolio([kosong])).toBeNull();
+  });
+
+  it('satu aset saja menghasilkan angka yang identik dengan aset itu sendiri', () => {
+    const solo = simulateDca({ prices: growingSeries('2020-01', 24, 100, 0.01), contribution: 900_000 })!;
+    const combined = combinePortfolio([{ id: 'solo', result: solo }])!;
+    expect(combined.totalInvested).toBeCloseTo(solo.totalInvested, 6);
+    expect(combined.currentValue).toBeCloseTo(solo.currentValue, 6);
+    expect(combined.multiple).toBeCloseTo(solo.multiple, 9);
+    // XIRR gabungan direkonstruksi dari selisih setoran antar bulan, bukan
+    // disalin — jadi kecocokannya membuktikan rekonstruksinya benar.
+    expect(combined.xirr as number).toBeCloseTo(solo.xirr as number, 6);
+  });
+
+  it('dua aset identik memberi XIRR yang sama dengan satu aset', () => {
+    const prices = growingSeries('2020-01', 36, 100, 0.008);
+    const a = simulateDca({ prices, contribution: 500_000 })!;
+    const b = simulateDca({ prices, contribution: 500_000 })!;
+    const combined = combinePortfolio([
+      { id: 'a', result: a },
+      { id: 'b', result: b },
+    ])!;
+    expect(combined.xirr as number).toBeCloseTo(a.xirr as number, 6);
+    expect(combined.totalInvested).toBeCloseTo(a.totalInvested * 2, 6);
   });
 
   it('aset yang listing belakangan tidak menyeret grafik ke bawah', () => {
