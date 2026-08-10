@@ -3,6 +3,13 @@ name: Build & deploy ke GitHub Pages
 on:
   push:
     branches: [main]
+  # Commit yang di-push memakai GITHUB_TOKEN sengaja TIDAK memicu workflow lain —
+  # itu perlindungan GitHub terhadap loop tak terbatas. Tanpa pemicu ini, cron
+  # penyegar data akan rajin mem-commit harga baru sementara situsnya terus
+  # menyajikan data lama. `workflow_run` adalah jalan resmi keluar dari situ.
+  workflow_run:
+    workflows: ['Segarkan data pasar']
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -19,6 +26,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Jangan menerbitkan hasil dari penyegaran data yang gagal di tengah jalan.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
 
