@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "FX_IDC:USDIDR",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "IDR=X",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

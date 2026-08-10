@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "INDEX:BTCUSD",
   "coingecko": "bitcoin",
+  "binance": "BTCUSDT",
+  "yahoo": "BTC-USD",
   "dataFrom": "2009-10",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

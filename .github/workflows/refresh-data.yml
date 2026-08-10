@@ -2,12 +2,14 @@ name: Segarkan data pasar
 
 on:
   schedule:
-    # Yahoo Finance memperbarui harga penutupan beberapa jam setelah bursa tutup,
-    # jadi jadwalnya mengejar jam tutup, bukan jam buka.
-    # 10:30 WIB — setelah IDX tutup hari sebelumnya + sesi AS selesai.
-    - cron: '30 3 * * 1-6'
-    # 22:00 WIB — sesi IDX hari ini sudah tutup.
-    - cron: '0 15 * * 1-5'
+    # Tiap dua jam selama jam bursa IDX (09.00–16.00 WIB) dan AS (20.30–04.00 WIB),
+    # sehingga data terjadwal paling basi berumur dua jam, bukan dua belas.
+    # Dibatasi dua jam sekali secara sengaja: tiap jalannya menghasilkan satu commit
+    # dan satu deploy, dan setiap jam akan membanjiri riwayat repo tanpa manfaat nyata.
+    - cron: '0 2,4,6,8 * * 1-5'
+    - cron: '0 14,16,18,20 * * 1-5'
+    # Sekali di akhir pekan untuk menutup buku harga penutupan Jumat.
+    - cron: '0 3 * * 6'
   workflow_dispatch:
     inputs:
       only:

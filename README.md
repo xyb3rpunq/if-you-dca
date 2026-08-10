@@ -67,15 +67,34 @@ GitHub Actions (cron)  →  data/*.json (di-commit)  →  GitHub Pages (statis)
                                                           untuk kripto live
 ```
 
-**Tiga tingkat kesegaran data, dan UI menyebutnya apa adanya:**
+**Empat tingkat kesegaran data, dan UI menyebutnya apa adanya:**
 
 | Data | Sumber | Kesegaran | Ditandai sebagai |
 |---|---|---|---|
-| Harga kripto | CoinGecko, dari browser | tiap 60 detik | titik mint berdenyut |
-| Saham, komoditas, kurs | Yahoo Finance, via cron | beberapa jam | "Diperbarui 3 jam lalu" |
+| Harga kripto | **WebSocket Binance** | tick-level, didorong server | titik mint berdenyut |
+| Kurs USD/IDR | CoinGecko (kutipan dua mata uang) | tiap 2 menit | "(pasar)" atau "(ECB)" |
+| Saham & komoditas | Cloudflare Worker → Yahoo *(opsional)* | tiap 60 detik, tertunda bursa | "kuotasi langsung" |
+| Saham & komoditas | Yahoo via cron *(bawaan)* | tiap 2 jam saat bursa buka | "Diperbarui 40 menit lalu" |
 | Riwayat bulanan | TradingView, snapshot manual | saat di-refresh manual | tercatat di tiap berkas |
 
-Tidak ada yang berpura-pura real-time kalau bukan real-time.
+Tidak ada yang berpura-pura real-time kalau bukan real-time. Harga snapshot **tidak pernah**
+mendapat penanda berdenyut yang sama dengan harga yang benar-benar mengalir.
+
+### Apa yang benar-benar bisa real-time, dan apa yang tidak
+
+Diuji langsung dari origin situsnya:
+
+| Sumber | Bisa dipanggil browser? |
+|---|---|
+| Binance WebSocket, CoinGecko | ✅ |
+| `api.frankfurter.dev`, `open.er-api.com` | ✅ |
+| **Yahoo Finance** | ❌ diblokir CORS |
+| Stooq, proxy CORS publik | ❌ diblokir / tidak andal |
+
+Kripto dan kurs sudah live tanpa infrastruktur apa pun. **Harga saham tidak bisa** — tidak ada
+penyedia gratis yang mengizinkan CORS. Satu-satunya jalan adalah proxy yang kamu kelola sendiri:
+lihat [`worker/README.md`](worker/README.md) (Cloudflare Worker, gratis, ±3 menit). Tanpa itu
+situs tetap berjalan penuh dengan data terjadwal.
 
 ### Kenapa dua sumber harga?
 

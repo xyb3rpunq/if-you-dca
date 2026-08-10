@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "BATS:ORCL",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "ORCL",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

@@ -11,6 +11,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "IDX_DLY:ASII",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "ASII.JK",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

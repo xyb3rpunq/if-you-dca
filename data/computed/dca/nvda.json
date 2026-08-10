@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "BATS:NVDA",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "NVDA",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

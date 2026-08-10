@@ -195,6 +195,10 @@ async function main() {
       source: meta.source ?? 'unknown',
       resolvedSymbol: meta.resolvedSymbol ?? null,
       coingecko: asset.coingecko ?? null,
+      // Simbol sumber live ikut dikirim ke frontend supaya lapisan real-time bisa
+      // memetakan aset tanpa tabel terjemahan kedua yang gampang jadi tidak sinkron.
+      binance: asset.binance ?? null,
+      yahoo: asset.yahoo ?? null,
       dataFrom: priceMonthly[0]?.m ?? null,
       dataTo: priceMonthly[priceMonthly.length - 1]?.m ?? null,
       lastMonthIsPartial: Boolean(meta.lastMonthIsPartial),

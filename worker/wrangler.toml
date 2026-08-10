@@ -1,0 +1,12 @@
+name = "value-terminal-quotes"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# Batasi ke origin situsmu sendiri supaya worker ini tidak jadi proxy gratis
+# untuk orang lain. Pisahkan dengan koma kalau perlu lebih dari satu, atau
+# gunakan "*" saat mencoba di lokal.
+ALLOWED_ORIGINS = "https://xyb3rpunq.github.io"
+
+[observability]
+enabled = true

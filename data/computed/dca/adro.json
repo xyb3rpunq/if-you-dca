@@ -11,6 +11,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "IDX_DLY:ADRO",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "ADRO.JK",
   "dataFrom": "2008-07",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

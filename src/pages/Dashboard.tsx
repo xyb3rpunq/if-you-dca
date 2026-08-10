@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { AssetCard, categoryLabel } from '../components/AssetCard.tsx';
 import { Explain, ErrorState, Freshness, LoadingState, Segmented, Stat } from '../components/ui.tsx';
 import { useSettings } from '../i18n/context.tsx';
-import { useCryptoLive } from '../lib/data.ts';
 import type { AssetRecord, PeriodKey } from '../lib/data.ts';
+import { useRealtime } from '../lib/live/useRealtime.ts';
 import {
   formatMoney,
   formatMonth,
@@ -23,11 +23,7 @@ export function Dashboard() {
   const { rankings, error, loading, reload } = useRankings();
   const [period, setPeriod] = useState<PeriodKey>('10y');
 
-  const cryptoIds = useMemo(
-    () => (rankings?.assets ?? []).map((a) => a.coingecko).filter((id): id is string => Boolean(id)),
-    [rankings],
-  );
-  const live = useCryptoLive(cryptoIds);
+  const live = useRealtime(rankings?.assets);
 
   const ranked = useMemo(() => {
     if (!rankings) return [];
@@ -91,31 +87,79 @@ export function Dashboard() {
         </div>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {snapshot.map((asset) => {
-            const livePrice = asset.coingecko ? live.prices[asset.coingecko] : undefined;
-            const price = livePrice ?? asset.lastPriceNative;
+            const point = live.prices[asset.id];
+            const isStreaming = point?.source === 'binance' && point.freshness === 'live';
             return (
               <div key={asset.id} className="panel p-3">
                 <div className="flex items-center gap-1.5 text-[11px] text-muted">
                   <span className="font-mono">{asset.symbol}</span>
-                  {livePrice != null && <span className="live-dot" aria-label={t('common.live')} />}
+                  {isStreaming && <span className="live-dot" aria-label={t('common.live')} />}
                 </div>
                 <div className="tnum mt-1.5 text-base text-ink">
-                  {formatPrice(price, asset.quoteCurrency, lang)}
+                  {formatPrice(point?.price ?? asset.lastPriceNative, asset.quoteCurrency, lang)}
                 </div>
-                <div className={`tnum mt-0.5 text-[11px] ${toneFor(asset.changeMoMPct)}`}>
-                  {formatPercent(asset.changeMoMPct)} {lang === 'id' ? 'bulan ini' : 'this month'}
+                <div className={`tnum mt-0.5 text-[11px] ${toneFor(point?.changePct ?? asset.changeMoMPct)}`}>
+                  {formatPercent(point?.changePct ?? asset.changeMoMPct)}{' '}
+                  {point?.source === 'binance'
+                    ? lang === 'id'
+                      ? '24 jam'
+                      : '24h'
+                    : point?.source === 'proxy'
+                      ? lang === 'id'
+                        ? 'hari ini'
+                        : 'today'
+                      : lang === 'id'
+                        ? 'bulan ini'
+                        : 'this month'}
                 </div>
               </div>
             );
           })}
         </div>
-        {live.failed && (
-          <p className="mt-2 text-[11px] text-muted">
-            {lang === 'id'
-              ? 'Harga kripto live sedang tidak bisa diambil — angka di atas dari pembaruan terakhir.'
-              : 'Live crypto prices are unavailable right now — the figures above are from the last update.'}
-          </p>
-        )}
+
+        {/* Setiap kelas aset menyebut kesegarannya sendiri. Menyamaratakan semuanya
+            sebagai "live" adalah cara paling halus untuk menyesatkan pembaca. */}
+        <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted">
+          <span className="inline-flex items-center gap-1.5">
+            {live.streamStatus === 'live' ? (
+              <span className="live-dot" aria-hidden />
+            ) : (
+              <span className="inline-block size-1.5 rounded-full bg-muted/60" aria-hidden />
+            )}
+            {lang === 'id' ? 'Kripto' : 'Crypto'}:{' '}
+            {live.streamStatus === 'live'
+              ? lang === 'id'
+                ? 'streaming tick-level'
+                : 'tick-level stream'
+              : live.streamStatus === 'connecting'
+                ? lang === 'id'
+                  ? 'menyambung…'
+                  : 'connecting…'
+                : lang === 'id'
+                  ? 'terputus, memakai harga terakhir'
+                  : 'disconnected, showing last price'}
+          </span>
+          <span>
+            {lang === 'id' ? 'Saham & komoditas' : 'Stocks & commodities'}:{' '}
+            {live.quoteStatus === 'live'
+              ? lang === 'id'
+                ? 'kuotasi langsung (tertunda bursa)'
+                : 'direct quotes (exchange-delayed)'
+              : live.quoteEndpointConfigured
+                ? lang === 'id'
+                  ? 'proxy tidak merespons, memakai data terjadwal'
+                  : 'proxy unavailable, using scheduled data'
+                : `${t('common.updated')} ${formatRelativeTime(rankings.generatedAt, lang)}`}
+          </span>
+          {live.fx.rate && (
+            <span className="tnum">
+              USD/IDR {Math.round(live.fx.rate).toLocaleString(lang === 'id' ? 'id-ID' : 'en-US')}{' '}
+              <span className="text-muted/70">
+                ({live.fx.source === 'crypto-implied' ? (lang === 'id' ? 'pasar' : 'market') : 'ECB'})
+              </span>
+            </span>
+          )}
+        </div>
       </section>
 
       <section>
@@ -131,7 +175,7 @@ export function Dashboard() {
               key={asset.id}
               asset={asset}
               period={period}
-              livePrice={asset.coingecko ? live.prices[asset.coingecko] : null}
+              livePrice={live.prices[asset.id]?.source === 'binance' ? live.prices[asset.id]?.price : null}
             />
           ))}
         </div>

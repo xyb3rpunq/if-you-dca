@@ -2,7 +2,8 @@
 import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { useCryptoLive, useJson } from './data.ts';
+import { useJson } from './data.ts';
+import { useLiveFx, useLiveQuotes } from './live/hooks.ts';
 import { useDeflators } from './useInflation.ts';
 import { seriesFor, usePriceSeries } from './usePrices.ts';
 import type { PriceFile } from './usePrices.ts';
@@ -73,55 +74,81 @@ describe('useJson', () => {
   });
 });
 
-describe('useCryptoLive', () => {
-  it('mengambil harga dan menandai waktu pembaruan', async () => {
-    routeFetch({ 'simple/price': { bitcoin: { usd: 65_058 }, ethereum: { usd: 2140 } } });
-    const { result } = renderHook(() => useCryptoLive(['bitcoin', 'ethereum']));
-
-    await waitFor(() => expect(result.current.prices.bitcoin).toBe(65_058));
-    expect(result.current.prices.ethereum).toBe(2140);
-    expect(result.current.updatedAt).not.toBeNull();
-    expect(result.current.failed).toBe(false);
+describe('useLiveFx', () => {
+  it('menurunkan kurs dari kutipan dua mata uang CoinGecko', async () => {
+    routeFetch({ 'simple/price': { bitcoin: { usd: 64_947, idr: 1_157_281_283 } } });
+    const { result } = renderHook(() => useLiveFx());
+    await waitFor(() => expect(result.current.rate).not.toBeNull());
+    expect(result.current.rate as number).toBeCloseTo(17_819, 0);
+    expect(result.current.source).toBe('crypto-implied');
   });
 
-  it('mengabaikan entri tanpa harga dolar alih-alih menulis undefined', async () => {
-    routeFetch({ 'simple/price': { bitcoin: { usd: 65_058 }, ethereum: {} } });
-    const { result } = renderHook(() => useCryptoLive(['bitcoin', 'ethereum']));
-
-    await waitFor(() => expect(result.current.prices.bitcoin).toBe(65_058));
-    expect('ethereum' in result.current.prices).toBe(false);
-  });
-
-  it('menandai gagal tanpa menghapus harga terakhir yang diketahui', async () => {
-    // CoinGecko gratis sesekali menolak permintaan. Yang benar adalah tetap
-    // menampilkan harga terakhir dengan penanda tidak-live, bukan mengosongkan layar.
-    routeFetch({ 'simple/price': { bitcoin: { usd: 65_058 } } });
-    const { result } = renderHook(() => useCryptoLive(['bitcoin'], 50));
-    await waitFor(() => expect(result.current.prices.bitcoin).toBe(65_058));
-
-    globalThis.fetch = vi.fn(async () => {
-      throw new Error('rate limited');
+  it('turun ke kurs referensi ECB kalau sumber utama gagal', async () => {
+    globalThis.fetch = vi.fn(async (input: unknown) => {
+      const url = String(input);
+      if (url.includes('coingecko')) return { ok: false, status: 429, json: async () => null } as unknown as Response;
+      return { ok: true, status: 200, json: async () => ({ rates: { IDR: 17_846 } }) } as unknown as Response;
     }) as unknown as typeof fetch;
 
-    await waitFor(() => expect(result.current.failed).toBe(true), { timeout: 2000 });
-    expect(result.current.prices.bitcoin).toBe(65_058);
+    const { result } = renderHook(() => useLiveFx());
+    await waitFor(() => expect(result.current.source).toBe('ecb-reference'));
+    expect(result.current.rate).toBe(17_846);
   });
 
-  it('tidak memanggil apa pun saat daftar idnya kosong', () => {
-    const spy = routeFetch({});
-    renderHook(() => useCryptoLive([]));
-    expect(spy).not.toHaveBeenCalled();
+  it('menolak kurs di luar rentang wajar dari kedua sumber', async () => {
+    // Kurs yang salah merusak setiap angka rupiah sekaligus, jadi lebih baik null.
+    globalThis.fetch = vi.fn(async (input: unknown) => {
+      const url = String(input);
+      if (url.includes('coingecko')) {
+        return { ok: true, status: 200, json: async () => ({ bitcoin: { usd: 1, idr: 1 } }) } as unknown as Response;
+      }
+      return { ok: true, status: 200, json: async () => ({ rates: { IDR: 3 } }) } as unknown as Response;
+    }) as unknown as typeof fetch;
+
+    const { result } = renderHook(() => useLiveFx());
+    await new Promise((r) => setTimeout(r, 200));
+    expect(result.current.rate).toBeNull();
   });
 
   it('berhenti melakukan polling setelah dilepas', async () => {
-    const spy = routeFetch({ 'simple/price': { bitcoin: { usd: 1 } } });
-    const { unmount } = renderHook(() => useCryptoLive(['bitcoin'], 30));
+    const spy = routeFetch({ 'simple/price': { bitcoin: { usd: 64_947, idr: 1_157_281_283 } } });
+    const { unmount } = renderHook(() => useLiveFx(40));
     await waitFor(() => expect(spy).toHaveBeenCalled());
 
     unmount();
     const afterUnmount = spy.mock.calls.length;
-    await new Promise((r) => setTimeout(r, 150));
+    await new Promise((r) => setTimeout(r, 180));
     expect(spy.mock.calls.length).toBe(afterUnmount);
+  });
+});
+
+describe('useLiveQuotes', () => {
+  it('diam total tanpa endpoint yang dikonfigurasi', () => {
+    const spy = routeFetch({});
+    const { result } = renderHook(() => useLiveQuotes(null, ['AAPL']));
+    expect(result.current.status).toBe('disabled');
+    expect(spy).not.toHaveBeenCalled();
+  });
+
+  it('mengambil dan memetakan kuotasi per simbol', async () => {
+    routeFetch({
+      'proxy.test': { quotes: [{ symbol: 'AAPL', price: 313.33, changePct: 1.2, currency: 'USD', at: 1 }] },
+    });
+    const { result } = renderHook(() => useLiveQuotes('https://proxy.test/quote', ['AAPL']));
+    await waitFor(() => expect(result.current.status).toBe('live'));
+    expect(result.current.quotes.AAPL?.price).toBe(313.33);
+  });
+
+  it('menandai error tanpa melempar saat proxy gagal', async () => {
+    routeFetch({ 'proxy.test': null }, { ok: false, status: 502 });
+    const { result } = renderHook(() => useLiveQuotes('https://proxy.test/quote', ['AAPL']));
+    await waitFor(() => expect(result.current.status).toBe('error'));
+  });
+
+  it('balasan kosong dihitung error, bukan sukses tanpa harga', async () => {
+    routeFetch({ 'proxy.test': { quotes: [] } });
+    const { result } = renderHook(() => useLiveQuotes('https://proxy.test/quote', ['AAPL']));
+    await waitFor(() => expect(result.current.status).toBe('error'));
   });
 });
 

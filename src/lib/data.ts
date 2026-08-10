@@ -52,6 +52,10 @@ export interface AssetRecord {
   source: string;
   resolvedSymbol: string | null;
   coingecko: string | null;
+  /** Simbol stream Binance untuk harga tick-level; null kalau bukan kripto. */
+  binance: string | null;
+  /** Simbol Yahoo untuk kuotasi lewat proxy. */
+  yahoo: string | null;
   dataFrom: string;
   dataTo: string;
   lastMonthIsPartial: boolean;
@@ -181,6 +185,18 @@ export function loadJson<T>(path: string): Promise<T> {
   return pending;
 }
 
+/**
+ * Kosongkan cache pemuat JSON.
+ *
+ * Dipakai tes supaya berkas yang sama bisa dibalas berbeda antar-kasus, dan tersedia
+ * untuk aksi "muat ulang semua" kalau nanti dibutuhkan. Tanpa ini, cache modul
+ * membuat kasus tes kedua diam-diam memakai jawaban kasus pertama.
+ */
+export function clearJsonCache(path?: string): void {
+  if (path) cache.delete(dataUrl(path));
+  else cache.clear();
+}
+
 export function useJson<T>(path: string | null): AsyncState<T> & { reload: () => void } {
   const [state, setState] = useState<AsyncState<T>>({ data: null, error: null, loading: path != null });
   const [nonce, setNonce] = useState(0);
@@ -216,58 +232,3 @@ export function useJson<T>(path: string | null): AsyncState<T> & { reload: () =>
   };
 }
 
-/**
- * Harga kripto live dari CoinGecko, langsung dari browser.
- *
- * Ini satu-satunya kelas aset yang benar-benar bisa real-time tanpa biaya: gratis,
- * tanpa API key, dan CORS-nya terbuka. Harga saham TIDAK diperlakukan begini —
- * datanya lewat cron beberapa jam sekali, dan UI menyebutnya apa adanya.
- *
- * Interval 60 detik dipilih supaya jauh di bawah rate limit tier gratis meski
- * beberapa tab terbuka sekaligus.
- */
-export function useCryptoLive(ids: readonly string[], intervalMs = 60_000) {
-  const [prices, setPrices] = useState<Record<string, number>>({});
-  const [updatedAt, setUpdatedAt] = useState<string | null>(null);
-  const [failed, setFailed] = useState(false);
-  const key = ids.join(',');
-
-  useEffect(() => {
-    if (!key) return;
-    let alive = true;
-    const controller = new AbortController();
-
-    const tick = async () => {
-      try {
-        const res = await fetch(
-          `https://api.coingecko.com/api/v3/simple/price?ids=${encodeURIComponent(key)}&vs_currencies=usd`,
-          { signal: controller.signal },
-        );
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const json = (await res.json()) as Record<string, { usd?: number }>;
-        if (!alive) return;
-        const next: Record<string, number> = {};
-        for (const [id, value] of Object.entries(json)) {
-          if (typeof value?.usd === 'number') next[id] = value.usd;
-        }
-        setPrices(next);
-        setUpdatedAt(new Date().toISOString());
-        setFailed(false);
-      } catch (err) {
-        // Gagal itu wajar (offline, rate limit). Harga terakhir tetap ditampilkan
-        // dengan penanda tidak-live, bukan diganti layar error.
-        if (alive && (err as Error).name !== 'AbortError') setFailed(true);
-      }
-    };
-
-    void tick();
-    const timer = setInterval(() => void tick(), intervalMs);
-    return () => {
-      alive = false;
-      controller.abort();
-      clearInterval(timer);
-    };
-  }, [key, intervalMs]);
-
-  return { prices, updatedAt, failed };
-}

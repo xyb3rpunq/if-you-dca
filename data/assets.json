@@ -83,6 +83,7 @@
       "tv": "INDEX:BTCUSD",
       "yahoo": "BTC-USD",
       "coingecko": "bitcoin",
+      "binance": "BTCUSDT",
       "note_id": "Aset paling volatil di daftar ini — hasil masa lalunya tidak bisa dijadikan patokan.",
       "note_en": "The most volatile asset in this list — its past results are not a guide to the future."
     },
@@ -95,6 +96,7 @@
       "tv": "INDEX:ETHUSD",
       "yahoo": "ETH-USD",
       "coingecko": "ethereum",
+      "binance": "ETHUSDT",
       "note_id": "Aset sangat volatil — perlakukan angka historis sebagai catatan, bukan ramalan.",
       "note_en": "Highly volatile — treat historical figures as a record, not a forecast."
     },

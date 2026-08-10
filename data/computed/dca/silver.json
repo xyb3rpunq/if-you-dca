@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "TVC:SILVER",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "SI=F",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

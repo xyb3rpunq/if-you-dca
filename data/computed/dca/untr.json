@@ -11,6 +11,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "IDX_DLY:UNTR",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "UNTR.JK",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "INDEX:ETHUSD",
   "coingecko": "ethereum",
+  "binance": "ETHUSDT",
+  "yahoo": "ETH-USD",
   "dataFrom": "2015-08",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

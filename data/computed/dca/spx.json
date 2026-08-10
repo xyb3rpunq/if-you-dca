@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "SP_DLY:SPX",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "^GSPC",
   "dataFrom": "2001-09",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

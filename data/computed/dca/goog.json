@@ -9,6 +9,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "BATS:GOOG",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "GOOG",
   "dataFrom": "2014-03",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,

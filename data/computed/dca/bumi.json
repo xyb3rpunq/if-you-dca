@@ -11,6 +11,8 @@
   "source": "tradingview+yahoo",
   "resolvedSymbol": "IDX_DLY:BUMI",
   "coingecko": null,
+  "binance": null,
+  "yahoo": "BUMI.JK",
   "dataFrom": "2005-06",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,
