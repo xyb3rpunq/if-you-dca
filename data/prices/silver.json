@@ -6,7 +6,7 @@
   "description": "SILVER (US$/OZ)",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-08-10T02:13:19.930Z",
+  "fetchedAt": "2026-08-10T02:15:53.563Z",
   "historicalSnapshotAt": "2026-08-09T21:41:37.372Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×0.9998 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 63.7,
+  "marketPrice": 63.6,
   "lastMonthIsPartial": true,
   "count": 300,
   "from": "2001-09",
@@ -1219,7 +1219,7 @@
     },
     {
       "m": "2026-08",
-      "c": 63.68783436989865,
+      "c": 63.58785118103534,
       "source": "yahoo"
     }
   ]

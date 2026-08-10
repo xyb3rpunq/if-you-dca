@@ -6,7 +6,7 @@
   "description": "GOLD (US$/OZ)",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-08-10T02:13:19.930Z",
+  "fetchedAt": "2026-08-10T02:15:53.563Z",
   "historicalSnapshotAt": "2026-08-09T21:41:35.971Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×0.9980 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 4383,
+  "marketPrice": 4380,
   "lastMonthIsPartial": true,
   "count": 300,
   "from": "2001-09",
@@ -1219,7 +1219,7 @@
     },
     {
       "m": "2026-08",
-      "c": 4374.4267893630395,
+      "c": 4371.432657405912,
       "source": "yahoo"
     }
   ]

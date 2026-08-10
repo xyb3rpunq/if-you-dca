@@ -6,7 +6,7 @@
   "description": "PT Bumi Resources Tbk Class A",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-08-10T02:13:19.930Z",
+  "fetchedAt": "2026-08-10T02:15:53.563Z",
   "historicalSnapshotAt": "2026-08-09T21:41:55.201Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan dari Yahoo diskalakan ×1.0000 agar sejajar dengan level TradingView"
   },
-  "marketPrice": 189,
+  "marketPrice": 188,
   "lastMonthIsPartial": true,
   "count": 252,
   "from": "2005-06",
@@ -1027,7 +1027,7 @@
     },
     {
       "m": "2026-08",
-      "c": 189,
+      "c": 188,
       "source": "yahoo"
     }
   ]
