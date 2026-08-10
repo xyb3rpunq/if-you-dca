@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-08-10T16:45:43.483Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-08-10T18:45:48.252Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "Update: US Equity Indexes Mixed as Crude Oil, Treasury Yields Jump Amid Worsening Iran Geopolitics",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-crude-174655262.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-10T17:46:55.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
