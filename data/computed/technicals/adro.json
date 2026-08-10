@@ -1,0 +1,91 @@
+{
+  "id": "adro",
+  "symbol": "ADRO",
+  "currency": "IDR",
+  "generatedAt": "2026-08-10T05:52:48.523Z",
+  "price": 2520,
+  "dataFrom": "2008-08",
+  "dailyBars": 478,
+  "allTimeHigh": {
+    "price": 4300,
+    "at": "2024-11",
+    "distancePct": -41.4
+  },
+  "allTimeLow": {
+    "price": 437,
+    "at": "2016-01",
+    "distancePct": 476.66
+  },
+  "supports": [
+    {
+      "price": 2470,
+      "touches": 1,
+      "lastTouch": "2025-01-16"
+    },
+    {
+      "price": 2430,
+      "touches": 2,
+      "lastTouch": "2026-01-26"
+    },
+    {
+      "price": 2390,
+      "touches": 4,
+      "lastTouch": "2026-07-29"
+    },
+    {
+      "price": 2355,
+      "touches": 4,
+      "lastTouch": "2026-06-02"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 2530,
+      "touches": 1,
+      "lastTouch": "2026-03-03"
+    },
+    {
+      "price": 2590,
+      "touches": 2,
+      "lastTouch": "2026-05-12"
+    },
+    {
+      "price": 2700,
+      "touches": 1,
+      "lastTouch": "2026-03-26"
+    },
+    {
+      "price": 2880,
+      "touches": 1,
+      "lastTouch": "2024-12-10"
+    }
+  ],
+  "pivots": {
+    "pivot": 2430,
+    "r1": 2620,
+    "s1": 2270,
+    "r2": 2780,
+    "s2": 2080,
+    "r3": 2970,
+    "s3": 1920
+  },
+  "pivotBasis": "2026-07",
+  "indicators": {
+    "rsi14": 55.75,
+    "sma20": 2511.5,
+    "sma50": 2374.2,
+    "sma200": 2218.7,
+    "ema12": 2506.251072,
+    "ema26": 2469.138095,
+    "macd": 37.112977,
+    "macdSignal": 41.559855,
+    "macdHistogram": -4.446878,
+    "bollingerUpper": 2584.23926,
+    "bollingerMiddle": 2511.5,
+    "bollingerLower": 2438.76074,
+    "bollingerBandwidth": 0.0579,
+    "atr14": 62.332244,
+    "stochK": 65,
+    "stochD": 65
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "orcl",
+  "symbol": "ORCL",
+  "currency": "USD",
+  "generatedAt": "2026-08-10T05:52:48.523Z",
+  "price": 147.02,
+  "dataFrom": "1996-09",
+  "dailyBars": 501,
+  "allTimeHigh": {
+    "price": 345.720001,
+    "at": "2025-09",
+    "distancePct": -57.47
+  },
+  "allTimeLow": {
+    "price": 2.958333,
+    "at": "1998-01",
+    "distancePct": 4869.69
+  },
+  "supports": [
+    {
+      "price": 137.537498,
+      "touches": 4,
+      "lastTouch": "2026-03-30"
+    },
+    {
+      "price": 134.910004,
+      "touches": 2,
+      "lastTouch": "2026-04-10"
+    },
+    {
+      "price": 121.239998,
+      "touches": 1,
+      "lastTouch": "2025-04-21"
+    },
+    {
+      "price": 118.860001,
+      "touches": 1,
+      "lastTouch": "2025-04-07"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 149.070007,
+      "touches": 1,
+      "lastTouch": "2026-07-09"
+    },
+    {
+      "price": 153.099998,
+      "touches": 4,
+      "lastTouch": "2025-05-23"
+    },
+    {
+      "price": 156.600006,
+      "touches": 1,
+      "lastTouch": "2025-03-24"
+    },
+    {
+      "price": 160.330002,
+      "touches": 1,
+      "lastTouch": "2026-04-30"
+    }
+  ],
+  "pivots": {
+    "pivot": 131.146667,
+    "r1": 147.793335,
+    "s1": 113.223328,
+    "r2": 165.716675,
+    "s2": 96.57666,
+    "r3": 182.363342,
+    "s3": 78.65332
+  },
+  "pivotBasis": "2026-07",
+  "indicators": {
+    "rsi14": 56.56,
+    "sma20": 129.4695,
+    "sma50": 160.288,
+    "sma200": 179.3133,
+    "ema12": 136.53182,
+    "ema26": 139.054694,
+    "macd": -2.522874,
+    "macdSignal": -7.372756,
+    "macdHistogram": 4.849882,
+    "bollingerUpper": 148.982916,
+    "bollingerMiddle": 129.4695,
+    "bollingerLower": 109.956085,
+    "bollingerBandwidth": 0.3014,
+    "atr14": 7.592065,
+    "stochK": 95.09,
+    "stochD": 89.06
+  }
+}

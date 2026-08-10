@@ -9,11 +9,31 @@
     "riskFreeRateAnnual": 0.04
   },
   "categories": [
-    { "id": "macro", "label_id": "Makro & Indeks", "label_en": "Macro & Index" },
-    { "id": "commodity", "label_id": "Komoditas", "label_en": "Commodities" },
-    { "id": "crypto", "label_id": "Kripto", "label_en": "Crypto" },
-    { "id": "us-stock", "label_id": "Saham AS", "label_en": "US Stocks" },
-    { "id": "id-stock", "label_id": "Saham Indonesia", "label_en": "Indonesian Stocks" }
+    {
+      "id": "macro",
+      "label_id": "Makro & Indeks",
+      "label_en": "Macro & Index"
+    },
+    {
+      "id": "commodity",
+      "label_id": "Komoditas",
+      "label_en": "Commodities"
+    },
+    {
+      "id": "crypto",
+      "label_id": "Kripto",
+      "label_en": "Crypto"
+    },
+    {
+      "id": "us-stock",
+      "label_id": "Saham AS",
+      "label_en": "US Stocks"
+    },
+    {
+      "id": "id-stock",
+      "label_id": "Saham Indonesia",
+      "label_en": "Indonesian Stocks"
+    }
   ],
   "assets": [
     {
@@ -25,9 +45,18 @@
       "role": "fx",
       "tv": "FX_IDC:USDIDR",
       "yahoo": "IDR=X",
-      "sanity": { "min": 8000, "max": 25000 },
+      "sanity": {
+        "min": 8000,
+        "max": 25000
+      },
       "note_id": "Kurs acuan untuk mengonversi setoran rupiah ke aset berdenominasi dolar.",
-      "note_en": "Reference rate used to convert rupiah contributions into USD-denominated assets."
+      "note_en": "Reference rate used to convert rupiah contributions into USD-denominated assets.",
+      "newsAliases": [
+        "rupiah",
+        "kurs",
+        "usd/idr",
+        "dolar as"
+      ]
     },
     {
       "id": "spx",
@@ -39,7 +68,12 @@
       "tv": "SP:SPX",
       "yahoo": "^GSPC",
       "note_id": "Indeks 500 perusahaan besar AS — dipakai sebagai pembanding (benchmark) untuk Beta & Alpha.",
-      "note_en": "Index of 500 large US companies — used as the benchmark for Beta & Alpha."
+      "note_en": "Index of 500 large US companies — used as the benchmark for Beta & Alpha.",
+      "newsAliases": [
+        "s&p 500",
+        "s&p500",
+        "wall street"
+      ]
     },
     {
       "id": "gold",
@@ -50,7 +84,12 @@
       "tv": "TVC:GOLD",
       "yahoo": "GC=F",
       "note_id": "Harga emas spot per troy ounce.",
-      "note_en": "Spot gold price per troy ounce."
+      "note_en": "Spot gold price per troy ounce.",
+      "newsAliases": [
+        "gold",
+        "emas",
+        "xau"
+      ]
     },
     {
       "id": "silver",
@@ -61,7 +100,12 @@
       "tv": "TVC:SILVER",
       "yahoo": "SI=F",
       "note_id": "Harga perak spot per troy ounce.",
-      "note_en": "Spot silver price per troy ounce."
+      "note_en": "Spot silver price per troy ounce.",
+      "newsAliases": [
+        "silver",
+        "perak",
+        "xag"
+      ]
     },
     {
       "id": "oil",
@@ -72,7 +116,13 @@
       "tv": "TVC:USOIL",
       "yahoo": "CL=F",
       "note_id": "Minyak mentah WTI per barel.",
-      "note_en": "WTI crude oil per barrel."
+      "note_en": "WTI crude oil per barrel.",
+      "newsAliases": [
+        "crude oil",
+        "minyak mentah",
+        "wti",
+        "harga minyak"
+      ]
     },
     {
       "id": "btc",
@@ -85,7 +135,10 @@
       "coingecko": "bitcoin",
       "binance": "BTCUSDT",
       "note_id": "Aset paling volatil di daftar ini — hasil masa lalunya tidak bisa dijadikan patokan.",
-      "note_en": "The most volatile asset in this list — its past results are not a guide to the future."
+      "note_en": "The most volatile asset in this list — its past results are not a guide to the future.",
+      "newsAliases": [
+        "bitcoin"
+      ]
     },
     {
       "id": "eth",
@@ -98,27 +151,239 @@
       "coingecko": "ethereum",
       "binance": "ETHUSDT",
       "note_id": "Aset sangat volatil — perlakukan angka historis sebagai catatan, bukan ramalan.",
-      "note_en": "Highly volatile — treat historical figures as a record, not a forecast."
+      "note_en": "Highly volatile — treat historical figures as a record, not a forecast.",
+      "newsAliases": [
+        "ethereum",
+        "ether"
+      ]
     },
-
-    { "id": "goog", "symbol": "GOOG", "name": "Alphabet", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:GOOG", "yahoo": "GOOG", "fundamentals": "GOOG" },
-    { "id": "mu", "symbol": "MU", "name": "Micron Technology", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:MU", "yahoo": "MU", "fundamentals": "MU" },
-    { "id": "aapl", "symbol": "AAPL", "name": "Apple", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:AAPL", "yahoo": "AAPL", "fundamentals": "AAPL" },
-    { "id": "nvda", "symbol": "NVDA", "name": "NVIDIA", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:NVDA", "yahoo": "NVDA", "fundamentals": "NVDA" },
-    { "id": "orcl", "symbol": "ORCL", "name": "Oracle", "category": "us-stock", "quoteCurrency": "USD", "tv": "NYSE:ORCL", "yahoo": "ORCL", "fundamentals": "ORCL" },
-    { "id": "mstr", "symbol": "MSTR", "name": "Strategy (MicroStrategy)", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:MSTR", "yahoo": "MSTR", "fundamentals": "MSTR" },
-    { "id": "pltr", "symbol": "PLTR", "name": "Palantir Technologies", "category": "us-stock", "quoteCurrency": "USD", "tv": "NASDAQ:PLTR", "yahoo": "PLTR", "fundamentals": "PLTR", "listedSince": "2020-09" },
-
-    { "id": "bbca", "symbol": "BBCA", "name": "Bank Central Asia", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:BBCA", "yahoo": "BBCA.JK", "fundamentals": "BBCA.JK" },
-    { "id": "bmri", "symbol": "BMRI", "name": "Bank Mandiri", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:BMRI", "yahoo": "BMRI.JK", "fundamentals": "BMRI.JK" },
-    { "id": "hrta", "symbol": "HRTA", "name": "Hartadinata Abadi", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["small-mid"], "tv": "IDX:HRTA", "yahoo": "HRTA.JK", "fundamentals": "HRTA.JK", "listedSince": "2017-06" },
-    { "id": "bumi", "symbol": "BUMI", "name": "Bumi Resources", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["small-mid"], "tv": "IDX:BUMI", "yahoo": "BUMI.JK", "fundamentals": "BUMI.JK" },
-    { "id": "arci", "symbol": "ARCI", "name": "Archi Indonesia", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["small-mid"], "tv": "IDX:ARCI", "yahoo": "ARCI.JK", "fundamentals": "ARCI.JK", "listedSince": "2021-06" },
-    { "id": "untr", "symbol": "UNTR", "name": "United Tractors", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:UNTR", "yahoo": "UNTR.JK", "fundamentals": "UNTR.JK" },
-    { "id": "asii", "symbol": "ASII", "name": "Astra International", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:ASII", "yahoo": "ASII.JK", "fundamentals": "ASII.JK" },
-    { "id": "bbni", "symbol": "BBNI", "name": "Bank Negara Indonesia", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:BBNI", "yahoo": "BBNI.JK", "fundamentals": "BBNI.JK" },
-    { "id": "adro", "symbol": "ADRO", "name": "Alamtri Resources (Adaro)", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:ADRO", "yahoo": "ADRO.JK", "fundamentals": "ADRO.JK" },
-    { "id": "indf", "symbol": "INDF", "name": "Indofood Sukses Makmur", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:INDF", "yahoo": "INDF.JK", "fundamentals": "INDF.JK" },
-    { "id": "antm", "symbol": "ANTM", "name": "Aneka Tambang", "category": "id-stock", "quoteCurrency": "IDR", "tags": ["blue-chip"], "tv": "IDX:ANTM", "yahoo": "ANTM.JK", "fundamentals": "ANTM.JK" }
+    {
+      "id": "goog",
+      "symbol": "GOOG",
+      "name": "Alphabet",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:GOOG",
+      "yahoo": "GOOG",
+      "fundamentals": "GOOG",
+      "newsAliases": [
+        "alphabet",
+        "google"
+      ]
+    },
+    {
+      "id": "mu",
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:MU",
+      "yahoo": "MU",
+      "fundamentals": "MU"
+    },
+    {
+      "id": "aapl",
+      "symbol": "AAPL",
+      "name": "Apple",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:AAPL",
+      "yahoo": "AAPL",
+      "fundamentals": "AAPL"
+    },
+    {
+      "id": "nvda",
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:NVDA",
+      "yahoo": "NVDA",
+      "fundamentals": "NVDA"
+    },
+    {
+      "id": "orcl",
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NYSE:ORCL",
+      "yahoo": "ORCL",
+      "fundamentals": "ORCL"
+    },
+    {
+      "id": "mstr",
+      "symbol": "MSTR",
+      "name": "Strategy (MicroStrategy)",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:MSTR",
+      "yahoo": "MSTR",
+      "fundamentals": "MSTR",
+      "newsAliases": [
+        "microstrategy",
+        "strategy inc"
+      ]
+    },
+    {
+      "id": "pltr",
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "category": "us-stock",
+      "quoteCurrency": "USD",
+      "tv": "NASDAQ:PLTR",
+      "yahoo": "PLTR",
+      "fundamentals": "PLTR",
+      "listedSince": "2020-09"
+    },
+    {
+      "id": "bbca",
+      "symbol": "BBCA",
+      "name": "Bank Central Asia",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:BBCA",
+      "yahoo": "BBCA.JK",
+      "fundamentals": "BBCA.JK"
+    },
+    {
+      "id": "bmri",
+      "symbol": "BMRI",
+      "name": "Bank Mandiri",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:BMRI",
+      "yahoo": "BMRI.JK",
+      "fundamentals": "BMRI.JK"
+    },
+    {
+      "id": "hrta",
+      "symbol": "HRTA",
+      "name": "Hartadinata Abadi",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "small-mid"
+      ],
+      "tv": "IDX:HRTA",
+      "yahoo": "HRTA.JK",
+      "fundamentals": "HRTA.JK",
+      "listedSince": "2017-06"
+    },
+    {
+      "id": "bumi",
+      "symbol": "BUMI",
+      "name": "Bumi Resources",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "small-mid"
+      ],
+      "tv": "IDX:BUMI",
+      "yahoo": "BUMI.JK",
+      "fundamentals": "BUMI.JK"
+    },
+    {
+      "id": "arci",
+      "symbol": "ARCI",
+      "name": "Archi Indonesia",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "small-mid"
+      ],
+      "tv": "IDX:ARCI",
+      "yahoo": "ARCI.JK",
+      "fundamentals": "ARCI.JK",
+      "listedSince": "2021-06"
+    },
+    {
+      "id": "untr",
+      "symbol": "UNTR",
+      "name": "United Tractors",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:UNTR",
+      "yahoo": "UNTR.JK",
+      "fundamentals": "UNTR.JK"
+    },
+    {
+      "id": "asii",
+      "symbol": "ASII",
+      "name": "Astra International",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:ASII",
+      "yahoo": "ASII.JK",
+      "fundamentals": "ASII.JK"
+    },
+    {
+      "id": "bbni",
+      "symbol": "BBNI",
+      "name": "Bank Negara Indonesia",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:BBNI",
+      "yahoo": "BBNI.JK",
+      "fundamentals": "BBNI.JK"
+    },
+    {
+      "id": "adro",
+      "symbol": "ADRO",
+      "name": "Alamtri Resources (Adaro)",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:ADRO",
+      "yahoo": "ADRO.JK",
+      "fundamentals": "ADRO.JK",
+      "newsAliases": [
+        "alamtri",
+        "adaro"
+      ]
+    },
+    {
+      "id": "indf",
+      "symbol": "INDF",
+      "name": "Indofood Sukses Makmur",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:INDF",
+      "yahoo": "INDF.JK",
+      "fundamentals": "INDF.JK"
+    },
+    {
+      "id": "antm",
+      "symbol": "ANTM",
+      "name": "Aneka Tambang",
+      "category": "id-stock",
+      "quoteCurrency": "IDR",
+      "tags": [
+        "blue-chip"
+      ],
+      "tv": "IDX:ANTM",
+      "yahoo": "ANTM.JK",
+      "fundamentals": "ANTM.JK"
+    }
   ]
 }

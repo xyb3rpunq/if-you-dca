@@ -1,0 +1,91 @@
+{
+  "id": "btc",
+  "symbol": "BTC",
+  "currency": "USD",
+  "generatedAt": "2026-08-10T05:52:48.523Z",
+  "price": 65007.97,
+  "dataFrom": "2014-10",
+  "dailyBars": 730,
+  "allTimeHigh": {
+    "price": 126198.070313,
+    "at": "2025-10",
+    "distancePct": -48.49
+  },
+  "allTimeLow": {
+    "price": 171.509995,
+    "at": "2015-01",
+    "distancePct": 37803.31
+  },
+  "supports": [
+    {
+      "price": 64938.396094,
+      "touches": 5,
+      "lastTouch": "2026-03-29"
+    },
+    {
+      "price": 62389.882813,
+      "touches": 2,
+      "lastTouch": "2026-08-03"
+    },
+    {
+      "price": 59976.503906,
+      "touches": 2,
+      "lastTouch": "2026-02-06"
+    },
+    {
+      "price": 59002.0625,
+      "touches": 2,
+      "lastTouch": "2026-06-05"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 66059.945313,
+      "touches": 2,
+      "lastTouch": "2026-03-08"
+    },
+    {
+      "price": 66987.28125,
+      "touches": 3,
+      "lastTouch": "2026-07-21"
+    },
+    {
+      "price": 69462.734375,
+      "touches": 1,
+      "lastTouch": "2024-10-21"
+    },
+    {
+      "price": 71462.515625,
+      "touches": 2,
+      "lastTouch": "2026-03-25"
+    }
+  ],
+  "pivots": {
+    "pivot": 62490.52474,
+    "r1": 67233.283854,
+    "s1": 58070.986979,
+    "r2": 71652.821615,
+    "s2": 53328.227865,
+    "r3": 76395.580729,
+    "s3": 48908.690104
+  },
+  "pivotBasis": "2026-07",
+  "indicators": {
+    "rsi14": 55.22,
+    "sma20": 64392.973047,
+    "sma50": 63320.675781,
+    "sma200": 70130.765293,
+    "ema12": 64380.393563,
+    "ema26": 64207.796081,
+    "macd": 172.597482,
+    "macdSignal": 74.430543,
+    "macdHistogram": 98.166939,
+    "bollingerUpper": 66277.420526,
+    "bollingerMiddle": 64392.973047,
+    "bollingerLower": 62508.525568,
+    "bollingerBandwidth": 0.0585,
+    "atr14": 1330.733601,
+    "stochK": 81.05,
+    "stochD": 78.8
+  }
+}

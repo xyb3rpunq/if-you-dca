@@ -42,7 +42,7 @@ export function AssetCard({
 
   return (
     <Link
-      to={`/simulator?aset=${asset.id}&periode=${period}`}
+      to={`/aset/${asset.id}`}
       className="panel group flex flex-col gap-3 p-4 transition-colors hover:border-line-bright"
     >
       <div className="flex items-start justify-between gap-2">

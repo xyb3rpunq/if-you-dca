@@ -18,6 +18,7 @@ const Rankings = lazy(() => import('./pages/Rankings.tsx').then((m) => ({ defaul
 const ValueLens = lazy(() => import('./pages/ValueLens.tsx').then((m) => ({ default: m.ValueLens })));
 const Portfolio = lazy(() => import('./pages/Portfolio.tsx').then((m) => ({ default: m.Portfolio })));
 const Glossary = lazy(() => import('./pages/Glossary.tsx').then((m) => ({ default: m.Glossary })));
+const AssetDetail = lazy(() => import('./pages/AssetDetail.tsx').then((m) => ({ default: m.AssetDetail })));
 
 function RouteFallback() {
   const { t } = useSettings();
@@ -82,6 +83,14 @@ export function App() {
               element={
                 <Suspense fallback={<RouteFallback />}>
                   <Glossary />
+                </Suspense>
+              }
+            />
+            <Route
+              path="aset/:id"
+              element={
+                <Suspense fallback={<RouteFallback />}>
+                  <AssetDetail />
                 </Suspense>
               }
             />

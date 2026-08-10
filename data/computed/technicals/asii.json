@@ -1,0 +1,91 @@
+{
+  "id": "asii",
+  "symbol": "ASII",
+  "currency": "IDR",
+  "generatedAt": "2026-08-10T05:52:48.523Z",
+  "price": 4990,
+  "dataFrom": "2000-11",
+  "dailyBars": 478,
+  "allTimeHigh": {
+    "price": 9350,
+    "at": "2017-04",
+    "distancePct": -46.63
+  },
+  "allTimeLow": {
+    "price": 85.008781,
+    "at": "2001-04",
+    "distancePct": 5769.98
+  },
+  "supports": [
+    {
+      "price": 4968.571429,
+      "touches": 7,
+      "lastTouch": "2026-06-25"
+    },
+    {
+      "price": 4858.333333,
+      "touches": 6,
+      "lastTouch": "2026-07-30"
+    },
+    {
+      "price": 4735,
+      "touches": 2,
+      "lastTouch": "2025-05-06"
+    },
+    {
+      "price": 4570,
+      "touches": 1,
+      "lastTouch": "2025-05-21"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 5025,
+      "touches": 1,
+      "lastTouch": "2025-01-16"
+    },
+    {
+      "price": 5212.5,
+      "touches": 4,
+      "lastTouch": "2025-09-01"
+    },
+    {
+      "price": 5291.666667,
+      "touches": 3,
+      "lastTouch": "2026-08-03"
+    },
+    {
+      "price": 5600,
+      "touches": 2,
+      "lastTouch": "2025-10-17"
+    }
+  ],
+  "pivots": {
+    "pivot": 4966.666667,
+    "r1": 5433.333333,
+    "s1": 4633.333333,
+    "r2": 5766.666667,
+    "s2": 4166.666667,
+    "r3": 6233.333333,
+    "s3": 3833.333333
+  },
+  "pivotBasis": "2026-07",
+  "indicators": {
+    "rsi14": 49.6,
+    "sma20": 5024.5,
+    "sma50": 4859.2,
+    "sma200": 5974.675,
+    "ema12": 5033.349758,
+    "ema26": 4997.873225,
+    "macd": 35.476534,
+    "macdSignal": 32.186631,
+    "macdHistogram": 3.289903,
+    "bollingerUpper": 5193.168314,
+    "bollingerMiddle": 5024.5,
+    "bollingerLower": 4855.831686,
+    "bollingerBandwidth": 0.0671,
+    "atr14": 152.787989,
+    "stochK": 27.91,
+    "stochD": 44.96
+  }
+}

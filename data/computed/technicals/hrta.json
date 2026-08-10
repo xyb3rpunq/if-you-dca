@@ -1,0 +1,91 @@
+{
+  "id": "hrta",
+  "symbol": "HRTA",
+  "currency": "IDR",
+  "generatedAt": "2026-08-10T05:52:48.523Z",
+  "price": 2210,
+  "dataFrom": "2017-07",
+  "dailyBars": 478,
+  "allTimeHigh": {
+    "price": 3440,
+    "at": "2026-03",
+    "distancePct": -35.76
+  },
+  "allTimeLow": {
+    "price": 170,
+    "at": "2019-12",
+    "distancePct": 1200
+  },
+  "supports": [
+    {
+      "price": 2110,
+      "touches": 1,
+      "lastTouch": "2026-03-31"
+    },
+    {
+      "price": 2045,
+      "touches": 2,
+      "lastTouch": "2026-07-23"
+    },
+    {
+      "price": 1970,
+      "touches": 1,
+      "lastTouch": "2025-10-17"
+    },
+    {
+      "price": 1885,
+      "touches": 1,
+      "lastTouch": "2026-02-03"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 2280,
+      "touches": 1,
+      "lastTouch": "2026-06-15"
+    },
+    {
+      "price": 2380,
+      "touches": 1,
+      "lastTouch": "2026-03-09"
+    },
+    {
+      "price": 2500,
+      "touches": 1,
+      "lastTouch": "2026-06-02"
+    },
+    {
+      "price": 2590,
+      "touches": 1,
+      "lastTouch": "2026-04-30"
+    }
+  ],
+  "pivots": {
+    "pivot": 1851.666667,
+    "r1": 2063.333333,
+    "s1": 1643.333333,
+    "r2": 2271.666667,
+    "s2": 1431.666667,
+    "r3": 2483.333333,
+    "s3": 1223.333333
+  },
+  "pivotBasis": "2026-07",
+  "indicators": {
+    "rsi14": 67.71,
+    "sma20": 1947.25,
+    "sma50": 1968.7,
+    "sma200": 2118.375,
+    "ema12": 2005.749554,
+    "ema26": 1966.501535,
+    "macd": 39.248019,
+    "macdSignal": -2.653515,
+    "macdHistogram": 41.901534,
+    "bollingerUpper": 2155.011281,
+    "bollingerMiddle": 1947.25,
+    "bollingerLower": 1739.488719,
+    "bollingerBandwidth": 0.2134,
+    "atr14": 97.75418,
+    "stochK": 87.1,
+    "stochD": 89.34
+  }
+}

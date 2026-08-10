@@ -15,9 +15,11 @@
     "data:tv": "node scripts/fetch-tradingview.mjs",
     "data:fetch": "node scripts/fetch-prices.mjs",
     "data:inflation": "node scripts/fetch-inflation.mjs",
+    "data:technicals": "node scripts/fetch-technicals.mjs",
+    "data:news": "node scripts/fetch-news.mjs",
     "data:compute": "node scripts/compute-dca.mjs",
     "data:fundamentals": "node scripts/compute-fundamentals.mjs",
-    "data:all": "npm run data:fetch && npm run data:inflation && npm run data:compute && npm run data:fundamentals"
+    "data:all": "npm run data:fetch && npm run data:inflation && npm run data:compute && npm run data:technicals && npm run data:news && npm run data:fundamentals"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

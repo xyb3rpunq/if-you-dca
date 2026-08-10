@@ -197,6 +197,52 @@ export const strings = {
     en: 'Price history from TradingView, refreshed periodically via Yahoo Finance. Live crypto prices from CoinGecko.',
   },
 
+  'tech.extremes': { id: 'Puncak & Dasar', en: 'Peak & Trough' },
+  'tech.ath': { id: 'Tertinggi sepanjang data', en: 'All-time high' },
+  'tech.atl': { id: 'Terendah sepanjang data', en: 'All-time low' },
+  'tech.fromAth': { id: 'dari puncak', en: 'from peak' },
+  'tech.fromAtl': { id: 'dari dasar', en: 'from trough' },
+  'tech.athNote': {
+    id: 'Diukur dari harga tertinggi & terendah di dalam tiap bulan, bukan dari penutupan — puncak sesungguhnya hampir tidak pernah terjadi tepat saat pasar tutup. Data tersedia sejak {from}.',
+    en: 'Measured from each month’s intraday high and low, not the close — real peaks almost never happen exactly at the closing bell. Data available since {from}.',
+  },
+  'tech.levels': { id: 'Support & Resistance', en: 'Support & Resistance' },
+  'tech.levelsNote': {
+    id: 'Level tempat harga berulang kali berbalik dalam 2 tahun terakhir, dikelompokkan otomatis dari data harian. Semakin sering disentuh, semakin banyak pelaku pasar yang memperhatikannya.',
+    en: 'Levels where price repeatedly turned over the last 2 years, clustered automatically from daily data. The more touches, the more market participants watch it.',
+  },
+  'tech.support': { id: 'Support (di bawah harga)', en: 'Support (below price)' },
+  'tech.resistance': { id: 'Resistance (di atas harga)', en: 'Resistance (above price)' },
+  'tech.noLevels': { id: 'Tidak ada level yang jelas terbentuk.', en: 'No clear levels formed.' },
+  'tech.pivots': { id: 'Pivot Point bulanan', en: 'Monthly pivot points' },
+  'tech.pivotBasis': { id: 'Dihitung dari bulan penuh terakhir: {period}', en: 'Computed from the last full month: {period}' },
+  'tech.indicators': { id: 'Indikator Teknikal', en: 'Technical Indicators' },
+  'tech.indicatorsNote': {
+    id: 'Dihitung dari {bars} bar harian dengan rumus baku — RSI & ATR memakai pemulusan Wilder, Bollinger memakai simpangan baku populasi.',
+    en: 'Computed from {bars} daily bars using standard formulas — RSI & ATR use Wilder smoothing, Bollinger uses population standard deviation.',
+  },
+  'tech.movingAverages': { id: 'Rata-rata bergerak', en: 'Moving averages' },
+  'tech.above': { id: 'di atas', en: 'above' },
+  'tech.below': { id: 'di bawah', en: 'below' },
+  'tech.upper': { id: 'Pita atas', en: 'Upper band' },
+  'tech.middle': { id: 'Tengah', en: 'Middle' },
+  'tech.lower': { id: 'Pita bawah', en: 'Lower band' },
+  'tech.bandwidth': { id: 'Lebar pita', en: 'Bandwidth' },
+  'tech.disclaimer': {
+    id: 'Indikator menggambarkan apa yang SUDAH terjadi pada harga, bukan apa yang akan terjadi. RSI di atas 70 bisa bertahan berbulan-bulan pada aset yang sedang tren kuat, dan level support bisa ditembus kapan saja. Tidak ada satu pun angka di sini yang merupakan sinyal beli atau jual.',
+    en: 'Indicators describe what price has ALREADY done, not what it will do. RSI above 70 can persist for months in a strong trend, and support levels break all the time. None of these numbers is a buy or sell signal.',
+  },
+  'tech.news': { id: 'Berita Terkini', en: 'Latest News' },
+  'tech.noNews': {
+    id: 'Belum ada berita relevan yang terkumpul untuk aset ini.',
+    en: 'No relevant news collected for this asset yet.',
+  },
+  'tech.newsNote': {
+    id: 'Dikumpulkan otomatis dari Yahoo Finance dan Google News, lalu disaring agar hanya menyisakan judul yang benar-benar menyebut aset ini. Judul dan tautan berasal dari penerbitnya masing-masing — isinya bukan tanggung jawab situs ini, dan tidak diverifikasi.',
+    en: 'Collected automatically from Yahoo Finance and Google News, then filtered to keep only headlines that actually name this asset. Titles and links belong to their publishers — their content is neither endorsed nor verified here.',
+  },
+  'nav.assetDetail': { id: 'Detail aset', en: 'Asset detail' },
+
   'settings.language': { id: 'Bahasa', en: 'Language' },
   'settings.currency': { id: 'Mata uang', en: 'Currency' },
   'settings.basis': { id: 'Perhitungan return', en: 'Return basis' },
@@ -468,6 +514,105 @@ export const glossary: GlossaryTerm[] = [
       id: 'Yield 4% berarti untuk tiap Rp1 juta saham, kamu terima sekitar Rp40 ribu setahun sebagai dividen tunai. Yield yang tiba-tiba sangat tinggi sering bukan kabar baik — biasanya karena harga sahamnya yang jatuh, bukan dividennya yang naik.',
       en: 'A 4% yield means roughly Rp40k of cash dividends a year per Rp1m of shares held. A suddenly very high yield is often not good news — usually the share price fell rather than the dividend rising.',
     },
+  },
+  {
+    key: 'ath',
+    term: { id: 'ATH / ATL', en: 'ATH / ATL' },
+    short: {
+      id: 'Harga tertinggi dan terendah yang pernah tercapai sepanjang data yang tersedia.',
+      en: 'The highest and lowest price ever reached within the available data.',
+    },
+    long: {
+      id: 'Diukur dari harga tertinggi dan terendah DI DALAM tiap bulan, bukan dari harga penutupan — puncak sesungguhnya hampir tidak pernah terjadi tepat saat pasar tutup, dan memakai penutupan bisa meleset belasan persen pada aset volatil. Jarak dari puncak berguna sebagai konteks: aset yang −50% dari puncaknya sedang murah dibanding masa lalunya, tapi itu tidak otomatis berarti akan pulih. Banyak aset tidak pernah kembali ke puncaknya.',
+      en: 'Measured from each month’s intraday high and low, not the close — real peaks almost never happen exactly at the closing bell, and using closes can miss by double digits on volatile assets. Distance from the peak is useful context: an asset 50% below its high is cheap relative to its own past, but that does not mean it will recover. Plenty of assets never return to their peak.',
+    },
+  },
+  {
+    key: 'supportResistance',
+    term: { id: 'Support & Resistance', en: 'Support & Resistance' },
+    short: {
+      id: 'Level harga tempat pasar berulang kali berbalik arah.',
+      en: 'Price levels where the market has repeatedly turned around.',
+    },
+    long: {
+      id: 'Support adalah level di bawah harga sekarang tempat penurunan berkali-kali berhenti; resistance adalah kebalikannya di atas. Levelnya dihitung otomatis dengan mencari titik balik lokal pada data harian dua tahun, lalu mengelompokkan yang berdekatan jadi satu zona — karena pasar memperlakukan rentang 1% sebagai satu level, bukan sepuluh garis berbeda. Semakin sering disentuh, semakin banyak pelaku pasar yang memperhatikannya. Tapi level bukan dinding: yang ditembus akan berbalik peran, resistance lama jadi support baru. Ini deskripsi kebiasaan harga, bukan ramalan.',
+      en: 'Support is a level below the current price where declines have repeatedly stopped; resistance is its mirror above. Levels are found automatically by locating local turning points in two years of daily data, then clustering nearby ones into a single zone — because the market treats a 1% range as one level, not ten separate lines. More touches means more participants watching. But levels are not walls: once broken they swap roles, old resistance becoming new support. This describes price habits, not the future.',
+    },
+  },
+  {
+    key: 'rsi',
+    term: { id: 'RSI', en: 'RSI' },
+    short: {
+      id: 'Ukuran 0–100 tentang seberapa kuat kenaikan dibanding penurunan belakangan ini.',
+      en: 'A 0–100 measure of how strong recent gains are compared to recent losses.',
+    },
+    long: {
+      id: 'Di atas 70 sering disebut "jenuh beli", di bawah 30 "jenuh jual". Tapi istilah itu menyesatkan kalau dibaca sebagai sinyal: aset yang sedang tren kuat bisa bertahan di atas 70 selama berbulan-bulan sambil terus naik, dan menjual hanya karena RSI tinggi adalah cara klasik ketinggalan kenaikan terbesar. RSI paling berguna sebagai konteks — "kenaikan ini sudah seberapa cepat" — bukan sebagai perintah. Situs ini memakai pemulusan Wilder, definisi aslinya, sehingga angkanya cocok dengan platform lain.',
+      en: 'Above 70 is often called "overbought", below 30 "oversold". Those labels mislead when read as signals: an asset in a strong trend can hold above 70 for months while continuing to climb, and selling merely because RSI is high is a classic way to miss the biggest part of a move. RSI is most useful as context — "how fast has this run" — not as an instruction. This site uses Wilder smoothing, the original definition, so the numbers match other platforms.',
+    },
+    formula: 'RSI = 100 − 100 / (1 + rata-rata untung / rata-rata rugi)',
+  },
+  {
+    key: 'macd',
+    term: { id: 'MACD', en: 'MACD' },
+    short: {
+      id: 'Selisih dua rata-rata bergerak — menunjukkan momentum sedang menguat atau melemah.',
+      en: 'The gap between two moving averages — shows whether momentum is building or fading.',
+    },
+    long: {
+      id: 'MACD adalah selisih rata-rata 12 periode dan 26 periode. Garis sinyal adalah rata-rata dari MACD itu sendiri, dan histogram adalah jarak keduanya. Histogram positif berarti momentum jangka pendek lebih kuat dari jangka menengah. Seperti semua indikator berbasis rata-rata, MACD selalu terlambat — ia mengonfirmasi pergerakan yang sudah terjadi, tidak mendahuluinya.',
+      en: 'MACD is the gap between a 12-period and a 26-period average. The signal line is an average of MACD itself, and the histogram is the distance between them. A positive histogram means short-term momentum is outpacing the medium term. Like every average-based indicator, MACD always lags — it confirms moves that already happened rather than anticipating them.',
+    },
+    formula: 'MACD = EMA(12) − EMA(26); Sinyal = EMA(MACD, 9)',
+  },
+  {
+    key: 'bollinger',
+    term: { id: 'Bollinger Bands', en: 'Bollinger Bands' },
+    short: {
+      id: 'Pita di atas dan di bawah harga rata-rata, melebar saat pasar bergejolak.',
+      en: 'Bands above and below the average price that widen when the market gets turbulent.',
+    },
+    long: {
+      id: 'Pitanya berjarak dua simpangan baku dari rata-rata 20 periode. Saat pasar tenang pita menyempit; saat bergejolak pita melebar. Harga menyentuh pita atas BUKAN berarti terlalu mahal — dalam tren kuat, harga bisa merayap di sepanjang pita atas untuk waktu lama. Yang lebih sering berguna adalah lebar pitanya: penyempitan ekstrem sering mendahului pergerakan besar, meski arahnya tidak bisa diketahui dari situ.',
+      en: 'The bands sit two standard deviations from a 20-period average. When the market is calm they narrow; when it is turbulent they widen. Price touching the upper band does NOT mean it is too expensive — in a strong trend price can ride the upper band for a long time. More often useful is the bandwidth: extreme compression often precedes a large move, though it says nothing about direction.',
+    },
+  },
+  {
+    key: 'atr',
+    term: { id: 'ATR', en: 'ATR' },
+    short: {
+      id: 'Rata-rata jarak gerak harga per periode, dalam satuan rupiah atau dolar.',
+      en: 'The average distance price travels per period, in rupiah or dollars.',
+    },
+    long: {
+      id: 'Berbeda dari volatilitas yang dinyatakan dalam persen, ATR memberi angka dalam satuan harga: "saham ini biasanya bergerak Rp250 sehari". Berguna untuk menakar apakah pergerakan hari ini tergolong biasa atau luar biasa, dan sering dipakai untuk menentukan jarak batas rugi yang masuk akal. ATR memperhitungkan lompatan harga antar hari, bukan hanya rentang dalam hari itu.',
+      en: 'Unlike volatility expressed in percent, ATR gives a figure in price units: "this stock typically moves Rp250 a day". Useful for judging whether today’s move is ordinary or unusual, and often used to size a sensible stop distance. ATR accounts for gaps between days, not just the range within a single day.',
+    },
+  },
+  {
+    key: 'stochastic',
+    term: { id: 'Stochastic Oscillator', en: 'Stochastic Oscillator' },
+    short: {
+      id: 'Posisi harga penutupan di dalam rentang tertinggi–terendah periode terakhir.',
+      en: 'Where the closing price sits inside the recent high-low range.',
+    },
+    long: {
+      id: 'Nilai 100 berarti harga menutup tepat di puncak rentang 14 periode terakhir; 0 berarti tepat di dasarnya. %D adalah versi yang dihaluskan. Sama seperti RSI, angka ekstrem lebih menggambarkan kekuatan tren daripada titik balik — harga yang terus menutup di puncak rentangnya adalah tanda tren kuat, bukan tanda akan berbalik.',
+      en: 'A reading of 100 means price closed exactly at the top of the last 14 periods’ range; 0 means exactly at the bottom. %D is a smoothed version. As with RSI, extreme readings describe trend strength more than turning points — price closing repeatedly at the top of its range signals a strong trend, not an imminent reversal.',
+    },
+  },
+  {
+    key: 'pivotPoints',
+    term: { id: 'Pivot Point', en: 'Pivot Points' },
+    short: {
+      id: 'Level acuan yang dihitung mekanis dari tertinggi, terendah, dan penutupan periode sebelumnya.',
+      en: 'Reference levels computed mechanically from the previous period’s high, low and close.',
+    },
+    long: {
+      id: 'Tidak ada penilaian sama sekali di dalamnya — hanya aritmetika dari tiga angka. Kegunaannya justru karena itu: rumusnya sama bagi semua orang, jadi banyak pelaku pasar melihat level yang persis sama. Situs ini menghitungnya dari bulan penuh terakhir, bukan bulan berjalan, karena pivot dari periode yang belum tutup berubah tiap hari dan tidak berarti apa-apa.',
+      en: 'There is no judgement in these at all — just arithmetic on three numbers. That is precisely why they matter: everyone computes them the same way, so many participants watch identical levels. This site computes them from the last complete month, not the current one, because pivots from an unfinished period shift daily and mean nothing.',
+    },
+    formula: 'P = (H + L + C) / 3; R1 = 2P − L; S1 = 2P − H',
   },
   {
     key: 'ruleOf72',

@@ -2,12 +2,13 @@
 import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 
-import { useJson } from './data.ts';
+import { SettingsProvider } from '../i18n/context.tsx';
+import { clearJsonCache, useJson } from './data.ts';
 import { useLiveFx, useLiveQuotes } from './live/hooks.ts';
 import { useDeflators } from './useInflation.ts';
 import { seriesFor, usePriceSeries } from './usePrices.ts';
 import type { PriceFile } from './usePrices.ts';
-import { useUsdRate } from './useRankings.ts';
+import { useContributionScale, useUsdRate } from './useRankings.ts';
 
 const originalFetch = globalThis.fetch;
 
@@ -17,6 +18,8 @@ afterEach(() => {
   // milik tes berikutnya — kebocoran yang membuat hasilnya tampak acak.
   cleanup();
   globalThis.fetch = originalFetch;
+  localStorage.clear();
+  clearJsonCache();
   vi.restoreAllMocks();
   vi.useRealTimers();
 });
@@ -198,6 +201,26 @@ describe('useDeflators', () => {
     routeFetch({});
     const { result } = renderHook(() => useDeflators(null));
     expect(result.current.deflators.size).toBe(0);
+  });
+});
+
+describe('useContributionScale', () => {
+  it('menghitung faktor dari setoran tersimpan terhadap setoran dasar pipeline', async () => {
+    localStorage.setItem('value-terminal:settings', JSON.stringify({ contribution: 2_000_000 }));
+    routeFetch({ 'computed/rankings.json': { contribution: 1_000_000, assets: [] } });
+
+    const { result } = renderHook(() => useContributionScale(), { wrapper: SettingsProvider });
+    await waitFor(() => expect(result.current.base).toBe(1_000_000));
+    expect(result.current.contribution).toBe(2_000_000);
+    expect(result.current.factor).toBe(2);
+  });
+
+  it('faktornya 1 selama data dasarnya belum termuat', () => {
+    // Sebelum rankings.json tiba, mengalikan dengan nol akan membuat seluruh
+    // layar menampilkan Rp0 sekejap sebelum data masuk.
+    routeFetch({});
+    const { result } = renderHook(() => useContributionScale(), { wrapper: SettingsProvider });
+    expect(result.current.factor).toBe(1);
   });
 });
 

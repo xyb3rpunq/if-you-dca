@@ -110,6 +110,62 @@ export interface AssetDetail extends AssetRecord {
   chartSeries: Record<ReturnBasis, Partial<Record<'10y' | 'max', ChartPoint[]>>>;
 }
 
+export interface PriceLevelInfo {
+  price: number;
+  touches: number;
+  lastTouch: string;
+}
+
+export interface TechnicalsFile {
+  id: string;
+  symbol: string;
+  currency: string;
+  generatedAt: string;
+  price: number;
+  dataFrom: string | null;
+  dailyBars: number;
+  allTimeHigh: { price: number; at: string; distancePct: number | null } | null;
+  allTimeLow: { price: number; at: string; distancePct: number | null } | null;
+  supports: PriceLevelInfo[];
+  resistances: PriceLevelInfo[];
+  pivots: Record<'pivot' | 'r1' | 'r2' | 'r3' | 's1' | 's2' | 's3', number | null> | null;
+  pivotBasis: string | null;
+  indicators: {
+    rsi14: number | null;
+    sma20: number | null;
+    sma50: number | null;
+    sma200: number | null;
+    ema12: number | null;
+    ema26: number | null;
+    macd: number | null;
+    macdSignal: number | null;
+    macdHistogram: number | null;
+    bollingerUpper: number | null;
+    bollingerMiddle: number | null;
+    bollingerLower: number | null;
+    bollingerBandwidth: number | null;
+    atr14: number | null;
+    stochK: number | null;
+    stochD: number | null;
+  };
+}
+
+export interface NewsItem {
+  title: string;
+  url: string;
+  publisher: string | null;
+  publishedAt: string | null;
+  source: string;
+}
+
+export interface NewsFile {
+  id: string;
+  symbol: string;
+  generatedAt: string;
+  count: number;
+  items: NewsItem[];
+}
+
 export interface InflationFile {
   source: string;
   fetchedAt: string;

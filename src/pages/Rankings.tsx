@@ -209,10 +209,7 @@ export function Rankings() {
                     <td className="px-3 py-2.5">
                       <div className="flex items-center gap-2">
                         <span className="tnum w-5 text-[11px] text-muted">{index + 1}</span>
-                        <Link
-                          to={`/simulator?aset=${asset.id}&periode=${period}`}
-                          className="font-mono text-xs text-ink hover:text-gold"
-                        >
+                        <Link to={`/aset/${asset.id}`} className="font-mono text-xs text-ink hover:text-gold">
                           {asset.symbol}
                         </Link>
                         {p.partial && (

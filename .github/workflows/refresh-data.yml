@@ -48,6 +48,17 @@ jobs:
       - name: Hitung ulang simulasi DCA
         run: node scripts/compute-dca.mjs
 
+      - name: Hitung ATH, support/resistance, dan indikator
+        # Butuh dua permintaan per aset (bulanan untuk puncak, harian untuk
+        # indikator), jadi langkah ini yang paling lama — tapi tetap di bawah semenit.
+        run: node scripts/fetch-technicals.mjs
+
+      - name: Kumpulkan berita per aset
+        # Tidak boleh menggagalkan seluruh workflow: berita adalah pelengkap, dan
+        # sumber berita jauh lebih sering rewel daripada sumber harga.
+        continue-on-error: true
+        run: node scripts/fetch-news.mjs
+
       - name: Ambil rasio fundamental
         # Tanpa secret, script menulis penanda "tidak tersedia" dan tetap sukses —
         # jadi langkah ini aman dijalankan bahkan sebelum API key dipasang.
