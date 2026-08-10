@@ -60,11 +60,8 @@ jobs:
         run: node scripts/fetch-news.mjs
 
       - name: Ambil rasio fundamental
-        # Tanpa secret, script menulis penanda "tidak tersedia" dan tetap sukses —
-        # jadi langkah ini aman dijalankan bahkan sebelum API key dipasang.
-        env:
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        # Tidak lagi butuh API key: sumbernya Yahoo Finance, yang juga meliput
+        # ticker .JK — sesuatu yang tidak dijangkau tier gratis FMP maupun Finnhub.
         run: node scripts/compute-fundamentals.mjs
 
       - name: Jalankan unit test rumus keuangan

@@ -181,20 +181,63 @@ export interface CorrelationsFile {
   matrix: Record<string, Record<string, number | null>>;
 }
 
+export interface YearlyValue {
+  endDate: number | null;
+  value: number;
+}
+
 export interface FundamentalRecord {
   provider?: string;
   ticker: string;
+  error?: string;
+
+  // Valuasi
   price?: number | null;
-  eps?: number | null;
-  bookValuePerShare?: number | null;
+  marketCap?: number | null;
   pe?: number | null;
+  forwardPe?: number | null;
   pb?: number | null;
   ps?: number | null;
-  dividendYield?: number | null;
+  peg?: number | null;
+  eps?: number | null;
+  forwardEps?: number | null;
+  bookValuePerShare?: number | null;
+  enterpriseValue?: number | null;
+  earningsYield?: number | null;
+  freeCashflowYield?: number | null;
+  /** true kalau nilai buku dikoreksi satuannya oleh pipeline. */
+  bookValueConverted?: boolean;
+  bookValueNote?: string | null;
+
+  // Kualitas
   roe?: number | null;
   roa?: number | null;
+  grossMargin?: number | null;
+  operatingMargin?: number | null;
+  profitMargin?: number | null;
+  revenueGrowth?: number | null;
+  earningsGrowth?: number | null;
+
+  // Kesehatan keuangan
   debtToEquity?: number | null;
-  error?: string;
+  currentRatio?: number | null;
+  quickRatio?: number | null;
+  totalCash?: number | null;
+  totalDebt?: number | null;
+  freeCashflow?: number | null;
+  operatingCashflow?: number | null;
+
+  // Dividen
+  dividendYield?: number | null;
+  payoutRatio?: number | null;
+
+  history?: {
+    netIncome?: YearlyValue[];
+    revenue?: YearlyValue[];
+    equity?: YearlyValue[];
+    totalAssets?: YearlyValue[];
+    operatingCashflow?: YearlyValue[];
+  };
 }
 
 export interface FundamentalsFile {

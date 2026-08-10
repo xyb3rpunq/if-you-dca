@@ -1,7 +1,2313 @@
 {
-  "generatedAt": "2026-08-10T09:18:45.115Z",
-  "available": false,
-  "reason": "no-api-key",
-  "message": "Data fundamental butuh API key gratis dari Financial Modeling Prep atau Finnhub. Tambahkan sebagai GitHub Secret bernama FMP_API_KEY, lalu jalankan ulang workflow refresh-data.",
-  "assets": {}
+  "generatedAt": "2026-08-10T11:06:06.914Z",
+  "available": true,
+  "provider": "yahoo-finance",
+  "coverage": "18/18",
+  "note": "Yahoo Finance dipakai karena meliput ticker .JK, yang tidak dijangkau tier gratis Financial Modeling Prep maupun Finnhub. Tidak memerlukan API key.",
+  "assets": {
+    "goog": {
+      "price": 353.47,
+      "marketCap": 4322915254272,
+      "pe": 17.726679,
+      "forwardPe": 23.989391,
+      "pb": 6.944947,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 9.695548,
+      "peg": 0.96,
+      "eps": 19.94,
+      "forwardEps": 14.73443,
+      "bookValuePerShare": 50.896,
+      "enterpriseValue": 4219278196736,
+      "earningsYield": 0.056412,
+      "freeCashflowYield": 0.005243,
+      "roe": 0.48676,
+      "roa": 0.12959,
+      "grossMargin": 0.60897,
+      "operatingMargin": 0.34033,
+      "profitMargin": 0.54771,
+      "revenueGrowth": 0.242,
+      "earningsGrowth": 2.94,
+      "debtToEquity": 0.18859,
+      "currentRatio": 2.724,
+      "quickRatio": 2.471,
+      "totalCash": 242473992192,
+      "totalDebt": 120790999040,
+      "freeCashflow": 22665000960,
+      "operatingCashflow": 185675005952,
+      "dividendYield": 0.0025,
+      "payoutRatio": 0.0426,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 132170000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 100118000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 73795000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 59972000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 402836000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 350018000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 307394000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 282836000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 415265000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 325084000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 283379000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 256144000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 595281000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 450256000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 402392000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 365264000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 73266000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 72764000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 69495000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 60010000000
+          }
+        ]
+      },
+      "ticker": "GOOG",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "mu": {
+      "price": 877.57,
+      "marketCap": 991121571840,
+      "pe": 19.841059,
+      "forwardPe": 5.659457,
+      "pb": 9.836575,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 10.979037,
+      "peg": 0.13,
+      "eps": 44.23,
+      "forwardEps": 155.06258,
+      "bookValuePerShare": 89.215,
+      "enterpriseValue": 971475517440,
+      "earningsYield": 0.050401,
+      "freeCashflowYield": 0.007708,
+      "roe": 0.66638,
+      "roa": 0.3487,
+      "grossMargin": 0.72569,
+      "operatingMargin": 0.8037,
+      "profitMargin": 0.55906,
+      "revenueGrowth": 3.457,
+      "earningsGrowth": 13.685,
+      "debtToEquity": 0.0633,
+      "currentRatio": 3.425,
+      "quickRatio": 2.927,
+      "totalCash": 26022000640,
+      "totalDebt": 6376000000,
+      "freeCashflow": 7639499776,
+      "operatingCashflow": 51432001536,
+      "dividendYield": 0.0006,
+      "payoutRatio": 0.0112,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1756598400,
+            "value": 8539000000
+          },
+          {
+            "endDate": 1725062400,
+            "value": 778000000
+          },
+          {
+            "endDate": 1693440000,
+            "value": -5833000000
+          },
+          {
+            "endDate": 1661904000,
+            "value": 8687000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1756598400,
+            "value": 37378000000
+          },
+          {
+            "endDate": 1725062400,
+            "value": 25111000000
+          },
+          {
+            "endDate": 1693440000,
+            "value": 15540000000
+          },
+          {
+            "endDate": 1661904000,
+            "value": 30758000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1756598400,
+            "value": 54165000000
+          },
+          {
+            "endDate": 1725062400,
+            "value": 45131000000
+          },
+          {
+            "endDate": 1693440000,
+            "value": 44120000000
+          },
+          {
+            "endDate": 1661904000,
+            "value": 49907000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1756598400,
+            "value": 82798000000
+          },
+          {
+            "endDate": 1725062400,
+            "value": 69416000000
+          },
+          {
+            "endDate": 1693440000,
+            "value": 64254000000
+          },
+          {
+            "endDate": 1661904000,
+            "value": 66283000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1756598400,
+            "value": 1668000000
+          },
+          {
+            "endDate": 1725062400,
+            "value": 121000000
+          },
+          {
+            "endDate": 1693440000,
+            "value": -6117000000
+          },
+          {
+            "endDate": 1661904000,
+            "value": 3114000000
+          }
+        ]
+      },
+      "ticker": "MU",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "aapl": {
+      "price": 313.33,
+      "marketCap": 4572794322944,
+      "pe": 35.97359,
+      "forwardPe": 32.93679,
+      "pb": 42.572011,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 9.795564,
+      "peg": 2.53,
+      "eps": 8.71,
+      "forwardEps": 9.51307,
+      "bookValuePerShare": 7.36,
+      "enterpriseValue": 4594739445760,
+      "earningsYield": 0.027798,
+      "freeCashflowYield": 0.023557,
+      "roe": 1.48751,
+      "roa": 0.27082,
+      "grossMargin": 0.48653,
+      "operatingMargin": 0.32623,
+      "profitMargin": 0.27619,
+      "revenueGrowth": 0.164,
+      "earningsGrowth": 0.287,
+      "debtToEquity": 0.78445,
+      "currentRatio": 1.003,
+      "quickRatio": 0.812,
+      "totalCash": 62399000576,
+      "totalDebt": 84343996416,
+      "freeCashflow": 107721875456,
+      "operatingCashflow": 146723995648,
+      "dividendYield": 0.0034,
+      "payoutRatio": 0.1204,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1759190400,
+            "value": 112010000000
+          },
+          {
+            "endDate": 1727654400,
+            "value": 93736000000
+          },
+          {
+            "endDate": 1696032000,
+            "value": 96995000000
+          },
+          {
+            "endDate": 1664496000,
+            "value": 99803000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1759190400,
+            "value": 416161000000
+          },
+          {
+            "endDate": 1727654400,
+            "value": 391035000000
+          },
+          {
+            "endDate": 1696032000,
+            "value": 383285000000
+          },
+          {
+            "endDate": 1664496000,
+            "value": 394328000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1759190400,
+            "value": 73733000000
+          },
+          {
+            "endDate": 1727654400,
+            "value": 56950000000
+          },
+          {
+            "endDate": 1696032000,
+            "value": 62146000000
+          },
+          {
+            "endDate": 1664496000,
+            "value": 50672000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1759190400,
+            "value": 359241000000
+          },
+          {
+            "endDate": 1727654400,
+            "value": 364980000000
+          },
+          {
+            "endDate": 1696032000,
+            "value": 352583000000
+          },
+          {
+            "endDate": 1664496000,
+            "value": 352755000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1759190400,
+            "value": 98767000000
+          },
+          {
+            "endDate": 1727654400,
+            "value": 108807000000
+          },
+          {
+            "endDate": 1696032000,
+            "value": 99584000000
+          },
+          {
+            "endDate": 1664496000,
+            "value": 111443000000
+          }
+        ]
+      },
+      "ticker": "AAPL",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "nvda": {
+      "price": 223.96,
+      "marketCap": 5424535306240,
+      "pe": 34.244648,
+      "forwardPe": 17.37413,
+      "pb": 27.752169,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 21.39932,
+      "peg": 0.62,
+      "eps": 6.54,
+      "forwardEps": 12.89043,
+      "bookValuePerShare": 8.07,
+      "enterpriseValue": 5379473801216,
+      "earningsYield": 0.029202,
+      "freeCashflowYield": 0.008542,
+      "roe": 1.14288,
+      "roa": 0.52727,
+      "grossMargin": 0.74145,
+      "operatingMargin": 0.65596,
+      "profitMargin": 0.62966,
+      "revenueGrowth": 0.852,
+      "earningsGrowth": 2.145,
+      "debtToEquity": 0.06555,
+      "currentRatio": 3.441,
+      "quickRatio": 2.139,
+      "totalCash": 53171998720,
+      "totalDebt": 12814000128,
+      "freeCashflow": 46335873024,
+      "operatingCashflow": 125648003072,
+      "dividendYield": 0.0045,
+      "payoutRatio": 0.0061,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1769817600,
+            "value": 120067000000
+          },
+          {
+            "endDate": 1738281600,
+            "value": 72880000000
+          },
+          {
+            "endDate": 1706659200,
+            "value": 29760000000
+          },
+          {
+            "endDate": 1675123200,
+            "value": 4368000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1769817600,
+            "value": 215938000000
+          },
+          {
+            "endDate": 1738281600,
+            "value": 130497000000
+          },
+          {
+            "endDate": 1706659200,
+            "value": 60922000000
+          },
+          {
+            "endDate": 1675123200,
+            "value": 26974000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1769817600,
+            "value": 157293000000
+          },
+          {
+            "endDate": 1738281600,
+            "value": 79327000000
+          },
+          {
+            "endDate": 1706659200,
+            "value": 42978000000
+          },
+          {
+            "endDate": 1675123200,
+            "value": 22101000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1769817600,
+            "value": 206803000000
+          },
+          {
+            "endDate": 1738281600,
+            "value": 111601000000
+          },
+          {
+            "endDate": 1706659200,
+            "value": 65728000000
+          },
+          {
+            "endDate": 1675123200,
+            "value": 41182000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1769817600,
+            "value": 96676000000
+          },
+          {
+            "endDate": 1738281600,
+            "value": 60853000000
+          },
+          {
+            "endDate": 1706659200,
+            "value": 27021000000
+          },
+          {
+            "endDate": 1675123200,
+            "value": 3808000000
+          }
+        ]
+      },
+      "ticker": "NVDA",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "orcl": {
+      "price": 147.02,
+      "marketCap": 423486849024,
+      "pe": 25.174658,
+      "forwardPe": 13.500274,
+      "pb": 11.27454,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 6.287199,
+      "peg": 0.83,
+      "eps": 5.84,
+      "forwardEps": 10.89015,
+      "bookValuePerShare": 13.04,
+      "enterpriseValue": 564526841856,
+      "earningsYield": 0.039722,
+      "freeCashflowYield": -0.05794,
+      "roe": 0.53376,
+      "roa": 0.06505,
+      "grossMargin": 0.65822,
+      "operatingMargin": 0.36202,
+      "profitMargin": 0.25368,
+      "revenueGrowth": 0.206,
+      "earningsGrowth": 0.219,
+      "debtToEquity": 3.8887,
+      "currentRatio": 1.115,
+      "quickRatio": 1.012,
+      "totalCash": 31893999616,
+      "totalDebt": 167431995392,
+      "freeCashflow": -24536750080,
+      "operatingCashflow": 31977000960,
+      "dividendYield": 0.0136,
+      "payoutRatio": 0.3431,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1780185600,
+            "value": 17087000000
+          },
+          {
+            "endDate": 1748649600,
+            "value": 12443000000
+          },
+          {
+            "endDate": 1717113600,
+            "value": 10467000000
+          },
+          {
+            "endDate": 1685491200,
+            "value": 8503000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1780185600,
+            "value": 67357000000
+          },
+          {
+            "endDate": 1748649600,
+            "value": 57399000000
+          },
+          {
+            "endDate": 1717113600,
+            "value": 52961000000
+          },
+          {
+            "endDate": 1685491200,
+            "value": 49954000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1780185600,
+            "value": 42508000000
+          },
+          {
+            "endDate": 1748649600,
+            "value": 20451000000
+          },
+          {
+            "endDate": 1717113600,
+            "value": 8704000000
+          },
+          {
+            "endDate": 1685491200,
+            "value": 1073000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1780185600,
+            "value": 261759000000
+          },
+          {
+            "endDate": 1748649600,
+            "value": 168361000000
+          },
+          {
+            "endDate": 1717113600,
+            "value": 140976000000
+          },
+          {
+            "endDate": 1685491200,
+            "value": 134384000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1780185600,
+            "value": -23686000000
+          },
+          {
+            "endDate": 1748649600,
+            "value": -394000000
+          },
+          {
+            "endDate": 1717113600,
+            "value": 11807000000
+          },
+          {
+            "endDate": 1685491200,
+            "value": 8470000000
+          }
+        ]
+      },
+      "ticker": "ORCL",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "mstr": {
+      "price": 100.01,
+      "marketCap": 38426419200,
+      "pe": null,
+      "forwardPe": 2.020812,
+      "pb": 1.203258,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 77.10776,
+      "peg": 2.85,
+      "eps": -99.16,
+      "forwardEps": 49.49,
+      "bookValuePerShare": 83.116,
+      "enterpriseValue": 57190109184,
+      "earningsYield": null,
+      "freeCashflowYield": -0.587812,
+      "roe": -0.63562,
+      "roa": -0.38731,
+      "grossMargin": 0.67601,
+      "operatingMargin": -68.081116,
+      "profitMargin": 0,
+      "revenueGrowth": 0.069,
+      "earningsGrowth": null,
+      "debtToEquity": 0.14938,
+      "currentRatio": 5.39,
+      "quickRatio": 5.221,
+      "totalCash": 2447982080,
+      "totalDebt": 6770777088,
+      "freeCashflow": -22587523072,
+      "operatingCashflow": -20089000,
+      "dividendYield": null,
+      "payoutRatio": 0,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": -3848152000
+          },
+          {
+            "endDate": 1735603200,
+            "value": -1166661000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 429121000
+          },
+          {
+            "endDate": 1672444800,
+            "value": -1469797000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 477233000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 463456000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 496261000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 499264000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 51042972000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 18229984000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 2164972000
+          },
+          {
+            "endDate": 1672444800,
+            "value": -383120000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 61641082000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 25843685000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 4762528000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 2410272000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": -22579536000
+          },
+          {
+            "endDate": 1735603200,
+            "value": -22139269000
+          },
+          {
+            "endDate": 1703980800,
+            "value": -1892525000
+          },
+          {
+            "endDate": 1672444800,
+            "value": -287196000
+          }
+        ]
+      },
+      "ticker": "MSTR",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "pltr": {
+      "price": 172.01,
+      "marketCap": 413350068224,
+      "pe": 147.01709,
+      "forwardPe": 74.50448,
+      "pb": 42.23177,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 67.14653,
+      "peg": 2.37,
+      "eps": 1.17,
+      "forwardEps": 2.30872,
+      "bookValuePerShare": 4.073,
+      "enterpriseValue": 404263075840,
+      "earningsYield": 0.006802,
+      "freeCashflowYield": 0.005223,
+      "roe": 0.38097,
+      "roa": 0.17293,
+      "grossMargin": 0.84796,
+      "operatingMargin": 0.47121,
+      "profitMargin": 0.49005,
+      "revenueGrowth": 0.928,
+      "earningsGrowth": 2.154,
+      "debtToEquity": 0.02139,
+      "currentRatio": 7.228,
+      "quickRatio": 7.095,
+      "totalCash": 9409098752,
+      "totalDebt": 211400000,
+      "freeCashflow": 2159104512,
+      "operatingCashflow": 3400291072,
+      "dividendYield": null,
+      "payoutRatio": 0,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 1625033000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 462190000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 209825000
+          },
+          {
+            "endDate": 1672444800,
+            "value": -373705000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 4475446000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 2865507000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 2225012000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1905871000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 7387268000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 5003275000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 3475561000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 2565326000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 8900392000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 6340884000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 4522425000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 3461239000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 2100591000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1141231000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 697069000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 183710000
+          }
+        ]
+      },
+      "ticker": "PLTR",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "bbca": {
+      "price": 6375,
+      "marketCap": 783116151029760,
+      "pe": 13.513514,
+      "forwardPe": 13.212982,
+      "pb": 2.895737,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 7.165148,
+      "peg": 1.75,
+      "eps": 471.75,
+      "forwardEps": 482.48,
+      "bookValuePerShare": 2201.512,
+      "enterpriseValue": 757349031608320,
+      "earningsYield": 0.074,
+      "freeCashflowYield": null,
+      "roe": 0.21818,
+      "roa": 0.03671,
+      "grossMargin": 0,
+      "operatingMargin": 0.66751,
+      "profitMargin": 0.53118,
+      "revenueGrowth": 0.025,
+      "earningsGrowth": 0.004,
+      "debtToEquity": null,
+      "currentRatio": null,
+      "quickRatio": null,
+      "totalCash": 78018609414144,
+      "totalDebt": 52021302394880,
+      "freeCashflow": null,
+      "operatingCashflow": -21951307317248,
+      "dividendYield": 0.0558,
+      "payoutRatio": 0.7542,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 57537287000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 54836305000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 48639122000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 40735722000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 114319648000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 108796625000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 100485975000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 89523508000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 281466478000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 262640621000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 242356256000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 221018606000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 1586828536000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1449301328000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1408107010000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1314731674000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 75057575000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 49647050000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 52964427000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 30424257000000
+          }
+        ]
+      },
+      "ticker": "BBCA.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "bmri": {
+      "price": 4180,
+      "marketCap": 388628538720256,
+      "pe": 6.263298,
+      "forwardPe": 6.300115,
+      "pb": 1.370845,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 2.708066,
+      "peg": 4.22,
+      "eps": 667.38,
+      "forwardEps": 663.48,
+      "bookValuePerShare": 3049.215,
+      "enterpriseValue": 548205532020736,
+      "earningsYield": 0.15966,
+      "freeCashflowYield": null,
+      "roe": 0.22379,
+      "roa": 0.02623,
+      "grossMargin": 0,
+      "operatingMargin": 0.60428,
+      "profitMargin": 0.43378,
+      "revenueGrowth": -0.054,
+      "earningsGrowth": 0.336,
+      "debtToEquity": null,
+      "currentRatio": null,
+      "quickRatio": null,
+      "totalCash": 207942536134656,
+      "totalDebt": 351984884383744,
+      "freeCashflow": null,
+      "operatingCashflow": -292997803540480,
+      "dividendYield": 0.1125,
+      "payoutRatio": 0.7147,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 56293950000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 55782742000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 55060057000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 41170637000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 140173049000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 134799086000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 124193814000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 115633384000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 293750669000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 283796429000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 260852784000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 229678786000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 2829948026000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 2427223262000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 2174219449000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1992544687000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 199035811000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": -88102174000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": -74824994000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 92748840000000
+          }
+        ]
+      },
+      "ticker": "BMRI.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "hrta": {
+      "price": 2200,
+      "marketCap": 10131577241600,
+      "pe": 7.619048,
+      "forwardPe": null,
+      "pb": 2.772894,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 0.160048,
+      "peg": null,
+      "eps": 288.75,
+      "forwardEps": null,
+      "bookValuePerShare": 793.395,
+      "enterpriseValue": 13117816832000,
+      "earningsYield": 0.13125,
+      "freeCashflowYield": 0.039337,
+      "roe": 0.41947,
+      "roa": 0.13979,
+      "grossMargin": 0.03823,
+      "operatingMargin": 0.03092,
+      "profitMargin": 0.02101,
+      "revenueGrowth": 0.652,
+      "earningsGrowth": 0.341,
+      "debtToEquity": 1.11814,
+      "currentRatio": 1.689,
+      "quickRatio": 0.256,
+      "totalCash": 983698309120,
+      "totalDebt": 4189281845248,
+      "freeCashflow": 398544601088,
+      "operatingCashflow": 694811033600,
+      "dividendYield": 0.0186,
+      "payoutRatio": 0.1385,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 978493183523
+          },
+          {
+            "endDate": 1735603200,
+            "value": 442180750218
+          },
+          {
+            "endDate": 1703980800,
+            "value": 305804872434
+          },
+          {
+            "endDate": 1672444800,
+            "value": 253521017628
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 44548424151152
+          },
+          {
+            "endDate": 1735603200,
+            "value": 18228628989765
+          },
+          {
+            "endDate": 1703980800,
+            "value": 12857028724562
+          },
+          {
+            "endDate": 1672444800,
+            "value": 6918453560506
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 3220656576575
+          },
+          {
+            "endDate": 1735603200,
+            "value": 2339995153393
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1967076909846
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1717376285004
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 12602439207614
+          },
+          {
+            "endDate": 1735603200,
+            "value": 5959783480127
+          },
+          {
+            "endDate": 1703980800,
+            "value": 5029463481305
+          },
+          {
+            "endDate": 1672444800,
+            "value": 3849086552639
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 832615109530
+          },
+          {
+            "endDate": 1735603200,
+            "value": -615228491402
+          },
+          {
+            "endDate": 1703980800,
+            "value": -452366463618
+          },
+          {
+            "endDate": 1672444800,
+            "value": -53348261245
+          }
+        ]
+      },
+      "ticker": "HRTA.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "bumi": {
+      "price": 187,
+      "marketCap": 69439718424576,
+      "pe": 31.8569,
+      "forwardPe": null,
+      "pb": 2.640394,
+      "bookValueConverted": true,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
+      "ps": 43034.434,
+      "peg": 0.1,
+      "eps": 5.87,
+      "forwardEps": null,
+      "bookValuePerShare": 70.822769,
+      "enterpriseValue": 69441555529728,
+      "earningsYield": 0.03139,
+      "freeCashflowYield": -0.000002,
+      "roe": 0.05421,
+      "roa": 0.02406,
+      "grossMargin": 0.17476,
+      "operatingMargin": 0.07232,
+      "profitMargin": 0.07403,
+      "revenueGrowth": 0.364,
+      "earningsGrowth": 92,
+      "debtToEquity": 0.2484,
+      "currentRatio": 1.291,
+      "quickRatio": 0.639,
+      "totalCash": 179689600,
+      "totalDebt": 732992960,
+      "freeCashflow": -113085288,
+      "operatingCashflow": 2638513,
+      "dividendYield": null,
+      "payoutRatio": 0,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 84240712
+          },
+          {
+            "endDate": 1735603200,
+            "value": 71023627
+          },
+          {
+            "endDate": 1703980800,
+            "value": 16448221
+          },
+          {
+            "endDate": 1672444800,
+            "value": 547164500
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 1424767199
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1359679473
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1679948765
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1830079927
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 1615319619
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1610027890
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1543136952
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1578362864
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 4218609825
+          },
+          {
+            "endDate": 1735603200,
+            "value": 4163401077
+          },
+          {
+            "endDate": 1703980800,
+            "value": 4202694216
+          },
+          {
+            "endDate": 1672444800,
+            "value": 4488046969
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": -66232071
+          },
+          {
+            "endDate": 1735603200,
+            "value": -30155974
+          },
+          {
+            "endDate": 1703980800,
+            "value": -167814611
+          },
+          {
+            "endDate": 1672444800,
+            "value": -722967581
+          }
+        ]
+      },
+      "ticker": "BUMI.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "arci": {
+      "price": 1265,
+      "marketCap": 31922273124352,
+      "pe": 14.427464,
+      "forwardPe": null,
+      "pb": 4.465372,
+      "bookValueConverted": true,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
+      "ps": 58858.062,
+      "peg": null,
+      "eps": 87.68,
+      "forwardEps": null,
+      "bookValuePerShare": 283.291074,
+      "enterpriseValue": 31165671014400,
+      "earningsYield": 0.069312,
+      "freeCashflowYield": 0,
+      "roe": 0.3615,
+      "roa": 0.14967,
+      "grossMargin": 0.44779,
+      "operatingMargin": 0.40677,
+      "profitMargin": 0.22371,
+      "revenueGrowth": 0.508,
+      "earningsGrowth": 1.85,
+      "debtToEquity": 1.23001,
+      "currentRatio": 1.019,
+      "quickRatio": 0.385,
+      "totalCash": 39462872,
+      "totalDebt": 483308128,
+      "freeCashflow": 12574336,
+      "operatingCashflow": 79634760,
+      "dividendYield": 0.0328,
+      "payoutRatio": 0.2416,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 101821019
+          },
+          {
+            "endDate": 1735603200,
+            "value": 10457653
+          },
+          {
+            "endDate": 1703980800,
+            "value": 14569739
+          },
+          {
+            "endDate": 1672444800,
+            "value": 14550684
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 496229823
+          },
+          {
+            "endDate": 1735603200,
+            "value": 287618877
+          },
+          {
+            "endDate": 1703980800,
+            "value": 249630768
+          },
+          {
+            "endDate": 1672444800,
+            "value": 216476272
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 362190321
+          },
+          {
+            "endDate": 1735603200,
+            "value": 272906015
+          },
+          {
+            "endDate": 1703980800,
+            "value": 262534900
+          },
+          {
+            "endDate": 1672444800,
+            "value": 247837925
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 1026763377
+          },
+          {
+            "endDate": 1735603200,
+            "value": 865399797
+          },
+          {
+            "endDate": 1703980800,
+            "value": 803580181
+          },
+          {
+            "endDate": 1672444800,
+            "value": 717816422
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": -22723692
+          },
+          {
+            "endDate": 1735603200,
+            "value": -1708899
+          },
+          {
+            "endDate": 1703980800,
+            "value": -101071960
+          },
+          {
+            "endDate": 1672444800,
+            "value": -15053544
+          }
+        ]
+      },
+      "ticker": "ARCI.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "untr": {
+      "price": 24050,
+      "marketCap": 84008905998336,
+      "pe": 11.375569,
+      "forwardPe": 4.839404,
+      "pb": 0.894804,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 0.693916,
+      "peg": 0.43,
+      "eps": 2114.18,
+      "forwardEps": 4969.62,
+      "bookValuePerShare": 26877.389,
+      "enterpriseValue": 97299162202112,
+      "earningsYield": 0.087908,
+      "freeCashflowYield": 0.080929,
+      "roe": 0.07437,
+      "roa": 0.0516,
+      "grossMargin": 0.20819,
+      "operatingMargin": 0.06849,
+      "profitMargin": 0.06308,
+      "revenueGrowth": -0.132,
+      "earningsGrowth": -0.934,
+      "debtToEquity": 0.27593,
+      "currentRatio": 1.237,
+      "quickRatio": 0.809,
+      "totalCash": 18653672112128,
+      "totalDebt": 28076396249088,
+      "freeCashflow": 6798736097280,
+      "operatingCashflow": 18528755253248,
+      "dividendYield": 0.0926,
+      "payoutRatio": 0.7867,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 14810434000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 19531205000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 20611775000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 21005105000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 131300810000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 134426998000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 128583264000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 123607460000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 97773620000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 92947394000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 79250552000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 84698121000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 177637299000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 169480618000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 153753903000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 140478220000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 13043351000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 16358111000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 7201129000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 23605522000000
+          }
+        ]
+      },
+      "ticker": "UNTR.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "asii": {
+      "price": 5000,
+      "marketCap": 199600317136896,
+      "pe": 6.756665,
+      "forwardPe": 6.511604,
+      "pb": 0.867571,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 0.626791,
+      "peg": 0.77,
+      "eps": 740.01,
+      "forwardEps": 767.86,
+      "bookValuePerShare": 5763.218,
+      "enterpriseValue": 334918294962176,
+      "earningsYield": 0.148002,
+      "freeCashflowYield": 0.083168,
+      "roe": 0.11983,
+      "roa": 0.0435,
+      "grossMargin": 0.18989,
+      "operatingMargin": 0.10734,
+      "profitMargin": 0.09354,
+      "revenueGrowth": -0.003,
+      "earningsGrowth": -0.212,
+      "debtToEquity": 0.41125,
+      "currentRatio": 1.187,
+      "quickRatio": 0.848,
+      "totalCash": 47647998083072,
+      "totalDebt": 119198000873472,
+      "freeCashflow": 16600374706176,
+      "operatingCashflow": 37806000832512,
+      "dividendYield": 0.0765,
+      "payoutRatio": 0.527,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 32769000000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 33901000000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 33839000000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 28944000000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 323392000000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 328480000000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 316565000000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 301379000000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 228906000000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 213676000000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 198640000000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 192142000000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 507366000000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 471449000000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 445405000000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 413297000000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 27254000000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 27521000000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 11648000000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 25487000000000
+          }
+        ]
+      },
+      "ticker": "ASII.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "bbni": {
+      "price": 3650,
+      "marketCap": 135987313246208,
+      "pe": 6.698969,
+      "forwardPe": 5.411015,
+      "pb": 0.838777,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 2.618411,
+      "peg": 0.81,
+      "eps": 544.86,
+      "forwardEps": 674.55,
+      "bookValuePerShare": 4351.573,
+      "enterpriseValue": -43457074692096,
+      "earningsYield": 0.149277,
+      "freeCashflowYield": null,
+      "roe": 0.1245,
+      "roa": 0.01559,
+      "grossMargin": 0,
+      "operatingMargin": 0.42649,
+      "profitMargin": 0.39862,
+      "revenueGrowth": 0.098,
+      "earningsGrowth": 0.082,
+      "debtToEquity": null,
+      "currentRatio": null,
+      "quickRatio": null,
+      "totalCash": 171659105402880,
+      "totalDebt": 121734296502272,
+      "freeCashflow": null,
+      "operatingCashflow": -183629699350528,
+      "dividendYield": 0.0963,
+      "payoutRatio": 1.3275,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 20040703000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 21463599000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 20909476000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 18312054000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 57909918000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 56347695000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 56389769000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 56608758000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 171730144000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 162071240000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 149666236000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 135815715000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 1362054731000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1130128862000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1086920782000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 1029836868000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 100187435000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": -66324582000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 8037804000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 17511310000000
+          }
+        ]
+      },
+      "ticker": "BBNI.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "adro": {
+      "price": 2530,
+      "marketCap": 72865252638720,
+      "pe": 8.245608,
+      "forwardPe": 4.899682,
+      "pb": 0.840541,
+      "bookValueConverted": true,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 17706",
+      "ps": 37122.85,
+      "peg": 0.85,
+      "eps": 306.83,
+      "forwardEps": 516.36,
+      "bookValuePerShare": 3009.967665,
+      "enterpriseValue": 73152856064000,
+      "earningsYield": 0.121277,
+      "freeCashflowYield": 0,
+      "roe": 0.10256,
+      "roa": 0.05422,
+      "grossMargin": 0.35911,
+      "operatingMargin": 0.31133,
+      "profitMargin": 0.2543,
+      "revenueGrowth": 0.234,
+      "earningsGrowth": 0.748,
+      "debtToEquity": 0.19536,
+      "currentRatio": 4.321,
+      "quickRatio": 3.945,
+      "totalCash": 1987622016,
+      "totalDebt": 1059564992,
+      "freeCashflow": -21144876,
+      "operatingCashflow": 708364992,
+      "dividendYield": 0.0931,
+      "payoutRatio": 1.1035,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 447694000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1380013000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 1641437000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 2493080000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 1873528000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 2078689000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 2135412000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 8102399000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 4485423000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 4926856000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 6772664000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 6024600000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 6816993000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 6702127000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 10472711000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 10782307000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": -207442000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 1178680000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 564985000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 3460645000
+          }
+        ]
+      },
+      "ticker": "ADRO.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "indf": {
+      "price": 7325,
+      "marketCap": 64316623552512,
+      "pe": 6.720554,
+      "forwardPe": 5.634572,
+      "pb": 0.838969,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 0.497901,
+      "peg": 0.43,
+      "eps": 1089.94,
+      "forwardEps": 1300.01,
+      "bookValuePerShare": 8730.951,
+      "enterpriseValue": 128765678059520,
+      "earningsYield": 0.148797,
+      "freeCashflowYield": 0.186176,
+      "roe": 0.12137,
+      "roa": 0.06997,
+      "grossMargin": 0.33187,
+      "operatingMargin": 0.18085,
+      "profitMargin": 0.07409,
+      "revenueGrowth": 0.118,
+      "earningsGrowth": -0.433,
+      "debtToEquity": 0.63789,
+      "currentRatio": 2.029,
+      "quickRatio": 1.532,
+      "totalCash": 64252073213952,
+      "totalDebt": 79552919371776,
+      "freeCashflow": 11974183223296,
+      "operatingCashflow": 20143400812544,
+      "dividendYield": 0.0389,
+      "payoutRatio": 0.2661,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 10684653000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 8641612000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 8147019000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 6359094000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 123493214000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 115786525000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 111703611000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 110830272000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 73147337000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 65113504000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 59193013000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 53843836000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 217981765000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 201713313000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 186587957000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 180433300000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 13939177000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 11818534000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 14492760000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 9645182000000
+          }
+        ]
+      },
+      "ticker": "INDF.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    },
+    "antm": {
+      "price": 3140,
+      "marketCap": 75456602701824,
+      "pe": 8.89594,
+      "forwardPe": 22.157927,
+      "pb": 1.942405,
+      "bookValueConverted": false,
+      "bookValueNote": null,
+      "ps": 0.859277,
+      "peg": 0,
+      "eps": 352.97,
+      "forwardEps": 141.71,
+      "bookValuePerShare": 1616.553,
+      "enterpriseValue": 75020806127616,
+      "earningsYield": 0.112411,
+      "freeCashflowYield": -0.062944,
+      "roe": 0.24687,
+      "roa": 0.10846,
+      "grossMargin": 0.18955,
+      "operatingMargin": 0.15276,
+      "profitMargin": 0.09662,
+      "revenueGrowth": 0.121,
+      "earningsGrowth": 0.599,
+      "debtToEquity": 0.21609,
+      "currentRatio": 1.977,
+      "quickRatio": 0.873,
+      "totalCash": 11206818529280,
+      "totalDebt": 8731396931584,
+      "freeCashflow": -4749535477760,
+      "operatingCashflow": -382962991104,
+      "dividendYield": 0.0665,
+      "payoutRatio": 0.4299,
+      "history": {
+        "netIncome": [
+          {
+            "endDate": 1767139200,
+            "value": 7208834000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 3647210000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 3077646000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 3820965000000
+          }
+        ],
+        "revenue": [
+          {
+            "endDate": 1767139200,
+            "value": 84642439000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 69192440000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 41047693000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 45930356000000
+          }
+        ],
+        "equity": [
+          {
+            "endDate": 1767139200,
+            "value": 35298207000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 31458113000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 30643195000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 23712043000000
+          }
+        ],
+        "totalAssets": [
+          {
+            "endDate": 1767139200,
+            "value": 52530405000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 44522645000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 42851329000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 33637271000000
+          }
+        ],
+        "freeCashflow": [
+          {
+            "endDate": 1767139200,
+            "value": 4153893000000
+          },
+          {
+            "endDate": 1735603200,
+            "value": 2456849000000
+          },
+          {
+            "endDate": 1703980800,
+            "value": 2917959000000
+          },
+          {
+            "endDate": 1672444800,
+            "value": 3397036000000
+          }
+        ]
+      },
+      "ticker": "ANTM.JK",
+      "provider": "yahoo",
+      "fetchedAt": "2026-08-10T11:06:06.914Z"
+    }
+  }
 }

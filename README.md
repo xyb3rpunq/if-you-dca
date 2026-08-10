@@ -185,18 +185,31 @@ seluruh konstituen S&P 500 tanpa perubahan kode.
 Field opsional: `listedSince` (penanda data parsial), `coingecko` (mengaktifkan harga live),
 `sanity: { min, max }` (rentang wajar untuk pemeriksaan anomali), `role` (`fx` atau `benchmark`).
 
-## Data fundamental (opsional)
+## Data fundamental — tanpa API key
 
-Value Lens butuh API key gratis. Tanpa key, situs tetap berjalan penuh dan halaman itu
-menampilkan keadaan kosong yang jujur — bukan angka karangan.
+Value Lens memakai Yahoo Finance, bukan Financial Modeling Prep seperti rencana awal.
+Alasannya menentukan: **tier gratis FMP dan Finnhub praktis tidak meliput ticker `.JK`**,
+sedangkan 18 dari 25 aset di sini adalah saham IDX. Yahoo meliputnya, dan tanpa key sama
+sekali. Cakupan saat ini 18/18.
 
-1. Daftar gratis di [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs)
-   (atau [Finnhub](https://finnhub.io/)).
-2. **Settings → Secrets and variables → Actions → New repository secret**
-3. Nama: `FMP_API_KEY` (atau `FINNHUB_API_KEY`), isi dengan key-nya.
-4. Jalankan ulang workflow **Segarkan data pasar**.
+Endpoint fundamental Yahoo menolak permintaan tanpa cookie + crumb sejak 2023; alur itu
+dibungkus di [`scripts/lib/yahoo.mjs`](scripts/lib/yahoo.mjs).
 
-Key hanya dibaca di dalam Actions. Tidak pernah masuk ke kode frontend.
+<details>
+<summary>Jebakan satuan yang wajib dikoreksi</summary>
+
+Yahoo kadang melaporkan **nilai buku saham IDX dalam dolar** sementara harganya dalam
+rupiah. BUMI tercatat bernilai buku 0,004 sementara harganya 187 — P/B terbaca **46.750**.
+
+Dibiarkan, saham itu tampak termahal sedunia; angka sebenarnya sekitar 2,6. Lebih berbahaya
+lagi, Graham Number memakai nilai buku secara langsung, jadi kesalahan ini merambat ke
+perkiraan nilai wajar **tanpa gejala apa pun**.
+
+`reconcileBookValue()` mendeteksi rasio yang mustahil, mencoba mengoreksinya dengan kurs, dan
+hanya menerima hasilnya kalau jatuh di rentang wajar — kalau tidak, nilainya dibuang. Koreksi
+yang terjadi ditandai di UI. Terbukti benar lewat kecocokan dengan emiten sejenis: ADRO
+berpindah dari 14.882 ke 0,84, sejajar dengan UNTR 0,89 dan ASII 0,87.
+</details>
 
 ## Validasi data
 

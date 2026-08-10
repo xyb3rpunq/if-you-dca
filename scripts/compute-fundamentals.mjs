@@ -1,158 +1,165 @@
 /**
- * Menarik rasio fundamental untuk Value Lens.
+ * Menarik data fundamental untuk Value Lens.
  *
- * Ini satu-satunya sumber data yang butuh API key, dan key-nya TIDAK PERNAH masuk ke
- * kode frontend — hanya dibaca dari environment di dalam GitHub Actions
- * (`secrets.FMP_API_KEY` / `secrets.FINNHUB_API_KEY`).
+ * Sumber utamanya Yahoo Finance, bukan Financial Modeling Prep seperti rencana
+ * awal, karena satu alasan yang menentukan: tier gratis FMP dan Finnhub praktis
+ * tidak meliput ticker `.JK`, sedangkan 18 dari 25 aset di sini adalah saham IDX.
+ * Yahoo meliputnya, dan tanpa API key sama sekali.
  *
- * Tanpa key, script tetap sukses dan menulis penanda "tidak tersedia". Halaman Value
- * Lens lalu menampilkan keadaan kosong yang jujur, bukan angka karangan.
+ * Selain rasio saat ini, script ini menarik tiga tahun laporan keuangan supaya
+ * kualitas bisnis bisa dinilai dari TREN, bukan dari satu potret. ROE 20% sekali
+ * dan ROE 20% lima tahun berturut-turut adalah dua hal yang sangat berbeda.
  *
- * Pakai: node scripts/compute-fundamentals.mjs
+ * Pakai: node scripts/compute-fundamentals.mjs [--only=bbca,nvda]
  */
 
 import { resolve } from 'node:path';
 
-import { COMPUTED_DIR, loadAssets, writeJson } from './lib/series.mjs';
+import { reconcileBookValue } from '../src/lib/finance/value.ts';
+import { COMPUTED_DIR, PRICES_DIR, loadAssets, readJson, writeJson } from './lib/series.mjs';
+import { debtToEquityRatio, fetchQuoteSummary, fetchTimeseries, raw } from './lib/yahoo.mjs';
 
-const FMP_KEY = process.env.FMP_API_KEY?.trim();
-const FINNHUB_KEY = process.env.FINNHUB_API_KEY?.trim();
-const DELAY_MS = Number(process.env.FUNDAMENTALS_DELAY_MS ?? 400);
+const args = Object.fromEntries(
+  process.argv.slice(2).map((a) => {
+    const [k, v] = a.replace(/^--/, '').split('=');
+    return [k, v ?? 'true'];
+  }),
+);
+const ONLY = args.only ? new Set(args.only.split(',').map((s) => s.trim().toLowerCase())) : null;
+const DELAY_MS = Number(args.delay ?? 600);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const round = (v, d = 6) => (v == null || !Number.isFinite(v) ? null : Number(v.toFixed(d)));
 
-const num = (value) => (typeof value === 'number' && Number.isFinite(value) ? value : null);
+const TIMESERIES_TYPES = [
+  'annualNetIncome',
+  'annualTotalRevenue',
+  'annualStockholdersEquity',
+  'annualTotalAssets',
+  'annualFreeCashFlow',
+];
 
-async function getJson(url) {
-  const res = await fetch(url, { headers: { accept: 'application/json' } });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
-}
+function extract(result, fxRate) {
+  const stats = result.defaultKeyStatistics ?? {};
+  const fin = result.financialData ?? {};
+  const detail = result.summaryDetail ?? {};
 
-/**
- * FMP memindahkan endpoint gratisnya dari `/api/v3/...` ke `/stable/...`; key baru
- * hanya bekerja di yang kedua, key lama masih di yang pertama. Dicoba keduanya.
- */
-async function fetchFmp(ticker) {
-  const attempts = [
-    {
-      quote: `https://financialmodelingprep.com/stable/quote?symbol=${ticker}&apikey=${FMP_KEY}`,
-      ratios: `https://financialmodelingprep.com/stable/ratios-ttm?symbol=${ticker}&apikey=${FMP_KEY}`,
-      metrics: `https://financialmodelingprep.com/stable/key-metrics-ttm?symbol=${ticker}&apikey=${FMP_KEY}`,
-    },
-    {
-      quote: `https://financialmodelingprep.com/api/v3/quote/${ticker}?apikey=${FMP_KEY}`,
-      ratios: `https://financialmodelingprep.com/api/v3/ratios-ttm/${ticker}?apikey=${FMP_KEY}`,
-      metrics: `https://financialmodelingprep.com/api/v3/key-metrics-ttm/${ticker}?apikey=${FMP_KEY}`,
-    },
-  ];
+  const price = raw(fin.currentPrice);
+  const marketCap = raw(detail.marketCap);
+  const freeCashflow = raw(fin.freeCashflow);
+  const trailingEps = raw(stats.trailingEps);
+  const pe = raw(detail.trailingPE);
 
-  let lastError = null;
-  for (const urls of attempts) {
-    try {
-      const [quote, ratios, metrics] = await Promise.all([
-        getJson(urls.quote),
-        getJson(urls.ratios),
-        getJson(urls.metrics),
-      ]);
-      const q = Array.isArray(quote) ? quote[0] : quote;
-      const r = Array.isArray(ratios) ? ratios[0] : ratios;
-      const m = Array.isArray(metrics) ? metrics[0] : metrics;
-      if (!q && !r && !m) throw new Error('respons kosong');
+  // Yahoo kadang melaporkan nilai buku saham IDX dalam dolar sementara harganya
+  // dalam rupiah. Dibiarkan, P/B terbaca puluhan ribu dan Graham Number ikut rusak.
+  const reconciled = reconcileBookValue({ price, bookValuePerShare: raw(stats.bookValue), fxRate });
+  const bookValue = reconciled.bookValuePerShare;
+  const pb = bookValue != null && price != null && bookValue > 0 ? price / bookValue : raw(stats.priceToBook);
 
-      return {
-        provider: 'financialmodelingprep',
-        price: num(q?.price),
-        eps: num(q?.eps ?? r?.netIncomePerShareTTM),
-        bookValuePerShare: num(m?.bookValuePerShareTTM ?? m?.bookValuePerShare),
-        pe: num(q?.pe ?? r?.priceToEarningsRatioTTM ?? r?.peRatioTTM),
-        pb: num(r?.priceToBookRatioTTM ?? m?.pbRatioTTM),
-        ps: num(r?.priceToSalesRatioTTM ?? m?.priceToSalesRatioTTM),
-        dividendYield: num(r?.dividendYielTTM ?? r?.dividendYieldTTM),
-        roe: num(r?.returnOnEquityTTM ?? m?.roeTTM),
-        roa: num(r?.returnOnAssetsTTM ?? m?.returnOnTangibleAssetsTTM),
-        debtToEquity: num(r?.debtToEquityRatioTTM ?? r?.debtEquityRatioTTM ?? m?.debtToEquityTTM),
-      };
-    } catch (err) {
-      lastError = err;
-    }
-  }
-  throw lastError ?? new Error('FMP gagal');
-}
-
-async function fetchFinnhub(ticker) {
-  const json = await getJson(
-    `https://finnhub.io/api/v1/stock/metric?symbol=${ticker}&metric=all&token=${FINNHUB_KEY}`,
-  );
-  const m = json?.metric;
-  if (!m) throw new Error('respons kosong');
   return {
-    provider: 'finnhub',
-    price: null,
-    eps: num(m.epsTTM ?? m.epsBasicExclExtraItemsTTM),
-    bookValuePerShare: num(m.bookValuePerShareQuarterly ?? m.bookValuePerShareAnnual),
-    pe: num(m.peTTM ?? m.peBasicExclExtraTTM),
-    pb: num(m.pbQuarterly ?? m.pbAnnual),
-    ps: num(m.psTTM ?? m.psAnnual),
-    // Finnhub melaporkan yield dalam persen, sedangkan modul finance memakai desimal.
-    dividendYield: m.dividendYieldIndicatedAnnual != null ? num(m.dividendYieldIndicatedAnnual) / 100 : null,
-    roe: m.roeTTM != null ? num(m.roeTTM) / 100 : null,
-    roa: m.roaTTM != null ? num(m.roaTTM) / 100 : null,
-    debtToEquity: num(m['totalDebt/totalEquityQuarterly'] ?? m['totalDebt/totalEquityAnnual']),
+    // ── Valuasi ────────────────────────────────────────────────────────────
+    price,
+    marketCap,
+    pe,
+    forwardPe: raw(detail.forwardPE),
+    pb,
+    bookValueConverted: reconciled.converted,
+    bookValueNote: reconciled.note,
+    ps: raw(detail.priceToSalesTrailing12Months),
+    peg: raw(stats.pegRatio),
+    eps: trailingEps,
+    forwardEps: raw(stats.forwardEps),
+    bookValuePerShare: bookValue,
+    enterpriseValue: raw(stats.enterpriseValue),
+    // Earnings yield adalah kebalikan P/E, dan jauh lebih mudah dibandingkan
+    // dengan bunga deposito atau obligasi daripada P/E itu sendiri.
+    earningsYield: pe != null && pe > 0 ? 1 / pe : null,
+    freeCashflowYield: freeCashflow != null && marketCap ? freeCashflow / marketCap : null,
+
+    // ── Kualitas ───────────────────────────────────────────────────────────
+    roe: raw(fin.returnOnEquity),
+    roa: raw(fin.returnOnAssets),
+    grossMargin: raw(fin.grossMargins),
+    operatingMargin: raw(fin.operatingMargins),
+    profitMargin: raw(fin.profitMargins),
+    revenueGrowth: raw(fin.revenueGrowth),
+    earningsGrowth: raw(fin.earningsGrowth),
+
+    // ── Kesehatan keuangan ─────────────────────────────────────────────────
+    debtToEquity: debtToEquityRatio(fin.debtToEquity),
+    currentRatio: raw(fin.currentRatio),
+    quickRatio: raw(fin.quickRatio),
+    totalCash: raw(fin.totalCash),
+    totalDebt: raw(fin.totalDebt),
+    freeCashflow,
+    operatingCashflow: raw(fin.operatingCashflow),
+
+    // ── Dividen ────────────────────────────────────────────────────────────
+    dividendYield: raw(detail.dividendYield),
+    payoutRatio: raw(detail.payoutRatio),
+
   };
 }
 
 async function main() {
   const config = await loadAssets();
-  const targets = config.assets.filter((a) => a.fundamentals);
+  const targets = config.assets.filter((a) => a.fundamentals && (!ONLY || ONLY.has(a.id)));
   const generatedAt = new Date().toISOString();
 
-  if (!FMP_KEY && !FINNHUB_KEY) {
-    console.log('Tidak ada FMP_API_KEY maupun FINNHUB_API_KEY — Value Lens akan tampil sebagai keadaan kosong.');
-    await writeJson(resolve(COMPUTED_DIR, 'fundamentals.json'), {
-      generatedAt,
-      available: false,
-      reason: 'no-api-key',
-      message:
-        'Data fundamental butuh API key gratis dari Financial Modeling Prep atau Finnhub. ' +
-        'Tambahkan sebagai GitHub Secret bernama FMP_API_KEY, lalu jalankan ulang workflow refresh-data.',
-      assets: {},
-    });
-    return;
-  }
+  // Kurs dipakai untuk mendeteksi dan mengoreksi nilai buku yang dilaporkan
+  // dalam mata uang berbeda dari harganya.
+  const fx = await readJson(resolve(PRICES_DIR, `${config.defaults.fxAsset}.json`), null);
+  const fxRate = fx?.monthly?.[fx.monthly.length - 1]?.c ?? null;
+  console.log(`Menarik fundamental ${targets.length} saham dari Yahoo Finance (kurs acuan ${fxRate ?? '—'})…\n`);
 
-  console.log(`Menarik fundamental ${targets.length} saham (${FMP_KEY ? 'FMP' : 'Finnhub'})…\n`);
   const assets = {};
   let ok = 0;
+  let repaired = 0;
 
   for (const asset of targets) {
     process.stdout.write(`  ${asset.id.padEnd(8)} ${asset.fundamentals.padEnd(10)} `);
-    let data = null;
-    let error = null;
+    try {
+      const result = await fetchQuoteSummary(asset.fundamentals);
+      const data = extract(result, fxRate);
+      if (data.bookValueConverted) repaired += 1;
 
-    if (FMP_KEY) {
+      // Riwayat tahunan datang dari endpoint terpisah: modul neraca dan arus kas
+      // di quoteSummary sudah dikosongkan Yahoo.
+      let history = {};
       try {
-        data = await fetchFmp(asset.fundamentals);
+        const series = await fetchTimeseries(asset.fundamentals, TIMESERIES_TYPES);
+        history = {
+          netIncome: series.annualNetIncome ?? [],
+          revenue: series.annualTotalRevenue ?? [],
+          equity: series.annualStockholdersEquity ?? [],
+          totalAssets: series.annualTotalAssets ?? [],
+          freeCashflow: series.annualFreeCashFlow ?? [],
+        };
       } catch (err) {
-        error = `FMP: ${err.message}`;
+        // Riwayat itu pelengkap; rasio saat ini tetap berguna tanpanya.
+        history = { error: err.message };
       }
-    }
-    if (!data && FINNHUB_KEY) {
-      try {
-        data = await fetchFinnhub(asset.fundamentals);
-        error = null;
-      } catch (err) {
-        error = `${error ? `${error}; ` : ''}Finnhub: ${err.message}`;
-      }
-    }
+      data.history = history;
 
-    if (data) {
+      // Tanpa harga dan laba per saham, tidak ada satu pun rasio yang bisa
+      // dihitung — lebih baik dicatat gagal daripada menampilkan baris kosong.
+      if (data.price == null && data.pe == null) throw new Error('tidak ada data valuasi');
+
+      const rounded = Object.fromEntries(
+        Object.entries(data).map(([k, v]) => [k, typeof v === 'number' ? round(v) : v]),
+      );
+
+      assets[asset.id] = { ...rounded, ticker: asset.fundamentals, provider: 'yahoo', fetchedAt: generatedAt };
       ok += 1;
-      assets[asset.id] = { ...data, ticker: asset.fundamentals, fetchedAt: generatedAt };
-      console.log(`✓ ${data.provider}  P/E ${data.pe ?? 'n/a'}  P/B ${data.pb ?? 'n/a'}`);
-    } else {
-      assets[asset.id] = { ticker: asset.fundamentals, error, fetchedAt: generatedAt };
-      console.log(`✗ ${error}`);
+      console.log(
+        `✓ P/E ${data.pe?.toFixed(1) ?? '—'}  P/B ${data.pb?.toFixed(2) ?? '—'}  ` +
+          `ROE ${data.roe != null ? `${(data.roe * 100).toFixed(1)}%` : '—'}  ` +
+          `yield ${data.dividendYield != null ? `${(data.dividendYield * 100).toFixed(1)}%` : '—'}` +
+          (data.bookValueConverted ? '  [nilai buku dikoreksi satuannya]' : ''),
+      );
+    } catch (err) {
+      assets[asset.id] = { ticker: asset.fundamentals, error: err.message, fetchedAt: generatedAt };
+      console.log(`✗ ${err.message}`);
     }
     await sleep(DELAY_MS);
   }
@@ -160,11 +167,19 @@ async function main() {
   await writeJson(resolve(COMPUTED_DIR, 'fundamentals.json'), {
     generatedAt,
     available: ok > 0,
-    provider: FMP_KEY ? 'financialmodelingprep' : 'finnhub',
+    provider: 'yahoo-finance',
     coverage: `${ok}/${targets.length}`,
+    note:
+      'Yahoo Finance dipakai karena meliput ticker .JK, yang tidak dijangkau tier gratis ' +
+      'Financial Modeling Prep maupun Finnhub. Tidak memerlukan API key.',
     assets,
   });
+
   console.log(`\nSelesai: ${ok}/${targets.length} saham punya data fundamental.`);
+  if (repaired > 0) {
+    console.log(`  ${repaired} saham nilai bukunya dikoreksi satuannya (dilaporkan dalam mata uang lain).`);
+  }
+  if (ok === 0) process.exitCode = 1;
 }
 
 main().catch((err) => {

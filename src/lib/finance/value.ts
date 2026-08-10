@@ -24,6 +24,69 @@ export interface Fundamentals {
   currency?: string;
 }
 
+export interface BookValueReconciliation {
+  bookValuePerShare: number | null;
+  /** true kalau nilainya dikalikan kurs karena terdeteksi dilaporkan dalam mata uang lain. */
+  converted: boolean;
+  note: string | null;
+}
+
+/** Di luar rentang ini, P/B hampir pasti hasil salah satuan, bukan penilaian pasar. */
+const PB_PLAUSIBLE = { min: 0.02, max: 60 };
+
+/**
+ * Samakan satuan nilai buku per saham dengan satuan harganya.
+ *
+ * Ini bukan pembersihan kosmetik. Penyedia data kadang melaporkan nilai buku
+ * saham IDX dalam DOLAR sementara harganya dalam rupiah — BUMI tercatat bernilai
+ * buku 0,004 sementara harganya 187. Dibiarkan, P/B-nya terbaca 46.750 dan saham
+ * itu tampak termahal sedunia, sedangkan angka sebenarnya sekitar 2,6.
+ *
+ * Yang lebih berbahaya: Graham Number memakai nilai buku secara langsung, jadi
+ * kesalahan ini merambat ke perkiraan nilai wajar tanpa gejala apa pun.
+ *
+ * Konversi hanya dilakukan kalau rasio aslinya mustahil DAN hasil konversinya
+ * masuk akal. Kalau keduanya tidak terpenuhi, nilainya dibuang — lebih baik tidak
+ * ada angka daripada angka yang salah diam-diam.
+ */
+export function reconcileBookValue(input: {
+  price: number | null | undefined;
+  bookValuePerShare: number | null | undefined;
+  fxRate: number | null | undefined;
+}): BookValueReconciliation {
+  const { price, bookValuePerShare: bvps, fxRate } = input;
+
+  if (bvps == null || !Number.isFinite(bvps) || bvps <= 0) {
+    return { bookValuePerShare: null, converted: false, note: null };
+  }
+  if (price == null || !Number.isFinite(price) || price <= 0) {
+    return { bookValuePerShare: bvps, converted: false, note: null };
+  }
+
+  const ratio = price / bvps;
+  if (ratio >= PB_PLAUSIBLE.min && ratio <= PB_PLAUSIBLE.max) {
+    return { bookValuePerShare: bvps, converted: false, note: null };
+  }
+
+  if (fxRate != null && Number.isFinite(fxRate) && fxRate > 0) {
+    const convertedBvps = bvps * fxRate;
+    const convertedRatio = price / convertedBvps;
+    if (convertedRatio >= PB_PLAUSIBLE.min && convertedRatio <= PB_PLAUSIBLE.max) {
+      return {
+        bookValuePerShare: convertedBvps,
+        converted: true,
+        note: `nilai buku dilaporkan dalam mata uang lain — dikalikan kurs ${fxRate.toFixed(0)}`,
+      };
+    }
+  }
+
+  return {
+    bookValuePerShare: null,
+    converted: false,
+    note: `nilai buku menghasilkan P/B ${ratio.toFixed(0)} yang tidak masuk akal — dibuang`,
+  };
+}
+
 /**
  * Graham Number = √(22.5 × EPS × nilai buku per saham).
  *
@@ -80,6 +143,160 @@ export function simplifiedDcf(input: DcfInput): number | null {
   const terminalValue = (cashFlow * (1 + terminalGrowth)) / (discountRate - terminalGrowth);
   presentValue += terminalValue / (1 + discountRate) ** years;
   return presentValue;
+}
+
+export interface YearlyPoint {
+  endDate: number | null;
+  value: number;
+}
+
+export interface FinancialHistory {
+  netIncome?: YearlyPoint[];
+  revenue?: YearlyPoint[];
+  equity?: YearlyPoint[];
+  totalAssets?: YearlyPoint[];
+  /** Arus kas bebas, yaitu sesudah belanja modal. */
+  freeCashflow?: YearlyPoint[];
+}
+
+export type QualitySignal = 'pass' | 'fail' | 'unknown';
+
+export interface QualityCheck {
+  key: 'profitable' | 'earningsGrowing' | 'revenueGrowing' | 'cashBacked' | 'equityGrowing';
+  signal: QualitySignal;
+  /** Angka pendukung, supaya penilaian bisa diperiksa ulang, bukan dipercaya begitu saja. */
+  detail: string | null;
+}
+
+/** Deret Yahoo datang terbaru-dulu; sebagian besar analisis lebih mudah dibaca terlama-dulu. */
+const oldestFirst = (points?: YearlyPoint[]) =>
+  [...(points ?? [])].filter((p) => Number.isFinite(p?.value)).reverse();
+
+/**
+ * Pemeriksaan kualitas berbasis TREN, bukan potret satu tahun.
+ *
+ * ROE 20% sekali dan ROE 20% tiga tahun berturut-turut adalah dua hal yang sangat
+ * berbeda, dan rasio tunggal tidak bisa membedakannya. Rangkaian ini terinspirasi
+ * saringan kualitas klasik: perusahaan yang laba, tumbuh, dan — yang paling sering
+ * terlewat — labanya benar-benar didukung uang tunai masuk.
+ */
+export function qualityChecks(history: FinancialHistory): QualityCheck[] {
+  const netIncome = oldestFirst(history.netIncome);
+  const revenue = oldestFirst(history.revenue);
+  const equity = oldestFirst(history.equity);
+  const cashflow = oldestFirst(history.freeCashflow);
+
+  const latest = <T,>(arr: T[]) => (arr.length ? arr[arr.length - 1] : undefined);
+  const grew = (arr: YearlyPoint[]): QualitySignal => {
+    if (arr.length < 2) return 'unknown';
+    const first = arr[0] as YearlyPoint;
+    const last = arr[arr.length - 1] as YearlyPoint;
+    return last.value > first.value ? 'pass' : 'fail';
+  };
+
+  const pct = (arr: YearlyPoint[]) => {
+    if (arr.length < 2) return null;
+    const first = (arr[0] as YearlyPoint).value;
+    const last = (arr[arr.length - 1] as YearlyPoint).value;
+    if (first === 0) return null;
+    return ((last - first) / Math.abs(first)) * 100;
+  };
+
+  const lastIncome = latest(netIncome);
+  const lastCash = latest(cashflow);
+
+  const checks: QualityCheck[] = [
+    {
+      key: 'profitable',
+      signal: lastIncome == null ? 'unknown' : lastIncome.value > 0 ? 'pass' : 'fail',
+      detail: lastIncome ? `laba bersih terakhir ${lastIncome.value > 0 ? 'positif' : 'negatif'}` : null,
+    },
+    {
+      key: 'earningsGrowing',
+      signal: grew(netIncome),
+      detail: pct(netIncome) == null ? null : `${(pct(netIncome) as number).toFixed(0)}% selama ${netIncome.length} tahun`,
+    },
+    {
+      key: 'revenueGrowing',
+      signal: grew(revenue),
+      detail: pct(revenue) == null ? null : `${(pct(revenue) as number).toFixed(0)}% selama ${revenue.length} tahun`,
+    },
+    {
+      // Laba yang tidak disertai uang tunai masuk adalah tanda peringatan klasik,
+      // karena laba bisa diakui di pembukuan sebelum uangnya diterima.
+      //
+      // Yang dipakai di sini arus kas BEBAS, yaitu sesudah belanja modal, karena
+      // itulah satu-satunya deret tahunan yang masih disediakan sumber datanya.
+      // Konsekuensinya harus disebut: perusahaan padat modal yang sedang gencar
+      // berinvestasi bisa gagal uji ini secara sah — gagal di sini adalah undangan
+      // untuk menelusuri, bukan vonis.
+      key: 'cashBacked',
+      signal:
+        lastIncome == null || lastCash == null
+          ? 'unknown'
+          : lastCash.value >= lastIncome.value
+            ? 'pass'
+            : 'fail',
+      detail:
+        lastIncome == null || lastCash == null || lastIncome.value === 0
+          ? null
+          : `arus kas bebas ${(lastCash.value / lastIncome.value).toFixed(2)}× laba bersih`,
+    },
+    {
+      key: 'equityGrowing',
+      signal: grew(equity),
+      detail: pct(equity) == null ? null : `${(pct(equity) as number).toFixed(0)}% selama ${equity.length} tahun`,
+    },
+  ];
+
+  return checks;
+}
+
+export interface QualityScore {
+  passed: number;
+  total: number;
+  known: number;
+}
+
+/** Ringkas hasil pemeriksaan kualitas; yang tidak diketahui tidak dihitung sebagai lulus. */
+export function scoreQuality(checks: readonly QualityCheck[]): QualityScore {
+  const known = checks.filter((c) => c.signal !== 'unknown');
+  return {
+    passed: known.filter((c) => c.signal === 'pass').length,
+    total: checks.length,
+    known: known.length,
+  };
+}
+
+/** Kebalikan P/E, jauh lebih mudah dibandingkan langsung dengan bunga deposito. */
+export function earningsYield(pe: number | null | undefined): number | null {
+  if (pe == null || !Number.isFinite(pe) || pe <= 0) return null;
+  return 1 / pe;
+}
+
+/**
+ * Seberapa besar arus kas bebas yang dihasilkan dibanding harga seluruh perusahaan.
+ * Berguna justru ketika laba akuntansi sedang terdistorsi biaya non-tunai.
+ */
+export function freeCashflowYield(
+  freeCashflow: number | null | undefined,
+  marketCap: number | null | undefined,
+): number | null {
+  if (freeCashflow == null || marketCap == null) return null;
+  if (!Number.isFinite(freeCashflow) || !Number.isFinite(marketCap) || marketCap <= 0) return null;
+  return freeCashflow / marketCap;
+}
+
+/**
+ * Apakah dividennya ditopang laba?
+ * Payout di atas 100% berarti perusahaan membagikan lebih banyak daripada yang
+ * dihasilkannya — bisa berlanjut sebentar, tidak bisa berlanjut selamanya.
+ */
+export function dividendSustainability(payoutRatio: number | null | undefined): Verdict {
+  if (payoutRatio == null || !Number.isFinite(payoutRatio) || payoutRatio < 0) return 'unknown';
+  if (payoutRatio > 1) return 'weak';
+  if (payoutRatio > 0.8) return 'fair';
+  return 'strong';
 }
 
 export type Verdict = 'cheap' | 'fair' | 'expensive' | 'strong' | 'weak' | 'unknown';
