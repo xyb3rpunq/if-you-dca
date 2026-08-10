@@ -1,5 +1,5 @@
 {
   "note": "Isi quoteEndpoint dengan URL Cloudflare Worker untuk mengaktifkan harga saham live. Lihat worker/README.md. Dibiarkan null, situs memakai data terjadwal dan menyebutnya apa adanya.",
-  "quoteEndpoint": null,
+  "quoteEndpoint": "https://value-terminal-quotes.xyb3rpunq.workers.dev/quote",
   "pollSeconds": 60
 }

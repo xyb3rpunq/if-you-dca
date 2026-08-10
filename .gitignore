@@ -32,3 +32,8 @@ coverage/
 # scratch
 tmp/
 .cache/
+
+# cache lokal Cloudflare Worker (miniflare) — dibuat ulang tiap `wrangler dev`,
+# berisi berkas SQLite yang terkunci selama prosesnya hidup
+.wrangler/
+worker/.wrangler/
