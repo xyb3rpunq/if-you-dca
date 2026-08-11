@@ -2,21 +2,26 @@
   "id": "mu",
   "symbol": "MU",
   "currency": "USD",
-  "generatedAt": "2026-08-11T16:50:49.593Z",
-  "price": 852.46,
+  "generatedAt": "2026-08-11T18:51:59.738Z",
+  "price": 857.58,
   "dataFrom": "1996-09",
   "dailyBars": 501,
   "allTimeHigh": {
     "price": 1255,
     "at": "2026-06",
-    "distancePct": -32.07
+    "distancePct": -31.67
   },
   "allTimeLow": {
     "price": 1.59,
     "at": "2008-11",
-    "distancePct": 53513.84
+    "distancePct": 53835.85
   },
   "supports": [
+    {
+      "price": 854.349976,
+      "touches": 1,
+      "lastTouch": "2026-06-09"
+    },
     {
       "price": 818.669983,
       "touches": 1,
@@ -31,19 +36,9 @@
       "price": 737.880005,
       "touches": 1,
       "lastTouch": "2026-07-29"
-    },
-    {
-      "price": 652.210022,
-      "touches": 1,
-      "lastTouch": "2026-05-19"
     }
   ],
   "resistances": [
-    {
-      "price": 854.349976,
-      "touches": 1,
-      "lastTouch": "2026-06-09"
-    },
     {
       "price": 891.659973,
       "touches": 1,
@@ -58,6 +53,11 @@
       "price": 1011.77002,
       "touches": 1,
       "lastTouch": "2026-07-23"
+    },
+    {
+      "price": 1089.290039,
+      "touches": 1,
+      "lastTouch": "2026-06-03"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 45.59,
-    "sma20": 877.931506,
-    "sma50": 967.324403,
-    "sma200": 541.584801,
-    "ema12": 872.040635,
-    "ema26": 897.127581,
-    "macd": -25.086946,
-    "macdSignal": -26.702993,
-    "macdHistogram": 1.616047,
-    "bollingerUpper": 989.195404,
-    "bollingerMiddle": 877.931506,
-    "bollingerLower": 766.667609,
-    "bollingerBandwidth": 0.2535,
+    "rsi14": 46.01,
+    "sma20": 878.187506,
+    "sma50": 967.426803,
+    "sma200": 541.610401,
+    "ema12": 872.828326,
+    "ema26": 897.50684,
+    "macd": -24.678513,
+    "macdSignal": -26.621306,
+    "macdHistogram": 1.942793,
+    "bollingerUpper": 989.239161,
+    "bollingerMiddle": 878.187506,
+    "bollingerLower": 767.135851,
+    "bollingerBandwidth": 0.2529,
     "atr14": 76.568529,
-    "stochK": 41.83,
-    "stochD": 45.93
+    "stochK": 43.7,
+    "stochD": 46.55
   }
 }
