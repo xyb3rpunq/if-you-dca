@@ -1,34 +1,27 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-08-11T20:36:51.151Z",
+  "generatedAt": "2026-08-12T04:05:40.900Z",
   "count": 8,
   "items": [
     {
-      "title": "Google shuts down service pretty much everyone uses",
-      "url": "https://finance.yahoo.com/m/5de4ba54-639b-3bc4-85e0-6d9826fbb682/google-shuts-down-service.html",
-      "publisher": "TheStreet",
-      "publishedAt": "2026-08-11T19:46:52.000Z",
+      "title": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ryanair-signs-five-google-cloud-230235225.html",
+      "publisher": "Reuters",
+      "publishedAt": "2026-08-11T23:02:35.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Alphabet's AI Story No Longer Runs Through The Business That Funds Everything Else",
-      "url": "https://finance.yahoo.com/m/5f3b2955-7cd5-3a08-83c5-c0b82d303cc6/alphabet%27s-ai-story-no-longer.html",
-      "publisher": "Trefis",
-      "publishedAt": "2026-08-11T19:13:58.000Z",
+      "title": "Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-googl-vs-meta-221947259.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-08-11T22:19:47.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Alphabet Stock Drops 1.5% as DeepMind Turnover Deepens",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-drops-1-5-190449063.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-11T19:04:49.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - Bloomberg Technoz",
+      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - bloombergtechnoz.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVRVaHQ2QmdLeW80bEFMdmdOWjk0bFczNjBma3k5bnhzaFlfWnFicV9lLUY3U0tRQ2pqVGFiLWx2eWwyQWJsa1V1WjQxS2ozUFplZ2hlaVBJOUVxRG43VkFjTHNRNHg2LTVuSGpXYkx5ZGUzN0ROcFFMUm8zYUlxVVRaQkRkLXVpOV9McmM2LWdHVWF6VW9TVDhyNHYyX25aTWNQZGtFUjV1ZWNNbkFaYk96eDV5UQ?oc=5",
-      "publisher": "Bloomberg Technoz",
+      "publisher": "bloombergtechnoz.com",
       "publishedAt": "2026-08-07T01:40:00.000Z",
       "source": "google-news"
     },
@@ -47,16 +40,23 @@
       "source": "google-news"
     },
     {
-      "title": "Saham Google Turun 5% karena 4 Pemimpin AI Mundur, Termasuk Peneliti Paling Sering Dikutip - BeInCrypto",
+      "title": "Saham Google Turun 5% karena 4 Pemimpin AI Mundur, Termasuk Peneliti Paling Sering Dikutip - id.beincrypto.com",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rV3F0cGNQWWtBRlBtRTRMckNuVWJGVk9QV28ya01DZVlUNW9fUWdmU1N3eEJjSTVjSmFraWFlNlBpamtSLVdIeFdZa2xPRllpSHBzcnE5M2tPa3hSZjZnNXVaVWVPRUlwczRVUXFIa2VMUQ?oc=5",
-      "publisher": "BeInCrypto",
+      "publisher": "id.beincrypto.com",
       "publishedAt": "2026-08-05T17:52:00.000Z",
       "source": "google-news"
     },
     {
-      "title": "Breakdown Pendapatan Alphabet Inc (Google) Class C – NASDAQ:GOOG - id.tradingview.com",
+      "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 3 Agustus 2026: Melonjak ke $356,65 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVHVzUlpYVXdDTFJoRXlGOUppbVZZRWUxLXEyZDJxUTJYRFNLcXBtd0xKX09MSGFIai0zcDNNUTZJQkkxdVp4MVkxUjYzbV9CYzVENG9kTUVVeFU4VWlkTFZGZGMtVUFTZnlIejZWZzRKUF9SVjdweVFCTGVaZ1BDUTJPMlBsdw?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Breakdown Pendapatan Alphabet Inc (Google) Class C – NASDAQ:GOOG - TradingView",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RQ1VabTJhTG1qa0ZyUzlXc1NRbnVJb2V5LWtKSFpEeWpBc3dZMTNVbVlsYkhRRThIMVNLN0RRTHowTzA5aWl6UWVfVDlXQThuTGxhZnAtdlZzVUpvdVFhRlJMRHBOcTFjcElrUk91MVN5QTZMWFE?oc=5",
-      "publisher": "id.tradingview.com",
+      "publisher": "TradingView",
       "publishedAt": "2026-07-28T05:42:19.000Z",
       "source": "google-news"
     }
