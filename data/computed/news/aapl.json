@@ -1,7 +1,7 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-12T07:21:51.517Z",
+  "generatedAt": "2026-08-12T09:09:28.974Z",
   "count": 8,
   "items": [
     {
@@ -9,13 +9,6 @@
       "url": "https://finance.yahoo.com/m/521f7284-425c-3aa8-9565-a60cd1fb83c0/s%26p500%2C-nasdaq%2C-dow-futures.html",
       "publisher": "Stocktwits",
       "publishedAt": "2026-08-12T00:07:19.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Why Apple customers will have to wait over a year for $250M settlement",
-      "url": "https://finance.yahoo.com/m/2f1e12fb-f267-39b7-ba14-40e3ad0776a6/why-apple-customers-will-have.html",
-      "publisher": "USA TODAY",
-      "publishedAt": "2026-08-11T20:39:59.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVHhSSHRoQVptdWEtLVhJRnAxdGEzVFFjMXBTYnBzU3R4UVFOcTdTRFhTbno3eU9HSjI4emJBUVZLTnVSOVZGeWlJVi1IeUFoczQ5Q3gzNUlXcENBeFp4N3lxOHp4VV8tdzVKd3F5UTExUGRHTUlYOVlhSWttc3k1MXBfWE8?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-08-03T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini 29 Juli 2026: Menguat ke $340,08 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSUlOdUIxOXd1NlBQazVpMUZGRmw2Qzc3VVI0ejRqNElKcTJMa1o0cTZzMy1idWdDaWVoNC1zb3FWODUtaFhSSUJJRXdoVWxhdzF4YVFLYVc3a2hNLTEzb0tQckdNanRsTlJZX0dySm03UmRGeHRWTmdnckNHR0NMTThB?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-07-29T07:00:00.000Z",
       "source": "google-news"
     }
   ]

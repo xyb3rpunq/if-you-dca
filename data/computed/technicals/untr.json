@@ -2,7 +2,7 @@
   "id": "untr",
   "symbol": "UNTR",
   "currency": "IDR",
-  "generatedAt": "2026-08-12T07:21:12.744Z",
+  "generatedAt": "2026-08-12T09:08:50.791Z",
   "price": 23375,
   "dataFrom": "2000-10",
   "dailyBars": 480,
@@ -84,8 +84,8 @@
     "bollingerMiddle": 24777.5,
     "bollingerLower": 22625.529972,
     "bollingerBandwidth": 0.1737,
-    "atr14": 607.769138,
-    "stochK": 0,
-    "stochD": 10
+    "atr14": 616.69771,
+    "stochK": 5.15,
+    "stochD": 11.72
   }
 }
