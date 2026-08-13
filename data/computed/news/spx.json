@@ -1,21 +1,35 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-13T18:52:51.811Z",
-  "count": 7,
+  "generatedAt": "2026-08-13T20:34:07.868Z",
+  "count": 8,
   "items": [
     {
-      "title": "S&P 500 CEO Pay Soars, Driven by Musk Package, AFL-CIO Study Says",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-ceo-pay-soars-183703613.html",
-      "publisher": "MT Newswires",
-      "publishedAt": "2026-08-13T18:37:03.000Z",
+      "title": "S&P 500 notches record-high close as rate-hike worries ease",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-tick-higher-102006057.html",
+      "publisher": "Reuters",
+      "publishedAt": "2026-08-13T20:18:03.000Z",
       "source": "yahoo"
     },
     {
-      "title": "S&P 500 hits record high as rate-hike worries ease",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-tick-higher-102006057.html",
-      "publisher": "Reuters",
-      "publishedAt": "2026-08-13T18:34:44.000Z",
+      "title": "Bill Ackman's Pershing Square Has Delivered a 15.9% Annualized Return Since 2004, Beating the S&P 500 by Over 5 Points a Year. Can It Continue?",
+      "url": "https://finance.yahoo.com/m/777fbb58-8713-372a-826b-2ebe78992e83/bill-ackman%27s-pershing-square.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-08-13T20:13:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Update: S&P 500 Scales New Peak as Weak Wholesale Inflation Report Lifts Odds of Fed's Policy-Pause Extension",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-scales-peak-weak-195619614.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-13T19:56:19.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Wall Street is piling into the riskiest corners of the market: Chart of the Day",
+      "url": "https://finance.yahoo.com/video/wall-street-piling-riskiest-corners-193546387.html",
+      "publisher": "Yahoo Finance Video",
+      "publishedAt": "2026-08-13T19:35:46.000Z",
       "source": "yahoo"
     },
     {
@@ -44,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFTjFVQTY0aVVpSTVtZEkxYzVHZ3pGd0FPTnd2VGxrekxHMjBFSTJNSnZUR1JvYTB4RnhqSFBCRzlJYTBWWHN4S0V3UWd0RjR4bW1Zdlc1RE9DRldnNEdIX3FR?oc=5",
       "publisher": "Investing.com Indonesia",
       "publishedAt": "2026-08-07T19:59:59.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Bursa ASIA dibuka: Dow Jones: +1,03% S&P 500: +0,40% Na - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qZGc3UE1KWEtvcDREVmd4bjJQZTBTbWJGem9XSUtsZ3huSUlHd3NnMGNVeEpweUQ4MmM5T2s3c2Jpbmd1WlE4RExGU01ITlBRVm5iaUd0N2JhSXpUVFZzSXpaTEhhTzVXSW9uVTRvZEE1LUp0?oc=5",
-      "publisher": "KuCoin",
-      "publishedAt": "2026-08-03T07:00:00.000Z",
       "source": "google-news"
     }
   ]
