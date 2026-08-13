@@ -1,9 +1,16 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-13T07:23:50.836Z",
+  "generatedAt": "2026-08-13T09:10:20.803Z",
   "count": 8,
   "items": [
+    {
+      "title": "Market Chatter: Apple Seeks Deals With News Publishers to Improve Siri",
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-apple-seeks-deals-075311426.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-13T07:53:11.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Tim Cook Warned of a \"100-Year Flood\" in Memory Chip Pricing on His Last Earnings Call. Should Apple Investors Be Worried About Margins?",
       "url": "https://finance.yahoo.com/m/a5deac42-eaf6-3d85-bcb1-ad98045e368a/tim-cook-warned-of-a.html",
@@ -26,16 +33,9 @@
       "source": "yahoo"
     },
     {
-      "title": "Magnificent Seven Earnings Remain Robust: MSFT, AAPL",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-earnings-remain-robust-214600791.html",
-      "publisher": "Zacks",
-      "publishedAt": "2026-08-12T21:46:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple (AAPL) Masuki Fase Baru, Pertumbuhan Laba Jadi Kunci Penggerak Saham - Voice of ASIA",
+      "title": "Apple (AAPL) Masuki Fase Baru, Pertumbuhan Laba Jadi Kunci Penggerak Saham - voiceofasean.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1BMaGx3Tnh3a1gzQWxsQjdUd3UzdElScWsyaklqbW1IM29DbmhtYmJCT0QzSl9hbXBJUzJhbUdsQXFHNk42VThoN3U0dlFablUxM1Azck9qOC1rRlZ4bG13UnRuX0ZHaXhDZWpyNzliMS1HUlF2Sl9rN2RIT1pBQlkwR1YtNENLMDZlTlptaXhDZ2ROTDJVVFQya2Fab2V1NGJ6cFFXcnctdw?oc=5",
-      "publisher": "Voice of ASIA",
+      "publisher": "voiceofasean.com",
       "publishedAt": "2026-08-11T04:00:23.000Z",
       "source": "google-news"
     },
@@ -47,16 +47,16 @@
       "source": "google-news"
     },
     {
-      "title": "Harga Saham Apple (AAPL) Hari Ini 10 Agustus 2026: Stabil di $313,33 - pintu.co.id",
+      "title": "Harga Saham Apple (AAPL) Hari Ini 10 Agustus 2026: Stabil di $313,33 - Pintu",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMXVFWHV4YUlKQmhwY093UDhVaUdGQldneHhJOGtKdXI2RzB4cFZsOEVSOUFOWnVvbWRqbmNMSnpocUkxMkk0NDlQOUhRaDBtYzVvUUlTQXQzdUVfRG5ZN2ZmX2h0ckxKWENSNTdwLWRuTFdKa2dMcm1ZdnBKc3V3cW43Wi1uUQ?oc=5",
-      "publisher": "pintu.co.id",
+      "publisher": "Pintu",
       "publishedAt": "2026-08-10T09:08:06.000Z",
       "source": "google-news"
     },
     {
-      "title": "Key facts: AAPL memory costs squeeze iPhone margins; sues OpenAI - id.tradingview.com",
+      "title": "Key facts: AAPL memory costs squeeze iPhone margins; sues OpenAI - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV0RHX3R1R0VRLVNJNGJTYldnOGtEdWNHOTF6RWtYVWdjZ0NKbkY3X080V1RfcHRBV2RkdDZneFF3TTluRVBYMWFoN1dfR2dqX0wtU05DalQzb2wtcTFKakFDRElDaXNsWHBWcU96bU1FWVhCRlQwMW1XYVB4Q05SaC0tcmhSSkt1djdYZmdFeE0xdzhMNVBfdG5UTUVmdmYyUjZ4S3QweG1ZQUFQRDhtU1JNOEo4OHZWTHpnTzk3ZWQ?oc=5",
-      "publisher": "id.tradingview.com",
+      "publisher": "TradingView",
       "publishedAt": "2026-08-10T07:13:28.000Z",
       "source": "google-news"
     }
