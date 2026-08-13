@@ -2,19 +2,19 @@
   "id": "nvda",
   "symbol": "NVDA",
   "currency": "USD",
-  "generatedAt": "2026-08-13T14:51:29.499Z",
-  "price": 224.97,
+  "generatedAt": "2026-08-13T16:47:53.342Z",
+  "price": 225.33,
   "dataFrom": "1999-02",
   "dailyBars": 502,
   "allTimeHigh": {
     "price": 236.539993,
     "at": "2026-05",
-    "distancePct": -4.89
+    "distancePct": -4.74
   },
   "allTimeLow": {
     "price": 0.033333,
     "at": "1999-04",
-    "distancePct": 674816.75
+    "distancePct": 675896.76
   },
   "supports": [
     {
@@ -61,21 +61,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 62.99,
-    "sma20": 209.260999,
-    "sma50": 206.304799,
-    "sma200": 194.74975,
-    "ema12": 215.772955,
-    "ema26": 210.90419,
-    "macd": 4.868765,
-    "macdSignal": 2.707655,
-    "macdHistogram": 2.16111,
-    "bollingerUpper": 229.658907,
-    "bollingerMiddle": 209.260999,
-    "bollingerLower": 188.86309,
-    "bollingerBandwidth": 0.195,
-    "atr14": 7.202081,
-    "stochK": 93.93,
-    "stochD": 90.05
+    "rsi14": 63.21,
+    "sma20": 209.278999,
+    "sma50": 206.311999,
+    "sma200": 194.75155,
+    "ema12": 215.82834,
+    "ema26": 210.930857,
+    "macd": 4.897483,
+    "macdSignal": 2.713399,
+    "macdHistogram": 2.184084,
+    "bollingerUpper": 229.732883,
+    "bollingerMiddle": 209.278999,
+    "bollingerLower": 188.825114,
+    "bollingerBandwidth": 0.1955,
+    "atr14": 7.229223,
+    "stochK": 94.9,
+    "stochD": 90.37
   }
 }
