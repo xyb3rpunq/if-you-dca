@@ -2,7 +2,7 @@
   "id": "asii",
   "symbol": "ASII",
   "currency": "IDR",
-  "generatedAt": "2026-08-13T04:09:31.080Z",
+  "generatedAt": "2026-08-13T07:23:11.557Z",
   "price": 4810,
   "dataFrom": "2000-11",
   "dailyBars": 480,
@@ -84,8 +84,8 @@
     "bollingerMiddle": 5010.5,
     "bollingerLower": 4822.008621,
     "bollingerBandwidth": 0.0752,
-    "atr14": 146.789176,
-    "stochK": 2.11,
-    "stochD": 5.09
+    "atr14": 148.217747,
+    "stochK": 6.06,
+    "stochD": 6.41
   }
 }
