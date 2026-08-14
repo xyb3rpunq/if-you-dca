@@ -1,14 +1,21 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-08-14T07:21:05.493Z",
+  "generatedAt": "2026-08-14T09:05:36.384Z",
   "count": 8,
   "items": [
     {
-      "title": "Goldman in talks with investors on Nvidia financing deal after landing prized role, sources say",
-      "url": "https://finance.yahoo.com/technology/ai/articles/goldman-talks-investors-nvidia-financing-040352701.html",
-      "publisher": "Reuters",
-      "publishedAt": "2026-08-14T04:03:52.000Z",
+      "title": "SpaceX’s Nvidia Alliance Could Stretch From Earth To Orbit And Beyond GPUs, Investor Says",
+      "url": "https://finance.yahoo.com/m/789d087a-f8fa-31a8-8bb1-78222b0f1afb/spacex%E2%80%99s-nvidia-alliance.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-14T08:09:34.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "GSI Technology Eyes 2027 AI Production as Gemini-II Cuts Power 98% vs. NVIDIA",
+      "url": "https://finance.yahoo.com/m/e9cfd074-852e-3af2-9689-7141a9565c9c/gsi-technology-eyes-2027-ai.html",
+      "publisher": "MarketBeat",
+      "publishedAt": "2026-08-14T08:04:18.000Z",
       "source": "yahoo"
     },
     {
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONHZuUHlKRWQwMTJtNjhIWVUxLXROVjFIOGh4Y21xSXJTazNicl9wQjFwWEVrVDVnYXFlU2ZrZzZYZ2JZQ0t4WjNmT0l2TmVOT0MxQ1hodHc5Xzg1VENmSS1HQXNHX0ZDb1k1V0V2bTBsWEMxdFNydEphREg4S21VU0JuNllBVElrYXhVNDdpZXdGV0xHRDVEV3l0aTEydThmaGc?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-11T20:26:20.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Nvidia dukung sewa OpenAI senilai $250 miliar, picu reaksi pasar dan kekhawatiran biaya masa depan. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTh6bnFQeXlPVjlPTkRaeVhtMU1PUnFORG5mTTFSSXh5WU1hMFh6SGJaLWJHdmxBejczSi1fajJlYldlVUhINjQtRVhaR2JDZDJVbzh4YkloRFlXa1M5dnRWSnkzUzdfVGZSQ2VrZk9UakhGbGRMQkhxYkt0VVlZNkRheVk0VnlRNmYxS0dZRQ?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-11T17:55:32.000Z",
       "source": "google-news"
     }
   ]
