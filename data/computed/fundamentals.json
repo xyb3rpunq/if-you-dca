@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-14T16:44:34.122Z",
+  "generatedAt": "2026-08-14T18:44:37.916Z",
   "available": true,
   "provider": "yahoo-finance",
   "coverage": "18/18",
   "note": "Yahoo Finance dipakai karena meliput ticker .JK, yang tidak dijangkau tier gratis Financial Modeling Prep maupun Finnhub. Tidak memerlukan API key.",
   "assets": {
     "goog": {
-      "price": 342.88,
-      "marketCap": 4193400127488,
-      "pe": 17.221497,
-      "forwardPe": 23.263546,
-      "pb": 6.736875,
+      "price": 342.94,
+      "marketCap": 4194133868544,
+      "pe": 17.22451,
+      "forwardPe": 23.267616,
+      "pb": 6.738054,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 9.405068,
+      "ps": 9.406714,
       "peg": 0.96,
       "eps": 19.91,
       "forwardEps": 14.73894,
       "bookValuePerShare": 50.896,
       "enterpriseValue": 4102726090752,
-      "earningsYield": 0.058067,
-      "freeCashflowYield": 0.005405,
+      "earningsYield": 0.058057,
+      "freeCashflowYield": 0.005404,
       "roe": 0.48676,
       "roa": 0.12959,
       "grossMargin": 0.60897,
@@ -131,23 +131,23 @@
       },
       "ticker": "GOOG",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "mu": {
-      "price": 963.6269,
+      "price": 962.855,
       "marketCap": null,
-      "pe": 20.916582,
-      "forwardPe": 6.221379,
-      "pb": 10.801176,
+      "pe": 21.754519,
+      "forwardPe": 6.216396,
+      "pb": 10.792524,
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": null,
       "peg": 0.13,
-      "eps": 46.07,
+      "eps": 44.26,
       "forwardEps": 154.88959,
       "bookValuePerShare": 89.215,
       "enterpriseValue": 1053085466624,
-      "earningsYield": 0.047809,
+      "earningsYield": 0.045967,
       "freeCashflowYield": null,
       "roe": 0.66638,
       "roa": 0.3487,
@@ -259,24 +259,24 @@
       },
       "ticker": "MU",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "aapl": {
-      "price": 305.3891,
-      "marketCap": 4456903606272,
-      "pe": 34.624615,
-      "forwardPe": 32.12015,
-      "pb": 41.493084,
+      "price": 305.75,
+      "marketCap": 4462170603520,
+      "pe": 35.02291,
+      "forwardPe": 32.15811,
+      "pb": 41.54212,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 9.54731,
+      "ps": 9.558592,
       "peg": 2.49,
-      "eps": 8.82,
+      "eps": 8.73,
       "forwardEps": 9.50771,
       "bookValuePerShare": 7.36,
       "enterpriseValue": 4476964438016,
-      "earningsYield": 0.028881,
-      "freeCashflowYield": 0.02417,
+      "earningsYield": 0.028553,
+      "freeCashflowYield": 0.024141,
       "roe": 1.48751,
       "roa": 0.27082,
       "grossMargin": 0.48653,
@@ -387,24 +387,24 @@
       },
       "ticker": "AAPL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "nvda": {
-      "price": 225.14,
-      "marketCap": 5453115817984,
-      "pe": 34.32012,
-      "forwardPe": 17.566431,
-      "pb": 27.898389,
+      "price": 225.3337,
+      "marketCap": 5457807147008,
+      "pe": 34.507458,
+      "forwardPe": 17.581545,
+      "pb": 27.922392,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 21.512068,
+      "ps": 21.530575,
       "peg": 0.6,
-      "eps": 6.56,
+      "eps": 6.53,
       "forwardEps": 12.81649,
       "bookValuePerShare": 8.07,
       "enterpriseValue": 5411902062592,
-      "earningsYield": 0.029137,
-      "freeCashflowYield": 0.008497,
+      "earningsYield": 0.028979,
+      "freeCashflowYield": 0.00849,
       "roe": 1.14288,
       "roa": 0.52727,
       "grossMargin": 0.74145,
@@ -419,7 +419,7 @@
       "totalDebt": 12814000128,
       "freeCashflow": 46335873024,
       "operatingCashflow": 125648003072,
-      "dividendYield": 0.0045,
+      "dividendYield": 0.0044,
       "payoutRatio": 0.0061,
       "history": {
         "netIncome": [
@@ -515,24 +515,24 @@
       },
       "ticker": "NVDA",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "orcl": {
-      "price": 152.68,
-      "marketCap": 439790305280,
-      "pe": 25.703703,
-      "forwardPe": 13.988166,
-      "pb": 11.708589,
+      "price": 149.89,
+      "marketCap": 431753789440,
+      "pe": 25.710121,
+      "forwardPe": 13.732553,
+      "pb": 11.494632,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 6.529244,
+      "ps": 6.409932,
       "peg": 0.85,
-      "eps": 5.94,
+      "eps": 5.83,
       "forwardEps": 10.91494,
       "bookValuePerShare": 13.04,
       "enterpriseValue": 591027175424,
-      "earningsYield": 0.038905,
-      "freeCashflowYield": -0.055792,
+      "earningsYield": 0.038895,
+      "freeCashflowYield": -0.05683,
       "roe": 0.53376,
       "roa": 0.06505,
       "grossMargin": 0.65822,
@@ -547,7 +547,7 @@
       "totalDebt": 167431995392,
       "freeCashflow": -24536750080,
       "operatingCashflow": 31977000960,
-      "dividendYield": 0.013,
+      "dividendYield": 0.0128,
       "payoutRatio": 0.3431,
       "history": {
         "netIncome": [
@@ -643,24 +643,24 @@
       },
       "ticker": "ORCL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "mstr": {
-      "price": 94.613,
-      "marketCap": 37260754944,
+      "price": 92.93,
+      "marketCap": 36597952512,
       "pe": null,
-      "forwardPe": 1.91176,
-      "pb": 1.138325,
+      "forwardPe": 1.877753,
+      "pb": 1.118076,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 74.76869,
+      "ps": 73.43869,
       "peg": 2.85,
-      "eps": -101.54,
+      "eps": -99.16,
       "forwardEps": 49.49,
       "bookValuePerShare": 83.116,
       "enterpriseValue": 56072011776,
       "earningsYield": null,
-      "freeCashflowYield": -0.606201,
+      "freeCashflowYield": -0.61718,
       "roe": -0.63562,
       "roa": -0.38731,
       "grossMargin": 0.67601,
@@ -771,24 +771,24 @@
       },
       "ticker": "MSTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "pltr": {
-      "price": 176.87,
-      "marketCap": 425028943872,
-      "pe": 152.47414,
-      "forwardPe": 76.42682,
-      "pb": 43.478368,
+      "price": 174.97,
+      "marketCap": 420463149056,
+      "pe": 150.83621,
+      "forwardPe": 75.60581,
+      "pb": 43.011308,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 69.0437,
+      "ps": 68.30201,
       "peg": 2.41,
       "eps": 1.16,
       "forwardEps": 2.31424,
       "bookValuePerShare": 4.068,
       "enterpriseValue": 421084495872,
-      "earningsYield": 0.006558,
-      "freeCashflowYield": 0.00508,
+      "earningsYield": 0.00663,
+      "freeCashflowYield": 0.005135,
       "roe": 0.38097,
       "roa": 0.17293,
       "grossMargin": 0.84796,
@@ -899,7 +899,7 @@
       },
       "ticker": "PLTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "bbca": {
       "price": 6350,
@@ -1027,7 +1027,7 @@
       },
       "ticker": "BBCA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "bmri": {
       "price": 4170,
@@ -1155,7 +1155,7 @@
       },
       "ticker": "BMRI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "hrta": {
       "price": 2150,
@@ -1170,7 +1170,7 @@
       "eps": 288.83,
       "forwardEps": null,
       "bookValuePerShare": 793.395,
-      "enterpriseValue": 13025710964736,
+      "enterpriseValue": 13117816832000,
       "earningsYield": 0.13434,
       "freeCashflowYield": 0.040252,
       "roe": 0.41947,
@@ -1283,7 +1283,7 @@
       },
       "ticker": "HRTA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "bumi": {
       "price": 181,
@@ -1411,7 +1411,7 @@
       },
       "ticker": "BUMI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "arci": {
       "price": 1225,
@@ -1539,7 +1539,7 @@
       },
       "ticker": "ARCI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "untr": {
       "price": 23275,
@@ -1667,7 +1667,7 @@
       },
       "ticker": "UNTR.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "asii": {
       "price": 4780,
@@ -1795,7 +1795,7 @@
       },
       "ticker": "ASII.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "bbni": {
       "price": 3630,
@@ -1923,7 +1923,7 @@
       },
       "ticker": "BBNI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "adro": {
       "price": 2530,
@@ -2051,7 +2051,7 @@
       },
       "ticker": "ADRO.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "indf": {
       "price": 7425,
@@ -2179,7 +2179,7 @@
       },
       "ticker": "INDF.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     },
     "antm": {
       "price": 3070,
@@ -2307,7 +2307,7 @@
       },
       "ticker": "ANTM.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-14T16:44:34.122Z"
+      "fetchedAt": "2026-08-14T18:44:37.916Z"
     }
   }
 }

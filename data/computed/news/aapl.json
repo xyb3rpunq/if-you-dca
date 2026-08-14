@@ -1,9 +1,30 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-14T16:43:40.430Z",
+  "generatedAt": "2026-08-14T18:43:44.958Z",
   "count": 8,
   "items": [
+    {
+      "title": "KeyBanc Has Message For Apple Stock Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/keybanc-message-apple-stock-investors-181942735.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-08-14T18:19:42.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Market Chatter: Google, Peacock, Apple Convince Maryland Court to Strike Down Ad Tax",
+      "url": "https://finance.yahoo.com/media-advertising/articles/market-chatter-google-peacock-apple-174611736.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-14T17:46:11.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Apple Makes Crucial Move in China AI Race",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-makes-crucial-move-china-173337264.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-08-14T17:33:37.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Apple Is Testing Its Fundamental Floor",
       "url": "https://finance.yahoo.com/m/b8e95860-1178-3523-b1b0-d539c5e9ff30/apple-is-testing-its.html",
@@ -19,45 +40,24 @@
       "source": "yahoo"
     },
     {
-      "title": "Apple Has a New Growth Engine, and It Could Be Huge",
-      "url": "https://finance.yahoo.com/m/fb36b45f-f261-3f85-8401-83c47ffb8a8c/apple-has-a-new-growth.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-08-14T16:00:27.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Is Sitting Out the AI Race—Except in China",
-      "url": "https://finance.yahoo.com/m/06ab7789-48c4-330d-b4d4-76acc9f988a8/apple-is-sitting-out-the-ai.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-14T15:52:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Quantinuum Stock Could Get a Boost From Apple Partner Quanta Computer",
-      "url": "https://finance.yahoo.com/m/645d06ea-177b-34fc-8486-e499edaa1c62/quantinuum-stock-could-get-a.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-14T15:02:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
-      "url": "https://finance.yahoo.com/technology/articles/apple-proposes-15-cut-purchases-145448010.html",
-      "publisher": "TechCrunch",
-      "publishedAt": "2026-08-14T14:54:48.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple trains China-specific AI model with Alibaba's help",
-      "url": "https://finance.yahoo.com/m/92735bd3-d394-336a-a1a1-bf1dc24cb235/apple-trains-china-specific.html",
-      "publisher": "Quartz",
-      "publishedAt": "2026-08-14T14:03:16.000Z",
-      "source": "yahoo"
-    },
-    {
       "title": "Apple (AAPL) Masuki Fase Baru, Pertumbuhan Laba Jadi Kunci Penggerak Saham - Voice of ASIA",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1BMaGx3Tnh3a1gzQWxsQjdUd3UzdElScWsyaklqbW1IM29DbmhtYmJCT0QzSl9hbXBJUzJhbUdsQXFHNk42VThoN3U0dlFablUxM1Azck9qOC1rRlZ4bG13UnRuX0ZHaXhDZWpyNzliMS1HUlF2Sl9rN2RIT1pBQlkwR1YtNENLMDZlTlptaXhDZ2ROTDJVVFQya2Fab2V1NGJ6cFFXcnctdw?oc=5",
       "publisher": "Voice of ASIA",
       "publishedAt": "2026-08-11T04:00:23.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Profil & Cara Beli Saham Apple (AAPL) dari Indonesia - Gotrade",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tT0FhSm1yN21FSWlScDJDLUJhcVQwcVkzczBsOGFHWFNRU2g1Y243V18xamlXN1g2aGI3N3JtVGlMOUctbk85bWlBcDRRS0tmWEJZai0zSjExUjlSMWFRbg?oc=5",
+      "publisher": "Gotrade",
+      "publishedAt": "2026-08-10T11:08:03.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini 10 Agustus 2026: Stabil di $313,33 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMXVFWHV4YUlKQmhwY093UDhVaUdGQldneHhJOGtKdXI2RzB4cFZsOEVSOUFOWnVvbWRqbmNMSnpocUkxMkk0NDlQOUhRaDBtYzVvUUlTQXQzdUVfRG5ZN2ZmX2h0ckxKWENSNTdwLWRuTFdKa2dMcm1ZdnBKc3V3cW43Wi1uUQ?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-10T09:08:06.000Z",
       "source": "google-news"
     }
   ]
