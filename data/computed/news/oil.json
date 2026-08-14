@@ -1,14 +1,21 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-08-14T18:43:44.958Z",
-  "count": 1,
+  "generatedAt": "2026-08-14T20:24:38.002Z",
+  "count": 2,
   "items": [
     {
-      "title": "Update: US Equity Indexes Decline as Retail Sales Drop Most in 14 Months, Crude Oil Advances on Worsening Iran Geopolitics",
-      "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-decline-retail-171604945.html",
+      "title": "Update: US Equity Indexes Fall After Retail Sales Drop Most in 14 Months, Crude Oil Rises as Iran Warned Against Economic Pain",
+      "url": "https://finance.yahoo.com/economy/articles/us-equity-indexes-fall-retail-201926907.html",
       "publisher": "MT Newswires",
-      "publishedAt": "2026-08-14T17:16:04.000Z",
+      "publishedAt": "2026-08-14T20:19:26.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "US Equity Markets End Lower Amid Weak Retail Sales Data, Rise in Crude Oil Prices",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-200704074.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-14T20:07:04.000Z",
       "source": "yahoo"
     }
   ]

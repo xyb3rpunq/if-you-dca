@@ -1,9 +1,16 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-14T18:43:44.958Z",
+  "generatedAt": "2026-08-14T20:24:38.002Z",
   "count": 8,
   "items": [
+    {
+      "title": "Apple Stock Stalls as Jefferies Cuts Target to $263.66",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-stalls-jefferies-cuts-191714058.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-08-14T19:17:14.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "KeyBanc Has Message For Apple Stock Investors",
       "url": "https://finance.yahoo.com/markets/stocks/articles/keybanc-message-apple-stock-investors-181942735.html",
@@ -30,13 +37,6 @@
       "url": "https://finance.yahoo.com/m/b8e95860-1178-3523-b1b0-d539c5e9ff30/apple-is-testing-its.html",
       "publisher": "24/7 Wall St.",
       "publishedAt": "2026-08-14T16:02:44.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Builds Custom AI Model for China With Alibaba",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-builds-custom-ai-model-160211202.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-14T16:02:11.000Z",
       "source": "yahoo"
     },
     {
