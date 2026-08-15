@@ -1,16 +1,9 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-14T20:24:38.002Z",
+  "generatedAt": "2026-08-15T03:30:33.880Z",
   "count": 6,
   "items": [
-    {
-      "title": "S&P 500 Pulls Back from High as Market's Fear Gauge Keeps Its Cool",
-      "url": "https://finance.yahoo.com/m/7ac5a3e7-f7d1-32c7-8c17-0815a6eded42/s%26p-500-pulls-back-from-high.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-14T20:02:08.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "Berita S&P 500 - Investing.com Indonesia",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RTm16SXhTUXNmUzZxNFVfNF9LRHN5OG9Rc3hiQzJobGNwYXlxOEJjLWRTOHNOODkzcUhETVdLWG9SdFhWUmlvai1fd3lISkh6TDRMc2VfNG9iS3dFbmdIb2F3?oc=5",
@@ -44,6 +37,13 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-09T18:04:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Grafik S&P 500 Tunjukkan Tanda Peringatan Serupa dengan Tahun 1997 dan 2006 - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xRXlQc3ZGSGR4Y2Y2Q1VfYy0tR2xVejJVeEV3b3hmTWhSZVkwZ0d6UmVvbkdobDVvZHVnMDUzRWczdk5QMFgxb1FhUllpVFU4Y3RRUkZaZE1IWjBzcTNsUnZYeWlidXNxQlU4?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-06T07:00:00.000Z",
       "source": "google-news"
     }
   ]
