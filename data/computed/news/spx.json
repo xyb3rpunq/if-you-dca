@@ -1,9 +1,23 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-17T04:39:29.473Z",
-  "count": 7,
+  "generatedAt": "2026-08-17T06:50:13.050Z",
+  "count": 8,
   "items": [
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/m/c8b28a10-f7f3-3d5e-8669-e60616b871cb/stock-market%3A-will-s%26p-500.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-08-17T06:22:03.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Earnings Are Crushing It. Stocks are Riding High. Why Isn’t Wall Street Moving on S&P 500 Price Targets?",
+      "url": "https://finance.yahoo.com/m/375d419e-acc2-336c-af9e-db66a9558a61/earnings-are-crushing-it..html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-08-17T05:00:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "How Europe’s Unpopular Stock Market Is Quietly Beating Wall Street",
       "url": "https://finance.yahoo.com/m/4e404b08-fe15-3779-9752-20a9d4968cfb/how-europe%E2%80%99s-unpopular-stock.html",
@@ -44,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-09T18:04:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Grafik S&P 500 Tunjukkan Tanda Peringatan Serupa dengan Tahun 1997 dan 2006 - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xRXlQc3ZGSGR4Y2Y2Q1VfYy0tR2xVejJVeEV3b3hmTWhSZVkwZ0d6UmVvbkdobDVvZHVnMDUzRWczdk5QMFgxb1FhUllpVFU4Y3RRUkZaZE1IWjBzcTNsUnZYeWlidXNxQlU4?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-08-06T07:00:00.000Z",
       "source": "google-news"
     }
   ]
