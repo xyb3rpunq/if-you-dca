@@ -1,56 +1,42 @@
 {
   "id": "orcl",
   "symbol": "ORCL",
-  "generatedAt": "2026-08-15T03:30:33.880Z",
-  "count": 8,
+  "generatedAt": "2026-08-17T02:58:44.230Z",
+  "count": 6,
   "items": [
     {
-      "title": "Why Oracle Stock Got Trounced Today",
-      "url": "https://finance.yahoo.com/m/a01b419f-6ec5-3f33-8f0d-bbc73a44f2aa/why-oracle-stock-got-trounced.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-14T22:02:45.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "ORCL Stock Drops After 6-Month Delay To Gas Pipeline Project Supporting New Mexico AI Data Center",
-      "url": "https://finance.yahoo.com/m/5b9c95fd-311a-37cd-aacf-c3ca7a3a2f9a/orcl-stock-drops-after.html",
+      "title": "AI Money Moves Put These Five Stocks In Spotlight Last Week: NVDA, INTC, ORCL, AMD, SNDK",
+      "url": "https://finance.yahoo.com/m/946f59dc-608e-30d9-ac3f-dfe5827042a1/ai-money-moves-put-these-five.html",
       "publisher": "Stocktwits",
-      "publishedAt": "2026-08-14T22:01:53.000Z",
+      "publishedAt": "2026-08-17T01:48:19.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Oracle Stock Drops While $40 Billion Funding Need Looms",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-drops-while-40-195208041.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-14T19:52:08.000Z",
+      "title": "As Oracle Deepens Its Partnership with AWS, Here’s How You Should Play ORCL Stock",
+      "url": "https://finance.yahoo.com/m/a0346fa3-6172-33c4-a45b-75fbb919ccc7/as-oracle-deepens-its.html",
+      "publisher": "Barchart",
+      "publishedAt": "2026-08-16T16:15:02.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Kontrak besar Oracle senilai $638 miliar dukung pendapatan masa depan meski saham turun. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEk4UmFfSm05Q0k2NXItY0pfX2RoU2ZLcjdIZkhySG03WnhWbjNhUk4yQXU1VXRadGZ0ZUR3UGc4N3hxY1poRjJzWng1WndBQ2Z5YXFLd0p0ZHZMbzQwa1ZRcjZHd0ZkSGNMNDVhYmVnRUxhbWhienZVbk14UkZrTXRZUXJkZnIxbzItZnpFY2Y4dG5idzZlOVZPWQ?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-10T14:06:20.000Z",
-      "source": "google-news"
+      "title": "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Shares Skyrocket, What You Need To Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wix-applovin-manhattan-associates-strategy-063700901.html",
+      "publisher": "StockStory",
+      "publishedAt": "2026-08-16T06:37:00.000Z",
+      "source": "yahoo"
     },
     {
-      "title": "Oracle dapat rekomendasi Strong Buy dengan targ... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PYXhEaHBYWnJZZHJaOFM0VFpDeGZmYkotckh4ajRZVWJJYzFnTFdQOGJmQ2phYXhSQmJHOXRQeHhxSmJiWUZOUGo2TVhXWHJfemVIanVKQW02V1duTE1sWUd6anNlVlBqN2hfX3RiWUYyblVsNk9oSklnRDZId0k?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-03T07:00:00.000Z",
-      "source": "google-news"
+      "title": "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
+      "url": "https://finance.yahoo.com/m/8e67a047-6590-3e0c-83b5-cd7e950cd595/alphabet-vs.-oracle%3A-which-is.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-08-15T11:48:00.000Z",
+      "source": "yahoo"
     },
     {
       "title": "Oracle diperdagangkan dengan diskon meski prosp... - Pluang",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15b1hFOFZQQ2hJVVNab2RGMV9abFZLRlJtNXM5bnhqZG8xSG83ckNNR28wTFRDSWtOa1VlU01uOTdtTXdOcjhfdThsMl9yMXNqcU5jV1FuM01iYU93OU1UZElSeFhBdjJtRVFZSkFR?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-03T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Oracle turun lebih dari 50% dalam setahun... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX0kwaGo4RF9hZjlSV2FHR0ZlVFo2MEpDNVgtRkx4aTZ3bXp3TE1MajYzU0JmVzdVX0pReUIwcDZLbVYyUVhiVEF5ZC1vcXdxLWl3ay1IQXpEejhwSlJlS1JXUVFOcTZNNjlsWDZKbzNSa2dzdVIzM1JHbklhQUNOQXFHeGVEazVFNUozSHUxeENBTXRXcWRnckxkbmU?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-07-29T07:00:00.000Z",
       "source": "google-news"
     },
     {

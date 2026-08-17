@@ -2,10 +2,10 @@
   "id": "asii",
   "symbol": "ASII",
   "currency": "IDR",
-  "generatedAt": "2026-08-15T03:29:53.192Z",
+  "generatedAt": "2026-08-17T02:58:02.556Z",
   "price": 4780,
   "dataFrom": "2000-11",
-  "dailyBars": 480,
+  "dailyBars": 477,
   "allTimeHigh": {
     "price": 9350,
     "at": "2017-04",
@@ -55,8 +55,8 @@
       "lastTouch": "2025-01-16"
     },
     {
-      "price": 5212.5,
-      "touches": 4,
+      "price": 5208.333333,
+      "touches": 3,
       "lastTouch": "2025-09-01"
     }
   ],
