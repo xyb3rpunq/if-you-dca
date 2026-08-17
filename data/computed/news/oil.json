@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-08-17T18:27:57.001Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-08-17T20:18:38.933Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "Update: US Equity Indexes Decline, Crude Oil Jumps After Trump Threatens to Bomb Oman",
+      "url": "https://finance.yahoo.com/markets/articles/us-equity-indexes-decline-crude-195613628.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-17T19:56:13.000Z",
+      "source": "yahoo"
+    }
+  ]
 }

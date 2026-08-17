@@ -6,7 +6,7 @@
   "description": "Palantir Technologies Inc. Class A",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-08-17T18:26:47.376Z",
+  "fetchedAt": "2026-08-17T20:17:31.586Z",
   "historicalSnapshotAt": "2026-08-09T21:41:50.043Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×1.0000 agar sejajar dengan deret historis"
   },
-  "marketPrice": 173.61,
+  "marketPrice": 172.55,
   "lastMonthIsPartial": true,
   "count": 72,
   "from": "2020-09",
@@ -310,7 +310,7 @@
     },
     {
       "m": "2026-08",
-      "c": 173.61000405462713
+      "c": 172.55000647500393
     }
   ],
   "monthlyTotal": [
@@ -600,7 +600,7 @@
     },
     {
       "m": "2026-08",
-      "c": 173.61000405462713
+      "c": 172.55000647500393
     }
   ]
 }
