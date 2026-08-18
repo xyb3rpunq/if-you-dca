@@ -2,19 +2,19 @@
   "id": "bmri",
   "symbol": "BMRI",
   "currency": "IDR",
-  "generatedAt": "2026-08-18T06:38:12.332Z",
-  "price": 4200,
+  "generatedAt": "2026-08-18T08:33:17.974Z",
+  "price": 4170,
   "dataFrom": "2003-08",
   "dailyBars": 478,
   "allTimeHigh": {
     "price": 7550,
     "at": "2024-09",
-    "distancePct": -44.37
+    "distancePct": -44.77
   },
   "allTimeLow": {
     "price": 172.07811,
     "at": "2003-08",
-    "distancePct": 2340.75
+    "distancePct": 2323.32
   },
   "supports": [
     {
@@ -66,21 +66,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 51.14,
-    "sma20": 4206.5,
-    "sma50": 4165.2,
-    "sma200": 4599.725,
-    "ema12": 4178.671105,
-    "ema26": 4184.256185,
-    "macd": -5.585079,
-    "macdSignal": 0.762033,
-    "macdHistogram": -6.347113,
-    "bollingerUpper": 4412.730454,
-    "bollingerMiddle": 4206.5,
-    "bollingerLower": 4000.269546,
-    "bollingerBandwidth": 0.0981,
+    "rsi14": 49.06,
+    "sma20": 4205,
+    "sma50": 4164.6,
+    "sma200": 4599.575,
+    "ema12": 4174.055721,
+    "ema26": 4182.033962,
+    "macd": -7.978242,
+    "macdSignal": 0.283401,
+    "macdHistogram": -8.261643,
+    "bollingerUpper": 4411.833266,
+    "bollingerMiddle": 4205,
+    "bollingerLower": 3998.166734,
+    "bollingerBandwidth": 0.0984,
     "atr14": 94.893441,
-    "stochK": 63.64,
-    "stochD": 48.48
+    "stochK": 50,
+    "stochD": 43.94
   }
 }
