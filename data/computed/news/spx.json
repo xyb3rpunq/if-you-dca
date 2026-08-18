@@ -1,9 +1,30 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-18T02:54:05.887Z",
-  "count": 5,
+  "generatedAt": "2026-08-18T04:33:30.091Z",
+  "count": 7,
   "items": [
+    {
+      "title": "S&P 500 Falls, Bitcoin Surges as Traders Await the Fed Minutes: What Next?",
+      "url": "https://finance.yahoo.com/m/d50ce371-7698-3a50-9e44-694f9791f30b/s%26p-500-falls%2C-bitcoin-surges.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-18T04:05:29.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Why Dow, S&P 500, Nasdaq Futures Are Slipping Overnight: SNDK, MSTR, NBIS, NKE Stocks Are In Focus",
+      "url": "https://finance.yahoo.com/m/929b5400-4fe1-3747-83be-ebfe7514ac12/why-dow%2C-s%26p-500%2C-nasdaq.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-18T03:56:40.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Berita S&P 500 - Investing.com Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4dTE1R2lRdmFOMVVjRmpIRTA2cGJralk4dzZOMFI4SWtKRk5tMUliWW50UV9NZFdXTFJqWllBWk1QUW1WMXdwV1BkWDF0cG9Ibkd3QmxrN244cFhKZHpNRkhn?oc=5",
+      "publisher": "Investing.com Indonesia",
+      "publishedAt": "2026-08-18T03:03:13.000Z",
+      "source": "google-news"
+    },
     {
       "title": "1 S&P 500 Stock with Competitive Advantages and 2 Facing Challenges",
       "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-competitive-233420660.html",
@@ -30,13 +51,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-09T18:04:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Berita S&P 500 - Investing.com Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFTjFVQTY0aVVpSTVtZEkxYzVHZ3pGd0FPTnd2VGxrekxHMjBFSTJNSnZUR1JvYTB4RnhqSFBCRzlJYTBWWHN4S0V3UWd0RjR4bW1Zdlc1RE9DRldnNEdIX3FR?oc=5",
-      "publisher": "Investing.com Indonesia",
-      "publishedAt": "2026-08-07T19:59:59.000Z",
       "source": "google-news"
     }
   ]
