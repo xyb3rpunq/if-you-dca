@@ -1,35 +1,21 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-17T20:18:38.933Z",
+  "generatedAt": "2026-08-18T02:54:05.887Z",
   "count": 8,
   "items": [
-    {
-      "title": "Apple Changes App Tracking Rules in Europe",
-      "url": "https://finance.yahoo.com/technology/articles/apple-changes-app-tracking-rules-201438480.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-17T20:14:38.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Stock Got an Upgrade. It Could Be the AI Gatekeeper.",
-      "url": "https://finance.yahoo.com/m/6bef341c-5032-3b65-a77f-891b2b04046d/apple-stock-got-an-upgrade..html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-17T18:37:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Makes Major AI Strategy Shift in China, Develops Own LLM With Alibaba’s Support in Bid to Counter Huawei: Report",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-makes-major-ai-strategy-183019538.html",
-      "publisher": "Benzinga",
-      "publishedAt": "2026-08-17T18:30:19.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "Sandisk, Micron, Coherent, Boeing, Apple, Amazon, and More Stocks That Explain Today’s Market",
       "url": "https://finance.yahoo.com/m/e16a2ee6-9fad-362d-ac29-c796aa9fd1b0/sandisk%2C-micron%2C-coherent%2C.html",
       "publisher": "Barrons.com",
-      "publishedAt": "2026-08-17T18:18:00.000Z",
+      "publishedAt": "2026-08-17T20:52:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Trump admin. urges Apple not to purchase Chinese memory chips, but this presents a problem",
+      "url": "https://finance.yahoo.com/video/trump-admin-urges-apple-not-203543932.html",
+      "publisher": "Yahoo Finance Video",
+      "publishedAt": "2026-08-17T20:35:43.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +44,20 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNDFSVlpxNjQydzVkUF9uOUFGdExWTGxLVm1KMVdGTzdOOXRLa2o4T0dmQlc1TDcwbTl3ODg5Y2diNFVqUV9tTmV0Y2Z2aWxLVUpmR3BpM3QzRGpadkVLYjNUUUNMeUlyWngtenJEa3NSYklvNWhFaEVRTGx2VC1PV0xaZ1A?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-08-06T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini 3 Agustus 2026: Anjlok ke $308,91 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVHhSSHRoQVptdWEtLVhJRnAxdGEzVFFjMXBTYnBzU3R4UVFOcTdTRFhTbno3eU9HSjI4emJBUVZLTnVSOVZGeWlJVi1IeUFoczQ5Q3gzNUlXcENBeFp4N3lxOHp4VV8tdzVKd3F5UTExUGRHTUlYOVlhSWttc3k1MXBfWE8?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini 29 Juli 2026: Menguat ke $340,08 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSUlOdUIxOXd1NlBQazVpMUZGRmw2Qzc3VVI0ejRqNElKcTJMa1o0cTZzMy1idWdDaWVoNC1zb3FWODUtaFhSSUJJRXdoVWxhdzF4YVFLYVc3a2hNLTEzb0tQckdNanRsTlJZX0dySm03UmRGeHRWTmdnckNHR0NMTThB?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-07-29T07:00:00.000Z",
       "source": "google-news"
     }
   ]
