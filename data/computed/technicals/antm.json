@@ -2,7 +2,7 @@
   "id": "antm",
   "symbol": "ANTM",
   "currency": "IDR",
-  "generatedAt": "2026-08-19T08:33:58.709Z",
+  "generatedAt": "2026-08-19T14:24:56.634Z",
   "price": 3030,
   "dataFrom": "2005-10",
   "dailyBars": 479,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 3011,
     "bollingerLower": 2806.755049,
     "bollingerBandwidth": 0.1357,
-    "atr14": 107.593482,
+    "atr14": 108.307768,
     "stochK": 52.5,
     "stochD": 62.74
   }
