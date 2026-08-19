@@ -1,15 +1,43 @@
 {
   "id": "btc",
   "symbol": "BTC",
-  "generatedAt": "2026-08-19T16:22:39.788Z",
+  "generatedAt": "2026-08-19T18:22:58.838Z",
   "count": 8,
   "items": [
     {
-      "title": "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-19-2026-crypto-prices-rise-after-sec-announces-proposed-regulation-161733939.html",
-      "publisher": "Yahoo Personal Finance",
-      "publishedAt": "2026-08-19T16:17:33.000Z",
-      "source": "yahoo"
+      "title": "Volatilitas Bitcoin capai rekor terendah, inves... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZERjSVcxTExZUHItSGZaNnVhdUZmRjlpQnpobUVlX3Y1Nm1YbE1fc0ltZF9USGd1WXVEdmpaVnNsRWYzMjM0cUlkR1BlajJVRWhrc0Q4WENOcGRRQUxZb3NRdXZzMGo3NndwSkxkN0pweXpmOXFXaGZtSFd5VmFoYWh5V3k5WTM0bG9yODY0aTJ4WVF2X01BQzljbVUtUQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-19T17:58:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bitcoin mendekati $70K dan Ethereum melampaui $... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzdaNlVrN3JtdmZ2VFFmT2g2ZWpJUG5oQXVDUW12UzVIamZXNDFVUWMwVEZDbWNjM2dRTGxjMXV4SGdvWk9kcFhtYlBnOEFKTVZfb2hGYjZCamFsbzlETWNueVlObGlLbE5Id1FjRm9TUjE4RXFGeUo0bXU2T3EzMW9pdkZHUmI3Y19rNDVYRQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-19T17:41:58.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bitcoin tembus kisaran enam minggu, naik 6,2% s... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXJlWWZDN3VyZ3V1a2NPU201c3d3cjQ0c25VaFd2T084YXFhWGNUOXJ4V0w3UElFNGZnNmw1TTBmTGRqM2lJVUdPZ2xuSVRyejU3YmFVc1kzUThJdkk2SFE3aUNHZG9CcG10U3VlSDM1ZzlNaGY2RFpmeGRqZXlOVEY4MklTZw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-19T17:40:03.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Prediksi Harga Mata Uang Kripto: XRP, Bitcoin & Kripto – Rangkuman Amerika 19 Agustus - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSzBGMDh0amNMOEFNb1VaaEQ0ZE80STBRWERJNWNjVWFXbEFwTHZ0ejJoNTQ2YzZoQ2pVcmJpdDZwMmxWVHFlQW5leFloaUVQZjVzcHBtY3pzdUlNNGhjcXR1S0pKdjdibEhPM1RkeG9neEkyTmlLWUNuU0I0ZTl0SUE3VXRJRUlVTnBMamNMdTVWdTl6LXp3VjRNVmxCZkkwN0ZFc2ZHNjlTQWpsNGJqOEUyRnhNcWVQaksxb2xrU3c4Q1lmOXloWWV5cTdCekN4TzVrYWctVXJtd9IB3wFBVV95cUxPVnd4amdaV1AzZlBORHNOVmhMSEpZRnJXcmlLWDJaYkVnTkRySUFfbm1CUWs2LWlrVlE1OG1GUkJLZTVpODFlZS1GVzFtWjVJUl9CS3JLcUZVUmRIbzYzbUgwcVlYaE1HV2xReHZzRmdRY3pmemZJMmh2OXZ3dmdHMWJ5d21HLUpMaGk5a29sbFRQbkg1dDlSX2xPa1RFLWh0eVVFQW85WS1tcHJLSEItUEwzQzJIdTV2N1lJYUtxLVViYXg5U1hxZzNSOFp4NzZpSng5NUd6blBBUzBZX1lB?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-08-19T16:47:56.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bitcoin dan kripto utama naik kuat, BTC naik 5,8% dan ETH naik 9%. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmJIdDBaYTFYaVVUUDg2YWkydHh4SUtUbVhJTGl0V1I0YnEzTHU0eGExMEhMa2x4ZXE0NlQya2JKbVNkakpNY25JZjI4WnJGSTI3LTllNktjdnRLVWFsQ2NEdTBsYlFjVENRSnZEVmdsVy1vMUlxMmpnMnh1R185VEl6WTk0T0FPemh6aVBjZ29nd0VsWC11aE13REZPZGxhendvbXZ3?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-19T16:43:47.000Z",
+      "source": "google-news"
     },
     {
       "title": "Harga Bitcoin Hari Ini (19/8) Merah Merona di $64.713, Terseret Outflow ETF AS? - Pintu",
@@ -19,17 +47,10 @@
       "source": "google-news"
     },
     {
-      "title": "H100 Group catat rugi kuartal kedua $10,3 juta akibat harga Bitcoin turun, tambah kepemilikan BTC jadi 3.506 koin. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcFMtaGs0bDFETnlRX0phTEtwSC1LbGpLTk0tMDdmTVB5dTJZbnRTUFpnM19oaVN3SjVrc0JYemMwbjI1cjMyT0x1UkRXMHZReHEzNGwycjBpczQ1aXN5cUFiTk9kNlZMaml3R3p3cDBXcVFEU2hzcVE3VzVfdHczRGV3dUFZUQ?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-19T15:07:16.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Pergerakan Crypto 19 Agustus 2026: BTC, ETH, XRP Uji Level Kunci - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObUxYbVowSFZMejN2SEhfdFRkMmhjWVcwbDRqYkQtX3N6T2loQmhSb1VaWHpwXzQ4dWpaVjNINGYxVURTN2hOdVJOYnZDNG9yTmpQazFxTkJHVGJxR0JYWVEwYnprOTRxQTg3ZG5hcjZfUlowMTFvUk5XNlRSeVVJX2JfTmVEelJQUk81LXhFUmZjeTZIQVZwMQ?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-08-19T15:04:10.000Z",
+      "title": "Prakiraan Bitcoin versus Emas: BTC, XAU Melanjutkan Kenaikan - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZEhmamNoaUFGdFZ3NEtWVXl1ZTA4TzlqRml3WFRrZVBFNFVnQVFaN0V0YzdSRjRodE1zYW51NmQ3VUpvZU1nZkJGd3I3cy12RTd0MUJ0ekRaYnMyQ3dmSklMMXdEUFoyeE9aM3JJbDA3NkJDd2Yyc2NkMlFUUDcyR1BxdDJUQ2kzSEVITnd4R1JXSzdDMG9FbHByb2RQdEZEelA4UDV1MUlQeDFyVzNwWmZZXzFFTWhPZzU4OGdJNkhNS2U5M0tDUWtqRmZXWFdVYmdGdzQxVnhUVHgxeF9BS0R2TkVHd0JPN1NKZHpGU0tPM21wRTlJ0gH8AUFVX3lxTE1ibzg3QnhSb2Ric0J4eDBwd1dfdnpGemRKZTlteGdHRGI5ZDF4LTktT3hDY2R5X18tX3czcVkxV0xscEtaR1JTZ3NWN1hMSmQwYk56R3NHT096a0VDSnNrN1U2LV80d2R0MmtIQnlPWHU3TUtLS0MxWEsxalRNYWRUUlplcTVIS1NHTkZiQ1gzTEVIWnA2alhXYVZ4OHJqTEhFVEZYZHV3V3ozNWNqVkM1SFp4dnF4TW9nMGhudDk3dkM2cUpMTXRfemcxcjVodEp3enJJNFZJaFh2bFRENVR1bW1peHNyY3lIX3hZeUcyNjd4VUxrUVhGc2ZpYw?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-08-19T15:33:03.000Z",
       "source": "google-news"
     },
     {
@@ -37,27 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1h0QWpjU3JvNlE5OVJnZG5Dd2ZQN3l4bnAyMFJpUWhrSmZNbjdsVXlKX3ZQb3NlcWlIbHV2bGlNUXpZRndRV3BMN1FLQmRydFlhVktQcXJVNFVLRFR2eEFOT0ZaMXJ2eHYtUGVIQm04WXYyS09YSXd0TjFWZzVQUXNLYmVDTDFaLTZRTEhCM0xGdGot?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-19T13:18:35.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Risalah suku bunga FOMC menjadi sorotan saat harga BTC stabil, imbal hasil obligasi melonjak: Crypto Daily - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONUNvelZFd1dfUWpvSEgzUDNySjBGdms1RG96dHowS1pEMDhFQnJrRi1QekdoUkh0azBuRGdkSEZMZW9SZFpXWFpfU2tBYTlnYkhMM0t0MHFQcEtiUjd1eUtUTVF2RVZIRmRteTh4T3E2VVdJQmlZUm9mbFFhakZnYjA5aEdsS09UdE1vN0lDWlh3b0RlbjNxbEd1bzAtYVBXbkQ0eVd0Y1RobFRZeThRdDNjUWZGY3dtcVozUk5HRGR1RHpOUlRB?oc=5",
-      "publisher": "CoinDesk",
-      "publishedAt": "2026-08-19T11:33:13.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Bitcoin bertahan di atas $64.000 sementara kejatuhan obligasi global mengirimkan imbal hasil ke tingkat tertinggi dalam beberapa dekade - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTVdBczRTRTNjSV9abUk5ZUlzOW0wZTNpbzI5MHhXdTM4RDVNWlFnUl9VOWRZWHNidDkxbEtFdl9fMWJKd05vNkpieFhTd0l3akpCQnlraDVpOXozb0FCLW5EdVNDTjBwYXFteHdDRHQ3WVJZamVrcVZaTmxxWEstdi10VUVrWFR3WnJVdy1Ya3ZXbktPTHBIT3NkT2lrdWt6OHRRTHdpeUpmLUNKTGs2YXRoVnFnLXBmVnRLMFJtWl9mTnM0Y2RZdWhtbW51dw?oc=5",
-      "publisher": "CoinDesk",
-      "publishedAt": "2026-08-19T10:42:55.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Investor Besar Serok US$2,7 Miliar Bitcoin Saat Harga Turun 50% dari ATH - INDODAX",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbk9fRlVjalk4TEkxeW5QeWY5QU9VbFFuSWk1ZkxuWDhReGdMSzBFcW53S2pBOEdlY21oY0xIcUtsUmFKZnVrS3RCS2t0QWtCdXMwRHdpaVo5dzc0LVNmcDc1UDdsZUl3ckktUlA3dXJoc3o2QmJDSGc4S0hfVnVwLVhCRzk?oc=5",
-      "publisher": "INDODAX",
-      "publishedAt": "2026-08-19T10:13:40.000Z",
       "source": "google-news"
     }
   ]
