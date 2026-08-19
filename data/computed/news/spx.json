@@ -1,9 +1,30 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-19T06:39:36.359Z",
-  "count": 5,
+  "generatedAt": "2026-08-19T08:34:37.151Z",
+  "count": 8,
   "items": [
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081310712.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-08-19T08:13:10.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/m/fe1e6ffc-4db7-3b78-8752-097f018c4e96/stock-market%3A-will-s%26p-500.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-08-19T06:04:10.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Slip As Global Bond Rout Catches Up With Markets: LUNR, MSTR, WYFI, AMLX Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/7530780e-e32a-3f28-ab73-9948656dfc9f/dow%2C-s%26p-500%2C-nasdaq-futures.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-19T03:17:32.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Wall Street Ditutup Melemah, Aksi Jual Saham Chip Tekan S&P 500 - RCTI+",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZDluSm9IVDdlYVNMNXBheERTR3NNLWxsWk8zUVFDbkpBM0lxaVhEMU9JcVV6OElSa0ItSWFFSktaUnlpVC01ZXEwd25ic0hGNmI5Ni1MTDVMWU5jRk43NDdvSFBJQ2tRNFR5M0ZOZGtuTW40UU84Q2RyTFZmYTRQeGl1bl9fLU9mN0g1QkNUS2M2MEFqS1M3aXFFaDJmTnBsMWRXYlE2WmFnY1cwbmNMVTJIV0o4bDIzN2xxTER3NG9DeE56cTFFQ2tMWV9iQm82WUhnOXEycG1LZnl1ZV9MWnJoNkpHNFBUOFY3RHN6S3FkS1VodXA3anhnWDI5MXhhN3hmTzFNa0J5MmluVDBMTE1qUTQ?oc=5",
@@ -19,9 +40,9 @@
       "source": "google-news"
     },
     {
-      "title": "BREAKING: Dow, S&P 500, dan Nasdaq semua menutup lebih renda - kucoin.com",
+      "title": "BREAKING: Dow, S&P 500, dan Nasdaq semua menutup lebih renda - KuCoin",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5dGw0M29nR1JNVnRkRmhHSlU2ZVNhSVRGMC03QzBUOUdkT2kxb3pweDdBaDFhQ2w3Y2wxM0xJZDVTVVJEck12U2FrYy1IdUY3NVAyWUNhQk5GNEdCc0ExMmxaMWlFUjZpNllrM0U3eW95N1RP?oc=5",
-      "publisher": "kucoin.com",
+      "publisher": "KuCoin",
       "publishedAt": "2026-08-14T07:00:00.000Z",
       "source": "google-news"
     },

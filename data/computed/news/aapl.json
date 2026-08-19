@@ -1,9 +1,16 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-19T06:39:36.359Z",
+  "generatedAt": "2026-08-19T08:34:37.151Z",
   "count": 8,
   "items": [
+    {
+      "title": "Western Digital (WDC) Could Be 51% Overvalued On Apple China Memory Push",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-could-51-081428418.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-08-19T08:14:28.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Tim Cook's Final Earnings Call as Apple CEO Came the Same Week Apple Hit a $5 Trillion Market Cap. Here's What Investors Should Watch Under His Successor.",
       "url": "https://finance.yahoo.com/m/71167428-7d1d-3ba6-9a00-632c5385e891/tim-cook%27s-final-earnings.html",
@@ -51,13 +58,6 @@
       "url": "https://finance.yahoo.com/m/264f7f84-ef1a-3a06-9f5d-2ee80315e0a0/jim-cramer-doubles-down-on.html",
       "publisher": "TheStreet",
       "publishedAt": "2026-08-18T23:17:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh — BABA, AAPL, GRRR, KLAR, CRWD In Focus",
-      "url": "https://finance.yahoo.com/m/1531307b-53c6-3678-aa33-dd7ca8654dd9/us-stocks-end-third-session.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-18T21:35:08.000Z",
       "source": "yahoo"
     }
   ]
