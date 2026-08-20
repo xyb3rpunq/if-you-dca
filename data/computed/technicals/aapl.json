@@ -2,7 +2,7 @@
   "id": "aapl",
   "symbol": "AAPL",
   "currency": "USD",
-  "generatedAt": "2026-08-20T02:54:23.802Z",
+  "generatedAt": "2026-08-20T04:34:44.900Z",
   "price": 316.83,
   "dataFrom": "1996-09",
   "dailyBars": 501,
@@ -79,7 +79,7 @@
     "bollingerMiddle": 316.039999,
     "bollingerLower": 290.877597,
     "bollingerBandwidth": 0.1592,
-    "atr14": 7.667307,
+    "atr14": 7.667314,
     "stochK": 87.29,
     "stochD": 42.9
   }
