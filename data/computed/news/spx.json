@@ -1,13 +1,34 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-19T20:19:05.475Z",
-  "count": 5,
+  "generatedAt": "2026-08-20T02:55:03.432Z",
+  "count": 8,
   "items": [
     {
-      "title": "Wall Street Ditutup Melemah, Aksi Jual Saham Chip Tekan S&P 500 - rctiplus.com",
+      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs",
+      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
+      "publisher": "Investor's Business Daily",
+      "publishedAt": "2026-08-20T02:44:45.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Moderna Is Now S&P 500’s No. 2 Stock This Year — Wall Street, Jim Cramer And Elon Musk Cheer Cancer Vaccine Breakthrough",
+      "url": "https://finance.yahoo.com/m/42a51dc9-a92e-3c78-90c0-c4ee65dc90ba/moderna-is-now-s%26p-500%E2%80%99s-no..html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-20T02:20:10.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Reddit (RDDT) Jumped 13% on S&P 500 Inclusion. Will Index Demand Hold the Gain?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-rddt-jumped-13-p-003520140.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-08-20T00:35:20.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Wall Street Ditutup Melemah, Aksi Jual Saham Chip Tekan S&P 500 - RCTI+",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZDluSm9IVDdlYVNMNXBheERTR3NNLWxsWk8zUVFDbkpBM0lxaVhEMU9JcVV6OElSa0ItSWFFSktaUnlpVC01ZXEwd25ic0hGNmI5Ni1MTDVMWU5jRk43NDdvSFBJQ2tRNFR5M0ZOZGtuTW40UU84Q2RyTFZmYTRQeGl1bl9fLU9mN0g1QkNUS2M2MEFqS1M3aXFFaDJmTnBsMWRXYlE2WmFnY1cwbmNMVTJIV0o4bDIzN2xxTER3NG9DeE56cTFFQ2tMWV9iQm82WUhnOXEycG1LZnl1ZV9MWnJoNkpHNFBUOFY3RHN6S3FkS1VodXA3anhnWDI5MXhhN3hmTzFNa0J5MmluVDBMTE1qUTQ?oc=5",
-      "publisher": "rctiplus.com",
+      "publisher": "RCTI+",
       "publishedAt": "2026-08-18T23:20:10.000Z",
       "source": "google-news"
     },
@@ -19,24 +40,24 @@
       "source": "google-news"
     },
     {
-      "title": "BREAKING: Dow, S&P 500, dan Nasdaq semua menutup lebih renda - KuCoin",
+      "title": "BREAKING: Dow, S&P 500, dan Nasdaq semua menutup lebih renda - kucoin.com",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5dGw0M29nR1JNVnRkRmhHSlU2ZVNhSVRGMC03QzBUOUdkT2kxb3pweDdBaDFhQ2w3Y2wxM0xJZDVTVVJEck12U2FrYy1IdUY3NVAyWUNhQk5GNEdCc0ExMmxaMWlFUjZpNllrM0U3eW95N1RP?oc=5",
-      "publisher": "KuCoin",
+      "publisher": "kucoin.com",
       "publishedAt": "2026-08-14T07:00:00.000Z",
       "source": "google-news"
     },
     {
-      "title": "JPMorgan dan CFRA Naikkan Proyeksi Harga S&P 500 karena Tidak Ada Lagi yang Ingin Lindungi Risiko - BeInCrypto",
+      "title": "JPMorgan dan CFRA Naikkan Proyeksi Harga S&P 500 karena Tidak Ada Lagi yang Ingin Lindungi Risiko - id.beincrypto.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb2RKdHhKR1kyVldkeWRuMlllODQzUnpnZ2dzZHZJYXc4VDZublJsQTJSb1c3TXRDOVRBcTVKclF4cHE4LXNvcGdERG1jSGRwcHpzdzBlN1RFYzJ1eGVfbVRHSWVUM2RYVUlra3N0aU1BbGE2aUNhUlhHMzZ3ZzliVWVMTnpwWU0?oc=5",
-      "publisher": "BeInCrypto",
+      "publisher": "id.beincrypto.com",
       "publishedAt": "2026-08-10T21:04:00.000Z",
       "source": "google-news"
     },
     {
-      "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - BeInCrypto",
+      "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - id.beincrypto.com",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-08-09T18:04:00.000Z",
+      "publisher": "id.beincrypto.com",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
       "source": "google-news"
     }
   ]
