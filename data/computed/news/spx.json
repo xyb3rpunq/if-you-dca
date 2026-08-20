@@ -1,63 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-20T08:35:49.754Z",
-  "count": 8,
+  "generatedAt": "2026-08-20T14:28:55.884Z",
+  "count": 3,
   "items": [
-    {
-      "title": "The S&P 500 Has Gained More Than 33% Since Trump's Election. Here's What That Means for Investors Heading Into Midterms.",
-      "url": "https://finance.yahoo.com/m/58c806f4-7089-325d-bc7a-f4debec901c9/the-s%26p-500-has-gained-more.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-20T08:15:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "US Stock Market Today: S&P 500 Futures Tick Higher As Long Term Rate Questions Linger",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081157432.html",
-      "publisher": "Simply Wall St.",
-      "publishedAt": "2026-08-20T08:11:57.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures steady after Treasury's bond intervention buoys markets",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-08-20T08:11:39.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "S&P 500 Could Hit 8,000 Soon, Morningstar Says — CRM, NOW, WDAY And MSFT Lead The August Rebound",
-      "url": "https://finance.yahoo.com/m/c1e5029d-ccf8-3c95-ad71-90b356c61d81/s%26p-500-could-hit-8%2C000-soon%2C.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-20T06:52:49.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "url": "https://finance.yahoo.com/m/67a18329-4174-36c8-808e-338c91149c41/stock-market%3A-will-s%26p-500.html",
-      "publisher": "Benzinga Prediction Markets",
-      "publishedAt": "2026-08-20T05:45:08.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs",
-      "url": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-08-20T03:12:38.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Moderna Is Now S&P 500’s No. 2 Stock This Year — Wall Street, Jim Cramer And Elon Musk Cheer Cancer Vaccine Breakthrough",
-      "url": "https://finance.yahoo.com/m/42a51dc9-a92e-3c78-90c0-c4ee65dc90ba/moderna-is-now-s%26p-500%E2%80%99s-no..html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-20T02:20:10.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "Wall Street Ditutup Melemah, Aksi Jual Saham Chip Tekan S&P 500 - RCTI+",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZDluSm9IVDdlYVNMNXBheERTR3NNLWxsWk8zUVFDbkpBM0lxaVhEMU9JcVV6OElSa0ItSWFFSktaUnlpVC01ZXEwd25ic0hGNmI5Ni1MTDVMWU5jRk43NDdvSFBJQ2tRNFR5M0ZOZGtuTW40UU84Q2RyTFZmYTRQeGl1bl9fLU9mN0g1QkNUS2M2MEFqS1M3aXFFaDJmTnBsMWRXYlE2WmFnY1cwbmNMVTJIV0o4bDIzN2xxTER3NG9DeE56cTFFQ2tMWV9iQm82WUhnOXEycG1LZnl1ZV9MWnJoNkpHNFBUOFY3RHN6S3FkS1VodXA3anhnWDI5MXhhN3hmTzFNa0J5MmluVDBMTE1qUTQ?oc=5",
       "publisher": "RCTI+",
       "publishedAt": "2026-08-18T23:20:10.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "JPMorgan dan CFRA Naikkan Proyeksi Harga S&P 500 karena Tidak Ada Lagi yang Ingin Lindungi Risiko - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb2RKdHhKR1kyVldkeWRuMlllODQzUnpnZ2dzZHZJYXc4VDZublJsQTJSb1c3TXRDOVRBcTVKclF4cHE4LXNvcGdERG1jSGRwcHpzdzBlN1RFYzJ1eGVfbVRHSWVUM2RYVUlra3N0aU1BbGE2aUNhUlhHMzZ3ZzliVWVMTnpwWU0?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-10T21:04:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
       "source": "google-news"
     }
   ]

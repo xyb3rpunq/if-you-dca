@@ -1,14 +1,42 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-08-20T08:35:49.754Z",
+  "generatedAt": "2026-08-20T14:28:55.884Z",
   "count": 8,
   "items": [
     {
-      "title": "Marvell Lands ‘White Whale’ Google, Raises Stakes Ahead Of Q2 Report: Analyst Says TPU Deal ‘Greatly Expands’ MRVL’s Long-Term AI Opportunity",
-      "url": "https://finance.yahoo.com/m/e56478df-d48d-3b49-b295-dd7b612d6e86/marvell-lands-%E2%80%98white-whale%E2%80%99.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-20T07:23:39.000Z",
+      "title": "Google's Waymo Introduces Custom-Built Chip for Its Vehicles",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-apos-waymo-introduces-custom-142004132.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-20T14:20:04.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google’s Marvell Chip Deal",
+      "url": "https://finance.yahoo.com/m/d098a065-2851-32e3-a0c2-9d7e31287586/broadcom-holds-steady-as-ark.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-08-20T13:32:32.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Conduent Integrates Google's Gemini Into Viewpoint Platform",
+      "url": "https://finance.yahoo.com/technology/ai/articles/conduent-integrates-google-apos-gemini-131252202.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-08-20T13:12:52.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Why Marvell Technology (MRVL) Is Up 9.3% After Google’s Warrant-Backed Custom AI Chip Deal – And What’s Next",
+      "url": "https://finance.yahoo.com/technology/ai/articles/why-marvell-technology-mrvl-9-131234601.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-08-20T13:12:34.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Marvell's Google Warrant Could Add $6.15 to Earnings Per Share",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvells-google-warrant-could-add-130944536.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-08-20T13:09:44.000Z",
       "source": "yahoo"
     },
     {
@@ -30,34 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQXlTTTdoX3gxS3ZHdXhXbW9oQ2FuamZiSlptd0JKM3M5Z0xtcng1NU0yV0VxNmVNOGlXSFc2ZDFqZjRtRmFKUjFRbkVUUWRYNXZoc3VHcDBZUUktckdCSUdDSmtWY3VfS0JyYm9zbEN2MGtKaUpHSTNUcnhLZEc1dnJOTTh4dkxQQ1VablBqZDdzSF8xdVFSZG56b0NUOXhrYThUMFhJSS0?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-08-18T09:57:21.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Pertumbuhan kuat Alphabet di Search, Cloud, dan iklan YouTube tunjukkan undervaluasi 34%, direkomendasikan Beli. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcEVSVXRuLUc5TmczdnNTTDlOcXZGNW5JTGZKZk9SRF85eTBWcU1JektvZWxFQTRDU182bUFWZXNsaE1DRnczMURkWEZndElGWUY5VnptMm1ZLUU2Nk9sMUw3WHJfeGJaeHJ4c2htX2lBUkFZODVQMXB1ekNibWhBQmJiMHFzQVRqQ2ozTUxqWXhPRXhJWEE?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-14T10:36:44.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Peluncuran Google Pixel 11 Mengecewakan saat Saham Alphabet Turun - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNlMxcFZvQVkta25CM3QtdENsb0puelduNTdDVFZ4bTAxZXNhRlZDaDhod2JIR1F1WW4xQ0s3Y0dCUVZWYkVWSEVkTHpXdXZYcWVvSTdSUGFhbU4tVGpCcC1McDhObDg0Qm5SOVFaUVU0bk9BMXhWeTI1Y0FXSXRjS2NCZHh4QklhZHRETQ?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-08-12T15:18:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Google Perkenalkan Pixel 11, Reli Awal Saham Alphabet Berbalik Arah - Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2xXcXluMi12U1VqaE5iT29vV1VjLWhkdzJuREd0WTN5d21aMUVOekE3S0tvYWl1S1JmbkxSaXVzTzFjTjBhQzU4SW1CSGJVLU5XYmNXNFdPOW12RUlvbGRYTFJXRTNJUV92Z1M4MTAtaWcwY3FsNVFEUUdja2pEVWZ3dGJtdFNNSlRTUWFfOA?oc=5",
-      "publisher": "Yellow.com",
-      "publishedAt": "2026-08-12T09:19:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVRVaHQ2QmdLeW80bEFMdmdOWjk0bFczNjBma3k5bnhzaFlfWnFicV9lLUY3U0tRQ2pqVGFiLWx2eWwyQWJsa1V1WjQxS2ozUFplZ2hlaVBJOUVxRG43VkFjTHNRNHg2LTVuSGpXYkx5ZGUzN0ROcFFMUm8zYUlxVVRaQkRkLXVpOV9McmM2LWdHVWF6VW9TVDhyNHYyX25aTWNQZGtFUjV1ZWNNbkFaYk96eDV5UQ?oc=5",
-      "publisher": "Bloomberg Technoz",
-      "publishedAt": "2026-08-07T07:00:00.000Z",
       "source": "google-news"
     }
   ]
