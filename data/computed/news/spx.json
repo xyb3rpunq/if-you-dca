@@ -1,21 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-21T04:36:27.895Z",
-  "count": 5,
+  "generatedAt": "2026-08-21T06:41:22.790Z",
+  "count": 6,
   "items": [
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/m/5fe33b56-d8a2-3b80-8322-381c14c37720/stock-market%3A-will-s%26p-500.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-08-21T05:55:20.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus",
       "url": "https://finance.yahoo.com/m/5b27c2b1-8c82-3c5f-9c8f-2a5b9919a12e/dow%2C-s%26p-500%2C-nasdaq-futures.html",
       "publisher": "Stocktwits",
       "publishedAt": "2026-08-21T02:38:54.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Why MPLX Stock Is Suddenly Trending on Wall Street",
-      "url": "https://finance.yahoo.com/m/70cf007c-2010-386a-8434-8dbad1ed044b/why-mplx-stock-is-suddenly.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-21T01:50:00.000Z",
       "source": "yahoo"
     },
     {
@@ -37,6 +37,13 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-10T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Goldman Sachs peringatkan Nasdaq tembus ambang jual CTA; S&P 500 mendekati level kritis, risiko jual besar. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSllwMWU4cWtyd0lMUVJfOWlTcFpDNlFpSjV6UFI2N2ZzME9wNHNpZGxxb3RZcG1sMUY4eFRVQXhaaDJtUURSWm5Da0pYUzFhOFhieG1PWUlMamIxZ1g5ZlI3MWhwcXZrU1pTYW1Bd1pxbnFtY2w4LWUyWDItR0JwMmFQRllDTTBsS1dLLUNhdnRybEhfNDk2dEQxNzBZcmNPbThwTGQ0SEFBc2RYM0E?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-07-19T07:00:00.000Z",
       "source": "google-news"
     }
   ]

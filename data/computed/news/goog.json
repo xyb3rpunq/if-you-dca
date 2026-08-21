@@ -1,9 +1,16 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-08-21T04:36:27.895Z",
+  "generatedAt": "2026-08-21T06:41:22.790Z",
   "count": 8,
   "items": [
+    {
+      "title": "Former Google Engineer Convicted of Stealing AI Trade Secrets Gets Major Legal Break as Judge Throws Out Economic Espionage Charges",
+      "url": "https://finance.yahoo.com/technology/ai/articles/former-google-engineer-convicted-stealing-034103127.html",
+      "publisher": "Benzinga",
+      "publishedAt": "2026-08-21T03:41:03.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Google's Marvell Warrant Doesn't Fully Vest Until Google Buys $120 Billion of Chips",
       "url": "https://finance.yahoo.com/m/cc5722d8-d61a-36ed-8d25-6c89f03a2503/google%27s-marvell-warrant.html",
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcEVSVXRuLUc5TmczdnNTTDlOcXZGNW5JTGZKZk9SRF85eTBWcU1JektvZWxFQTRDU182bUFWZXNsaE1DRnczMURkWEZndElGWUY5VnptMm1ZLUU2Nk9sMUw3WHJfeGJaeHJ4c2htX2lBUkFZODVQMXB1ekNibWhBQmJiMHFzQVRqQ2ozTUxqWXhPRXhJWEE?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-14T10:36:44.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Peluncuran Google Pixel 11 Mengecewakan saat Saham Alphabet Turun - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNlMxcFZvQVkta25CM3QtdENsb0puelduNTdDVFZ4bTAxZXNhRlZDaDhod2JIR1F1WW4xQ0s3Y0dCUVZWYkVWSEVkTHpXdXZYcWVvSTdSUGFhbU4tVGpCcC1McDhObDg0Qm5SOVFaUVU0bk9BMXhWeTI1Y0FXSXRjS2NCZHh4QklhZHRETQ?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-08-12T15:18:00.000Z",
       "source": "google-news"
     }
   ]

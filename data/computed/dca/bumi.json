@@ -16,9 +16,9 @@
   "dataFrom": "2005-06",
   "dataTo": "2026-08",
   "lastMonthIsPartial": true,
-  "lastPriceNative": 199,
-  "lastPriceIDR": 199,
-  "changeMoMPct": 20.606,
+  "lastPriceNative": 198,
+  "lastPriceIDR": 198,
+  "changeMoMPct": 20,
   "hasDividendData": true,
   "dividendContributionPct": 12.84,
   "note_id": null,
@@ -31,25 +31,25 @@
         "months": 12,
         "contribution": 1000000,
         "totalInvested": 12000000,
-        "currentValue": 12287527,
-        "units": 61746.36850767,
-        "lastPrice": 199,
-        "totalReturnPct": 2.3961,
-        "multiple": 1.023961,
-        "xirr": 0.052809,
-        "twr": 0.371169,
-        "volatility": 1.139256,
+        "currentValue": 12230806,
+        "units": 61771.74793004,
+        "lastPrice": 198,
+        "totalReturnPct": 1.9234,
+        "multiple": 1.019234,
+        "xirr": 0.042314,
+        "twr": 0.363654,
+        "volatility": 1.138402,
         "maxDrawdown": -0.249624,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.6993,
-        "sortino": 1.4307,
-        "beta": -0.8511,
-        "alpha": 1.494247,
+        "sharpe": 0.6941,
+        "sortino": 1.4188,
+        "beta": -0.8422,
+        "alpha": 1.477152,
         "partial": false,
         "realTotalInvested": 12104872,
-        "realTotalReturnPct": 1.5089,
-        "realXirr": 0.033029,
-        "inflationDragPct": 0.8871
+        "realTotalReturnPct": 1.0404,
+        "realXirr": 0.022731,
+        "inflationDragPct": 0.883
       },
       "3y": {
         "from": "2023-09",
@@ -57,25 +57,25 @@
         "months": 36,
         "contribution": 1000000,
         "totalInvested": 36000000,
-        "currentValue": 59157237,
-        "units": 297272.550156,
-        "lastPrice": 199,
-        "totalReturnPct": 64.3257,
-        "multiple": 1.643257,
-        "xirr": 0.370526,
-        "twr": 0.136549,
-        "volatility": 0.770853,
+        "currentValue": 58864990,
+        "units": 297297.92957836,
+        "lastPrice": 198,
+        "totalReturnPct": 63.5139,
+        "multiple": 1.635139,
+        "xirr": 0.366516,
+        "twr": 0.134588,
+        "volatility": 0.770379,
         "maxDrawdown": -0.596991,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.4482,
-        "sortino": 0.8654,
-        "beta": -0.7013,
-        "alpha": 0.624521,
+        "sharpe": 0.4458,
+        "sortino": 0.8602,
+        "beta": -0.6958,
+        "alpha": 0.619782,
         "partial": false,
         "realTotalInvested": 37026546,
-        "realTotalReturnPct": 59.7698,
-        "realXirr": 0.344422,
-        "inflationDragPct": 4.5559
+        "realTotalReturnPct": 58.9805,
+        "realXirr": 0.34049,
+        "inflationDragPct": 4.5334
       },
       "5y": {
         "from": "2021-09",
@@ -83,25 +83,25 @@
         "months": 60,
         "contribution": 1000000,
         "totalInvested": 60000000,
-        "currentValue": 111227164,
-        "units": 558930.47324479,
-        "lastPrice": 199,
-        "totalReturnPct": 85.3786,
-        "multiple": 1.853786,
-        "xirr": 0.257316,
-        "twr": 0.251661,
-        "volatility": 0.760642,
+        "currentValue": 110673259,
+        "units": 558955.85266715,
+        "lastPrice": 198,
+        "totalReturnPct": 84.4554,
+        "multiple": 1.844554,
+        "xirr": 0.255171,
+        "twr": 0.250379,
+        "volatility": 0.760373,
         "maxDrawdown": -0.618394,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.5729,
-        "sortino": 1.176,
-        "beta": 0.6536,
-        "alpha": 0.410466,
+        "sharpe": 0.5715,
+        "sortino": 1.1727,
+        "beta": 0.6557,
+        "alpha": 0.408244,
         "partial": false,
         "realTotalInvested": 63388829,
-        "realTotalReturnPct": 75.4681,
-        "realXirr": 0.22907,
-        "inflationDragPct": 9.9105
+        "realTotalReturnPct": 74.5943,
+        "realXirr": 0.226979,
+        "inflationDragPct": 9.8612
       },
       "10y": {
         "from": "2016-10",
@@ -109,25 +109,25 @@
         "months": 119,
         "contribution": 1000000,
         "totalInvested": 119000000,
-        "currentValue": 228320934,
-        "units": 1147341.37556086,
-        "lastPrice": 199,
-        "totalReturnPct": 91.8663,
-        "multiple": 1.918663,
-        "xirr": 0.128056,
-        "twr": -0.007363,
-        "volatility": 0.730941,
+        "currentValue": 227178617,
+        "units": 1147366.75498323,
+        "lastPrice": 198,
+        "totalReturnPct": 90.9064,
+        "multiple": 1.909064,
+        "xirr": 0.127094,
+        "twr": -0.007871,
+        "volatility": 0.730784,
         "maxDrawdown": -0.629538,
         "assetMaxDrawdown": -0.899598,
-        "sharpe": 0.2522,
-        "sortino": 0.4846,
-        "beta": 0.955,
-        "alpha": 0.060061,
+        "sharpe": 0.2514,
+        "sortino": 0.483,
+        "beta": 0.9564,
+        "alpha": 0.059127,
         "partial": true,
         "realTotalInvested": 134718889,
-        "realTotalReturnPct": 69.4795,
-        "realXirr": 0.100206,
-        "inflationDragPct": 22.3868
+        "realTotalReturnPct": 68.6316,
+        "realXirr": 0.099271,
+        "inflationDragPct": 22.2748
       },
       "max": {
         "from": "2005-06",
@@ -135,25 +135,25 @@
         "months": 252,
         "contribution": 1000000,
         "totalInvested": 252000000,
-        "currentValue": 323346447,
-        "units": 1624856.51938554,
-        "lastPrice": 199,
-        "totalReturnPct": 28.3121,
-        "multiple": 1.283121,
-        "xirr": 0.022865,
-        "twr": -0.060426,
-        "volatility": 0.835473,
+        "currentValue": 321726616,
+        "units": 1624881.89864577,
+        "lastPrice": 198,
+        "totalReturnPct": 27.6693,
+        "multiple": 1.276693,
+        "xirr": 0.022417,
+        "twr": -0.06065,
+        "volatility": 0.835409,
         "maxDrawdown": -0.948501,
         "assetMaxDrawdown": -0.993437,
-        "sharpe": 0.2028,
-        "sortino": 0.4082,
-        "beta": 0.5839,
-        "alpha": 0.125188,
+        "sharpe": 0.2025,
+        "sortino": 0.4075,
+        "beta": 0.5845,
+        "alpha": 0.124779,
         "partial": false,
         "realTotalInvested": 375396857,
-        "realTotalReturnPct": -13.8654,
-        "realXirr": -0.012313,
-        "inflationDragPct": 42.1775
+        "realTotalReturnPct": -14.2969,
+        "realXirr": -0.012734,
+        "inflationDragPct": 41.9662
       }
     },
     "price": {
@@ -163,25 +163,25 @@
         "months": 12,
         "contribution": 1000000,
         "totalInvested": 12000000,
-        "currentValue": 12287527,
-        "units": 61746.36850767,
-        "lastPrice": 199,
-        "totalReturnPct": 2.3961,
-        "multiple": 1.023961,
-        "xirr": 0.052809,
-        "twr": 0.371169,
-        "volatility": 1.139256,
+        "currentValue": 12230806,
+        "units": 61771.74793004,
+        "lastPrice": 198,
+        "totalReturnPct": 1.9234,
+        "multiple": 1.019234,
+        "xirr": 0.042314,
+        "twr": 0.363654,
+        "volatility": 1.138402,
         "maxDrawdown": -0.249624,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.6993,
-        "sortino": 1.4307,
-        "beta": -0.8511,
-        "alpha": 1.494247,
+        "sharpe": 0.6941,
+        "sortino": 1.4188,
+        "beta": -0.8422,
+        "alpha": 1.477152,
         "partial": false,
         "realTotalInvested": 12104872,
-        "realTotalReturnPct": 1.5089,
-        "realXirr": 0.033029,
-        "inflationDragPct": 0.8871
+        "realTotalReturnPct": 1.0404,
+        "realXirr": 0.022731,
+        "inflationDragPct": 0.883
       },
       "3y": {
         "from": "2023-09",
@@ -189,25 +189,25 @@
         "months": 36,
         "contribution": 1000000,
         "totalInvested": 36000000,
-        "currentValue": 59157237,
-        "units": 297272.550156,
-        "lastPrice": 199,
-        "totalReturnPct": 64.3257,
-        "multiple": 1.643257,
-        "xirr": 0.370526,
-        "twr": 0.136549,
-        "volatility": 0.770853,
+        "currentValue": 58864990,
+        "units": 297297.92957836,
+        "lastPrice": 198,
+        "totalReturnPct": 63.5139,
+        "multiple": 1.635139,
+        "xirr": 0.366516,
+        "twr": 0.134588,
+        "volatility": 0.770379,
         "maxDrawdown": -0.596991,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.4482,
-        "sortino": 0.8654,
-        "beta": -0.7013,
-        "alpha": 0.624521,
+        "sharpe": 0.4458,
+        "sortino": 0.8602,
+        "beta": -0.6958,
+        "alpha": 0.619782,
         "partial": false,
         "realTotalInvested": 37026546,
-        "realTotalReturnPct": 59.7698,
-        "realXirr": 0.344422,
-        "inflationDragPct": 4.5559
+        "realTotalReturnPct": 58.9805,
+        "realXirr": 0.34049,
+        "inflationDragPct": 4.5334
       },
       "5y": {
         "from": "2021-09",
@@ -215,25 +215,25 @@
         "months": 60,
         "contribution": 1000000,
         "totalInvested": 60000000,
-        "currentValue": 111227164,
-        "units": 558930.47324479,
-        "lastPrice": 199,
-        "totalReturnPct": 85.3786,
-        "multiple": 1.853786,
-        "xirr": 0.257316,
-        "twr": 0.251661,
-        "volatility": 0.760642,
+        "currentValue": 110673259,
+        "units": 558955.85266715,
+        "lastPrice": 198,
+        "totalReturnPct": 84.4554,
+        "multiple": 1.844554,
+        "xirr": 0.255171,
+        "twr": 0.250379,
+        "volatility": 0.760373,
         "maxDrawdown": -0.618394,
         "assetMaxDrawdown": -0.639344,
-        "sharpe": 0.5729,
-        "sortino": 1.176,
-        "beta": 0.6536,
-        "alpha": 0.410466,
+        "sharpe": 0.5715,
+        "sortino": 1.1727,
+        "beta": 0.6557,
+        "alpha": 0.408244,
         "partial": false,
         "realTotalInvested": 63388829,
-        "realTotalReturnPct": 75.4681,
-        "realXirr": 0.22907,
-        "inflationDragPct": 9.9105
+        "realTotalReturnPct": 74.5943,
+        "realXirr": 0.226979,
+        "inflationDragPct": 9.8612
       },
       "10y": {
         "from": "2016-10",
@@ -241,25 +241,25 @@
         "months": 119,
         "contribution": 1000000,
         "totalInvested": 119000000,
-        "currentValue": 228320934,
-        "units": 1147341.37556086,
-        "lastPrice": 199,
-        "totalReturnPct": 91.8663,
-        "multiple": 1.918663,
-        "xirr": 0.128056,
-        "twr": -0.007363,
-        "volatility": 0.730941,
+        "currentValue": 227178617,
+        "units": 1147366.75498323,
+        "lastPrice": 198,
+        "totalReturnPct": 90.9064,
+        "multiple": 1.909064,
+        "xirr": 0.127094,
+        "twr": -0.007871,
+        "volatility": 0.730784,
         "maxDrawdown": -0.629538,
         "assetMaxDrawdown": -0.899598,
-        "sharpe": 0.2522,
-        "sortino": 0.4846,
-        "beta": 0.955,
-        "alpha": 0.060061,
+        "sharpe": 0.2514,
+        "sortino": 0.483,
+        "beta": 0.9564,
+        "alpha": 0.059127,
         "partial": true,
         "realTotalInvested": 134718889,
-        "realTotalReturnPct": 69.4795,
-        "realXirr": 0.100206,
-        "inflationDragPct": 22.3868
+        "realTotalReturnPct": 68.6316,
+        "realXirr": 0.099271,
+        "inflationDragPct": 22.2748
       },
       "max": {
         "from": "2005-06",
@@ -267,25 +267,25 @@
         "months": 252,
         "contribution": 1000000,
         "totalInvested": 252000000,
-        "currentValue": 322460335,
-        "units": 1620403.69435916,
-        "lastPrice": 199,
-        "totalReturnPct": 27.9605,
-        "multiple": 1.279605,
-        "xirr": 0.02262,
-        "twr": -0.065773,
-        "volatility": 0.834455,
+        "currentValue": 320844957,
+        "units": 1620429.07378152,
+        "lastPrice": 198,
+        "totalReturnPct": 27.3194,
+        "multiple": 1.273194,
+        "xirr": 0.022171,
+        "twr": -0.065996,
+        "volatility": 0.83439,
         "maxDrawdown": -0.947775,
         "assetMaxDrawdown": -0.993902,
-        "sharpe": 0.1955,
-        "sortino": 0.3924,
-        "beta": 0.5803,
-        "alpha": 0.118556,
+        "sharpe": 0.1952,
+        "sortino": 0.3917,
+        "beta": 0.5809,
+        "alpha": 0.118149,
         "partial": false,
         "realTotalInvested": 375396857,
-        "realTotalReturnPct": -14.1015,
-        "realXirr": -0.012543,
-        "inflationDragPct": 42.0619
+        "realTotalReturnPct": -14.5318,
+        "realXirr": -0.012963,
+        "inflationDragPct": 41.8512
       }
     }
   },
@@ -885,7 +885,7 @@
         {
           "m": "2026-08",
           "i": 119000000,
-          "v": 228320934
+          "v": 227178617
         }
       ],
       "max": [
@@ -927,7 +927,7 @@
         {
           "m": "2006-01",
           "i": 8000000,
-          "v": 8487444
+          "v": 8487443
         },
         {
           "m": "2006-02",
@@ -937,7 +937,7 @@
         {
           "m": "2006-03",
           "i": 10000000,
-          "v": 11058133
+          "v": 11058134
         },
         {
           "m": "2006-04",
@@ -952,12 +952,12 @@
         {
           "m": "2006-06",
           "i": 13000000,
-          "v": 12375145
+          "v": 12375146
         },
         {
           "m": "2006-07",
           "i": 14000000,
-          "v": 14339442
+          "v": 14339441
         },
         {
           "m": "2006-08",
@@ -967,147 +967,147 @@
         {
           "m": "2006-09",
           "i": 16000000,
-          "v": 14771230
+          "v": 14771231
         },
         {
           "m": "2006-10",
           "i": 17000000,
-          "v": 16370063
+          "v": 16370064
         },
         {
           "m": "2006-11",
           "i": 18000000,
-          "v": 18220457
+          "v": 18220458
         },
         {
           "m": "2006-12",
           "i": 19000000,
-          "v": 21244953
+          "v": 21244951
         },
         {
           "m": "2007-01",
           "i": 20000000,
-          "v": 26493943
+          "v": 26493946
         },
         {
           "m": "2007-02",
           "i": 21000000,
-          "v": 30683029
+          "v": 30683025
         },
         {
           "m": "2007-03",
           "i": 22000000,
-          "v": 34725975
+          "v": 34725971
         },
         {
           "m": "2007-04",
           "i": 23000000,
-          "v": 37031465
+          "v": 37031461
         },
         {
           "m": "2007-05",
           "i": 24000000,
-          "v": 46618470
+          "v": 46618466
         },
         {
           "m": "2007-06",
           "i": 25000000,
-          "v": 64325689
+          "v": 64325688
         },
         {
           "m": "2007-07",
           "i": 26000000,
-          "v": 77342570
+          "v": 77342576
         },
         {
           "m": "2007-08",
           "i": 27000000,
-          "v": 75075028
+          "v": 75075020
         },
         {
           "m": "2007-09",
           "i": 28000000,
-          "v": 106252226
+          "v": 106252241
         },
         {
           "m": "2007-10",
           "i": 29000000,
-          "v": 143660355
+          "v": 143660338
         },
         {
           "m": "2007-11",
           "i": 30000000,
-          "v": 170100212
+          "v": 170100178
         },
         {
           "m": "2007-12",
           "i": 31000000,
-          "v": 181637371
+          "v": 181637369
         },
         {
           "m": "2008-01",
           "i": 32000000,
-          "v": 194746508
+          "v": 194746522
         },
         {
           "m": "2008-02",
           "i": 33000000,
-          "v": 235304435
+          "v": 235304417
         },
         {
           "m": "2008-03",
           "i": 34000000,
-          "v": 190465876
+          "v": 190465906
         },
         {
           "m": "2008-04",
           "i": 35000000,
-          "v": 205290045
+          "v": 205290043
         },
         {
           "m": "2008-05",
           "i": 36000000,
-          "v": 249509002
+          "v": 249508999
         },
         {
           "m": "2008-06",
           "i": 37000000,
-          "v": 255158225
+          "v": 255158222
         },
         {
           "m": "2008-07",
           "i": 38000000,
-          "v": 212537879
+          "v": 212537860
         },
         {
           "m": "2008-08",
           "i": 39000000,
-          "v": 174179013
+          "v": 174179011
         },
         {
           "m": "2008-09",
           "i": 40000000,
-          "v": 108674290
+          "v": 108674297
         },
         {
           "m": "2008-10",
           "i": 41000000,
-          "v": 70519588
+          "v": 70519583
         },
         {
           "m": "2008-11",
           "i": 42000000,
-          "v": 33747028
+          "v": 33747025
         },
         {
           "m": "2008-12",
           "i": 43000000,
-          "v": 31405737
+          "v": 31405735
         },
         {
           "m": "2009-01",
           "i": 44000000,
-          "v": 18601017
+          "v": 18601018
         },
         {
           "m": "2009-02",
@@ -1117,7 +1117,7 @@
         {
           "m": "2009-03",
           "i": 46000000,
-          "v": 31972453
+          "v": 31972450
         },
         {
           "m": "2009-04",
@@ -1127,12 +1127,12 @@
         {
           "m": "2009-05",
           "i": 48000000,
-          "v": 78746288
+          "v": 78746283
         },
         {
           "m": "2009-06",
           "i": 49000000,
-          "v": 75728617
+          "v": 75728621
         },
         {
           "m": "2009-07",
@@ -1142,22 +1142,22 @@
         {
           "m": "2009-08",
           "i": 51000000,
-          "v": 122886785
+          "v": 122886795
         },
         {
           "m": "2009-09",
           "i": 52000000,
-          "v": 137658592
+          "v": 137658580
         },
         {
           "m": "2009-10",
           "i": 53000000,
-          "v": 102376480
+          "v": 102376479
         },
         {
           "m": "2009-11",
           "i": 54000000,
-          "v": 102298842
+          "v": 102298830
         },
         {
           "m": "2009-12",
@@ -1167,7 +1167,7 @@
         {
           "m": "2010-01",
           "i": 56000000,
-          "v": 109760885
+          "v": 109760874
         },
         {
           "m": "2010-02",
@@ -1187,7 +1187,7 @@
         {
           "m": "2010-05",
           "i": 60000000,
-          "v": 93456990
+          "v": 93456989
         },
         {
           "m": "2010-06",
@@ -1207,7 +1207,7 @@
         {
           "m": "2010-09",
           "i": 64000000,
-          "v": 104350278
+          "v": 104350277
         },
         {
           "m": "2010-10",
@@ -1217,7 +1217,7 @@
         {
           "m": "2010-11",
           "i": 66000000,
-          "v": 132321941
+          "v": 132321940
         },
         {
           "m": "2010-12",
@@ -1242,7 +1242,7 @@
         {
           "m": "2011-04",
           "i": 71000000,
-          "v": 176573030
+          "v": 176573029
         },
         {
           "m": "2011-05",
@@ -1257,7 +1257,7 @@
         {
           "m": "2011-07",
           "i": 74000000,
-          "v": 162373254
+          "v": 162373253
         },
         {
           "m": "2011-08",
@@ -1292,7 +1292,7 @@
         {
           "m": "2012-02",
           "i": 81000000,
-          "v": 138012466
+          "v": 138012465
         },
         {
           "m": "2012-03",
@@ -1302,17 +1302,17 @@
         {
           "m": "2012-04",
           "i": 83000000,
-          "v": 115933230
+          "v": 115933229
         },
         {
           "m": "2012-05",
           "i": 84000000,
-          "v": 82296389
+          "v": 82296388
         },
         {
           "m": "2012-06",
           "i": 85000000,
-          "v": 66194095
+          "v": 66194094
         },
         {
           "m": "2012-07",
@@ -1322,7 +1322,7 @@
         {
           "m": "2012-08",
           "i": 87000000,
-          "v": 43417101
+          "v": 43417100
         },
         {
           "m": "2012-09",
@@ -1347,7 +1347,7 @@
         {
           "m": "2013-01",
           "i": 92000000,
-          "v": 47443507
+          "v": 47443506
         },
         {
           "m": "2013-02",
@@ -1592,7 +1592,7 @@
         {
           "m": "2017-05",
           "i": 141000000,
-          "v": 192858042
+          "v": 192858041
         },
         {
           "m": "2017-06",
@@ -1717,7 +1717,7 @@
         {
           "m": "2019-06",
           "i": 166000000,
-          "v": 75236385
+          "v": 75236384
         },
         {
           "m": "2019-07",
@@ -2147,7 +2147,7 @@
         {
           "m": "2026-08",
           "i": 252000000,
-          "v": 323346447
+          "v": 321726616
         }
       ]
     },
@@ -2746,7 +2746,7 @@
         {
           "m": "2026-08",
           "i": 119000000,
-          "v": 228320934
+          "v": 227178617
         }
       ],
       "max": [
@@ -4008,7 +4008,7 @@
         {
           "m": "2026-08",
           "i": 252000000,
-          "v": 322460335
+          "v": 320844957
         }
       ]
     }
