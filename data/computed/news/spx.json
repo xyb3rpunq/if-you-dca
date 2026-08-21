@@ -1,21 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-21T06:41:22.790Z",
-  "count": 6,
+  "generatedAt": "2026-08-21T08:38:12.918Z",
+  "count": 7,
   "items": [
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Edge Lower As Higher For Longer Worries Build",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-081024366.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-08-21T08:10:24.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures drift higher despite Treasury yield pressures persisting",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-080533702.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-08-21T08:05:33.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
       "url": "https://finance.yahoo.com/m/5fe33b56-d8a2-3b80-8322-381c14c37720/stock-market%3A-will-s%26p-500.html",
       "publisher": "Benzinga Prediction Markets",
       "publishedAt": "2026-08-21T05:55:20.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Dow, S&P 500, Nasdaq Futures Climb After Sharp Selloff On Rising Treasury Yields: MSTR, MARA, COIN, WMT Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/5b27c2b1-8c82-3c5f-9c8f-2a5b9919a12e/dow%2C-s%26p-500%2C-nasdaq-futures.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-21T02:38:54.000Z",
       "source": "yahoo"
     },
     {
