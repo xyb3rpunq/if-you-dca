@@ -2,21 +2,26 @@
   "id": "bbni",
   "symbol": "BBNI",
   "currency": "IDR",
-  "generatedAt": "2026-08-20T20:20:17.296Z",
-  "price": 3590,
+  "generatedAt": "2026-08-21T03:00:05.220Z",
+  "price": 3650,
   "dataFrom": "2004-01",
-  "dailyBars": 478,
+  "dailyBars": 479,
   "allTimeHigh": {
     "price": 6250,
     "at": "2024-03",
-    "distancePct": -42.56
+    "distancePct": -41.6
   },
   "allTimeLow": {
     "price": 187.230408,
     "at": "2008-11",
-    "distancePct": 1817.42
+    "distancePct": 1849.47
   },
   "supports": [
+    {
+      "price": 3610,
+      "touches": 1,
+      "lastTouch": "2025-04-08"
+    },
     {
       "price": 3510,
       "touches": 1,
@@ -35,11 +40,6 @@
   ],
   "resistances": [
     {
-      "price": 3610,
-      "touches": 1,
-      "lastTouch": "2025-04-08"
-    },
-    {
       "price": 3713.333333,
       "touches": 3,
       "lastTouch": "2026-08-06"
@@ -53,6 +53,11 @@
       "price": 3917.5,
       "touches": 4,
       "lastTouch": "2026-06-17"
+    },
+    {
+      "price": 3975,
+      "touches": 4,
+      "lastTouch": "2026-01-29"
     }
   ],
   "pivots": {
@@ -66,21 +71,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 50.02,
-    "sma20": 3575,
-    "sma50": 3497,
-    "sma200": 4001.55,
-    "ema12": 3586.533998,
-    "ema26": 3560.95846,
-    "macd": 25.575538,
-    "macdSignal": 29.385926,
-    "macdHistogram": -3.810388,
-    "bollingerUpper": 3686.445054,
-    "bollingerMiddle": 3575,
-    "bollingerLower": 3463.554946,
-    "bollingerBandwidth": 0.0623,
-    "atr14": 79.578732,
-    "stochK": 43.48,
-    "stochD": 58.94
+    "rsi14": 57.16,
+    "sma20": 3576.5,
+    "sma50": 3507.4,
+    "sma200": 3997.35,
+    "ema12": 3596.749194,
+    "ema26": 3569.546005,
+    "macd": 27.203189,
+    "macdSignal": 28.080837,
+    "macdHistogram": -0.877648,
+    "bollingerUpper": 3691.439114,
+    "bollingerMiddle": 3576.5,
+    "bollingerLower": 3461.560886,
+    "bollingerBandwidth": 0.0643,
+    "atr14": 77.697988,
+    "stochK": 78.95,
+    "stochD": 56.6
   }
 }
