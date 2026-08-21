@@ -1,7 +1,7 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-08-21T03:00:47.758Z",
+  "generatedAt": "2026-08-21T04:36:27.895Z",
   "count": 8,
   "items": [
     {
@@ -9,20 +9,6 @@
       "url": "https://finance.yahoo.com/m/272282d8-888e-3ec6-96fb-bc30b724ecdc/nvidia%2C-amd%2C-and-intel%3A-wall.html",
       "publisher": "Motley Fool",
       "publishedAt": "2026-08-21T02:20:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "NVIDIA Corporation (NVDA)’s Space Exploration Technologies (SPCX) Stake Traces Back to a Wild $1.25 Trillion Deal. Here’s How It Happened",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-space-exploration-005825605.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-08-21T00:58:25.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Alphabet and Nvidia Own More SpaceX Than BlackRock and Vanguard Combined. Here's Why That's About to Change.",
-      "url": "https://finance.yahoo.com/m/432b86eb-27c5-35ee-bb23-fa1f16a1faf0/alphabet-and-nvidia-own-more.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-21T00:20:00.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +44,20 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1l2QmZ0SEk4dmhtNFh2YlZzNGlTWGstMV92eUpmcm9mdWVNVW9MX1Q4dllBQ1ZZSEl5Y0pSeU9XY1BzMm9sU1ZZVi1iV3NYRW9yOVZ2S1NRRnJzbHZ6M3J4cUE4Szc5bVZ5eFZmR1UzVmozUjBkLWQ3WXBmTkY2X3hERzhJeklBdzJNWmVn?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-19T17:43:44.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ark Invest beli Nvidia $27 juta dan Broadcom $1... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMmFnZ3BESGozQU9Sd09iU3I0UFNRdTNlUndBbG52cnI0NVZIVXVvaTR5X0NLMXNaUG9USmg5SDR3SXhwa2R6bnV4bUpuZzFiYjdtaER5S05nMHc0YmZxU3hvQ0JULVBPLTFic0N4RmxneHlmQXhkdVFsSTVhZVNiTERac3Y0OG9hM0JmQVVfaDJwZFB2My1tOVRncm45UQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-19T17:43:40.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham NVDA Turun 2,34% Sehari (19/8/26) Jadi ke Level $219,74 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeW04dkhUdWtib0VVcHM1ejFOZm1tQVFHTWRZV1BMNXZsc1BucWU3MFJMaXRCWDQyYnNfaEJHN282X1MxYmY5OTV4NERHaFpZT1A2cTU2d1ByWjhLYmItYjJ2a0NlaVVzSUZwazByb2xBN2lHMVNYOXE2eGNPU1FyMWZ5NEJiMlk?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-19T05:20:43.000Z",
       "source": "google-news"
     }
   ]
