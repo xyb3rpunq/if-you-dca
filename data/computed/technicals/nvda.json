@@ -2,26 +2,21 @@
   "id": "nvda",
   "symbol": "NVDA",
   "currency": "USD",
-  "generatedAt": "2026-08-21T08:37:34.083Z",
-  "price": 216.85,
+  "generatedAt": "2026-08-21T14:26:48.446Z",
+  "price": 215.035,
   "dataFrom": "1999-02",
-  "dailyBars": 501,
+  "dailyBars": 502,
   "allTimeHigh": {
     "price": 236.539993,
     "at": "2026-05",
-    "distancePct": -8.32
+    "distancePct": -9.09
   },
   "allTimeLow": {
     "price": 0.033333,
     "at": "1999-04",
-    "distancePct": 650456.51
+    "distancePct": 645011.46
   },
   "supports": [
-    {
-      "price": 216.830002,
-      "touches": 1,
-      "lastTouch": "2026-04-27"
-    },
     {
       "price": 213.523336,
       "touches": 3,
@@ -36,9 +31,19 @@
       "price": 198.313334,
       "touches": 3,
       "lastTouch": "2026-07-17"
+    },
+    {
+      "price": 194.690002,
+      "touches": 6,
+      "lastTouch": "2026-05-04"
     }
   ],
   "resistances": [
+    {
+      "price": 216.830002,
+      "touches": 1,
+      "lastTouch": "2026-04-27"
+    },
     {
       "price": 232.279999,
       "touches": 1,
@@ -61,21 +66,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 53.42,
-    "sma20": 212.7835,
-    "sma50": 207.290999,
-    "sma200": 195.2483,
-    "ema12": 218.231519,
-    "ema26": 213.984529,
-    "macd": 4.24699,
-    "macdSignal": 4.15628,
-    "macdHistogram": 0.090711,
-    "bollingerUpper": 235.101282,
-    "bollingerMiddle": 212.7835,
-    "bollingerLower": 190.465717,
-    "bollingerBandwidth": 0.2098,
-    "atr14": 6.419058,
-    "stochK": 64.37,
-    "stochD": 70.16
+    "rsi14": 51.35,
+    "sma20": 213.19325,
+    "sma50": 207.583299,
+    "sma200": 195.289075,
+    "ema12": 217.739748,
+    "ema26": 214.062342,
+    "macd": 3.677406,
+    "macdSignal": 4.060505,
+    "macdHistogram": -0.383099,
+    "bollingerUpper": 235.359906,
+    "bollingerMiddle": 213.19325,
+    "bollingerLower": 191.026594,
+    "bollingerBandwidth": 0.2079,
+    "atr14": 6.257339,
+    "stochK": 31.72,
+    "stochD": 54.89
   }
 }
