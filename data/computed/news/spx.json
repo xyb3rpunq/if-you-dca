@@ -1,42 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-24T06:53:51.193Z",
-  "count": 7,
+  "generatedAt": "2026-08-24T08:45:14.220Z",
+  "count": 5,
   "items": [
+    {
+      "title": "US Stock Market Today S&P 500 Futures Rise As Higher Yields Test Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080848022.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-08-24T08:08:48.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed after US-Canada talks break down",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-08-24T08:03:06.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "S&P 500 Is Up More Than 12% This Year — And One Analyst Says The Run Isn't Over",
       "url": "https://finance.yahoo.com/m/22196ed8-7100-3979-9a3f-95c1a8b8ab6e/s%26p-500-is-up-more-than-12%25.html",
       "publisher": "Stocktwits",
       "publishedAt": "2026-08-24T01:52:16.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Stock Futures Are Essentially Flat. Wall Street Isn’t Sure About the Canada Breakdown.",
-      "url": "https://finance.yahoo.com/m/25ddf905-0fdf-367b-948c-ab9fb45f3657/stock-futures-are-essentially.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-23T22:36:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
-      "url": "https://finance.yahoo.com/m/916f5f53-0f2a-329c-a4c7-27b41a9afa5d/does-billionaire-bill-ackman.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-23T21:35:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Axsome Therapeutics Stock Is Up 16% Year to Date. Why Wall Street Thinks It Has Even More Room to Run",
-      "url": "https://finance.yahoo.com/m/67de64d0-044f-3860-82e0-7774fe5e96e1/axsome-therapeutics-stock-is.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-23T21:20:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "UBS revamps S&P 500 target for rest of 2026",
-      "url": "https://finance.yahoo.com/m/2bbb80f8-af83-3bf4-97f9-396450e8ee0c/ubs-revamps-s%26p-500-target.html",
-      "publisher": "TheStreet",
-      "publishedAt": "2026-08-23T20:23:00.000Z",
       "source": "yahoo"
     },
     {

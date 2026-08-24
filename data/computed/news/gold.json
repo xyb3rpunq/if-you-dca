@@ -1,9 +1,23 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-08-24T06:53:51.193Z",
-  "count": 4,
+  "generatedAt": "2026-08-24T08:45:14.220Z",
+  "count": 5,
   "items": [
+    {
+      "title": "Gold Above $4,700 Ahead of Inflation Data, Fed Chair Speech",
+      "url": "https://finance.yahoo.com/m/07eed4c5-bf1f-3f5d-9d66-871b4061fd68/gold-above-%244%2C700-ahead-of.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-08-24T07:49:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "NewPeak Metals extends Las Opeñas gold system",
+      "url": "https://finance.yahoo.com/video/newpeak-metals-extends-las-ope-061914000.html",
+      "publisher": "Proactive",
+      "publishedAt": "2026-08-24T06:19:14.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Resolution Minerals confirms major Golden Gate gold extension with 305.7-metre intercept",
       "url": "https://finance.yahoo.com/m/7df32802-3093-3b55-b841-9f0541c0e6b9/resolution-minerals-confirms.html",
@@ -24,13 +38,6 @@
       "publisher": "TradingView",
       "publishedAt": "2026-08-23T17:10:12.000Z",
       "source": "google-news"
-    },
-    {
-      "title": "Why Bank of America strategist Michael Hartnett says the trade is still long gold",
-      "url": "https://finance.yahoo.com/m/4fc4cf1b-8329-3dff-8f81-763ec04a07c9/why-bank-of-america.html",
-      "publisher": "InvestorsHub",
-      "publishedAt": "2026-08-23T13:15:00.000Z",
-      "source": "yahoo"
     }
   ]
 }
