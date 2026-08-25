@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T06:42:45.784Z",
+  "generatedAt": "2026-08-25T08:40:14.709Z",
   "available": true,
   "provider": "yahoo-finance",
   "coverage": "18/18",
@@ -131,7 +131,7 @@
       },
       "ticker": "GOOG",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "mu": {
       "price": 910.43,
@@ -259,7 +259,7 @@
       },
       "ticker": "MU",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "aapl": {
       "price": 310.34,
@@ -387,7 +387,7 @@
       },
       "ticker": "AAPL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "nvda": {
       "price": 208.48,
@@ -515,7 +515,7 @@
       },
       "ticker": "NVDA",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "orcl": {
       "price": 142.45,
@@ -643,7 +643,7 @@
       },
       "ticker": "ORCL",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "mstr": {
       "price": 122.63,
@@ -771,7 +771,7 @@
       },
       "ticker": "MSTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "pltr": {
       "price": 175.89,
@@ -899,7 +899,7 @@
       },
       "ticker": "PLTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "bbca": {
       "price": 6400,
@@ -1027,7 +1027,7 @@
       },
       "ticker": "BBCA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "bmri": {
       "price": 4200,
@@ -1155,7 +1155,7 @@
       },
       "ticker": "BMRI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "hrta": {
       "price": 2400,
@@ -1283,7 +1283,7 @@
       },
       "ticker": "HRTA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "bumi": {
       "price": 194,
@@ -1411,7 +1411,7 @@
       },
       "ticker": "BUMI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "arci": {
       "price": 1440,
@@ -1539,7 +1539,7 @@
       },
       "ticker": "ARCI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "untr": {
       "price": 24125,
@@ -1667,7 +1667,7 @@
       },
       "ticker": "UNTR.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "asii": {
       "price": 4790,
@@ -1795,7 +1795,7 @@
       },
       "ticker": "ASII.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "bbni": {
       "price": 3680,
@@ -1923,7 +1923,7 @@
       },
       "ticker": "BBNI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "adro": {
       "price": 2630,
@@ -2051,7 +2051,7 @@
       },
       "ticker": "ADRO.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "indf": {
       "price": 7375,
@@ -2179,7 +2179,7 @@
       },
       "ticker": "INDF.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     },
     "antm": {
       "price": 3190,
@@ -2307,7 +2307,7 @@
       },
       "ticker": "ANTM.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-08-25T06:42:45.784Z"
+      "fetchedAt": "2026-08-25T08:40:14.709Z"
     }
   }
 }
