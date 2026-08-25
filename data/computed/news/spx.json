@@ -1,9 +1,16 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-25T04:36:36.477Z",
-  "count": 4,
+  "generatedAt": "2026-08-25T06:41:54.806Z",
+  "count": 5,
   "items": [
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/m/88dd24da-723e-3987-842e-9735b5203b1e/stock-market%3A-will-s%26p-500.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-08-25T06:10:55.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "S&P 500, Nasdaq, Dow Futures Mixed As Nvidia Earnings, Fed Signals, PCE Inflation Keep Markets On Edge This Week",
       "url": "https://finance.yahoo.com/m/328a3ec1-ca61-3fdd-abd5-c136fae1da2c/s%26p-500%2C-nasdaq%2C-dow-futures.html",
