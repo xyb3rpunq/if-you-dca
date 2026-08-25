@@ -2,7 +2,7 @@
   "id": "silver",
   "symbol": "XAGUSD",
   "currency": "USD",
-  "generatedAt": "2026-08-25T08:38:41.291Z",
+  "generatedAt": "2026-08-25T14:37:16.227Z",
   "price": 67.985,
   "dataFrom": "2000-09",
   "dailyBars": 503,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 63.69835,
     "bollingerLower": 56.402464,
     "bollingerBandwidth": 0.2291,
-    "atr14": 1.814767,
+    "atr14": 1.823696,
     "stochK": 76.6,
     "stochD": 85.92
   }
