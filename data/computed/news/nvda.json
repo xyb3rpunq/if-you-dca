@@ -1,22 +1,29 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-08-24T20:22:05.373Z",
+  "generatedAt": "2026-08-25T02:56:53.875Z",
   "count": 8,
   "items": [
     {
-      "title": "Top Strategist Warns Nvidia’s Earnings on Wednesday Could Hit the Entire Market",
-      "url": "https://finance.yahoo.com/m/f8bc23f6-1a31-380b-98e9-c5cb31b6adbf/top-strategist-warns-nvidia%E2%80%99s.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-08-24T20:12:30.000Z",
+      "title": "NVDA Stock’s 7-Day Losing Streak Sets Up Make-Or-Break AI Earnings Test: Retail Expects Yet Another Beat",
+      "url": "https://finance.yahoo.com/m/fdf6d0cc-f02c-353a-a0c8-0cae5967596a/nvda-stock%E2%80%99s-7-day-losing.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-08-25T02:22:30.000Z",
       "source": "yahoo"
     },
     {
-      "title": "NVDA Invests In Blackstone-Backed Lancium To Expand AI Data Center Capacity",
-      "url": "https://finance.yahoo.com/m/1037e0e0-e57c-3cea-9759-4f94cb705a92/nvda-invests-in.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-08-24T20:07:43.000Z",
+      "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
+      "url": "https://finance.yahoo.com/m/a28a6eae-87d9-3229-b7dc-430baf4250e1/dow-jones-futures%3A-trump%2C.html",
+      "publisher": "Investor's Business Daily",
+      "publishedAt": "2026-08-25T01:44:12.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "Saham Nvidia tertinggal meski dominasi AI; laba Q3 jadi dorongan terakhir sebelum perubahan industri. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LLXJhbElVdmRhREdiSHZPa2FULVlLU0E4YmNLZDhHZFE1SFNZaHdBc3lfdXU5akptN1RGT1F6T1M0X2JSRG56YWlEeUJwVUVQSWZJSHdaVHdVZFh2ZTF0bmIwTGxfRWJLNDBMRkdFM3d0LXVrcU53?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-24T23:26:57.000Z",
+      "source": "google-news"
     },
     {
       "title": "Nvidia diperkirakan melampaui panduan laba mesk... - Pluang",
@@ -33,6 +40,13 @@
       "source": "google-news"
     },
     {
+      "title": "Nvidia Makes Aggressive Move Ahead of Earnings - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXl1S3JONV9sOG8taGl2NGVwdExjWWFTMWRSV1BvYmh5emhaUG4ySzhhaWhweGFOczl5Q0d0QjBuNnhUOFlkOEJfNFJaN0FtVUFPSGlfLUg0anlaSGlkVExDQUpMY3dmWWI0b3JvZktEbnJ2SUtzSVhUb0ZHWVU0Q0RqQUtKZWNMLXZudl9idWFsRE9wZVE3eC1sY2dzNFhFeWw3Rk9LS2E?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-08-24T19:13:07.000Z",
+      "source": "google-news"
+    },
+    {
       "title": "Nvidia hadapi risiko jangka pendek dengan masal... - Pluang",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIWjZ1ZUhxWWo2c0lmMWJMcGpBVllfbzdwWFFzOEZsV2xGNk9MREpfemloa1NTZGhrcVROSElqeExtLXN2MVMxdTVyU1JHcjV3bDZvNW1XTjV0TF9qS21MZG1ZbE15bHkxT1czejlrcHhzU2RFOVNn?oc=5",
       "publisher": "Pluang",
@@ -40,24 +54,10 @@
       "source": "google-news"
     },
     {
-      "title": "Saham NVIDIA diperkirakan naik 25% dengan targe... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55ZzdjZEE2T1F0V0tfSVN4MEtaaHZXSWRENnJrUmZPSHd2M3E5VHFjV0JDODVMZ3gzeGl2OWhQSXJuZ2ZlbVdjRHozVEZLTEx6QXNYQjI1YTI3bG1sODFWcTZ4X2hGTkJjcGNVc2h5M1lJajFlV3pqckF3?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-24T14:50:49.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Michael Burry ambil posisi short di Nvidia jela... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc3Q5S0RyUGlldVR4TGh5Y19VZ0dkYU5KM3ptWlRPNXZxa0UzSzg3eUJQMmxaYUpnSFpuMkVIRHFUZXFNNWNDVGFJVkhQUU1NempNS29QMUNrV1lXNHp4X1BpMkxSUUxienBFN2pteWlfVkM3amlsUWptQWRmZUlkcE1valNYMzBMeFdNaHlrSGFJQm9nN01sbDc2akpVYms3SzBVcA?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-08-24T12:57:39.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Harga Saham Nvidia (NVDA) Hari Ini 24 Agustus 2026: Turun ke $214,72 - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkt0Y1F1SFp4aVI0LVowa3k5NFZ1V0Z2bmJiMnNJZk91RmNQdklkMERxd3ZFZ0g5blVsWmZ1UENIUk1YV0ZMazhWdDdtYjNWcmN5M09weDJJVGV3UlJUX3VRS3M3RXg4VnluUHE2TUU3OTlJR0xiV01SdF9mUUxyTW5BeTVSSXM?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-08-24T11:09:14.000Z",
+      "title": "Nvidia luncurkan akselerator inferensi AI Groq 3 LPX - Investing.com Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHVBYngzY0REdmc1b1hueDZKZGhxcm1US3NvQVczclkxX3d6XzBzTDNOVTJEdW9WR1llSFRJNmVhZkNBZDhIRmFTcUdnNV9KYnpENXdnWnhKTmVVRFlndXM0THNCRXVLaFZlRV9SMnZTd3VSbl8tUEVwRDNmVTVMTlVGQ0hGMjE0OUV2WGlvd19BMVJlSTUzc1hxTHZJaU5qa3Z6QmhILUZDdEhZ?oc=5",
+      "publisher": "Investing.com Indonesia",
+      "publishedAt": "2026-08-24T15:38:01.000Z",
       "source": "google-news"
     }
   ]
