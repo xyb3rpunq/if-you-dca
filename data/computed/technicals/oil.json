@@ -2,21 +2,26 @@
   "id": "oil",
   "symbol": "USOIL",
   "currency": "USD",
-  "generatedAt": "2026-08-26T04:36:47.212Z",
-  "price": 80.3,
+  "generatedAt": "2026-08-26T06:43:19.838Z",
+  "price": 80.75,
   "dataFrom": "2000-09",
   "dailyBars": 504,
   "allTimeHigh": {
     "price": 147.270004,
     "at": "2008-07",
-    "distancePct": -45.47
+    "distancePct": -45.17
   },
   "allTimeLow": {
     "price": 16.700001,
     "at": "2001-11",
-    "distancePct": 380.84
+    "distancePct": 383.53
   },
   "supports": [
+    {
+      "price": 80.664997,
+      "touches": 2,
+      "lastTouch": "2026-04-17"
+    },
     {
       "price": 78.43,
       "touches": 2,
@@ -31,19 +36,9 @@
       "price": 73.1175,
       "touches": 4,
       "lastTouch": "2025-02-20"
-    },
-    {
-      "price": 71.93,
-      "touches": 4,
-      "lastTouch": "2025-04-02"
     }
   ],
   "resistances": [
-    {
-      "price": 80.664997,
-      "touches": 2,
-      "lastTouch": "2026-04-17"
-    },
     {
       "price": 84.370003,
       "touches": 1,
@@ -58,6 +53,11 @@
       "price": 88.660004,
       "touches": 1,
       "lastTouch": "2026-05-06"
+    },
+    {
+      "price": 93.5,
+      "touches": 1,
+      "lastTouch": "2026-07-23"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-07",
   "indicators": {
-    "rsi14": 45.6,
-    "sma20": 82.257,
-    "sma50": 78.9788,
-    "sma200": 77.8123,
-    "ema12": 83.400948,
-    "ema26": 82.584542,
-    "macd": 0.816406,
-    "macdSignal": 0.963895,
-    "macdHistogram": -0.147489,
-    "bollingerUpper": 89.151584,
-    "bollingerMiddle": 82.257,
-    "bollingerLower": 75.362416,
-    "bollingerBandwidth": 0.1676,
+    "rsi14": 46.36,
+    "sma20": 82.279499,
+    "sma50": 78.9878,
+    "sma200": 77.81455,
+    "ema12": 83.470178,
+    "ema26": 82.617875,
+    "macd": 0.852303,
+    "macdSignal": 0.971074,
+    "macdHistogram": -0.118771,
+    "bollingerUpper": 89.15129,
+    "bollingerMiddle": 82.279499,
+    "bollingerLower": 75.407709,
+    "bollingerBandwidth": 0.167,
     "atr14": 3.586508,
-    "stochK": 30.23,
-    "stochD": 52.39
+    "stochK": 33.84,
+    "stochD": 53.6
   }
 }

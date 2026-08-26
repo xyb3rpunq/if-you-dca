@@ -2,7 +2,7 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-08-26T04:36:47.212Z",
+  "generatedAt": "2026-08-26T06:43:19.838Z",
   "price": 189,
   "dataFrom": "2001-07",
   "dailyBars": 478,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 178.8,
     "bollingerLower": 157.534065,
     "bollingerBandwidth": 0.2379,
-    "atr14": 8.949179,
+    "atr14": 9.020608,
     "stochK": 60.61,
     "stochD": 73.91
   }
