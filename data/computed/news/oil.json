@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-08-26T08:40:16.025Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-08-26T14:37:24.158Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "BC-Crude Oil Futures",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-crude-oil-futures-140018782.html",
+      "publisher": "Associated Press",
+      "publishedAt": "2026-08-26T14:00:18.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
