@@ -1,9 +1,23 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-08-25T20:20:30.356Z",
+  "generatedAt": "2026-08-26T03:02:49.924Z",
   "count": 8,
   "items": [
+    {
+      "title": "Apple Announces Mac mini and Mac Studio; More Info at B&H",
+      "url": "https://finance.yahoo.com/technology/articles/apple-announces-mac-mini-mac-212600988.html",
+      "publisher": "PR Newswire",
+      "publishedAt": "2026-08-25T21:26:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Moderna, Nvidia, Apple, Dick’s, Robinhood, AMD, and More Stocks That Explain Today’s Market",
+      "url": "https://finance.yahoo.com/m/bea25143-fa2d-34b7-8235-692e7b1ed68a/moderna%2C-nvidia%2C-apple%2C.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-08-25T20:18:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Cramer Warns iPhone Prices Will Rise Without Chinese Memory — Here’s Why Apple Can’t Wait for U.S. Production",
       "url": "https://finance.yahoo.com/m/bf28ea7d-9900-3c98-814f-c17db5de40e5/cramer-warns-iphone-prices.html",
@@ -12,38 +26,17 @@
       "source": "yahoo"
     },
     {
+      "title": "AAPL Stock Alert: What to Know as Apple Unveils New Mac Models With AI Upgrades",
+      "url": "https://finance.yahoo.com/m/97533875-cfa4-3529-96be-e3c31aa9d997/aapl-stock-alert%3A-what-to.html",
+      "publisher": "Barchart",
+      "publishedAt": "2026-08-25T19:13:21.000Z",
+      "source": "yahoo"
+    },
+    {
       "title": "Clark Howard Warned Apple Traps You in Forever Leases and Now Three New Macs Just Landed",
       "url": "https://finance.yahoo.com/m/1d1e6e21-5a93-3c95-bb28-39a4bd8ef2ce/clark-howard-warned-apple.html",
       "publisher": "24/7 Wall St.",
       "publishedAt": "2026-08-25T19:09:55.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Launches Mac Studio Featuring New Chips Built for AI Workloads. Here’s What Apple’s Capital-Light AI Strategy Means for Investors.",
-      "url": "https://finance.yahoo.com/m/08a153c8-b0b4-3406-86af-5d32948d3c57/apple-launches-mac-studio.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-08-25T18:51:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Moderna, Nvidia, Apple, Dick’s, Robinhood, AMD, and More Stocks That Explain Today’s Market",
-      "url": "https://finance.yahoo.com/m/bea25143-fa2d-34b7-8235-692e7b1ed68a/moderna%2C-nvidia%2C-apple%2C.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-08-25T18:33:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Just Massively Raised Stakes in AI PC Race",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-just-massively-raised-stakes-175952492.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-25T17:59:52.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Stock in Focus -- Unleashes Next-Gen AI Mac Models",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-stock-focus-unleashes-next-175508096.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-08-25T17:55:08.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVRXemg5X1A4U2ZQZXE5TlJ4ZGZ6N0tiQmJpb3NpQmpjMkhZR3JvQlpyUGhOaVdQZ3BwU3BVSUxaQXVvQy13eWJERHZmcHpPNHprX01IbzVuMlF6VF9EdE91azh1Yzd1S2xGVVJYaFhXZm5mcnBVUm5kNXlrQWJFdHBpeTF3Zw?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-08-21T12:39:12.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini (20/8) Menguat ke $316,83 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbzlqLU9VZlQxTnduRi05MF9MX3pKZWZueUpzZ0R1MVVfRDN2dk9ENnVOTmsweWQzN25lWEhQRlo4NjlqUVpDeXc5SHhrSXh1andyQzRNMU9kMElKNnRyU2EzaFVwU2RWYzlDS1Q4M3ZVZnY2RFprSDYtSzBkNmV5OWQ1RUl1Zw?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-20T04:47:08.000Z",
       "source": "google-news"
     }
   ]
