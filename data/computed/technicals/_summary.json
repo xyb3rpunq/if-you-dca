@@ -1,115 +1,115 @@
 {
-  "generatedAt": "2026-08-28T13:45:50.417Z",
+  "generatedAt": "2026-08-28T23:20:40.252Z",
   "assets": {
     "usdidr": {
       "status": "ok",
       "ath": 197804,
-      "fromAth": -91.06,
-      "rsi14": 39.34,
+      "fromAth": -91.05,
+      "rsi14": 39.84,
       "supports": 4,
       "resistances": 1
     },
     "spx": {
       "status": "ok",
       "ath": 7816.700195,
-      "fromAth": -0.96,
-      "rsi14": 59.34,
+      "fromAth": -1.34,
+      "rsi14": 56.33,
       "supports": 4,
       "resistances": 1
     },
     "gold": {
       "status": "ok",
       "ath": 5586.200195,
-      "fromAth": -16.62,
-      "rsi14": 72.39,
+      "fromAth": -19.37,
+      "rsi14": 59.15,
       "supports": 4,
       "resistances": 4
     },
     "silver": {
       "status": "ok",
       "ath": 121.300003,
-      "fromAth": -41.01,
-      "rsi14": 69.4,
+      "fromAth": -44.69,
+      "rsi14": 56.64,
       "supports": 4,
       "resistances": 4
     },
     "oil": {
       "status": "ok",
       "ath": 147.270004,
-      "fromAth": -43.93,
-      "rsi14": 49.65,
+      "fromAth": -43.34,
+      "rsi14": 51.48,
       "supports": 4,
       "resistances": 4
     },
     "btc": {
       "status": "ok",
       "ath": 126198.070313,
-      "fromAth": -37.3,
-      "rsi14": 76.58,
+      "fromAth": -38.44,
+      "rsi14": 70.36,
       "supports": 4,
       "resistances": 4
     },
     "eth": {
       "status": "ok",
       "ath": 4953.73291,
-      "fromAth": -49.56,
-      "rsi14": 76.34,
+      "fromAth": -50.78,
+      "rsi14": 69.84,
       "supports": 4,
       "resistances": 4
     },
     "goog": {
       "status": "ok",
       "ath": 404.470001,
-      "fromAth": -16.06,
-      "rsi14": 44.93,
+      "fromAth": -15.23,
+      "rsi14": 47.96,
       "supports": 4,
       "resistances": 4
     },
     "mu": {
       "status": "ok",
       "ath": 1255,
-      "fromAth": -26.05,
-      "rsi14": 50.12,
+      "fromAth": -25.67,
+      "rsi14": 50.68,
       "supports": 4,
       "resistances": 4
     },
     "aapl": {
       "status": "ok",
       "ath": 344.570007,
-      "fromAth": -8.2,
-      "rsi14": 54.31,
+      "fromAth": -7.22,
+      "rsi14": 57.37,
       "supports": 4,
-      "resistances": 3
+      "resistances": 2
     },
     "nvda": {
       "status": "ok",
       "ath": 236.539993,
-      "fromAth": -3.97,
-      "rsi14": 60.5,
+      "fromAth": -8.03,
+      "rsi14": 52.34,
       "supports": 4,
       "resistances": 3
     },
     "orcl": {
       "status": "ok",
       "ath": 345.720001,
-      "fromAth": -55.98,
-      "rsi14": 57.46,
+      "fromAth": -56.37,
+      "rsi14": 56.05,
       "supports": 4,
       "resistances": 4
     },
     "mstr": {
       "status": "ok",
       "ath": 543,
-      "fromAth": -75.28,
-      "rsi14": 69.44,
+      "fromAth": -76.55,
+      "rsi14": 63.04,
       "supports": 4,
       "resistances": 4
     },
     "pltr": {
       "status": "ok",
       "ath": 207.520004,
-      "fromAth": -10.34,
-      "rsi14": 69.16,
+      "fromAth": -10.23,
+      "rsi14": 69.28,
       "supports": 4,
       "resistances": 4
     },
@@ -117,7 +117,7 @@
       "status": "ok",
       "ath": 10950,
       "fromAth": -40.87,
-      "rsi14": 57.69,
+      "rsi14": 54.05,
       "supports": 4,
       "resistances": 4
     },
@@ -125,7 +125,7 @@
       "status": "ok",
       "ath": 7550,
       "fromAth": -43.71,
-      "rsi14": 55.42,
+      "rsi14": 52.42,
       "supports": 4,
       "resistances": 4
     },
@@ -133,7 +133,7 @@
       "status": "ok",
       "ath": 3440,
       "fromAth": -32.27,
-      "rsi14": 62.77,
+      "rsi14": 65.29,
       "supports": 4,
       "resistances": 4
     },
@@ -141,7 +141,7 @@
       "status": "ok",
       "ath": 8750,
       "fromAth": -97.83,
-      "rsi14": 58.08,
+      "rsi14": 61.34,
       "supports": 4,
       "resistances": 4
     },
@@ -149,7 +149,7 @@
       "status": "ok",
       "ath": 2120,
       "fromAth": -34.43,
-      "rsi14": 63.35,
+      "rsi14": 69.86,
       "supports": 4,
       "resistances": 4
     },
@@ -157,7 +157,7 @@
       "status": "ok",
       "ath": 40500,
       "fromAth": -40.74,
-      "rsi14": 49.19,
+      "rsi14": 55.36,
       "supports": 4,
       "resistances": 4
     },
@@ -165,7 +165,7 @@
       "status": "ok",
       "ath": 9350,
       "fromAth": -48.66,
-      "rsi14": 43.61,
+      "rsi14": 42.73,
       "supports": 4,
       "resistances": 4
     },
@@ -173,7 +173,7 @@
       "status": "ok",
       "ath": 6250,
       "fromAth": -39.52,
-      "rsi14": 63.96,
+      "rsi14": 59.65,
       "supports": 4,
       "resistances": 4
     },
@@ -181,7 +181,7 @@
       "status": "ok",
       "ath": 4300,
       "fromAth": -37.91,
-      "rsi14": 64.16,
+      "rsi14": 68.27,
       "supports": 4,
       "resistances": 4
     },
@@ -197,7 +197,7 @@
       "status": "ok",
       "ath": 4970,
       "fromAth": -36.42,
-      "rsi14": 57.39,
+      "rsi14": 59.14,
       "supports": 4,
       "resistances": 4
     }
