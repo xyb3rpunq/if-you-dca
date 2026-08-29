@@ -1,14 +1,42 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-28T23:21:21.675Z",
-  "count": 1,
+  "generatedAt": "2026-08-29T09:31:52.638Z",
+  "count": 5,
   "items": [
+    {
+      "title": "The S&P 500 Is Flashing a Warning Signal Not Seen in Decades. Here's What History Says Comes Next.",
+      "url": "https://finance.yahoo.com/m/28da9788-e6ae-39a7-8cab-36fc7784e10a/the-s%26p-500-is-flashing-a.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-08-29T07:20:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "What Happens When You Invest Just $100 a Month in the S&P 500 for 20 Years?",
+      "url": "https://finance.yahoo.com/m/4fa72cac-6d5c-358e-9bc4-8677f22fa7df/what-happens-when-you-invest.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-08-29T05:50:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Bank of America takes heat for stark S&P 500 call",
+      "url": "https://finance.yahoo.com/m/a19ff059-98b5-3efc-a1e9-d03b071ac760/bank-of-america-takes-heat.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-08-29T01:37:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-10T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Goldman Sachs peringatkan Nasdaq tembus ambang jual CTA; S&P 500 mendekati level kritis, risiko jual besar. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSllwMWU4cWtyd0lMUVJfOWlTcFpDNlFpSjV6UFI2N2ZzME9wNHNpZGxxb3RZcG1sMUY4eFRVQXhaaDJtUURSWm5Da0pYUzFhOFhieG1PWUlMamIxZ1g5ZlI3MWhwcXZrU1pTYW1Bd1pxbnFtY2w4LWUyWDItR0JwMmFQRllDTTBsS1dLLUNhdnRybEhfNDk2dEQxNzBZcmNPbThwTGQ0SEFBc2RYM0E?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-07-19T07:00:00.000Z",
       "source": "google-news"
     }
   ]
