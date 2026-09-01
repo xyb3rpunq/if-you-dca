@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "fetchedAt": "2026-09-01T13:03:51.850Z",
+  "fetchedAt": "2026-09-01T17:31:01.593Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -20,12 +20,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 1.009302,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×1.0093 agar sejajar dengan deret historis"
+        "ratio": 1.005949,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×1.0059 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 0
     },
     "gold": {
@@ -98,12 +98,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 1.053845,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×1.0538 agar sejajar dengan deret historis"
+        "ratio": 1.030885,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×1.0309 agar sejajar dengan deret historis"
       },
-      "count": 150,
-      "to": "2026-08",
+      "count": 151,
+      "to": "2026-09",
       "dividendContributionPct": 0.88
     },
     "mu": {
@@ -111,12 +111,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 0.915346,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×0.9153 agar sejajar dengan deret historis"
+        "ratio": 0.940731,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×0.9407 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 2.55
     },
     "aapl": {
@@ -124,12 +124,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 0.988891,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×0.9889 agar sejajar dengan deret historis"
+        "ratio": 0.980075,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×0.9801 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 19.41
     },
     "nvda": {
@@ -137,12 +137,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 1.014403,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×1.0144 agar sejajar dengan deret historis"
+        "ratio": 1.029464,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×1.0295 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 9.2
     },
     "orcl": {
@@ -150,12 +150,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 0.985917,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×0.9859 agar sejajar dengan deret historis"
+        "ratio": 0.974611,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×0.9746 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 25.95
     },
     "mstr": {
@@ -163,12 +163,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 0.752294,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×0.7523 agar sejajar dengan deret historis"
+        "ratio": 0.785563,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×0.7856 agar sejajar dengan deret historis"
       },
-      "count": 300,
-      "to": "2026-08",
+      "count": 301,
+      "to": "2026-09",
       "dividendContributionPct": 0
     },
     "pltr": {
@@ -176,12 +176,12 @@
       "seam": {
         "mode": "merged",
         "anchorMonth": "2026-08",
-        "ratio": 0.922899,
-        "tailMonths": 0,
-        "note": "0 bulan terbaru diskalakan ×0.9229 agar sejajar dengan deret historis"
+        "ratio": 0.923345,
+        "tailMonths": 1,
+        "note": "1 bulan terbaru diskalakan ×0.9233 agar sejajar dengan deret historis"
       },
-      "count": 72,
-      "to": "2026-08",
+      "count": 73,
+      "to": "2026-09",
       "dividendContributionPct": 0
     },
     "bbca": {
