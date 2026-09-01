@@ -6,20 +6,20 @@
   "description": "GOLD (US$/OZ)",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-08-31T23:31:13.893Z",
+  "fetchedAt": "2026-09-01T07:14:00.991Z",
   "historicalSnapshotAt": "2026-08-09T21:41:35.971Z",
   "seam": {
     "mode": "merged",
-    "anchorMonth": "2026-07",
-    "ratio": 0.998044,
+    "anchorMonth": "2026-08",
+    "ratio": 0.9695,
     "tailMonths": 1,
-    "note": "1 bulan terbaru diskalakan ×0.9980 agar sejajar dengan deret historis"
+    "note": "1 bulan terbaru diskalakan ×0.9695 agar sejajar dengan deret historis"
   },
-  "marketPrice": 4491.1,
+  "marketPrice": 4481,
   "lastMonthIsPartial": true,
-  "count": 300,
+  "count": 301,
   "from": "2001-09",
-  "to": "2026-08",
+  "to": "2026-09",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -1222,7 +1222,11 @@
     },
     {
       "m": "2026-08",
-      "c": 4482.315441683428
+      "c": 4341.52
+    },
+    {
+      "m": "2026-09",
+      "c": 4344.331456588482
     }
   ],
   "monthlyTotal": [
@@ -2424,7 +2428,11 @@
     },
     {
       "m": "2026-08",
-      "c": 4482.315441683428
+      "c": 4341.52
+    },
+    {
+      "m": "2026-09",
+      "c": 4344.331456588482
     }
   ]
 }

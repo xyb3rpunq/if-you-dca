@@ -1,14 +1,42 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-08-31T23:32:18.054Z",
-  "count": 5,
+  "generatedAt": "2026-09-01T07:15:09.175Z",
+  "count": 8,
   "items": [
     {
-      "title": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-p-500-stock-exciting-222040118.html",
-      "publisher": "StockStory",
-      "publishedAt": "2026-08-31T22:20:40.000Z",
+      "title": "Wall Street Faces Historically Weak September After Record-Setting August for S&P 500",
+      "url": "https://finance.yahoo.com/m/22662f4b-1b61-3785-a89c-bff5dadedd6f/wall-street-faces.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-01T05:31:58.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Cathie Wood's Ark Has Delivered Just a 13.8% Annualized Return Since 2014, Roughly Matching the S&P 500. Should You Trust Her Bold Predictions for 2030?",
+      "url": "https://finance.yahoo.com/m/c47760d2-c633-3e25-9928-aefb2bf8287a/cathie-wood%27s-ark-has.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-01T05:20:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
+      "url": "https://finance.yahoo.com/m/fcbb6ffb-8f95-372d-a9ba-be9f2a202a3b/if-you%27d-invested-%245%2C000-in.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-01T04:35:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow Futures Climb While S&P 500, Nasdaq Futures Slide After Strong August Rally: TTWO, TSLA, EIX, MDB Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/0f12e255-e426-3b8c-b303-d49e70a2e4cf/dow-futures-climb-while-s%26p.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-09-01T03:02:33.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500 Faces Its Cruelest Month of the Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-faces-cruelest-month-021704412.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-01T02:17:04.000Z",
       "source": "yahoo"
     },
     {
@@ -30,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-10T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Goldman Sachs peringatkan Nasdaq tembus ambang jual CTA; S&P 500 mendekati level kritis, risiko jual besar. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSllwMWU4cWtyd0lMUVJfOWlTcFpDNlFpSjV6UFI2N2ZzME9wNHNpZGxxb3RZcG1sMUY4eFRVQXhaaDJtUURSWm5Da0pYUzFhOFhieG1PWUlMamIxZ1g5ZlI3MWhwcXZrU1pTYW1Bd1pxbnFtY2w4LWUyWDItR0JwMmFQRllDTTBsS1dLLUNhdnRybEhfNDk2dEQxNzBZcmNPbThwTGQ0SEFBc2RYM0E?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-07-19T07:00:00.000Z",
       "source": "google-news"
     }
   ]

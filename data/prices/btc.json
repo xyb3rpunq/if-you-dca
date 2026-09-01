@@ -6,20 +6,20 @@
   "description": "Bitcoin all time history index",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-08-31T23:31:13.893Z",
+  "fetchedAt": "2026-09-01T07:14:00.991Z",
   "historicalSnapshotAt": "2026-08-09T21:41:39.770Z",
   "seam": {
     "mode": "merged",
-    "anchorMonth": "2026-07",
-    "ratio": 1.000437,
+    "anchorMonth": "2026-08",
+    "ratio": 0.837291,
     "tailMonths": 1,
-    "note": "1 bulan terbaru diskalakan ×1.0004 agar sejajar dengan deret historis"
+    "note": "1 bulan terbaru diskalakan ×0.8373 agar sejajar dengan deret historis"
   },
-  "marketPrice": 78557.95,
+  "marketPrice": 78698.58,
   "lastMonthIsPartial": true,
-  "count": 203,
+  "count": 204,
   "from": "2009-10",
-  "to": "2026-08",
+  "to": "2026-09",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -834,7 +834,11 @@
     },
     {
       "m": "2026-08",
-      "c": 78592.3133402963
+      "c": 65166.6
+    },
+    {
+      "m": "2026-09",
+      "c": 65893.61061118859
     }
   ],
   "monthlyTotal": [
@@ -1648,7 +1652,11 @@
     },
     {
       "m": "2026-08",
-      "c": 78592.3133402963
+      "c": 65166.6
+    },
+    {
+      "m": "2026-09",
+      "c": 65893.61061118859
     }
   ]
 }

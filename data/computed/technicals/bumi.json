@@ -2,21 +2,31 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-08-31T23:31:38.985Z",
-  "price": 192,
+  "generatedAt": "2026-09-01T07:14:27.581Z",
+  "price": 204,
   "dataFrom": "2001-07",
-  "dailyBars": 475,
+  "dailyBars": 477,
   "allTimeHigh": {
     "price": 8750,
     "at": "2008-06",
-    "distancePct": -97.81
+    "distancePct": -97.67
   },
   "allTimeLow": {
     "price": 15,
     "at": "2002-09",
-    "distancePct": 1180
+    "distancePct": 1260
   },
   "supports": [
+    {
+      "price": 199,
+      "touches": 2,
+      "lastTouch": "2026-03-09"
+    },
+    {
+      "price": 195,
+      "touches": 2,
+      "lastTouch": "2026-08-10"
+    },
     {
       "price": 191,
       "touches": 1,
@@ -26,29 +36,9 @@
       "price": 175,
       "touches": 2,
       "lastTouch": "2026-08-14"
-    },
-    {
-      "price": 168,
-      "touches": 1,
-      "lastTouch": "2025-10-03"
-    },
-    {
-      "price": 157,
-      "touches": 2,
-      "lastTouch": "2026-07-29"
     }
   ],
   "resistances": [
-    {
-      "price": 195,
-      "touches": 2,
-      "lastTouch": "2026-08-10"
-    },
-    {
-      "price": 199,
-      "touches": 2,
-      "lastTouch": "2026-03-09"
-    },
     {
       "price": 216,
       "touches": 1,
@@ -58,34 +48,44 @@
       "price": 244,
       "touches": 1,
       "lastTouch": "2025-11-14"
+    },
+    {
+      "price": 250,
+      "touches": 1,
+      "lastTouch": "2026-05-04"
+    },
+    {
+      "price": 267,
+      "touches": 2,
+      "lastTouch": "2026-04-15"
     }
   ],
   "pivots": {
-    "pivot": 163.333333,
-    "r1": 197.666667,
-    "s1": 130.666667,
-    "r2": 230.333333,
-    "s2": 96.333333,
-    "r3": 264.666667,
-    "s3": 63.666667
+    "pivot": 186,
+    "r1": 206,
+    "s1": 170,
+    "r2": 222,
+    "s2": 150,
+    "r3": 242,
+    "s3": 134
   },
-  "pivotBasis": "2026-07",
+  "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 58.08,
-    "sma20": 181.55,
-    "sma50": 164.04,
-    "sma200": 230.06,
-    "ema12": 186.533575,
-    "ema26": 179.088785,
-    "macd": 7.44479,
-    "macdSignal": 7.252206,
-    "macdHistogram": 0.192584,
-    "bollingerUpper": 200.56026,
-    "bollingerMiddle": 181.55,
-    "bollingerLower": 162.53974,
-    "bollingerBandwidth": 0.2094,
-    "atr14": 9.529431,
-    "stochK": 57.14,
-    "stochD": 58.01
+    "rsi14": 65.45,
+    "sma20": 185,
+    "sma50": 165.18,
+    "sma200": 230.64,
+    "ema12": 189.932323,
+    "ema26": 181.819603,
+    "macd": 8.11272,
+    "macdSignal": 7.436658,
+    "macdHistogram": 0.676062,
+    "bollingerUpper": 202.469974,
+    "bollingerMiddle": 185,
+    "bollingerLower": 167.530026,
+    "bollingerBandwidth": 0.1889,
+    "atr14": 9.75752,
+    "stochK": 88.24,
+    "stochD": 69.89
   }
 }
