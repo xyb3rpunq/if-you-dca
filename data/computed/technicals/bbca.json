@@ -2,21 +2,26 @@
   "id": "bbca",
   "symbol": "BBCA",
   "currency": "IDR",
-  "generatedAt": "2026-09-01T07:14:27.581Z",
-  "price": 6575,
+  "generatedAt": "2026-09-01T13:04:17.742Z",
+  "price": 6600,
   "dataFrom": "2004-07",
   "dailyBars": 477,
   "allTimeHigh": {
     "price": 10950,
     "at": "2024-09",
-    "distancePct": -39.95
+    "distancePct": -39.73
   },
   "allTimeLow": {
     "price": 175,
     "at": "2004-07",
-    "distancePct": 3657.14
+    "distancePct": 3671.43
   },
   "supports": [
+    {
+      "price": 6587.5,
+      "touches": 2,
+      "lastTouch": "2026-07-20"
+    },
     {
       "price": 6425,
       "touches": 1,
@@ -31,19 +36,9 @@
       "price": 6200,
       "touches": 1,
       "lastTouch": "2026-08-11"
-    },
-    {
-      "price": 4820,
-      "touches": 1,
-      "lastTouch": "2026-06-09"
     }
   ],
   "resistances": [
-    {
-      "price": 6587.5,
-      "touches": 2,
-      "lastTouch": "2026-07-20"
-    },
     {
       "price": 6850,
       "touches": 1,
@@ -58,6 +53,11 @@
       "price": 7275,
       "touches": 1,
       "lastTouch": "2025-04-08"
+    },
+    {
+      "price": 7475,
+      "touches": 1,
+      "lastTouch": "2025-09-09"
     }
   ],
   "pivots": {
@@ -71,20 +71,20 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 62.3,
-    "sma20": 6392.5,
-    "sma50": 6260.5,
-    "sma200": 6950.125,
-    "ema12": 6427.730903,
-    "ema26": 6369.505483,
-    "macd": 58.22542,
-    "macdSignal": 48.660401,
-    "macdHistogram": 9.565019,
-    "bollingerUpper": 6539.214008,
-    "bollingerMiddle": 6392.5,
-    "bollingerLower": 6245.785992,
-    "bollingerBandwidth": 0.0459,
-    "atr14": 133.993942,
+    "rsi14": 63.3,
+    "sma20": 6393.75,
+    "sma50": 6261,
+    "sma200": 6950.25,
+    "ema12": 6431.577057,
+    "ema26": 6371.357335,
+    "macd": 60.219722,
+    "macdSignal": 49.059262,
+    "macdHistogram": 11.16046,
+    "bollingerUpper": 6546.945137,
+    "bollingerMiddle": 6393.75,
+    "bollingerLower": 6240.554863,
+    "bollingerBandwidth": 0.0479,
+    "atr14": 135.779656,
     "stochK": 100,
     "stochD": 89.74
   }
