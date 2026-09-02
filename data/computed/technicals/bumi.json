@@ -2,19 +2,19 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-09-02T06:47:53.906Z",
-  "price": 204,
+  "generatedAt": "2026-09-02T12:31:52.117Z",
+  "price": 206,
   "dataFrom": "2001-07",
   "dailyBars": 478,
   "allTimeHigh": {
     "price": 8750,
     "at": "2008-06",
-    "distancePct": -97.67
+    "distancePct": -97.65
   },
   "allTimeLow": {
     "price": 15,
     "at": "2002-09",
-    "distancePct": 1260
+    "distancePct": 1273.33
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 64.59,
-    "sma20": 186.9,
-    "sma50": 166.06,
-    "sma200": 230.96,
-    "ema12": 192.356936,
-    "ema26": 183.599769,
-    "macd": 8.757166,
-    "macdSignal": 7.726287,
-    "macdHistogram": 1.030879,
-    "bollingerUpper": 204.820937,
-    "bollingerMiddle": 186.9,
-    "bollingerLower": 168.979063,
-    "bollingerBandwidth": 0.1918,
+    "rsi14": 66.31,
+    "sma20": 187,
+    "sma50": 166.1,
+    "sma200": 230.97,
+    "ema12": 192.664628,
+    "ema26": 183.747918,
+    "macd": 8.916711,
+    "macdSignal": 7.758196,
+    "macdHistogram": 1.158515,
+    "bollingerUpper": 205.319389,
+    "bollingerMiddle": 187,
+    "bollingerLower": 168.680611,
+    "bollingerBandwidth": 0.1959,
     "atr14": 9.489125,
-    "stochK": 83.33,
-    "stochD": 80.58
+    "stochK": 88.89,
+    "stochD": 82.43
   }
 }
