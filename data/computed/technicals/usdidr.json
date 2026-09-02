@@ -2,19 +2,19 @@
   "id": "usdidr",
   "symbol": "USDIDR",
   "currency": "IDR",
-  "generatedAt": "2026-09-01T20:21:30.350Z",
-  "price": 17722,
+  "generatedAt": "2026-09-02T06:47:53.906Z",
+  "price": 17760,
   "dataFrom": "2001-07",
   "dailyBars": 518,
   "allTimeHigh": {
     "price": 197804,
     "at": "2008-03",
-    "distancePct": -91.04
+    "distancePct": -91.02
   },
   "allTimeLow": {
     "price": 0.896861,
     "at": "2012-01",
-    "distancePct": 1975902.93
+    "distancePct": 1980139.93
   },
   "supports": [
     {
@@ -56,21 +56,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 42.26,
-    "sma20": 17782.25,
-    "sma50": 17911.302031,
-    "sma200": 17283.449014,
-    "ema12": 17751.996436,
-    "ema26": 17808.212386,
-    "macd": -56.21595,
-    "macdSignal": -53.655534,
-    "macdHistogram": -2.560415,
-    "bollingerUpper": 17913.95281,
-    "bollingerMiddle": 17782.25,
-    "bollingerLower": 17650.54719,
-    "bollingerBandwidth": 0.0148,
-    "atr14": 135.985578,
-    "stochK": 63.13,
-    "stochD": 61.17
+    "rsi14": 45.6,
+    "sma20": 17784.15,
+    "sma50": 17912.062031,
+    "sma200": 17283.639014,
+    "ema12": 17757.84259,
+    "ema26": 17811.027201,
+    "macd": -53.184611,
+    "macdSignal": -53.049267,
+    "macdHistogram": -0.135344,
+    "bollingerUpper": 17913.394691,
+    "bollingerMiddle": 17784.15,
+    "bollingerLower": 17654.905309,
+    "bollingerBandwidth": 0.0145,
+    "atr14": 138.271293,
+    "stochK": 72.29,
+    "stochD": 64.23
   }
 }

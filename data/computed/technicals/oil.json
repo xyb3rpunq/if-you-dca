@@ -2,19 +2,19 @@
   "id": "oil",
   "symbol": "USOIL",
   "currency": "USD",
-  "generatedAt": "2026-09-01T20:21:30.350Z",
-  "price": 90.87,
+  "generatedAt": "2026-09-02T06:47:53.906Z",
+  "price": 90.8,
   "dataFrom": "2000-09",
-  "dailyBars": 503,
+  "dailyBars": 504,
   "allTimeHigh": {
     "price": 147.270004,
     "at": "2008-07",
-    "distancePct": -38.3
+    "distancePct": -38.34
   },
   "allTimeLow": {
     "price": 16.700001,
     "at": "2001-11",
-    "distancePct": 444.13
+    "distancePct": 443.71
   },
   "supports": [
     {
@@ -33,9 +33,9 @@
       "lastTouch": "2026-03-23"
     },
     {
-      "price": 80.664997,
-      "touches": 2,
-      "lastTouch": "2026-04-17"
+      "price": 80.316666,
+      "touches": 3,
+      "lastTouch": "2026-08-26"
     }
   ],
   "resistances": [
@@ -61,31 +61,31 @@
     }
   ],
   "pivots": {
-    "pivot": 82.213333,
-    "r1": 90.186668,
-    "s1": 75.426666,
-    "r2": 96.973335,
-    "s2": 67.453331,
-    "r3": 104.946671,
-    "s3": 60.666664
+    "pivot": 83,
+    "r1": 91.760002,
+    "s1": 77,
+    "r2": 97.760002,
+    "s2": 68.239998,
+    "r3": 106.520004,
+    "s3": 62.239998
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 64.29,
-    "sma20": 83.313,
-    "sma50": 79.8034,
-    "sma200": 78.3427,
-    "ema12": 85.021262,
-    "ema26": 83.62854,
-    "macd": 1.392723,
-    "macdSignal": 1.024106,
-    "macdHistogram": 0.368617,
-    "bollingerUpper": 90.349631,
-    "bollingerMiddle": 83.313,
-    "bollingerLower": 76.27637,
-    "bollingerBandwidth": 0.1689,
-    "atr14": 3.638144,
-    "stochK": 99.29,
-    "stochD": 68.35
+    "rsi14": 64.26,
+    "sma20": 84.059501,
+    "sma50": 80.1422,
+    "sma200": 78.5,
+    "ema12": 85.825684,
+    "ema26": 84.115177,
+    "macd": 1.710506,
+    "macdSignal": 1.153089,
+    "macdHistogram": 0.557417,
+    "bollingerUpper": 90.656205,
+    "bollingerMiddle": 84.059501,
+    "bollingerLower": 77.462796,
+    "bollingerBandwidth": 0.157,
+    "atr14": 3.52746,
+    "stochK": 88.24,
+    "stochD": 82.36
   }
 }
