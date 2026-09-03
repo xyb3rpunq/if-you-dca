@@ -1,9 +1,16 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-09-02T20:22:02.056Z",
+  "generatedAt": "2026-09-03T06:50:55.345Z",
   "count": 8,
   "items": [
+    {
+      "title": "Apple's new CEO faces his first big test",
+      "url": "https://finance.yahoo.com/m/f661b49f-c78b-3d8f-ae81-5a25b1674f96/apple%27s-new-ceo-faces-his.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-09-02T23:17:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
       "url": "https://finance.yahoo.com/markets/stocks/articles/apple-may-foldable-iphone-avoid-193326903.html",
@@ -12,31 +19,10 @@
       "source": "yahoo"
     },
     {
-      "title": "Apple’s New CEO Has Millions Riding on the Stock Beating the Market",
-      "url": "https://finance.yahoo.com/m/c6549ac3-9e32-3eed-b2a6-64d458f1cb6a/apple%E2%80%99s-new-ceo-has-millions.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-09-02T18:47:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Tim Cook's Final Earnings Call as Apple CEO Came the Same Week Apple Hit a $5 Trillion Market Cap. Here's What Investors Should Watch Under His Successor.",
-      "url": "https://finance.yahoo.com/m/8f564630-1448-34ec-8852-f119c156c6ed/tim-cook%27s-final-earnings.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-02T18:20:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple's Foldable iPhone May Contribute $14 Billion to December Quarter Revenue, Morgan Stanley Says",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-apos-foldable-iphone-may-180909159.html",
-      "publisher": "MT Newswires",
-      "publishedAt": "2026-09-02T18:09:09.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple CEO John Ternus Once Spent Hours Counting 10 Extra Screw Grooves: The Steve Jobs Philosophy Behind His Obsession",
-      "url": "https://finance.yahoo.com/technology/articles/apple-ceo-john-ternus-once-173111901.html",
+      "title": "Apple CEO John Ternus Has a Big AI Opportunity: BofA Sees ‘Device Dominance’ Ahead, Eyes Nearly 20% Upside for AAPL",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-ceo-john-ternus-big-193042643.html",
       "publisher": "Benzinga",
-      "publishedAt": "2026-09-02T17:31:11.000Z",
+      "publishedAt": "2026-09-02T19:30:42.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +44,20 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41TFkxdjVORjBqVVBLZFBDcEM2dTJUT1psdUFkVUN2SnpYWE83M3N4SXZxZVdUeTRVMUdxd2ItWTJsY1Y1SUZ5aDlUMHJCSDIzNUhTM1NfRDBSSmVFNlB2QzExLThWVE8wWUlmQmR1aXRjdEk?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-31T06:02:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini (31/8) Menguat ke $319,70, Ini Pendorongnya! - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZV94NzJhLXltUkFYVXlyYnBBTGRvb0VkVlFHdERSdmNITGdnQWJuSUYtaXkzR2Yxdm0zRHhXRVRhYXEtY2RiTlhJM2Y2RlBDWUo1TDBCVHpjcFJjMlFsLW5vMHBadVJGZ0hhSnVPaDdDbG1VcWhBZHZKbnJqbHBBSEg1OUswQQ?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-31T05:19:12.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini (20/8) Menguat ke $316,83 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbzlqLU9VZlQxTnduRi05MF9MX3pKZWZueUpzZ0R1MVVfRDN2dk9ENnVOTmsweWQzN25lWEhQRlo4NjlqUVpDeXc5SHhrSXh1andyQzRNMU9kMElKNnRyU2EzaFVwU2RWYzlDS1Q4M3ZVZnY2RFprSDYtSzBkNmV5OWQ1RUl1Zw?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-20T07:00:00.000Z",
       "source": "google-news"
     }
   ]
