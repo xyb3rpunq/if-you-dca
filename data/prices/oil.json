@@ -6,7 +6,7 @@
   "description": "WTI CRUDE OIL",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-09-03T06:49:52.663Z",
+  "fetchedAt": "2026-09-03T12:34:52.283Z",
   "historicalSnapshotAt": "2026-08-09T21:41:38.781Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×0.8987 agar sejajar dengan deret historis"
   },
-  "marketPrice": 90.12,
+  "marketPrice": 92.05,
   "lastMonthIsPartial": true,
   "count": 301,
   "from": "2001-09",
@@ -1226,7 +1226,7 @@
     },
     {
       "m": "2026-09",
-      "c": 80.9882047419497
+      "c": 82.72263944128208
     }
   ],
   "monthlyTotal": [
@@ -2432,7 +2432,7 @@
     },
     {
       "m": "2026-09",
-      "c": 80.9882047419497
+      "c": 82.72263944128208
     }
   ]
 }
