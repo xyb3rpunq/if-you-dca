@@ -1,9 +1,30 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-03T17:25:41.188Z",
-  "count": 4,
+  "generatedAt": "2026-09-03T20:21:44.224Z",
+  "count": 5,
   "items": [
+    {
+      "title": "Canadian Gold Resources Increases Québec Gaspé Land Position by 72% Through Strategic Staking Along the Garin River Fault",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/canadian-gold-resources-increases-qu-200500398.html",
+      "publisher": "TMX Newsfile",
+      "publishedAt": "2026-09-03T20:05:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold Futures Rise Ahead of U.S. Payrolls Data",
+      "url": "https://finance.yahoo.com/m/b1f257b2-a5f3-3687-9b48-91d2363b357d/gold-futures-rise-ahead-of.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-09-03T18:20:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "US Dollar Weakens Against The Loonie As Yields Ease And Gold Prices Climb",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-weakens-against-loonie-175707765.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-09-03T17:57:07.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Lake Victoria Gold Says Initial Works at Imwelo Project in Tanzania Progressing",
       "url": "https://finance.yahoo.com/markets/stocks/articles/lake-victoria-gold-says-initial-172118658.html",
@@ -12,25 +33,11 @@
       "source": "yahoo"
     },
     {
-      "title": "Gold rally driven by investment demand, not just Treasury move, says analyst",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-rally-driven-investment-demand-163107026.html",
-      "publisher": "Investing.com",
-      "publishedAt": "2026-09-03T16:31:07.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Lake Victoria Gold Reports High-Grade Gold Intercepts at Imwelo as It Advances Metallurgical Testing",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/lake-victoria-gold-reports-high-161602054.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-03T16:16:02.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Gold Futures Extend Gains As Yields Ease",
-      "url": "https://finance.yahoo.com/m/b1f257b2-a5f3-3687-9b48-91d2363b357d/gold-futures-extend-gains-as.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-09-03T16:08:00.000Z",
-      "source": "yahoo"
+      "title": "FOREXCOM:XAUUSD Gambar chart oleh GOLD-TRADER-FX - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4ZGU5VjB0bGRMMGw4bWIyamsxRExOa2pHT21qS1JFcnMzSy1mNlcydVJ6T1h1NHBMOExuclVqenpJX1VKaFc4YmNXQVJFQQ?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-08-31T20:32:01.000Z",
+      "source": "google-news"
     }
   ]
 }

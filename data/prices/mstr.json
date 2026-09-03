@@ -6,7 +6,7 @@
   "description": "Strategy Inc Class A",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-09-03T17:24:39.114Z",
+  "fetchedAt": "2026-09-03T20:20:35.814Z",
   "historicalSnapshotAt": "2026-08-09T21:41:48.926Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×0.7523 agar sejajar dengan deret historis"
   },
-  "marketPrice": 140.58,
+  "marketPrice": 144.82,
   "lastMonthIsPartial": true,
   "count": 301,
   "from": "2001-09",
@@ -1226,7 +1226,7 @@
     },
     {
       "m": "2026-09",
-      "c": 105.7575276434985
+      "c": 108.94725941410108
     }
   ],
   "monthlyTotal": [
@@ -2432,7 +2432,7 @@
     },
     {
       "m": "2026-09",
-      "c": 105.7575276434985
+      "c": 108.94725941410108
     }
   ]
 }

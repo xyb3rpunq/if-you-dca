@@ -1,22 +1,64 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-09-03T17:25:41.188Z",
-  "count": 2,
+  "generatedAt": "2026-09-03T20:21:44.224Z",
+  "count": 8,
   "items": [
     {
-      "title": "Google won’t have to sell off ad exchange in ad-tech monopoly case",
-      "url": "https://finance.yahoo.com/m/3d714024-796c-3ac8-82ff-105b200ebe67/google-won%E2%80%99t-have-to-sell-off.html",
-      "publisher": "Marketing Brew",
-      "publishedAt": "2026-09-03T16:10:13.000Z",
+      "title": "Google’s Arkansas Data Center Reveals the Huge Power Bill Behind AI. Entergy Stands to Benefit",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-arkansas-data-center-reveals-200631272.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-09-03T20:06:31.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Google Was Found to Hold an Illegal Monopoly and Kept It Anyway. Is the Antitrust Nightmare Finally Over?",
-      "url": "https://finance.yahoo.com/m/c79b4bdc-2586-3236-8f0b-8a2bf2b1b9b9/google-was-found-to-hold-an.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-09-03T15:50:36.000Z",
+      "title": "PG&E, Google, Rewiring America Launch VPP in California",
+      "url": "https://finance.yahoo.com/m/c1474b6b-2067-394f-a892-95287f7555bb/pg%26e%2C-google%2C-rewiring.html",
+      "publisher": "POWER Magazine",
+      "publishedAt": "2026-09-03T18:26:50.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "Eos Energy Enterprises (EOSE) Is Up 8.1% After Google-Backed Long-Duration Storage Debut in West Virginia",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eos-energy-enterprises-eose-8-181531978.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-09-03T18:15:31.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Pertumbuhan pesat Google Cloud dorong debat har... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVVA1aFdZQUcyNFllTXB3Rk93OU53dDlaenF6MWpieWQxMUFfbVVsZFBLRHhYY05qcGF1Q3B6UE92UnRRQnFMeEh5YXJHbHVpaXhkRkF5QS1pd0NyS281WDRnVGlxZ1hIQUpuWXpZakppOWtZb25Xd05JM3RZSTlldXRPM1VRMHljckk4QWNROWRBRkpyZmplY1J6Y0l2X0JUX1QyRjNXOGM5QQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-31T18:31:18.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVRVaHQ2QmdLeW80bEFMdmdOWjk0bFczNjBma3k5bnhzaFlfWnFicV9lLUY3U0tRQ2pqVGFiLWx2eWwyQWJsa1V1WjQxS2ozUFplZ2hlaVBJOUVxRG43VkFjTHNRNHg2LTVuSGpXYkx5ZGUzN0ROcFFMUm8zYUlxVVRaQkRkLXVpOV9McmM2LWdHVWF6VW9TVDhyNHYyX25aTWNQZGtFUjV1ZWNNbkFaYk96eDV5UQ?oc=5",
+      "publisher": "Bloomberg Technoz",
+      "publishedAt": "2026-08-07T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ilmuwan AI Top Google Resign, Saham Alphabet Anjlok - detikInet",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWxZUmdmMUszZVVpRkZtNzloSnd6RjdMejY2U3BlVXZ4V19Qcll0UmxOR3VJODcxLWtERHNiaXd5RHAteUdlTWQxa1hZa1laeVpsZzk4SFFDOXU4djlPWTA2TW1McHljM1dZR1NrOWlOeHgtbktXM1A4d3VEYjBwMDdGRmYzeHc4cHBBZHh4cG1nQ0xrTEJV0gGcAUFVX3lxTE5BM1Jma0dickNvQ3ZnQ01VRkJIMjFudGVMa2ozMDBWU3UxTllJOXlIbmZOQU9KM3BVcW80TVRSS0lidWYtZHRTQ3VGYVVzWFA2OU9hSnFOYWptR1c2U2htSHVDMmZqRm5LcFlpUEZ3RUZZSy1TeXJWS1d5SDBEUHg2dmFjRUpPR1lyRDRSWWVRc2tXZkUwYkFUX2RSVA?oc=5",
+      "publisher": "detikInet",
+      "publishedAt": "2026-08-06T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Mengapa Google Nampaknya Diam-Diam Tinggalkan Persaingan AI untuk OpenAI dan Anthropic - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaeEtUaFlEVE5CNHpyRklDNjFGT2FDN0ZhUjhGVEVnQjlydHVuc2N1bVkzam5CNUh6UFRqY1FvOWRidUdiWUJrT1RyV1Zrc2xJb1JISGZtQVpnamNhUzhuWmtPTDFONVZjQXlod3pNVUJvVnM?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-07-29T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 22 Juli 2026: Turun ke $346,19 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQmhBQkhmTXRiZkloT2FTMk5yeUQ0Z3o0cm1JUVdSc3c3ZmU0M0ZmdlNyWUFWWGhMMDJYNW5JLXJGUzQ0Y1h2SnpnN3lvSkd4S3J3dWdfUk81aWdqZGJmX1kwNjFXUHNlTmdTY251QkRRcDV3ajJkZTkzdjU2TDNnblBXSQ?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-07-22T07:00:00.000Z",
+      "source": "google-news"
     }
   ]
 }
