@@ -1,7 +1,22 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-03T12:35:58.090Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-09-03T17:25:41.188Z",
+  "count": 2,
+  "items": [
+    {
+      "title": "Wall Street Nears Record Highs With Help From Mag 7",
+      "url": "https://finance.yahoo.com/m/05ea6a36-b81b-3311-bdbb-b3323ed86217/wall-street-nears-record.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-09-03T17:05:26.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Robinhood Stock Soars Thanks to Wall Street Upgrades, Platform Expansion",
+      "url": "https://finance.yahoo.com/m/b7659907-1bee-37d3-b79c-32a0d269c609/robinhood-stock-soars-thanks.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-09-03T16:51:00.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
