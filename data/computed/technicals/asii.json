@@ -2,19 +2,19 @@
   "id": "asii",
   "symbol": "ASII",
   "currency": "IDR",
-  "generatedAt": "2026-09-04T06:55:36.697Z",
-  "price": 4920,
+  "generatedAt": "2026-09-04T12:29:13.608Z",
+  "price": 4900,
   "dataFrom": "2000-11",
   "dailyBars": 479,
   "allTimeHigh": {
     "price": 9350,
     "at": "2017-04",
-    "distancePct": -47.38
+    "distancePct": -47.59
   },
   "allTimeLow": {
     "price": 85.008781,
     "at": "2001-04",
-    "distancePct": 5687.64
+    "distancePct": 5664.11
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 52.16,
-    "sma20": 4849,
-    "sma50": 4890,
-    "sma200": 5856.625,
-    "ema12": 4874.462975,
-    "ema26": 4882.092109,
-    "macd": -7.629133,
-    "macdSignal": -29.194865,
-    "macdHistogram": 21.565732,
-    "bollingerUpper": 5043.925627,
-    "bollingerMiddle": 4849,
-    "bollingerLower": 4654.074373,
-    "bollingerBandwidth": 0.0804,
-    "atr14": 114.124542,
-    "stochK": 60.61,
-    "stochD": 71.72
+    "rsi14": 51.04,
+    "sma20": 4848,
+    "sma50": 4889.6,
+    "sma200": 5856.525,
+    "ema12": 4871.386052,
+    "ema26": 4880.610627,
+    "macd": -9.224575,
+    "macdSignal": -29.513953,
+    "macdHistogram": 20.289379,
+    "bollingerUpper": 5041.659495,
+    "bollingerMiddle": 4848,
+    "bollingerLower": 4654.340505,
+    "bollingerBandwidth": 0.0799,
+    "atr14": 116.2674,
+    "stochK": 54.55,
+    "stochD": 69.7
   }
 }

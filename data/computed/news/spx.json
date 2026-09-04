@@ -1,30 +1,9 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-04T06:56:15.370Z",
-  "count": 5,
+  "generatedAt": "2026-09-04T12:29:53.055Z",
+  "count": 3,
   "items": [
-    {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "url": "https://finance.yahoo.com/m/c7c9a3ab-eace-33b9-8cc5-29561f612470/stock-market%3A-will-s%26p-500.html",
-      "publisher": "Benzinga Prediction Markets",
-      "publishedAt": "2026-09-04T06:04:40.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-benchmarks-mostly-rise-tech-032035804.html",
-      "publisher": "Associated Press",
-      "publishedAt": "2026-09-04T03:20:35.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Dow, S&P 500, Nasdaq Futures Tread Water As August Jobs Data Looms: TSLA, LULU, PL, CRDO Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/c0b49604-8a65-3155-92e7-6d578e36c8ff/dow%2C-s%26p-500%2C-nasdaq-futures.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-09-04T03:05:00.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "Berita S&P 500 - Investing.com Indonesia",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUWVEzQlJJRFBvZ09id1JtbzAzSDY2WTJvdENpUGZqUk1VaVY2dmYtR2VRenUzSzlmdkw0Z1N5bExFOVZUNUNWcmp6QkdxbGdPcHU1Yjd5bTY1SGtaWUJTSnJn?oc=5",
@@ -37,6 +16,13 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94Qi1tM3BLLWt5LTZlRTZGQ3VXV2VTYjJGaW5NWjhENWxxaTBvY1BzVmJRRnQzak9sb2RMcG9hYmRsNU1rUEppUlFjd3JERWt3Tzh6SjgtOHJVN2RqOEo4SG5wRTlDWTRJX1V3MkdkYzFMcFk?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-08-30T21:04:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
       "source": "google-news"
     }
   ]
