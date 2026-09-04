@@ -1,49 +1,35 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-09-03T20:21:44.224Z",
+  "generatedAt": "2026-09-04T06:56:15.370Z",
   "count": 8,
   "items": [
     {
-      "title": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-mixed-outlook-182923490.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-03T18:29:23.000Z",
+      "title": "Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100",
+      "url": "https://finance.yahoo.com/m/d106ef5d-b832-3d00-9b1d-643be37aade0/apple%27s-memory-costs-jump.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-04T04:37:58.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Apple faces £2 bn lawsuit in UK over app privacy feature",
-      "url": "https://finance.yahoo.com/media-advertising/articles/apple-faces-2-bn-lawsuit-174755792.html",
-      "publisher": "AFP",
-      "publishedAt": "2026-09-03T17:47:55.000Z",
+      "title": "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-m-missing-220219429.html",
+      "publisher": "Benzinga",
+      "publishedAt": "2026-09-03T22:02:19.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
-      "url": "https://finance.yahoo.com/healthcare/articles/stryker-launches-fda-cleared-apple-173700748.html",
-      "publisher": "Zacks",
-      "publishedAt": "2026-09-03T17:37:00.000Z",
+      "title": "Tim Cook Grew Apple From a $350 Billion Company Into a Multi-Trillion-Dollar Giant Over Nearly 15 Years as CEO. Can John Ternus' Product-First Approach Extend That Compounding?",
+      "url": "https://finance.yahoo.com/m/4a0dc6a1-3dab-3770-838b-81e291dfd5c7/tim-cook-grew-apple-from-a.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-03T21:35:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Jefferies Revamps Apple Stock Target On Setback",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-revamps-apple-stock-target-154746604.html",
+      "title": "Apple's Privacy Shield Now Carries a $2.7 Billion Price Tag",
+      "url": "https://finance.yahoo.com/technology/articles/apples-privacy-shield-now-carries-213118939.html",
       "publisher": "GuruFocus.com",
-      "publishedAt": "2026-09-03T15:47:46.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
-      "url": "https://finance.yahoo.com/m/403a60f0-9fee-397a-9be5-bec31d940bf7/apple-is-late-to-ai.-that.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-09-03T15:00:58.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple Dividend Scorecard: Can a 0.32% Yield Still Earn an A?",
-      "url": "https://finance.yahoo.com/m/9ab78692-ad41-3570-bc80-7c7ee3102787/apple-dividend-scorecard%3A-can.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-09-03T13:59:13.000Z",
+      "publishedAt": "2026-09-03T21:31:18.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +44,20 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84ZnZBcllFT2xrYmp0TWpXWHBfbHkyWW1vd1NoLS10bGl2REs0Sy01UzJtZlJWMWRNUmNhSG9lNjhpUnc3SVdpbUVtRnBjcFcxNXd0VmhOV1RsSDlxa3BmMGZpVE1DMnJaQW9uSQ?oc=5",
       "publisher": "BeInCrypto",
       "publishedAt": "2026-09-01T03:37:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ternus Gantikan CEO Apple dengan AAPL di Dekat US$320: Sejarah Tunjukkan Pergerakan Ekstrem di Tahun Pertama - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41TFkxdjVORjBqVVBLZFBDcEM2dTJUT1psdUFkVUN2SnpYWE83M3N4SXZxZVdUeTRVMUdxd2ItWTJsY1Y1SUZ5aDlUMHJCSDIzNUhTM1NfRDBSSmVFNlB2QzExLThWVE8wWUlmQmR1aXRjdEk?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-31T06:02:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Apple (AAPL) Hari Ini (31/8) Menguat ke $319,70, Ini Pendorongnya! - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZV94NzJhLXltUkFYVXlyYnBBTGRvb0VkVlFHdERSdmNITGdnQWJuSUYtaXkzR2Yxdm0zRHhXRVRhYXEtY2RiTlhJM2Y2RlBDWUo1TDBCVHpjcFJjMlFsLW5vMHBadVJGZ0hhSnVPaDdDbG1VcWhBZHZKbnJqbHBBSEg1OUswQQ?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-31T05:19:12.000Z",
       "source": "google-news"
     }
   ]
