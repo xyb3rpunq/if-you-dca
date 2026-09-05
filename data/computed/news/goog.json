@@ -1,14 +1,21 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-09-04T20:07:05.011Z",
+  "generatedAt": "2026-09-05T07:12:06.306Z",
   "count": 8,
   "items": [
     {
-      "title": "Google Turns Three Everyday Apps Into Paid Gemini Microphones",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-turns-three-everyday-apps-193846909.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-09-04T19:38:46.000Z",
+      "title": "Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?",
+      "url": "https://finance.yahoo.com/energy/articles/entergy-says-google-arkansas-solar-230127052.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-09-04T23:01:27.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-raised-outlook-fell-google-225856871.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-09-04T22:58:56.000Z",
       "source": "yahoo"
     },
     {
@@ -16,6 +23,13 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVVA1aFdZQUcyNFllTXB3Rk93OU53dDlaenF6MWpieWQxMUFfbVVsZFBLRHhYY05qcGF1Q3B6UE92UnRRQnFMeEh5YXJHbHVpaXhkRkF5QS1pd0NyS281WDRnVGlxZ1hIQUpuWXpZakppOWtZb25Xd05JM3RZSTlldXRPM1VRMHljckk4QWNROWRBRkpyZmplY1J6Y0l2X0JUX1QyRjNXOGM5QQ?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-08-31T18:31:18.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Alphabet tetap layak dibeli dengan Google Cloud gandakan pendapatan dan margin laba membaik. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE02Q3VRY0JkQ3VWSGpqMnBlU192aUwyUzNUN2RsbUpMMkNYYzJsMk9iMVJnT2x4c3JUaFo3OTlTQWNEOUdFV25XcHp1azI2ak45V0trMzlOZTlTdm5IUGJyaDFVZzdWUnptYWhMZXVvc0NlUQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-25T13:43:16.000Z",
       "source": "google-news"
     },
     {
@@ -44,20 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeEUwWEVKOFhfa0wyUDkycXJ3Nktta0pWTHkzcXZKNFhKRTFmVkxaRDQyX0ljMUlydTVvSUw5V0o0ZW1JQkp0X2p4SWlod0ZTT2ZYS3RfRnJMYjZFOEhHVy1wM3JZa1J4YTRlSDhCRHliUkpwUXBLdnp0eHpPbkxLT251bw?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-07-29T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Alphabet meraih pendapatan rekor sebesar $119,8 miliar berkat kesuksesan luar biasa Google Cloud dan Gemini. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTdzVXg4TUZGZEtveFI1SFlYYWZVVGZTajczTmpmemJQcld5eXdMNHlTX3hHRjVwSWkwXzRSUjhSeWo2a1lPUGx4Mm9XbHJnaDhvQkVTZUNhTTFmcVJRV0hLd1JSUVF4eU9JU3duQXdVUExLSUJLbE9hVnRLb1ZIMFhzd1FXcmVGQjhtRVkwZkVLUjU3LWZDUlVRYlZkYUZhM0hmVkFPd2tzR29vVW1B?oc=5",
-      "publisher": "Vietnam.vn",
-      "publishedAt": "2026-07-24T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Google Cloud Melesat 82 Persen, Mengapa Saham Alphabet Malah Turun? - money.kompas.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEZ2YTVXVkpyaFppT1NfZkE0SElJRkQ5UzZRX2RERGJVZDdfSl91aE1sUWp5UzFFY3NNZWdZQnZ3SnVlYlVUeG5FSFQ2T0prSERSYTdENDhGV3BtNEpTZkN2cUdBVHpNWVJHM2V4SmliWmJDVExIRVhvLWw1eFR5VVFsakdzTjFEUlo4M2hoeWp0ZVRBZ3BpNDBtLTBQQk1pa1NDZ0VkNG9FXzBqOEpiTXJwT1NZSmFlNU9pclRoOXJaS0U?oc=5",
-      "publisher": "money.kompas.com",
-      "publishedAt": "2026-07-23T07:00:00.000Z",
       "source": "google-news"
     }
   ]
