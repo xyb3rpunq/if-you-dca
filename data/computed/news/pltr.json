@@ -1,12 +1,23 @@
 {
   "id": "pltr",
   "symbol": "PLTR",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 5,
-  "errors": [
-    "Google News HTTP 503"
-  ],
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
   "items": [
+    {
+      "title": "Cathie Wood Dumps $25 Million of Palantir Shares. Should PLTR Investors Worry?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumps-25-million-172403799.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T17:24:03.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-surged-51-august-rest-172023418.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T17:20:23.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Palantir Stock Could Make a Dramatic Move Over the Next Year (Hint: It Implies a Big Move)",
       "url": "https://finance.yahoo.com/m/4889d6f2-531c-3f95-ae4f-7d3849bd1d01/palantir-stock-could-make-a.html",
@@ -36,11 +47,18 @@
       "source": "yahoo"
     },
     {
-      "title": "AI Hardware Rallied While Adobe and Palantir Sank. Which Side Is Right?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-hardware-rallied-while-adobe-220725248.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-05T22:07:25.000Z",
-      "source": "yahoo"
+      "title": "Apa itu Saham Palantir (PLTR) dan Tokenisasi Saham PLTRon? - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbXN4N01QTG95UHpLdzVqQmhBbHpSQXJEc2g1M3ZxbmEzOXN1MDdWYmgyR2VtTUlEeFdyWjkwZ3VEMGs0d3l2aElERlNLNEU1WE91aEhWQkNmVzJLQ081MEFLdjd0UXRTTHFrRl9pNUZ5cFRGSVRLS0FfSWNBMjVocjVNWFRxWU5zblBsaWJQN2RZdw?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-24T11:09:34.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Apa Itu Saham Palantir (PLTR)? Panduan Lengkap 2026 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVkdxbU5jTF9SRGZRVGxZb01lUmhLMmtEZlZIby0wTExDdFpRc1RhM3NKVXdscHY1MXVUQXVhYVB5T2lVbXBRSlNRQ1pUbG5uOXFpdlRwUmg4WE9RLWR4b0hTTWZacjlkeU12ektVek5NbTZvVnFQa19tcUxWWlVQZzdZWkxVUVk?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-08-08T07:00:00.000Z",
+      "source": "google-news"
     }
   ]
 }

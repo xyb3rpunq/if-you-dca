@@ -1,12 +1,23 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 4,
-  "errors": [
-    "Google News HTTP 503"
-  ],
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 7,
   "items": [
+    {
+      "title": "Bitcoin Has No Label but Its Closest Rival Is Gold, BlackRock Exec Says",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-no-label-closest-rival-151524969.html",
+      "publisher": "Benzinga",
+      "publishedAt": "2026-09-07T15:15:24.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold Under Pressure With This Week’s Inflation Data in Focus",
+      "url": "https://finance.yahoo.com/m/30ad68fb-8a01-3299-91cd-cc8f3e1a0fb7/gold-under-pressure-with-this.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-09-07T14:21:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
       "url": "https://finance.yahoo.com/m/04e3c172-e5a4-334a-aad3-184bbfb5c7c7/gold-falls-below-%244%2C400-as.html",
@@ -34,6 +45,13 @@
       "publisher": "Bloomberg",
       "publishedAt": "2026-09-06T23:28:46.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "September, volatile untuk gold. untuk OANDA:XAUUSD oleh POV-trader - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjM2tYR1lPX2czc0xnTmNfelVFTGt5bU05QU9teHViUWZveGVMWDZUMm5HZ0Q4VUE1Y01xOUIwcFFSa2NEaGhYT0dsbXNkYmVPaHZ5SVVtdUZHODFVb1E?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-09-04T07:04:05.000Z",
+      "source": "google-news"
     }
   ]
 }

@@ -1,10 +1,64 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 503"
-  ],
-  "items": []
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "CEO Nvidia nyatakan AGI tercapai, didukung 100.... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRDlyVEZ4a1dxRDN3dFdDWVg0LVB4SXkyYnhmQnVyOV9NTWJFR0tDaFc5ODhiMVRaUndleF9KTnIySjlXNk5qYVRWcF9RckgtVkMwaFJ6dFNRLUdJejM5U0ZiMTJuYm1EREtUUXQzVVVZLU1HRFl5am55LXJDSlhnRTBiTEV3Ql9WcFhnN0dYN0h6YkxtcWtRdGFibkxXdHllaDBsWFpn?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T16:44:19.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Saham Nvidia diprediksi capai rekor baru pada S... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSlE3T0Iyb0pfdGFQaTh2RVRSc0E4ODZHSUNkbUxuaUoxODd1VHplYzJWU3BxV1VPNnctN05CVko5N2NGM3NzUGFHdXNZcTBSWFkyRW9ka00zM2F5QTRTYTQ4Rk9KZGYtSkptbW1KRGRKdXlKaE9aMGJQQjFiMUtCZDZPcXg?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T15:44:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Pendapatan Nvidia melonjak di Q2 dan proyeksi t... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZU03YUloQ21Zc1EwLVRTWGMyUjlyanh6TUoteHNpS0ptcTRJMHVsRm9vLU9MSFVWRnpOelNwNndDNy1JVTN4MlFxUHJ5WW9CR0JtazQyMmlGVWtMMnhZMkFrY1NRaF9talQ2dEREank5YXVXMHhHTE81Wl9iQWx2VC1Qb09Ma3ZHYlVCYUdVcEE2QQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T15:06:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Nvidia (NVDA) Hari Ini 7 September 2026: Menguat Tipis ke $230,36 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFkxSHZYT051TWFoaTJCdC1NY1BRVEJYd094NUcySlRUS2l6NG1TaUZpbTU0N2UxZFpzUGZqNFBqUzRoZkN0UExJdE5sbUFHZTROR3czS1hvdU5TSVpWOFFjYVZHV0NXa1Q2eFlmN0dJc0hCT0pDSS0tUVJPSnNYVkVobjhteEt2?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-09-07T04:24:57.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "NVIDIA naikkan proyeksi FY2028, harga saham men... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01d0JpQkVSZ0Z0cVlkU2NxYnhqRmVERmFKcnE5b0RBRlJiY3Zsd0dMS3lkWDlwTlJncE9BRHg1NzhYWUZWbkg1TkZaZTB1Q3NaMmhySjJLTS1ZNDYzLVFWaHVUQTB1QVJhMThmWXN5cUtRbVQ3ckVyMEw3WQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T01:07:46.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Nvidia diperkirakan raih laba tahunan $851 mili... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUUpEZ09wT3lQX1UyWXNDNHNkV2RiWEwtaWZWNkJLLWpISEJDZGVndll5NmdTanVKbTgyWERtV0FmM3lpUnllT1hQYjk3U2dJRGlVS2lvNlg2ZmRqbVFSUEpDdVRRSVdDOWtVUHllMFYtTFdQZk5SVVV4MW9Ud1Y5RmFB?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-06T16:43:42.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "NVDA Stock On Track To Hit Over 2-Month High – Analyst Calls $12.9B Hugging Face Deal ‘Strategically Valuable’ - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdTNsVHVha2R5ZXljcEtJSlk4TXkyem5LT0VFNUJvWnBnSHFnUFF0c0ZHNnoxQU40X1dBazBxNS1sYTR5cUNqallIUXc0eDJrVi11SWYwVnp4UTFCbm56UEhmcDVhUkotT0lVSXd2MjBkNWJDYXhLWDZMMmtYRTdDMDJwN3Q1cEx4RWpqTm1PWlFfbDgwVURQMHFnWlowRDZLQ1BuUUltaW1mUFB0WkljOUNhcW8tTEpIeFhkeHA4YVNLNGNMZXQ3ZV83b2F6a1JWUjZyUjFlSkdWbjMzVlB1cTRKZUxJMV96VmxWM0k5ZmF1LW9aRzhtTw?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-09-04T16:53:29.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Needham pertahankan rating saham Nvidia usai akuisisi Hugging Face - Investing.com Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU0xnTkJzdHN0SHVlcmFEaHFVU2NvLXExbHdRZDFnMmlMUEJoUHlfOTF0VVllOGluZk02WTJNOGpPTnZpbGJkenhxaklJQlRRUUJ2QnVSUTVSUG1qLWYtakxEQ0Z3Z3Nad0N1Tkluc1QtUGdmMy01ODBTMS1tczVWU21MWF91UThQeFZVTDBTb1dRUXJ3R2xmQnM4TWFXYWV6Z0FsMlRfd3FiLUFOVktIWW9aQUpzVkZCOVd1bmtlTVlUT0k?oc=5",
+      "publisher": "Investing.com Indonesia",
+      "publishedAt": "2026-09-04T14:10:53.000Z",
+      "source": "google-news"
+    }
+  ]
 }

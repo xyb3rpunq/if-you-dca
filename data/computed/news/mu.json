@@ -1,12 +1,44 @@
 {
   "id": "mu",
   "symbol": "MU",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 6,
-  "errors": [
-    "Google News HTTP 503"
-  ],
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
   "items": [
+    {
+      "title": "Is Micron Technology Stock Running Out of Steam?",
+      "url": "https://finance.yahoo.com/m/19e3072d-fc4d-34e8-9930-aed65791fd8b/is-micron-technology-stock.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-07T17:32:31.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack",
+      "url": "https://finance.yahoo.com/m/c4bf23f6-8826-3521-abbc-b80a2294807e/why-micron-and-sk-hynix-sit.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T16:45:33.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Not Nvidia. Not Micron. This Is My Top AI Infrastructure Stock to Buy Right Now (Hint: It Can Double Within 3 Years)",
+      "url": "https://finance.yahoo.com/m/2a218e33-483e-3c2e-a456-e52ce4b67c33/not-nvidia.-not-micron.-this.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-07T16:23:01.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Micron Has Skyrocketed 256% in 2026. What Would It Take to Get MU Stock Up to $1,250?",
+      "url": "https://finance.yahoo.com/m/27f341fe-8d3a-3269-81b8-197944e43ea0/micron-has-skyrocketed-256%25.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T14:40:45.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Micron Stock Has Reclaimed $1,000—What Comes Next",
+      "url": "https://finance.yahoo.com/m/ae383cba-05e4-32ff-b848-39d1704173d8/micron-stock-has-reclaimed.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-09-07T13:58:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Do You Think Micron Technology’s (MU) Return Drivers May Falter Ahead",
       "url": "https://finance.yahoo.com/markets/stocks/articles/think-micron-technology-mu-return-133459987.html",
@@ -15,39 +47,18 @@
       "source": "yahoo"
     },
     {
-      "title": "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-inc-mu-trending-130005841.html",
-      "publisher": "Zacks",
-      "publishedAt": "2026-09-07T13:00:05.000Z",
-      "source": "yahoo"
+      "title": "Apa Itu $MU, Saham dari Micron Technology? - TokoNews",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oMFFEWDdKQUJEMUtpZW1lVzhKYmZJNHBsWjgxWmhqNjlTcnR5cE43UlJDV1d3ZEE0R3J2VGZDT280NW0tMExNVlRhYjNtRFItZEUzcnRNaXB6U1RGR0hobFR2Y01Rb2Zaai1sTThTa0xKOTloSVBR0gF3QVVfeXFMTmgwUURYN0pBQkQxS2llbWVXOEpiZkk0cGxaODFaaGo2OVNydHlwTjdSUkNXV3dkQTRHcnZUZkNPbzQ1bS0wTE1WVGFiM21EUi1kRTNydE1pcHpTVEZHSGhsVHZjTVFvZlpqLWxNOFNrTEo5OWhJUFE?oc=5",
+      "publisher": "TokoNews",
+      "publishedAt": "2026-09-03T02:35:48.000Z",
+      "source": "google-news"
     },
     {
-      "title": "Micron Jumps 6% as AI Memory Trade Keeps Running",
-      "url": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-6-ai-memory-120948403.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-09-07T12:09:48.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-      "url": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures-fall-with.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-09-07T03:06:47.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Prediction: Micron Stock Will Skyrocket After Sept. 30",
-      "url": "https://finance.yahoo.com/m/13c3173a-0484-381c-8a02-5b925fe74d29/prediction%3A-micron-stock-will.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-06T13:32:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
-      "url": "https://finance.yahoo.com/m/59f20a63-e92a-34d4-876b-fc448de47ea7/micron-stock-more-than.html",
-      "publisher": "Barchart",
-      "publishedAt": "2026-09-06T13:00:02.000Z",
-      "source": "yahoo"
+      "title": "Micron untung besar dari permintaan memori AI; Intel tumbuh tapi masih rugi dalam perombakan bisnis. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjVklaZ1JyMW9YdEwyTTVtOUFCM2g3TUtxTF83eHQyTDR6cEZKbmdZUnZFYWdvM2hNSjFjTTdxTFVicWp4SGFGanFMME9feVdsWk95dkZJeTVBZVhmUlpZZ3JWRkRydkR5eU9OQ2N3NjJlMkJqTDFpZlJ4ZTNaTUk?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
+      "source": "google-news"
     }
   ]
 }

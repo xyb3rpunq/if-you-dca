@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T13:58:57.164Z",
+  "generatedAt": "2026-09-07T18:31:58.784Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -44,16 +44,16 @@
     "btc": {
       "status": "ok",
       "ath": 126198.070313,
-      "fromAth": -37.11,
-      "rsi14": 63.77,
+      "fromAth": -37.3,
+      "rsi14": 62.81,
       "supports": 4,
       "resistances": 4
     },
     "eth": {
       "status": "ok",
       "ath": 4953.73291,
-      "fromAth": -49.56,
-      "rsi14": 64.31,
+      "fromAth": -49.76,
+      "rsi14": 63.3,
       "supports": 4,
       "resistances": 4
     },

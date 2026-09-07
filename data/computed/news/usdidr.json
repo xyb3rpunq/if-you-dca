@@ -1,18 +1,64 @@
 {
   "id": "usdidr",
   "symbol": "USDIDR",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 1,
-  "errors": [
-    "Google News HTTP 503"
-  ],
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
   "items": [
     {
-      "title": "Bank Indonesia Holds Rates Steady as Rupiah Pressure Eases",
-      "url": "https://finance.yahoo.com/m/93de2035-2cf5-3b33-85f2-c15be1c867ca/bank-indonesia-holds-rates.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-08-19T09:03:00.000Z",
-      "source": "yahoo"
+      "title": "USD/IDR: Rupiah Stabil di Rp17.630 saat DXY Melemah, Cadev RI Naik ke US$146,5 Miliar - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZm03ZWpLZnV4Z1dndkNvdnFRSnp4X2JOeG9KMkRCY2psbFY1N256MzNZUTB6dkVNMUpIU0ZCd2xIRlZybWRkTUVwTVp0aTBVNmlUZFg0TzJZeVI4ZEoxcDd1YVI4bFdXLW54ZkY0T0ZJR1Z0a2g4cjlpd0VkWUxEbHBPTUx5a1BZZnJ3cHpVQVdETWNUTUNKY25LUXZfS0VQVUtzX1RBOW1OZHdDMlJockozbUVuWm91ZUZiWEEyRFhSeUpqeEHSAcsBQVVfeXFMUHZlekl2VFVRQTNFTExRY0UwczJFM041VTc4NzczZkhjZ2tRMnRoanpxVkdUdHBvMFo5RWkzc3N3cHluUEtYbzQzUnhzanA1RUkwdDk2dFlIcFNSSmtBb3NoRXQwV3ZmZU8xREs5aTRTUm9oMXVpWUtmQjExNFlZX3RhamE3YXlXRGM0dUJGUnNiNEx5ZUdwb1BnUDVBQmJWb24zTEkyV05xMDVYX1BYVzRGeU9ialpXbFJEeEhtVkRlOFZOb2hLUGM5eDQ?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-07T09:03:46.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Lanjutkan Penguatan ke Rp17.630 setelah Waller Tekan Dolar, Fokus Beralih ke NFP AS - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa1huWmtLdE9vOGpFS0Zad2dVUjk4LVRvUmNMZnQtbUVydXExZkFQaFQxcE9lOUhNS1pEQ0UzQVRySWRleFk4S2VSV05DdGhUeHVLQjZCMmVQTkQ4Wmw2Q2gwMUVsUm5TeFQ1b2Q1U3lvcUM3ZWhvWXJOTjBpdGdXN2NrVWNRajhWb1NlMmh3OEoyVGUtd0x5blpEaV9mbWlsaTloZjdqcWJpZG1yUjhZR1RCdEhIZWV0U0p1VTRzNlVySmdXakxTTUFpeGJ0WUIybWtLZDVkUUxlQdIB3wFBVV95cUxOSEZsSV9wYllnc0F5QUlsdGhkOURsZjdhaTNDQkdaQml5Rk0xUS1Qc2dQZ1c0aDFpUlRzcnRWQk1xcWZnQW1tVUhsVURvNTNFNmZYZjVOdE5OZnBab29BQzJ2cEJlV1YyNmZsTFJCX2hVeVBnOEJCNE8xWTR0OHYyak00eWRCV0ZPV3praThjSnhwSFgxbF9KODN4N0VEc200R1lGZE5LQU4tSHFjcFYzYkF6bnpRSldPVnVuR0NiUllQT1hRZHRXampqY3VmdVZBWmhuNTRwaTBUUEMwaWt3?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-04T08:43:39.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Rupiah Indonesia: Tren Depresiasi Berlanjut saat Guncangan Minyak Membebani – MUFG - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRlFuVzA0VWRQMUpFaGJTRnBleDVJWkt6Yk9yODk4SG5nQmx3cjJOcXNfbzdZb1QwS3dXdFpwSmpzRkZ0dEdEb3FUUE94VDgtS29tcTE4eFdEN0ZWS2FXWjFqVHN2em1Ra0g4V2xfYlR2TGZjZ2NEa2xxSGVZZlNYd1pQSjdpUGprVkpITjM1YVBFNkVFUDMydzR6NEZubXhCVi1SeDUwYV9ZaXdySXNlZ0poUjR0b0xhZUl3X1JOcmJ4TG5HVDE40gHMAUFVX3lxTE5FX3Iyc2FBcmt3NVlTeXY4YXZsUTVsbXBQc1F2Ti1iM0V4WHRGYzdOUGJ4M1o3V2d2UGJMRG5UVVJHcXhNMVRQOFZaNUY3MmxZMXh2Z0I0cVBDaGNaNDJySG0xNHU0ckpWajRVakVIMHFlOU5MMmVWWUdzc1Bsd1lGdHdXaEZCMWhJR0ZGS0pFaVo0TUxBVF9udjFwd3gzR3djX0VLU3NCa01SZFg5U2Q5T1Uxbnl3WldJUnpPc1puaDZOSU9Gb3oxUEl6NA?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-03T21:15:20.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Naik ke Rp17.650 setelah ADP AS Lemah, Minyak Tetap Jadi Risiko, Tunggu Jasa ISM AS - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQd3BaLVpJc1pPcFM1WVJxNERPQ3BzVXZTd3kwV2p2TERkcWhydXlLNEkxZThucnZ5ZEhXWXBRUzZvRHJMMUo0dmItLVBDOGZ4cjk5emV1QkNuSWNhc19nblYzM0JoUUFZclU2a3RzVTBmcERDWlRNc0VILVo1QXhSYVFsRmx0eEtXZ3FMNU9va1ZoZzZOTFhmZU1vMHJTOTBiQUZLUVQ3bHEzcWc5WlpnSTNtZU1DX3ZFWmF6cFZrV2FHTXAzTVVrNVdfaUJwcXloZlJwZkt6aFJXTEgyMFhLQ9IB5gFBVV95cUxPMC1kZjNFcHUwaTh4UW1oN0Z1RUFxZnA4S0JtVkQwbVVLY1pqNldrcS1kbzhNSERjVjBvR0p0V3RXNkRrWmlHYmhlMGJWYWVqSm9RZ2lJdGp3OTdKLVQ3a1dLaVhOLTNVNlQ3TG52Z3M5Z1pXNjg4b1U0MzV2WnJjUVFaUENOVnExSzBpdjk2QXo5bzJma0VjSmhfaHNQRUxJOXdPUjVfY3Zmd3lHcENlbGZONXlKWGhBYTh3OU5GQWUtRDgxeE10TmZhdGhSTkN0cU1yZllZUG5WbC13QXhLdE85dEZCUQ?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-03T09:01:55.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Melemah ke Rp17.750 saat Dolar dan Imbal Hasil AS Naik, Minyak Dekati US$95 - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYTl4NUJRcUZjeEY3VVdEU01sdzk0SHhtcW1rbXRYb2NZeThvOFlsWU5EZnZmQlU0cWVZZTU3TG9TTXJ6aHhtUE5Qa3QxUlNDWlpiUi04TG1lMUwwYUxJdlRiOVphYm9xNGplN3NyRDhLeWwtUEtkN2wxS2NkT0d5dEFwYnpMUEYtRWZROUUtMEMwdm5OUlpNYllmcmdkMmt6NVFPaVNnTzc5SDhPeG0tS29iYzFqelN0dHlGUHBNMlpoSDNPZmRud2pLbnBValZvMnQ2RXJTUFY2RDFkTVh5d9IB5gFBVV95cUxPN0RETm5zeDNOeFhiWHlQN2xtU2M4ekV1Z3NWalJySmgydC1JN2JIVkJGT0o5UFJUOE9zcXhtYnVMNTN5RnlaanBFUlJiak8wRndsNkxsMl9LUDdGNENtcDRsbDJHdENyaHFaOGtDenQ1LWFtQmtnM1pMZHpTTEVzZnFYdzZCSC1Sc0JrNFd3OUF6YUF0aEpwMmlMQlhKNGdZLXU4aHBraUhVSGZMYUR5b1dnQU82VmdBTWRvRGpsMWk5VFZGSVZoZm9Ja0RmZXlBYjFKZUxsem81TUVLazY3N0NUbU9PZw?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-02T05:15:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Bertahan di Rp17.710, Surplus Dagang Imbangi Minyak jelang ISM dan JOLTS AS - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOElBXzltLUFMdE5yVkdzMjZTbzdIOW9uWnFPVUU3YnhNQ3ltU29iaUlTUkhxUTNfMGRGQlJCQlN3TXRNaXAyc1FnRnZDUW5Zelo1bE9jdGpEaVhLUFA4QVdBX3VTNnRhWE85MTNlN0NFb29PcGxfcGFoc0tSZXY0bmhDNWhDbzRSQW9MSTRvNE9NVWZnVVo4cWdrWkNaLWgwcWJyOFZtcEJjQnZuU3ZrNGVpcVBTRm1LRWxHQVZjaUh3bVktR3EwY2k4QkoxazjSAdQBQVVfeXFMTjhoak9qbWN3dGI5VzZnN2loSmtKazBJMlU4ZDQ0VVQyRTZGd2RIQnJsRDItV1JuUzFYQ3c2Z1l6OVFLVGI3QVdTMXVkelVRR3NKY1FZYU1aMDdzengxSlZYbWFEbW9yZV9MOUhGSUhuQ0xNUHE3Ulk4Zms2ME5BbTBYY1p6NE1wTVdiWVpzZE8yWHFuRzhFNWo5Q3B0NTAxNE01UWtuSFNsckNvYU95cjJGS3A2bjc1SVcwWEhEOFZDb0RxcXVxV3Z6eW1MMF9feWpmSXE?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-01T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Berakhir di Rp17.710 saat Fed Hawkish dan Minyak Kembali di Atas US$90 - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYmp5NXUtTlAyQ2dJTjRSakNEZ2ZzWm4yZ0d1RXN3N25HN0tGY19fZWFQei1UNjdnSllqLXdZWkNiS1IxTkN0ak8zUXJRMzBKWEQ2MkU4X3hhOUJaYkZvVGFCYXlHbi00Mmw4Q19LRWdoeE1YR3NwVGo5dlFneHpkY3JGWTUyUm83M3d6VFhpNlNrVnR1SEpOb3BHc09YR3pLMFJRbWQ4STBBTkdUMzVsbmk1dlJ3ZDI4SnpabldRM1pGT0RObkd4LdIBzgFBVV95cUxOeDFSNEVkdUN5dXFNM0hBOV9tM3ZmNU1EM0dtaWdKY3p6a1FCTnVFeFZ3NHRQUTJvUmFhLVVkQnZKTWJiYUJ4NmN2ZEZaaTlEV3l6M1dZc0hnOVVMUmxEbTByczdKejlBMkVSQ2tsRTJOSGtWbXNGVlFRSXF6anY4aEZHWWl6MmI5MENwWjdzenVFSFB3RVJxNHJKc19SU2Z4a2FIY1dNcktXZ1pha0wyTzVVNTFmXzVmTmw3UHUyeXRNTVZqSFZxelYtQ1pwQQ?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-08-31T08:59:56.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Berakhir di Rp17.685, Minyak Turun Jelang Pidato Warsh - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZjB5ckJ4NDZ5d0ZLcFdkZzlCb1R5b3gyVXpJVm40a2ZzRFIzeEQ1NHEteGw3MHAzVUEwRVBfbXRWLS1hT1NrQ1EwUTJHY1VuNHhQd25TQ3h2UXJ2TVVMYVZ2SjNZc1lmWU1zV1pUTUhlOG1QdUY0YTNsNE1LdllfQnFlMFhzQ0VWY2pkNGJfYUJXT0tJNmhTbTVQMkZKc192WVNLYnZ5QnRJX3dFV1pkRU93SdIBuAFBVV95cUxQT2M5d1JPWXUzWm1fMDRFdTFQOHFUclpLWTZWOXVhekNUY3hZQlA4YkNHbXViZDU3aW5Fa1VHUmpOQ0VHcDdYX3o0bUlaVGpQODBtcWxOcEpFRmtDeFNUdWpneTF3SVFBSlkzaUVoOXBua21ENFF6XzBtTHVhM2ZYOUNnX3g0X0F3QnptbG1PTldQSXl5MGZxNkZlcGtkMnVhRTByV1REVFIxQUoxQ0ZTandTM3VabjZW?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-08-28T08:47:40.000Z",
+      "source": "google-news"
     }
   ]
 }

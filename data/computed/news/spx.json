@@ -1,10 +1,36 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 503"
-  ],
-  "items": []
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 4,
+  "items": [
+    {
+      "title": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
+      "url": "https://finance.yahoo.com/m/a31a6756-6bc2-3912-923d-2587e9bd377c/ibb-just-beat-the-s%26p-500-by.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T16:22:05.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "These 2 AI Power Stocks Jumped While the S&P 500 Fell",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-ai-power-stocks-jumped-150120214.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-09-07T15:01:20.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500 Naik 12% di 2026 tapi Sinyal Crash 1907 Kembali - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94Qi1tM3BLLWt5LTZlRTZGQ3VXV2VTYjJGaW5NWjhENWxxaTBvY1BzVmJRRnQzak9sb2RMcG9hYmRsNU1rUEppUlFjd3JERWt3Tzh6SjgtOHJVN2RqOEo4SG5wRTlDWTRJX1V3MkdkYzFMcFk?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-30T21:04:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Pengeluaran AI Mulai Melambat, Bagaimana S&P 500 Akan Merespons? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMDdxLWFmSDM5RTFJbTEzek5QUEJtLUxOMWVzbUxIR1hxR0xBYlo2bWNYTjEtNGNWQ2dscWhxR29KVmY4TnUza3Z1QXEyNGJMTUlWUU1yS0xaSThCeExlYm8tcWx2YjdMaHBtYWhlMmdYdw?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
+      "source": "google-news"
+    }
+  ]
 }

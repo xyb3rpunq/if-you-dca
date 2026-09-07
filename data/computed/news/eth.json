@@ -1,10 +1,64 @@
 {
   "id": "eth",
   "symbol": "ETH",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 503"
-  ],
-  "items": []
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "Ethereum Siapkan Transaksi 64 Frame dalam Upgrade Besar Hegotá - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZXVfSFBCWHFsSi10RS0ySzFTY0s1aUlQNlZ4SWhqdHkxdnpWa0c4T0lPOFhRWVF1b05KQzViLTVob2dHTEJGcHY4dmtwOHNVN3MzdHViSEFKQ3ZCa1dyNDlyQzNUQU5pR3RTTDdnLTE1aUNVTDc4M2FIcHkxTmlWRnNfRDRRdHdSU2ItQXVQYVdpWjM0aXFCSGRn?oc=5",
+      "publisher": "Yellow.com",
+      "publishedAt": "2026-09-07T17:20:20.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "ETF Bitcoin AS tambah 2.038 BTC dan ETF Ethereu... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTm9kd0p2N2ZyQnY5N0dueDZnNnBJWEFINFhvSnQwRnFMWThrRUIwYnRnUGdweUdTRjU0Sl93UWxjZk4zVGhDTThiTlNMQlFJRzhHWDZtXzM4aGoxcFVQOEpfWEdVTnZfOHdKZE1zUzFZSU9fWW1zLVBjZnRNRUN0MHN2cw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T14:44:05.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ethereum berkomitmen untuk memungkinkan pengguna membayar biaya gas tanpa harus memegang ETH - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORmZVQW83eWVQZTJfbUZWQ29CdVpfYUtMS3FOZHRKcFdnb0JJZGMxQU1IUGNZZm1hdFAxNE0tb3VvWlZUVXdBcjVkTi1qQU9POW1MbkVkcmRrT0NEMFRwTHhXVnlpa0QxWTRBOHFscktKMWl3ZkM3a3ZvRndBRk81Y0RmMWV5VFlieGNQTDU2cHJLOGdUV0M3ZTVSUEZZZ0xiZXZoUWxTQnBSbV9KWUh4RXFtb2RQaGFR?oc=5",
+      "publisher": "CoinDesk",
+      "publishedAt": "2026-09-07T13:54:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Ethereum stagnan di sekitar $2.500, momen... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUJPT0RzUjMxaENhOFpxOC0wbjdEOWZ3QVh6TFd1THdiR2VvSXMzT1kxNnhUSkdJckNwZzNwNUh1TWtLakJwNUV2aUc4NGJWOFV6Qk9PNm5OLWFtU05ndzNZR3JweXh0WlZieGR0SV9DelNjandqczBoMUdwOUtLLUZhaXlxNlZtVEN6NWFOUHphLXJTeXRWVzByWHRld00?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T12:24:12.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ethereum Siapkan Staking Tahan Quantum, BLS Bakal Dipensiunkan? - INDODAX",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41Z2NoTXJjS1lXWGRwYjBucVdWNW93azZCaGw3WllfbzlUQ01vYldwM1pjclZMOEQ3VWlVdnE0b1lFVjJPTEJRYzdWVDB5eEtlazhPQUZ0OGx5bnRBTGt4R0RHQnRYbjlQa1pJbTF2WFBfWjFtMmc?oc=5",
+      "publisher": "INDODAX",
+      "publishedAt": "2026-09-07T10:42:54.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ethereum bertahan di atas $2.498 dengan potensi naik ke $4.750 jika tembus resistance $2.515. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObHZsNERYRElydTA2OHFPdUpMay1YS09hUWhyWFNfMk5PZ3dtUXJ6d3EtWGlZX3FJaXNaa3ZIdzdtLXVWT1ZYaTVVUEZMSVV3bVMtWTB2czBSUnRHaUNaT04xdkR4WGtqbTVGVXoyc043clFJaHE1bUZiRnlYQ1ZBT25MZzJ4clBxanA1bHhNQ2p2RldPcDQ1RFd0ZEpNbnZCSzRybkVra2U?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T10:11:26.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Kripto Hari ini: Bitcoin, Ethereum, XRP Melemah meski Arus Masuk ETF Spot Stabil - fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaVBKX191NE1iTGMycjFiYWxKVm5rdDV3SE1iWFBGTFUyTUhhWUNGOW1BT0RJcGNhekVUWUtIM2ZTY3VpaFlIcGUyaV9nVGJYU2U0MTRaOVZVM19JbkM0S0llRkhudUpBZEplemEtM21STktBMTBHcmJZUGN6ODFreG84ckx0S3FUMXVjeTFnY1BkSzhmN0x1MkpieGJ2b0hoenFBb1NYWC1RcmNHN09QWGFhVHlTZDdzdUp6S2s2ZU11OV9jUjJveG5jY0FILU1id21sUlZ6eGpGZ0tuT19V0gHkAUFVX3lxTE4zNXhSOFBJa2p3ZGpTZ3N0Y2pNVmhVbThfMEttZXV0RXNOdEh4eEdqYi01enFjRWdtVFZfVjVjM1hQZzJfQ0dvd2NpcWtWVHlSTWllNzZIR2FtOTVFYVV5N3ZLUlVWd280U0tVVXpvME1Ka3lBUFJwSUNGcjRYUy1PMlV2RDJDdTNUZVNhSFlldjNRaHhHRlVsOVRJQTVUd3BBbFViS1FaVVRwWGR0ajF3RjhWV0pRNE9qcXBUWWJ1WjZXZ0lyX1I3Zl9rSk1VR2dFd0Q2X0diVDJwUnFocm5XcXlTTg?oc=5",
+      "publisher": "fxstreet-id.com",
+      "publishedAt": "2026-09-07T10:00:43.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ethereum mendekati resistensi kunci $2.560 deng... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVGZYNGJTZlZoVmEyN2VtQkxIVFlIS25jWHkxTEJhSENCSlZmMEhjTzJpREo0TWpVX3BYX21mak9WbTFIUXFnZnBYdkswdlowcVpkN2VzVGxvcDJiTlBIakhWOUR5Yl9hX3U0SF8wSmhXM3BORXJvUzVka2ZDUi1mLXVLV09WM05YUlN0VXEzTl83RUMwZnF3SlhkN192Uk5pR2Rxd2s4Yw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-07T07:12:02.000Z",
+      "source": "google-news"
+    }
+  ]
 }

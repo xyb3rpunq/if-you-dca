@@ -1,10 +1,43 @@
 {
   "id": "bbni",
   "symbol": "BBNI",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 503"
-  ],
-  "items": []
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 5,
+  "items": [
+    {
+      "title": "Asing Net Buy Rp1 Triliun, Kompak Borong Saham BMRI-BBNI - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVUZxMFozRXNBcVg2WXRLaVMxQ2UwQTFiWGpOc1cyeVkzdlE3V21ONlZOczA2MEozX1RGM2Uxb1NCX2pNc01lWHlHNV9POHlRbEVFbmxZemxWeE1mcGgxa2pnOThyWW5URnpabHNabUFldjFWWEJTQWd1VVhBWnJuaHZwWW1PaWhHSUM2VTNRR3B0bHdHQUlfLUpvaTdKOEM5TUxTUzRfWXZfNkpFVlZlaTlYN3Z1WEY30gG-AUFVX3lxTFBONEltWm5la21MUGZmTko2TU15SXY1MmQtenRuWk0tS0hIcTYtYWVVX0hwRk5hTHIxNHIteFFMblVlVmNCYi1sV1ljVXgzWGlWd19YcmZsMGYwaDVUYnZ3d3F4Q0Z5WEl2ZDB0MVpUSGxYYzZLSjg1OGR5eUZ4QzdKZ2RaUDBzM1dNTW92aGhZUUlQS2NpSk14d3M3YTY0NzBlYm1GX3Z4TnhwR2NPNmxMX2dUODlXeDRoV1BrZlE?oc=5",
+      "publisher": "CNBC Indonesia",
+      "publishedAt": "2026-09-03T11:09:25.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Rekomendasi Saham Tim Analis Bareksa Hari Ini: BBCA & BBNI, IHSG Diprediksi Positif - Bareksa.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZl9vdkxMV3l3Y3Ftek02bEZsOHVRMWdreDVxYVhkTXpscFUzTUFDQ2t4cU1yWWNwRHJhMkEwRnZaelNER3MyWXdDTjdQZF93ZTdFRWJLWi1GaVc3UkRhSEVzOUh2M01PSlpURE5hNW5PQ3c1cFVxQkxjN0lfMnhGd2ZNdnVYOGk3LTNGSVluN2FQZnI4QmZ3b0ZkckxpQXFKSW9zcE5IbWxtRGN4ZUczWmdjM1FBVENpUVJlbk9ILTg1QzlzMGc?oc=5",
+      "publisher": "Bareksa.com",
+      "publishedAt": "2026-09-03T05:14:04.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Margin Laba Bersih Bank Besar Tertekan Likuiditas, BMRI dan BBNI Pangkas Target 2026 - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZHB1QzJrUkEtcmRGZXduRnJDaF94SWh4Q0ZHbjlZeF94UkNudE5kVE11bzhnRjA0Q2J1RFg1V0F3RDRhQXdVY3JMLWRoM2x4ZW5oQTBRWXdNNHNMV2JmTVEtT3FMZzJadC1Hbi1jSDVBaEJTZzNlZUZnT3pGcGY0UkhMVTJ1Y2NQTFF0NW9oTEkwSGgxWng1QmF5VjZZMC1ES1RJd3BjREhPNDZZSWQwZmNQT0kzYTVHbVHSAbMBQVVfeXFMT0lGUGdldnpEV3Z3R0tvQXNGTVo5TlVXS05IWC1YakdSUjNyaXQtQXJGXzFFd0dCRXVneW1MN000RmtTR2VQNmhNc2NHVmxEMUFzT3l6MnhSN3pGbzluNmRiTEpYV19PYlN6cGlza1NhZ1Fnc1dWWWd4YXpIbENMbnB0d1VKNUtaSlcyc0JzMl81WXhjZDRDUl9NMXRaODU1cDZCLTJYd3F1ZlAzNF9VQWhPZUE?oc=5",
+      "publisher": "kontan.co.id",
+      "publishedAt": "2026-09-03T04:03:16.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Intip Prospek dan Target Harga Saham BMRI, BBCA, dan BBNI, Layak Dibeli? - investortrust.id",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVVNCVEVtQmVOT3J4WWo3MXFRb2NZallvbl9LZk8wRjExSkpfcjhHd1Zzb2R2TDBNVlZJQmJ0eFFHYXJwS2hyMm1tel94RUtxcHpWTWpJRXBfa04xMjF6VFNMMlBCUzdFTjI4b0liVTNyb2phTzQtdHN2aDU3Z1B6eHZtdXNMQWdnZ2JYaGpxZEItM3NVU09SU2Y2c0lzYWdYWEtFYnVTUHBWNmc?oc=5",
+      "publisher": "investortrust.id",
+      "publishedAt": "2026-08-06T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "BBNI Cetak Laba Rp10,75 Triliun Semester I-2026 - Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUJPSVp2VXRCb0ZoQ0RvS01DQURQVnR3OXpHUFZyZVZudUNDLXJtdEdHbHQ5RklHUU1MSkNUZGRkVC02M1BVUTF2R25pWmhYR3AzOGFtTjE4aEdnQUM3QVRpLVA3LXdsekptUndfWVdzR25nc0E3cG9LdUJCRXkwU2x3aTdCUEFqZmQ4aVBCSV9GR2tMU1FERnRheHdlcWp1?oc=5",
+      "publisher": "Bloomberg Technoz",
+      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "source": "google-news"
+    }
+  ]
 }

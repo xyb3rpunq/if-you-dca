@@ -1,10 +1,64 @@
 {
   "id": "bbca",
   "symbol": "BBCA",
-  "generatedAt": "2026-09-07T13:59:35.413Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 503"
-  ],
-  "items": []
+  "generatedAt": "2026-09-07T18:32:37.615Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "Tiba-tiba Berbelok Nasib Saham Bank Central Asia (BBCA) - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUW83Yzl5RDgzQnhtVG1WdWpJSTZ4djBCekNneFdQOEpSR3pvZkFoa01rc0lhOFV3VVNvSEFubVByeDVZX0pHOHBaTzhndWIxc2w4VVlaYVpNQlpWbWV0c29SN29UOW02N3hGb28wQ3FuY1Fyc1E3S3cyRGF1aWVLajhYOWdjQ25zY2czaQ?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-06T23:15:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "BBCA Kembali ke Radar, Potensi Naik 41,5% Terbuka - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMmo4QV9JeHhXa0VvVWpmZUFVV042YjM3cTlCcDRidkRVZXJESXBJYU5ydy1HRWJrQVFwQW5sUklqQlo5c2lxVWlRLTU2WTRhbGR1YTN1blFRbkRaei12NE1COXBFTHdiQ1VfQkQtNGhNS2hERzBnWXRZWWZTcVpMeFIxTHJZLWs?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-06T02:03:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Raup Cuan dari Saham BBCA - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qdkR4UFVUdEhCbDE2Mlpjd05xbE16dzF1WnJJQUpxeFZnZGZSWGlwaWxaOWVfNVl6XzF3dmZQMXNyZ2FQbTF2c01EbnJpWDM1bGtXZlRlVTUwVDYyYkEtTnlXTWFoNFU2OWh3?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-04T01:28:24.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Rekomendasi Saham Tim Analis Bareksa Hari Ini: BBCA & BBNI, IHSG Diprediksi Positif - Bareksa.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZl9vdkxMV3l3Y3Ftek02bEZsOHVRMWdreDVxYVhkTXpscFUzTUFDQ2t4cU1yWWNwRHJhMkEwRnZaelNER3MyWXdDTjdQZF93ZTdFRWJLWi1GaVc3UkRhSEVzOUh2M01PSlpURE5hNW5PQ3c1cFVxQkxjN0lfMnhGd2ZNdnVYOGk3LTNGSVluN2FQZnI4QmZ3b0ZkckxpQXFKSW9zcE5IbWxtRGN4ZUczWmdjM1FBVENpUVJlbk9ILTg1QzlzMGc?oc=5",
+      "publisher": "Bareksa.com",
+      "publishedAt": "2026-09-03T05:14:04.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Dividen Interim BBCA 2026: Jadwal & Nilai per Termin - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3cFZmTTAwWURsbDA0NVBNUWk1UlQtTDFkM2d3aVQyQkZzeWl0Sk1sU085SVE5NkdaSTlVTUp6OHQ0TG5iU1c4WVZadDFWNGFQRTlmTGR2cmZjSGJ6WXdaZExlSklfNWx4ZzgxRS1qbzFueDA0b0hr?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-09-02T16:26:32.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Saham BBCA Terus Dilahap Asing - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhMjlGQjMxR3FsVmJtclJveF92X2xfdTBwR054bWVEc2h5TFBad1JVZXNfN2I1eFZrTDFPX3RkZnpNVVN6eVRDZmtwb0dqWUk5WjZSLVdHaUtKVjVLckNQMXkyc18wMkIyRWZLZ0lveXVFdw?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-02T05:53:20.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bank Central Asia (BBCA) Buka-bukaan soal Bank Digital - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTzJINy1lMWgwekVjaUx0Z0tFYmZSQnBFb1dFYTc2clU5Q3FwektabWJpc0ljZ0ZROUNLekt3bkptbzlXaUVvMDBZcVU1WUZidHlpRWRucVpvR0pqdlNDS0pnRjg3OXpDSGk2X2xwSkV4TGZLcjVfMVFjV182TDFRQW4ybVltUmdLZ1pWa2pR?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-02T02:48:44.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Perputaran Nasib BBCA - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JQmRuV180a1k0THhRWHdTc1paWWVQcEhFREs1UGsxT201dkNXM3JHRUo5Mmw4cWRmZ1RzYTZwRDE3amhEMnJXbE03RVE2YkdKTUdxZUpsZDQ0V1ZhQVBNYUIzYkNBZw?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-02T00:06:00.000Z",
+      "source": "google-news"
+    }
+  ]
 }
