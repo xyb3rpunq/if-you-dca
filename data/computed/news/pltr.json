@@ -1,9 +1,19 @@
 {
   "id": "pltr",
   "symbol": "PLTR",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 8,
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 5,
+  "errors": [
+    "Google News HTTP 503"
+  ],
   "items": [
+    {
+      "title": "Palantir Stock Could Make a Dramatic Move Over the Next Year (Hint: It Implies a Big Move)",
+      "url": "https://finance.yahoo.com/m/4889d6f2-531c-3f95-ae4f-7d3849bd1d01/palantir-stock-could-make-a.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-07T13:43:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
       "url": "https://finance.yahoo.com/technology/ai/articles/palantir-alex-karp-real-ai-013013347.html",
@@ -31,34 +41,6 @@
       "publisher": "Insider Monkey",
       "publishedAt": "2026-09-05T22:07:25.000Z",
       "source": "yahoo"
-    },
-    {
-      "title": "AI’s Next Winners? Investor Bets on Snowflake, CrowdStrike and Palantir",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-next-winners-investor-bets-170009073.html",
-      "publisher": "Benzinga",
-      "publishedAt": "2026-09-05T17:00:09.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-jumped-7-7-expanded-123838463.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-05T12:38:38.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
-      "url": "https://finance.yahoo.com/m/aad2ebd1-7788-3d4f-9e72-947e0f68a3e3/palantir-billionaire-peter.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-05T10:25:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Enterprise value to EBITDA forward dari Palantir Technologies Inc. – NASDAQ:PLTR - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObGhwMFdQMndIRHZnU1FiMFNCc2tIdjJtWTNrcm05YkYwSTR0WnJoaVVGbm5JbXduY2JiU3JIOEVTblRLUDVoQ2VLMnFQd1ZXeUVwLVROWkhEVTVJN01IbTloNTJuazFXQnk4MUJBelRIcVVHeWZhNUtCaFRVYTF1TlBWSVJrSFRTdi13b3llMkxhZUtlVXVzVm8zcmpyWkZ5T3AxVGlOX3Y0QVV1?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-08-30T09:24:06.000Z",
-      "source": "google-news"
     }
   ]
 }

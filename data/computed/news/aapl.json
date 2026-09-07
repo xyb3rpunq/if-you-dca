@@ -1,64 +1,60 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 8,
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 7,
+  "errors": [
+    "Google News HTTP 503"
+  ],
   "items": [
     {
-      "title": "Harga Saham Apple (AAPL) Hari Ini 7 September 2026: Turun ke $319,97 - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ05CMnlTS3hKOE5FdjlvVTdhMVFNODZzQ1c2MzRBNmRnNzRQNDdtZDdXc3o1akVmN2lXSjdCaE1mbWl5U25OSHRPRnp5VVpDMmwybjNKZGJERkxYdzJISEhhcURwT21fR3ZZVTRaS2VlSmNEQ3hHekdacWMtVXdVc1J4d0JuTFk?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-09-07T04:24:58.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-      "url": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures-fall-with.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-09-07T03:06:47.000Z",
+      "title": "Why Apple May Be the Safest AI Stock Nobody Calls an AI Stock",
+      "url": "https://finance.yahoo.com/m/aae800e8-5ff1-3ef2-bc69-e745fbcb6f54/why-apple-may-be-the-safest.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T13:00:28.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
-      "url": "https://finance.yahoo.com/media-advertising/articles/apple-aapl-raises-apple-tv-224834727.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-06T22:48:34.000Z",
+      "title": "Apple's Foldable iPhone Is About to Face a China Problem",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-foldable-iphone-face-china-125842656.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T12:58:42.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-first-ever-ahead-223147950.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-06T22:31:47.000Z",
+      "title": "Apple’s Sept. 9 Event Could Change Everything",
+      "url": "https://finance.yahoo.com/m/171b2149-ffcf-379e-adee-576b677486b4/apple%E2%80%99s-sept.-9-event-could.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T12:55:01.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Apple (AAPL) Sets iPhone Launch Event. The First Under New CEO John Ternus",
-      "url": "https://finance.yahoo.com/technology/articles/apple-aapl-sets-iphone-launch-221225248.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-06T22:12:25.000Z",
+      "title": "Apple Faces New Threat From Huawei and Xiaomi",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-threat-huawei-xiaomi-123806765.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T12:38:06.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-mac-mini-studio-201609665.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-06T20:16:09.000Z",
+      "title": "Apple Faces Major New Threat Before Crucial iPhone Launch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-faces-major-threat-crucial-121648555.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T12:16:48.000Z",
       "source": "yahoo"
     },
     {
-      "title": "The 'Waffle House Index' is real, and Apple is filming it",
-      "url": "https://finance.yahoo.com/m/81749127-6830-3b53-b393-af83c1c4663b/the-%27waffle-house-index%27-is.html",
-      "publisher": "TheStreet",
-      "publishedAt": "2026-09-06T18:47:00.000Z",
+      "title": "Bettors wager Apple's foldable iPhone will cost more than $2,000",
+      "url": "https://finance.yahoo.com/m/06b2777b-76c3-3aaa-986c-44d34c0a5bd9/bettors-wager-apple%27s.html",
+      "publisher": "Proactive",
+      "publishedAt": "2026-09-07T10:31:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "AAPL Heads For Third Weekly Gain — But Foldable iPhone Is Reportedly Stuck At ‘A Few Hundred’ Units A Day - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNUoxckNVOVY2SjNxbHFpUnhwUUt0Ylk3NUlseUJUdVBFbHRSNWRNYTRqa0ZLQmJucEwzT3ZXS3pXOFc2NE52S3I1bXhvdWs5VVU4Wl9nemVmMkF6anBqWTAtVFZ2bHJPSnQ4Q0djNnpYc01aTW5TSFlqb00xM0VHbS1Sa1p1bEh1QnV5VE1EUWhidENGU251RFlucHZiaGNvckxTSmRkLW1iTVB6aXFySkZyS1ZTLV85Y2FTX0M2VGJ6Tm5oVHJFcS1aUjBBOTAyeGM2NUJkV2tzNU9QV3lyTlZETjNzbjBycWxrVkM0MGRyZ0k?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-09-04T08:34:52.000Z",
-      "source": "google-news"
+      "title": "Global OTT Set-Top Box Market to Reach $7.91 Billion by 2031, Dominated by Roku, Amazon.com, Apple, Google, and Samsung Electronics Co.",
+      "url": "https://finance.yahoo.com/media-advertising/articles/global-ott-set-top-box-080700779.html",
+      "publisher": "GlobeNewswire",
+      "publishedAt": "2026-09-07T08:07:00.000Z",
+      "source": "yahoo"
     }
   ]
 }

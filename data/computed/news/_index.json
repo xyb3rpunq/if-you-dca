@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-07T07:00:15.708Z",
+  "generatedAt": "2026-09-07T13:59:35.413Z",
   "assets": {
     "usdidr": {
-      "count": 8,
-      "newest": "2026-09-04T08:43:39.000Z"
+      "count": 1,
+      "newest": "2026-08-19T09:03:00.000Z"
     },
     "spx": {
-      "count": 5,
-      "newest": "2026-09-07T05:20:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "gold": {
-      "count": 6,
-      "newest": "2026-09-07T06:10:00.000Z"
+      "count": 4,
+      "newest": "2026-09-07T10:14:12.000Z"
     },
     "silver": {
-      "count": 5,
+      "count": 3,
       "newest": "2026-09-04T18:41:00.000Z"
     },
     "oil": {
@@ -22,84 +22,84 @@
       "newest": null
     },
     "btc": {
-      "count": 8,
-      "newest": "2026-09-07T06:05:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "eth": {
-      "count": 8,
-      "newest": "2026-09-07T04:58:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "goog": {
-      "count": 8,
-      "newest": "2026-09-07T03:44:21.000Z"
+      "count": 1,
+      "newest": "2026-09-07T10:35:55.000Z"
     },
     "mu": {
-      "count": 7,
-      "newest": "2026-09-07T03:06:47.000Z"
+      "count": 6,
+      "newest": "2026-09-07T13:34:59.000Z"
     },
     "aapl": {
-      "count": 8,
-      "newest": "2026-09-07T04:24:58.000Z"
+      "count": 7,
+      "newest": "2026-09-07T13:00:28.000Z"
     },
     "nvda": {
-      "count": 8,
-      "newest": "2026-09-07T04:24:57.000Z"
+      "count": 0,
+      "newest": null
     },
     "orcl": {
-      "count": 8,
-      "newest": "2026-09-06T18:00:00.000Z"
+      "count": 5,
+      "newest": "2026-09-07T12:21:29.000Z"
     },
     "mstr": {
-      "count": 8,
+      "count": 2,
       "newest": "2026-09-05T10:41:36.000Z"
     },
     "pltr": {
-      "count": 8,
-      "newest": "2026-09-07T01:30:13.000Z"
+      "count": 5,
+      "newest": "2026-09-07T13:43:00.000Z"
     },
     "bbca": {
-      "count": 8,
-      "newest": "2026-09-06T23:15:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "bmri": {
-      "count": 8,
-      "newest": "2026-09-07T06:53:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "hrta": {
-      "count": 7,
-      "newest": "2026-08-26T22:06:43.000Z"
+      "count": 0,
+      "newest": null
     },
     "bumi": {
-      "count": 8,
-      "newest": "2026-09-07T06:31:51.000Z"
+      "count": 0,
+      "newest": null
     },
     "arci": {
-      "count": 4,
-      "newest": "2026-09-01T05:48:18.000Z"
+      "count": 0,
+      "newest": null
     },
     "untr": {
-      "count": 7,
-      "newest": "2026-09-01T05:31:40.000Z"
+      "count": 0,
+      "newest": null
     },
     "asii": {
-      "count": 8,
-      "newest": "2026-09-06T23:06:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "bbni": {
-      "count": 5,
-      "newest": "2026-09-03T11:09:25.000Z"
+      "count": 0,
+      "newest": null
     },
     "adro": {
-      "count": 8,
-      "newest": "2026-09-06T09:49:00.000Z"
+      "count": 0,
+      "newest": null
     },
     "indf": {
-      "count": 6,
-      "newest": "2026-08-26T11:24:08.000Z"
+      "count": 0,
+      "newest": null
     },
     "antm": {
-      "count": 8,
-      "newest": "2026-09-05T12:27:14.000Z"
+      "count": 0,
+      "newest": null
     }
   }
 }

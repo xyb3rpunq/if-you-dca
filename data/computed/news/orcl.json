@@ -1,64 +1,46 @@
 {
   "id": "orcl",
   "symbol": "ORCL",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 8,
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 5,
+  "errors": [
+    "Google News HTTP 503"
+  ],
   "items": [
+    {
+      "title": "Oracle Stock Flashes Stunning Signal Before Earnings",
+      "url": "https://finance.yahoo.com/markets/options/articles/oracle-stock-flashes-stunning-signal-122129801.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T12:21:29.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "BofA Sees Clear Winner Between Adobe and Oracle",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-sees-clear-winner-between-122011345.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-09-07T12:20:11.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Oracle Has Fallen Nearly 20% in 2026: One Wall Street Firm Says It’s Going to Double and Then Some",
+      "url": "https://finance.yahoo.com/m/b2830da4-cac0-36ce-84cb-4e4f817ae151/oracle-has-fallen-nearly-20%25.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-09-07T11:25:46.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Oracle Is Putting HPE Juniper Gear Into Its AI Data Centers. Is HPE Finally Getting Paid for the GPU Networking Bottleneck?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-putting-hpe-juniper-gear-083309249.html",
+      "publisher": "Insider Monkey",
+      "publishedAt": "2026-09-07T08:33:09.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Inflation, Apple, Adobe, Oracle, Macy’s, and More to Watch This Week",
       "url": "https://finance.yahoo.com/m/736d38bc-4861-37a5-bebd-9353ee16aa26/inflation%2C-apple%2C-adobe%2C.html",
       "publisher": "Barrons.com",
       "publishedAt": "2026-09-06T18:00:00.000Z",
       "source": "yahoo"
-    },
-    {
-      "title": "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-      "url": "https://finance.yahoo.com/economy/article/inflation-data-oracle-earnings-and-an-energy-supply-crunch-what-to-watch-this-week-120429533.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-09-06T12:04:29.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "What to Expect in Markets This Week: Fresh Inflation Data; Apple’s Fall Launch Event and Oracle Earnings",
-      "url": "https://finance.yahoo.com/m/4bad1cbe-f353-3841-9424-437e051f408b/what-to-expect-in-markets.html",
-      "publisher": "Investopedia",
-      "publishedAt": "2026-09-06T11:00:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "I Own Both Oracle and NuScale for Different Reasons. Here's How They Fit Together.",
-      "url": "https://finance.yahoo.com/m/22588f33-4652-33aa-af0e-f1cfdfe6525b/i-own-both-oracle-and-nuscale.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-06T10:12:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Oracle targetkan pertumbuhan pendapatan kuartal... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVFNMcHNZYkIxSjhWQVRFUVBVU05KWmpsZy16VUVCSnZQQWRRYTBlYm9iYlVQNUFlSzBrR2NQUUtSMUtGdFNiTF9CTHo3LWRJN3NqZEQ3QzQ1enc2Vlo3VWsyeTd3M3RSN0ZTWVBaZG1aS1B5cE0xc2V5c25iQ19TVVl4eERFMkhEYWJ4OTBsbkFzbUt1?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-04T13:37:19.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Oracle catat kinerja kuat dan investasi AI, tar... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMkx0eHN4YVhncjZJQ3BYbUdPeUtxM3FmNUZNUmhzSFZzN0JWdHNWNHlpWWF3Q01oMndsZ2pFMlFGeUdqenRJN2NyOThhZTNFaUhvWHdORXBTdVl1X19DQVdvQUlhUUVrbklreUYyR2FJRnZoQzFHYlJOOUZGcnRqbTVoTlFJYWp6blk5REY0NUE?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-04T13:33:28.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Oracle mungkin bergerak 10% saat rilis laba 9 September - Investing.com Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeER3YXo5d2RSNEZ1U3NJX0lrdnNuOXU3aFBoaWJaRnRDVHNKU255ZkVybkNmQ2pSZHItbzJpaDlwbzlpYk9MaUJ2ZEhyblVvN0dROUplcmZxdWgzRmNaVWNickNWdGhvRUE4R2cxRXZnRnlRS3N4eEVDdWtVX2FzQkFIU0NaTE9lYUIzNGhjUUY5bHBmODZ6NlZlRC1Talc3cTJfMGs2R2ZTU2ppTVZtVFZPTDU3MGpCVTBubWVn?oc=5",
-      "publisher": "Investing.com Indonesia",
-      "publishedAt": "2026-09-02T18:14:21.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Oracle diprediksi naik lebih dari 125% da... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPalRPNkZ1cGZsclRHbTdaLUhjbWhfRE5nN0UwcE9SWUU0ZGFYcWRyWnFSaDlrMWp2dUdDTjhwVndMNXN1bF9nMzRINm9Hd0wyR1h0ZzZsYnlvVi1hOTFlLVZkXzNOb3lDMXhPZlVMX05xdTZhalpVdlRMSU11NUtzNg?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-02T17:33:46.000Z",
-      "source": "google-news"
     }
   ]
 }

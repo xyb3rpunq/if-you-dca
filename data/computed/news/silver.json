@@ -1,8 +1,11 @@
 {
   "id": "silver",
   "symbol": "XAGUSD",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 5,
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 3,
+  "errors": [
+    "Google News HTTP 503"
+  ],
   "items": [
     {
       "title": "Gold, Silver Futures Slip on Blowout Jobs Report",
@@ -23,20 +26,6 @@
       "url": "https://finance.yahoo.com/markets/commodities/articles/honey-badger-silver-executes-2026-110000856.html",
       "publisher": "TMX Newsfile",
       "publishedAt": "2026-09-04T11:00:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Should Investors Ride the Silver Boom With a Physical ETF like SIVR or Through Silver Mining Stocks With SLVP?",
-      "url": "https://finance.yahoo.com/m/a69d095b-953f-3bfa-829f-25b203c17c2f/should-investors-ride-the.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-03T21:15:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Abrdn Physical Silver Shares ETF vs iShares Silver Trust: Which Fund Helps Investors Ride the Commodity Boom?",
-      "url": "https://finance.yahoo.com/m/69739a73-33e6-3e94-8ffb-898941af96ae/abrdn-physical-silver-shares.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-03T19:20:01.000Z",
       "source": "yahoo"
     }
   ]

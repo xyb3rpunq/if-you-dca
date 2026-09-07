@@ -1,64 +1,10 @@
 {
   "id": "btc",
   "symbol": "BTC",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 8,
-  "items": [
-    {
-      "title": "Bitcoin Tembus US$79.932, Bos Binance Ramal Harganya Bisa Rp11 Miliar - Warta Ekonomi",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVmJNaEdoaTliLTIwclZtUjJBcGF0SXh1QmNkWFhBWE1xcUU4SVg4cHBJTU54QS1TbFB5TzhCQTdtLUcyTl9vbzRueWVJNUdjblBLZVFtT0VoXzlDdVNzb3hhS2xXQXRhVmpGcGY1U0pTSFhHWW50QlZJSG5fR3pBUEl5ZWJuZzdnWXgwUHktVDdhZEhnZzc0cDdvY0o5TkM5Ym5Ha0RqSdIBrAFBVV95cUxOcWVRVHgtckxkeHgxcy13cHRtXzZfWVNlVHF2UEU5SDhUZld6VWpJeXcyd2VPVjNzR0JhUEdZdWJDQ2U4UkFsQVRzZUJUWG1fcDlCbkFZLVFBT1FfSXkzdzl5S292N1BRNXJPVGJIYS1zdm9oNzl1SmlCZnBlWDZ3ZEgzbzB6SDFlTzJ0LVRBOWlQeFZzWUlVanNVWncyc3dtcmM0bXpNc2luWG9x?oc=5",
-      "publisher": "Warta Ekonomi",
-      "publishedAt": "2026-09-07T06:05:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "ETF Bitcoin raih hampir $1 miliar pekan lalu me... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcllyMWc2VVVjZzM5MWhMZlAtQ0xxTkhXT3hJaFptOWtJbEhrZ2RKcml3TkY5WkhTdXBRMmFWWG10bkNLOExmRWJxOE9RVnhrOUVKNDJOQTVfWTBEZWVhd1RVLTF1aF9tWFZmX2tTeDM4MXhST0dmZ3dVakJMa2FnQ1JpeXU2Z254YXFKYVNn?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-07T05:26:55.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Jaringan Kripto Liquid Network Kebobolan, Bitcoin (BTC) Rp 5,6 Triliun Raib - investor.id",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRWJNQkw5VkJIVEFSUVlRUlFxV1NiTVd2aHZkc1loS2c1Q3VsMDhLVkJuM3BVREdhYWdWenZWM2xWV3dubG54Y1gzUl9kVGRUdm9xcUNOZmxJcW9JU3dQbWVxbDRza2FPVUhxeFkzVHlWQjF0djJOd2VoY196d1VNWU9NZjJRTVRSZXhCYWVVcnBoR2V0VHJiaGVkMGxCcS1fTlZRQ0dlREQ?oc=5",
-      "publisher": "investor.id",
-      "publishedAt": "2026-09-07T05:08:39.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Altcoin Salip Bitcoin di Pasar Futures, Sinyal Altseason Makin Kuat? - INDODAX",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzOG9URWNybUJuNGtxUTVTSmhLVDV0NTc3bG42LVFOa01UOTNKSjlNZEoyOUMzVWt1T0ZRUFE1b3N6TktzdFhhblg4YXdKdHYzb0ZNVzlCb0d5QVBISDRyNG1jSkhYZ1JNb3lXQ0ZlZnhTODlPcWc?oc=5",
-      "publisher": "INDODAX",
-      "publishedAt": "2026-09-07T05:03:09.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Minyak naik, bitcoin turun seiring serangan AS terhadap kapal tanker minyak Iran - coindesk.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbTQ3UDd0R3diSEx3dGoxVEFwQ056X19uVW94RWFVWDhQY2IwSDI5MVlnczZvd2k5VVl1YnM5djZ1RU5vSHlOX0lfZE1HdkpDM0JldUpzQ2kyRlZNRlRPdGRsWVFGcWoteXdHc3B1YlFncWhaa2xaWUhhQXJJWWRVZTBxdV9fLXQ5alRoMjdRZzJyT3ExR2wxUjZlQVJ4QV9IczRUZGVYOA?oc=5",
-      "publisher": "coindesk.com",
-      "publishedAt": "2026-09-07T04:44:16.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Bitcoin Update Hari Ini: BTC Sideways di Sekitar US$80.000 - Ajaib",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2MwX3o2bE9DeDM0QmVJRDNxb3BSUTdKS2U0UUd6YUZsNVNyeUFKOERKZTN1RmI1d0xIT29abjgyTkNiQTlMTG4wcEQ3NjIzblRCNXBOOVptZFdPS3pzWUExOEJQSWZfczhaUTl1ZjNocVdmWlFHRFpEb1ZFNk1TUHdjS1Vhc2xZUHQzOUR4UUNRMDNWZ1N3?oc=5",
-      "publisher": "Ajaib",
-      "publishedAt": "2026-09-07T04:05:09.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "600 Bitcoin Era Satoshi Tiba-Tiba Bergerak Setelah 16 Tahun Tidur - INDODAX",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tcG1NTG9YZGdzR1R6VmljWEEzZ011X2JLYlFzazNqby1hWUN1YUZ3dHg2ZHRENlVKNEJSdXAzVlgwbjFselpvazZic0pSNzdhNGFKczI0Slo3bm93cXZzVzNpbjBFMmlMSVJMbFNTR244Rnls?oc=5",
-      "publisher": "INDODAX",
-      "publishedAt": "2026-09-07T04:04:04.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Gambaran Umum Kripto: Bitcoin Hadapi Area Jual di US$82.850 di Tengah Arus Masuk ETF Kripto US$1 Miliar – Jupiter, Zcash Reli - fxstreet-id.com",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPVHJnX2FnZXk2d2s2dlRpd0o1aFJSeGl5enNvS1RDSmk5ZG05UEI2NGJ5N1FlMzBlUWExb1B6NGZKajJtTlZ1cnYzQWEzSE9lckxmZFdZY2NOZEdiV1JoQ0xrU2w1OENXNzNraHBObzNpaGEyTXJhSFlSS1J6MzJlN3F2TVhxMTJpWnBrTXI4ZzYxcU0yeTdlSjgtMlVuUUsxQkRFci1sLUhSejBQMEdVanZmeVRfUm9ibkZjbm1POUx1dVU0bnlhZkl6T2ZONTNRajZVTWMyM0J4Qjc5MGNCTWlmVFdhOVIzRlZUcnV6bkI5WTVQaFlxdmc4MEE3UENZWGNNV3FRU2NHTl9rc0xCNzRaTmlUQ0dxWTlvcE50Sy1PUdIBpwJBVV95cUxQOWZFU1htWGpqWmZVR1RnYU5Ud1FDSzBnYmlHakxNUWlsM0NnZmlZU3VzUU5JOGhuSlgyLVFWZDBCZWZZZUh0WlJ3MldSM0NBRTNlbnV3Z2treHYtdEFZRDlVVWNxXzZjQzM0RXRJTTJvR3E5U2IxNE1uVWd1bjNLM1Q5eXk3WmZEb2dyZnlnWGhGXzRBSnVON2tndEhGS1ZTUnBUejRtbWZYNTRXVzFGT1V0My15eXI2LUFjNFZSQTkwRHpWTnIwQmJLNS0wNDhfZUl5NkN2LWdOWnFFUWprOUlKcWpoeVFzcGRDRk9TeEhCcy1WbUhxczY3cmNyRnFDaE5aemJSd1lfQWIwbUFrMHdGRUw5VTVaRHJTMU1KN0NsVWJDdUQ4?oc=5",
-      "publisher": "fxstreet-id.com",
-      "publishedAt": "2026-09-07T03:45:25.000Z",
-      "source": "google-news"
-    }
-  ]
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 0,
+  "errors": [
+    "Google News HTTP 503"
+  ],
+  "items": []
 }

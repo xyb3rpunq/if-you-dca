@@ -1,64 +1,10 @@
 {
   "id": "eth",
   "symbol": "ETH",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 8,
-  "items": [
-    {
-      "title": "Exchange-Traded Fund (ETF) Bitcoin Hindari Penurunan Arus Masuk yang Menimpa Ethereum, Solana, dan XRP - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kUk5PSjg1b2lWbVNCOUFiLWo2WDVpTHJhYWRDclZLOVNiQVRYaWFVWnZ1eG53eV9wRGszOEh0N1NZTVNWY2N1ck0tZ2JHbnZTWG5TMDVGLUR0VXBjTmNELVlaRkduODZYYkhLMGduZ1Ztdw?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-09-07T04:58:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Prediksi Harga 3 Besar: Bitcoin, Ethereum, Ripple – BTC Konsolidasi Dekat Tertinggi, ETH dan XRP Pertahankan Support - fxstreet-id.com",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNc2l1WDRiY1hnS1pTR2s1Rm1BVGdiRmE2OGgyYmI5R28wWkpEem1aV05OSklocmlmNnRQNFN3WlVQdzVraVQyeHlqd09DRTVqamFFa2p4OGdIVVZsSkUtakFudHoweEVTMmpicWxXd2Vwd2dLVzhlU3dwYjFhODFvRU84dkJqQzdBbzZtbnFwMjgtR1lpU3JoMEwxUUhhSEM2UDVCZzBkSkJHS2JBSFFhbm80ZFVSTjNjN2FwTFRRd3d4VExhM1Y4VHFKTndFdVg4SXZMVk9fRTBSaEJVa2g0RkoxUkxJTmZOcG9uQXQtak5lVWtXTlk1QzNFRzlTRXFPNi1kYXdseHhGZkRzblRTU1BMODJ3X3MxaGw4QUtLZWdZdEs2V0x6SDRnVmR3VEUy0gG2AkFVX3lxTE5tZ0I1UDdmRkJoQlBrS3pBazEtbTd0eUh1ckFVVlY1SEZ2aXlkYWx1YVFUVjNUYl9ZVXU0OHpaSnZJWUQyT3VoVHViWmlwWmRGelZnbnZSYzB1cHFILW5ZSVhIUlluOE5BMW1Tdjh4cC1LOVd5enBNdEpRcG80VHdYUTI1U1oxRUdOT0h0ZU5sT1QxRm8yaUtsaDVSZUxZRjlmMXVKcmJ5TlVXaXotQXRNUjVqQzlVSXpuTHNGYW1HLWpad0psVllrZklDMVBDeFpmNUhreHhXTTZodnoxYnI3dmZuT1hrX3J3S0w1dlFSdGdEQkQ4bVNJUDE1Smx3UC1YTFFSVlo4TG1sSHlTbkNobjl0ZXg3Y08yS3NtMElKTzNMblVxTm1lM1hSalYyblktVWhfWGc?oc=5",
-      "publisher": "fxstreet-id.com",
-      "publishedAt": "2026-09-07T03:14:43.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Bitmine tambah kepemilikan Ethereum jadi 5,9 ju... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQemNWdlljY29tZmotYnBTMTdFZC02cHpyeUxJNUNOXy0wT1h1WnhKTWI0QVphZEJLWnRZRUVaRnhIbV9CUjVZVVBGZWhOSkhUZ1dvNGhWOHgtSE9GUF9ROFZvRmhwX2JWX2lvWXVkbDl0UVZhYko1X0R2RWF6c0xlaVNkbUlSaHVzQ1V3c2podGRpYV9YbWxVZW9vU1NQc1VH?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-06T21:31:01.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Ethereum melonjak 66% di Q3 2026 didorong aktiv... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcHpkbjFPNW9UWTZEekxfSldEYmhzcXRucXBMTmM0MVFSNnZVZGRpZnpBOE42bG1idUlORzljQVZVTC02cnpxWFBFaE13VmdoLVliRWRuemN5UkhqbzhpZW9rZmJKdjJpZ1hRdGx5clJDa1pYakxVaXo1bmhDV0tGa2t6MUE4MmJJUzM4?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-06T20:56:17.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Grok AI Buat Skenario Ethereum Jelang Akhir 2026, Bisa Naik ke $4.500? - INDODAX",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBERTkxNWxSV01DZVVZMmtjVGZCM2RhakdDX3B5TG9fVVUzVmtVVkNleS1pTFNyZ0RVWEhFS21wVWhDQ0Q5VHVFYjB5c2ZpTHBzT1luNFhJdnA3cXFiT2lrQm5BTVJNNVg4d0Qybmp2RGFDZUE?oc=5",
-      "publisher": "INDODAX",
-      "publishedAt": "2026-09-06T10:27:17.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Pendiri Ethereum ungkap format transaksi baru u... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSHF0WXpwV0RQdEF1ZU5SVzJvQ3Q0MnlMbXVodnEwM0pscGpjLW01Z3NMZWJZXzJnVzlYT1lHWjVSZ2pUVS00aEVmNUxGd3NBMEdJLUZ4VDFzOTFLVzBmczRtb0RST0JRTExnWkxPRXhyVHNJcjh3dmFoNDVuNDdaQVlVQTJkSDhuWG1tNFVKbHE?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-06T09:09:45.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Ethereum perkenalkan EIP-8141 dengan frame tran... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRnpCc3BiWUdHV19ZZ055Zk91NFMxY2EyNmNZMGtERkI0anRRdkUzWlVhVFRmTjNRek1JZzNpSVhoV1FvNmJJeXpfaG1VOWlrQ1JfQUxJTjZsdXJxTUVYLWQ3VGFOVVBhV1JualU3NXRNR3hSc1RnVUE2TG05V0xzdFl2dHAwekxPeDZkQkZLdldtcUs4N1hUSTZ5cW55UHRSRWc?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-05T23:53:13.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Ethereum turun ke $2.438 setelah data tenaga kerja AS kuat dan penjualan besar senilai $408 juta ETH. - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0N5WjVIbXRFSkJ1RWhvNkp4Y2xKRlBDRzV2QVplYlZxcWtfUGlmQXZ4QUgxVkdoYWMycEZ5VXBNSWR1ZHhLU1hYTnRGMmhZV2tMR0pwendabUpveTJESV83XzhlWmtTT1lSSWx0dXRiX2lseUQ0STFTSDkyUlJNTFdYenQ4cndaTFNnRDBDMVkwY3RFaEdLTktMUm45cHlXbl9lX3JFRXI3SVhaRWc?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-05T07:32:46.000Z",
-      "source": "google-news"
-    }
-  ]
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 0,
+  "errors": [
+    "Google News HTTP 503"
+  ],
+  "items": []
 }

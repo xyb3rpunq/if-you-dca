@@ -2,7 +2,7 @@
   "id": "oil",
   "symbol": "USOIL",
   "currency": "USD",
-  "generatedAt": "2026-09-07T06:59:31.387Z",
+  "generatedAt": "2026-09-07T13:58:57.164Z",
   "price": 91.48,
   "dataFrom": "2000-09",
   "dailyBars": 503,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 85.903001,
     "bollingerLower": 79.10708,
     "bollingerBandwidth": 0.1582,
-    "atr14": 3.455896,
+    "atr14": 3.499468,
     "stochK": 87.72,
     "stochD": 87.28
   }

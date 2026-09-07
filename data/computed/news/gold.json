@@ -1,9 +1,26 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-07T07:00:15.708Z",
-  "count": 6,
+  "generatedAt": "2026-09-07T13:59:35.413Z",
+  "count": 4,
+  "errors": [
+    "Google News HTTP 503"
+  ],
   "items": [
+    {
+      "title": "Gold Falls Below $4,400 as U.S. Jobs Data Keeps Fed Rate Hike Expectations Elevated",
+      "url": "https://finance.yahoo.com/m/04e3c172-e5a4-334a-aad3-184bbfb5c7c7/gold-falls-below-%244%2C400-as.html",
+      "publisher": "InvestorsHub",
+      "publishedAt": "2026-09-07T10:14:12.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "A Better Trade Than Bitcoin or Gold in 2026 Is Sitting in Your Kitchen",
+      "url": "https://finance.yahoo.com/m/1bdb6d22-9453-3122-b3ec-f5b2322e5fe8/a-better-trade-than-bitcoin.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-07T08:30:37.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "ACG to Acquire Keşkek Licence to Extend Gold Production",
       "url": "https://finance.yahoo.com/markets/commodities/articles/acg-acquire-ke-kek-licence-061000141.html",
@@ -12,39 +29,11 @@
       "source": "yahoo"
     },
     {
-      "title": "Gold Falls on Rising Fed Rate Hike Expectations",
-      "url": "https://finance.yahoo.com/m/30ad68fb-8a01-3299-91cd-cc8f3e1a0fb7/gold-falls-on-rising-fed-rate.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-09-07T01:27:00.000Z",
-      "source": "yahoo"
-    },
-    {
       "title": "Gold Holds Decline as Traders Weigh Prospects for Fed Rate Hike",
       "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-decline-traders-weigh-232846552.html",
       "publisher": "Bloomberg",
       "publishedAt": "2026-09-06T23:28:46.000Z",
       "source": "yahoo"
-    },
-    {
-      "title": "A Couple Diversified Into Gold. Their Adult Children Thought They'd Been Scammed.",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/couple-diversified-gold-adult-children-150010034.html",
-      "publisher": "Benzinga",
-      "publishedAt": "2026-09-06T15:00:10.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "BofA’s Hartnett maintains commodities and gold position as policy measures affect yields",
-      "url": "https://finance.yahoo.com/m/712d8f4d-0680-3c1a-a6f4-b2ab91e7c4db/bofa%E2%80%99s-hartnett-maintains.html",
-      "publisher": "InvestorsHub",
-      "publishedAt": "2026-09-06T13:20:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "September, volatile untuk gold. untuk OANDA:XAUUSD oleh POV-trader - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjM2tYR1lPX2czc0xnTmNfelVFTGt5bU05QU9teHViUWZveGVMWDZUMm5HZ0Q4VUE1Y01xOUIwcFFSa2NEaGhYT0dsbXNkYmVPaHZ5SVVtdUZHODFVb1E?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-09-04T07:04:05.000Z",
-      "source": "google-news"
     }
   ]
 }
