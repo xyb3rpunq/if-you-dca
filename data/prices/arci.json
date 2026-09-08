@@ -6,7 +6,7 @@
   "description": "PT Archi Indonesia Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-09-08T06:53:58.257Z",
+  "fetchedAt": "2026-09-08T12:36:22.041Z",
   "historicalSnapshotAt": "2026-08-09T21:41:56.247Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×0.9182 agar sejajar dengan deret historis"
   },
-  "marketPrice": 1310,
+  "marketPrice": 1315,
   "lastMonthIsPartial": true,
   "count": 64,
   "from": "2021-06",
@@ -278,7 +278,7 @@
     },
     {
       "m": "2026-09",
-      "c": 1202.8624535315985
+      "c": 1207.4535315985129
     }
   ],
   "monthlyTotal": [
@@ -536,7 +536,7 @@
     },
     {
       "m": "2026-09",
-      "c": 1202.8624535315985
+      "c": 1207.4535315985129
     }
   ]
 }
