@@ -1,37 +1,12 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-09-09T17:28:12.369Z",
-  "count": 8,
+  "generatedAt": "2026-09-09T20:15:48.470Z",
+  "count": 6,
+  "errors": [
+    "Yahoo HTTP 502"
+  ],
   "items": [
-    {
-      "title": "Jim Cramer on Alphabet (GOOGL): “I Don’t Care Where It Went, I Care Where It’s Going”",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-alphabet-googl-don-171250820.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-09T17:12:50.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Google Cloud Grew 82% Last Quarter -- Here's Why Amazon and Microsoft Investors Should Care",
-      "url": "https://finance.yahoo.com/m/1e21f4c8-b6eb-3093-8a55-a85ac1bd67ec/google-cloud-grew-82%25-last.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-09-09T17:05:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Google Signs 22 Years of Nuclear to Power Finnish Data Centers",
-      "url": "https://finance.yahoo.com/energy/articles/google-signs-22-years-nuclear-164436613.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-09-09T16:44:36.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Meta Stock Jumps 5% After New AI Agent Muse Takes Aim at Google",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-stock-jumps-5-ai-164113999.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-09-09T16:41:13.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 7 September 2026: Turun ke $335,31 - Pintu",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1BRRGstVG9Ed29iMDVaRVd5Nk00MjZtd3ctRVpUeDJlNThvbzFVTkpxUXdyRjZBdDRsczQyYWxGTTFlV1NSaldNM0FBRlYwWU9ZTm1jYWFkczJFN2I3WnpaNzdzMU43ZlRLaHVMYUhDNmloV3Jra2NyVy1WeU91WVdzNVZ4ekNC?oc=5",
@@ -58,6 +33,20 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUllOWNXVDZUbVNHVGlsaVBYQkZMOFNaSVNrQ1JEVFBEUTBYaVZpdzhEam55c0F0S0d5UTlzcE5mWjJQc0ZmZFNuTkhjd0tsRjI0WmhFTVRnN2JkNmtnNmVFOUpHWVlRUU1rWGQwMGI0OEVUVkJtV0Z6RVJJSVgxekJjVldmcVRUeWlwaGJZNUNEV2E4azBpajI2TlpMcnFYdnA2eS1rM1Q3a0hJRjhv0gG3AUFVX3lxTE1oaF9rR2hGWFN2SFdmV0o4ZWd5T29LTzhwaHFpY25naUJ4T2lBeXFwLXRuMXZnUHRpMENLR242SnFaNEYwTXlacmMxb2RxWG5FbVA4WXZEYUlXSS1YU2dveXBrWmRReDM3b1BoNW5JVDlLUEpIc3RBOHRUUjduVkl4dkZaNndTcE5ndXFSQW5fUTY2el9SNHVBbzJLVXRrYUcxZUtaSWgzaHhJQ25BR3c2RjdZenhqUQ?oc=5",
       "publisher": "Kumparan.com",
       "publishedAt": "2026-08-06T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 29 Juli 2026: Menguat ke $332,60 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeEUwWEVKOFhfa0wyUDkycXJ3Nktta0pWTHkzcXZKNFhKRTFmVkxaRDQyX0ljMUlydTVvSUw5V0o0ZW1JQkp0X2p4SWlod0ZTT2ZYS3RfRnJMYjZFOEhHVy1wM3JZa1J4YTRlSDhCRHliUkpwUXBLdnp0eHpPbkxLT251bw?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-07-29T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Breakdown Pendapatan Alphabet Inc (Google) Class C – NASDAQ:GOOG - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RQ1VabTJhTG1qa0ZyUzlXc1NRbnVJb2V5LWtKSFpEeWpBc3dZMTNVbVlsYkhRRThIMVNLN0RRTHowTzA5aWl6UWVfVDlXQThuTGxhZnAtdlZzVUpvdVFhRlJMRHBOcTFjcElrUk91MVN5QTZMWFE?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-07-28T05:42:19.000Z",
       "source": "google-news"
     }
   ]
