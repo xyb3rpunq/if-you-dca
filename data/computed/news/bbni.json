@@ -1,8 +1,11 @@
 {
   "id": "bbni",
   "symbol": "BBNI",
-  "generatedAt": "2026-09-09T12:44:30.213Z",
+  "generatedAt": "2026-09-09T17:28:12.369Z",
   "count": 7,
+  "errors": [
+    "Yahoo HTTP 502"
+  ],
   "items": [
     {
       "title": "BNI (BBNI) Masih Kaji Dividen Interim 2026 - Bloomberg Technoz",
@@ -19,9 +22,9 @@
       "source": "google-news"
     },
     {
-      "title": "Asing Net Buy Rp1 Triliun, Kompak Borong Saham BMRI-BBNI - CNBC Indonesia",
+      "title": "Asing Net Buy Rp1 Triliun, Kompak Borong Saham BMRI-BBNI - cnbcindonesia.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVUZxMFozRXNBcVg2WXRLaVMxQ2UwQTFiWGpOc1cyeVkzdlE3V21ONlZOczA2MEozX1RGM2Uxb1NCX2pNc01lWHlHNV9POHlRbEVFbmxZemxWeE1mcGgxa2pnOThyWW5URnpabHNabUFldjFWWEJTQWd1VVhBWnJuaHZwWW1PaWhHSUM2VTNRR3B0bHdHQUlfLUpvaTdKOEM5TUxTUzRfWXZfNkpFVlZlaTlYN3Z1WEY30gG-AUFVX3lxTFBONEltWm5la21MUGZmTko2TU15SXY1MmQtenRuWk0tS0hIcTYtYWVVX0hwRk5hTHIxNHIteFFMblVlVmNCYi1sV1ljVXgzWGlWd19YcmZsMGYwaDVUYnZ3d3F4Q0Z5WEl2ZDB0MVpUSGxYYzZLSjg1OGR5eUZ4QzdKZ2RaUDBzM1dNTW92aGhZUUlQS2NpSk14d3M3YTY0NzBlYm1GX3Z4TnhwR2NPNmxMX2dUODlXeDRoV1BrZlE?oc=5",
-      "publisher": "CNBC Indonesia",
+      "publisher": "cnbcindonesia.com",
       "publishedAt": "2026-09-03T11:09:25.000Z",
       "source": "google-news"
     },
