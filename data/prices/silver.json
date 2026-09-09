@@ -6,7 +6,7 @@
   "description": "SILVER (US$/OZ)",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-09-08T20:32:20.433Z",
+  "fetchedAt": "2026-09-09T07:02:52.807Z",
   "historicalSnapshotAt": "2026-08-09T21:41:37.372Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×0.9585 agar sejajar dengan deret historis"
   },
-  "marketPrice": 66.425,
+  "marketPrice": 67.275,
   "lastMonthIsPartial": true,
   "count": 301,
   "from": "2001-09",
@@ -1226,7 +1226,7 @@
     },
     {
       "m": "2026-09",
-      "c": 63.667533727301546
+      "c": 64.48224662203927
     }
   ],
   "monthlyTotal": [
@@ -2432,7 +2432,7 @@
     },
     {
       "m": "2026-09",
-      "c": 63.667533727301546
+      "c": 64.48224662203927
     }
   ]
 }
