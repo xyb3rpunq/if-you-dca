@@ -1,12 +1,16 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-09-09T20:15:48.470Z",
-  "count": 6,
-  "errors": [
-    "Yahoo HTTP 502"
-  ],
+  "generatedAt": "2026-09-10T07:00:19.092Z",
+  "count": 7,
   "items": [
+    {
+      "title": "HIVE joins Google, Microsoft, and Amazon in new Canada data center pledge",
+      "url": "https://finance.yahoo.com/m/8d26dbb8-a63e-3c24-9ff4-6450254c9702/hive-joins-google%2C-microsoft%2C.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-09-09T22:53:44.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 7 September 2026: Turun ke $335,31 - Pintu",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1BRRGstVG9Ed29iMDVaRVd5Nk00MjZtd3ctRVpUeDJlNThvbzFVTkpxUXdyRjZBdDRsczQyYWxGTTFlV1NSaldNM0FBRlYwWU9ZTm1jYWFkczJFN2I3WnpaNzdzMU43ZlRLaHVMYUhDNmloV3Jra2NyVy1WeU91WVdzNVZ4ekNC?oc=5",
@@ -15,9 +19,9 @@
       "source": "google-news"
     },
     {
-      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - Bloomberg Technoz",
+      "title": "Alphabet Pemilik Google Himpun Dana Rp447 Triliun dari Obligasi - bloombergtechnoz.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVRVaHQ2QmdLeW80bEFMdmdOWjk0bFczNjBma3k5bnhzaFlfWnFicV9lLUY3U0tRQ2pqVGFiLWx2eWwyQWJsa1V1WjQxS2ozUFplZ2hlaVBJOUVxRG43VkFjTHNRNHg2LTVuSGpXYkx5ZGUzN0ROcFFMUm8zYUlxVVRaQkRkLXVpOV9McmM2LWdHVWF6VW9TVDhyNHYyX25aTWNQZGtFUjV1ZWNNbkFaYk96eDV5UQ?oc=5",
-      "publisher": "Bloomberg Technoz",
+      "publisher": "bloombergtechnoz.com",
       "publishedAt": "2026-08-07T07:00:00.000Z",
       "source": "google-news"
     },

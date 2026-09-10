@@ -1,14 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-09T20:15:48.470Z",
-  "count": 3,
+  "generatedAt": "2026-09-10T07:00:19.092Z",
+  "count": 5,
   "items": [
     {
-      "title": "S&P 500 ends down as oil tops $100 per barrel",
-      "url": "https://finance.yahoo.com/markets/articles/wall-st-futures-muted-oil-093919353.html",
-      "publisher": "Reuters",
-      "publishedAt": "2026-09-09T20:00:43.000Z",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/m/f0ee51ee-f2da-3804-a3a6-99b75e331570/stock-market%3A-will-s%26p-500.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-09-10T06:02:33.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Barclays Sees 4% Upside for the S&P 500 on Tech Earnings Strength",
+      "url": "https://finance.yahoo.com/m/42779fcb-6dfe-31a6-a2ca-07563cb47ef5/barclays-sees-4%25-upside-for.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-10T04:51:17.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow, S&P 500 Futures Climb, Nasdaq Futures Slip Ahead Of Key Inflation Data Releases: AAPL, SKHY, PSKY, CHWY Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/e7324c10-a32b-38ed-ad97-23d2affbcbf9/dow%2C-s%26p-500-futures-climb%2C.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-09-10T02:27:24.000Z",
       "source": "yahoo"
     },
     {
