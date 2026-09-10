@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-09-10T12:42:35.108Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-09-10T17:26:13.955Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "U.S. Crude Oil Stockpiles Fall, Production Hits Record",
+      "url": "https://finance.yahoo.com/m/2f2cbdfa-f3be-3dc4-bbbc-5ced44d2598c/u.s.-crude-oil-stockpiles.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-09-10T16:54:00.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
