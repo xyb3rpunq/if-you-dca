@@ -2,7 +2,7 @@
   "id": "indf",
   "symbol": "INDF",
   "currency": "IDR",
-  "generatedAt": "2026-09-11T06:59:22.350Z",
+  "generatedAt": "2026-09-11T12:36:15.677Z",
   "price": 7300,
   "dataFrom": "2000-11",
   "dailyBars": 479,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 7336.25,
     "bollingerLower": 7152.215357,
     "bollingerBandwidth": 0.0502,
-    "atr14": 148.843609,
+    "atr14": 152.415038,
     "stochK": 42.86,
     "stochD": 57.14
   }
