@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "fetchedAt": "2026-09-10T20:16:14.778Z",
+  "fetchedAt": "2026-09-11T06:58:55.355Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -143,7 +143,7 @@
       },
       "count": 301,
       "to": "2026-09",
-      "dividendContributionPct": 9.2
+      "dividendContributionPct": 9.33
     },
     "orcl": {
       "status": "ok",
