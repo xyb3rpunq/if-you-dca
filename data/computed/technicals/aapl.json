@@ -2,19 +2,19 @@
   "id": "aapl",
   "symbol": "AAPL",
   "currency": "USD",
-  "generatedAt": "2026-09-11T17:26:58.249Z",
-  "price": 334.245,
+  "generatedAt": "2026-09-11T20:16:32.830Z",
+  "price": 332.27,
   "dataFrom": "1996-10",
-  "dailyBars": 502,
+  "dailyBars": 501,
   "allTimeHigh": {
     "price": 344.570007,
     "at": "2026-07",
-    "distancePct": -3
+    "distancePct": -3.57
   },
   "allTimeLow": {
     "price": 0.113839,
     "at": "1997-07",
-    "distancePct": 293512.03
+    "distancePct": 291777.12
   },
   "supports": [
     {
@@ -61,21 +61,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 63.96,
-    "sma20": 316.724748,
-    "sma50": 318.0137,
-    "sma200": 284.963224,
-    "ema12": 321.523384,
-    "ema26": 318.138866,
-    "macd": 3.384517,
-    "macdSignal": 1.933761,
-    "macdHistogram": 1.450757,
-    "bollingerUpper": 332.0065,
-    "bollingerMiddle": 316.724748,
-    "bollingerLower": 301.442996,
-    "bollingerBandwidth": 0.0965,
+    "rsi14": 62.79,
+    "sma20": 316.625998,
+    "sma50": 317.9742,
+    "sma200": 284.953349,
+    "ema12": 321.219537,
+    "ema26": 317.992569,
+    "macd": 3.226967,
+    "macdSignal": 1.902251,
+    "macdHistogram": 1.324717,
+    "bollingerUpper": 331.472951,
+    "bollingerMiddle": 316.625998,
+    "bollingerLower": 301.779045,
+    "bollingerBandwidth": 0.0938,
     "atr14": 8.046461,
-    "stochK": 92.95,
-    "stochD": 70.04
+    "stochK": 85.9,
+    "stochD": 67.69
   }
 }
