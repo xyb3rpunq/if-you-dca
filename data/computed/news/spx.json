@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-11T12:36:54.919Z",
-  "count": 3,
+  "generatedAt": "2026-09-11T17:27:38.696Z",
+  "count": 4,
   "items": [
     {
-      "title": "Wall Street expected to lift the gloom with futures pointing higher ahead of the bell",
-      "url": "https://finance.yahoo.com/m/554f37fd-18f2-35f7-bde2-40b097cd5b6d/wall-street-expected-to-lift.html",
-      "publisher": "Proactive",
-      "publishedAt": "2026-09-11T11:51:00.000Z",
+      "title": "3 S&P 500 Stocks with Warning Signs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-warning-170705317.html",
+      "publisher": "StockStory",
+      "publishedAt": "2026-09-11T17:07:05.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "DELL, HPE Stocks Lead S&P 500 Gains: Oracle’s $95B Capex Plan Lifts AI Stocks",
+      "url": "https://finance.yahoo.com/m/f2ddf31a-74ea-3410-8034-1b395d607263/dell%2C-hpe-stocks-lead-s%26p-500.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-09-11T16:27:14.000Z",
       "source": "yahoo"
     },
     {
