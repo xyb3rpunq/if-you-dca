@@ -1,42 +1,56 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-14T07:33:37.357Z",
-  "count": 5,
+  "generatedAt": "2026-09-14T14:43:50.307Z",
+  "count": 7,
   "items": [
     {
-      "title": "Meridian Announces Inclusion in the VanEck Junior Gold Miners ETF (GDXJ)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/meridian-announces-inclusion-vaneck-junior-060000135.html",
+      "title": "LAURION Reports Multiple Gold and Polymetallic Intercepts",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/laurion-reports-multiple-gold-polymetallic-143535166.html",
+      "publisher": "NewMediaWire",
+      "publishedAt": "2026-09-14T14:35:35.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "TRX Gold Books Higher Gold Production in Fiscal Q4",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/trx-gold-books-higher-gold-140531928.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-09-14T14:05:31.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "BC-Gold Futures",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140026240.html",
+      "publisher": "Associated Press",
+      "publishedAt": "2026-09-14T14:00:26.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "CEO.CA's Inside the Boardroom: Galantas Gold: Permitted and Fully Funded for Q1 2027 Gold Production",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/ceo-cas-inside-boardroom-galantas-133500122.html",
       "publisher": "TMX Newsfile",
-      "publishedAt": "2026-09-14T06:00:00.000Z",
+      "publishedAt": "2026-09-14T13:35:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Gold Investors Could Be Looking Beyond Next Fed Move",
-      "url": "https://finance.yahoo.com/m/032d3be0-8930-3878-bdf1-a63535052095/gold-investors-could-be.html",
+      "title": "First Mining Gold Added to the VanEck Junior Gold Miners ETF",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/first-mining-gold-added-vaneck-133442920.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-09-14T13:34:42.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Troilus Mining Corp. Added to VanEck Junior Gold Miners ETF (GDXJ)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/troilus-mining-corp-added-vaneck-133100136.html",
+      "publisher": "GlobeNewswire",
+      "publishedAt": "2026-09-14T13:31:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold Futures Pressured By Dollar Gains, Rate Expectations",
+      "url": "https://finance.yahoo.com/m/032d3be0-8930-3878-bdf1-a63535052095/gold-futures-pressured-by.html",
       "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-09-14T03:23:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Franco-Nevada Announces A$200 Million Follow-on Financing Package with Minerals 260 for the Bullabulling Gold Project",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/franco-nevada-announces-200-million-003800380.html",
-      "publisher": "CNW Group",
-      "publishedAt": "2026-09-14T00:38:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Bridgewater Founder Dalio Urges Investors to Dump Bonds for Gold Allocation",
-      "url": "https://finance.yahoo.com/m/7dae5c8b-d26b-3deb-b0f3-71de305c9bed/bridgewater-founder-dalio.html",
-      "publisher": "24/7 Wall St.",
-      "publishedAt": "2026-09-12T13:48:26.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "How much more gold could central banks buy?",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/much-more-gold-could-central-023013269.html",
-      "publisher": "Investing.com",
-      "publishedAt": "2026-09-12T02:30:13.000Z",
+      "publishedAt": "2026-09-14T13:04:00.000Z",
       "source": "yahoo"
     }
   ]
