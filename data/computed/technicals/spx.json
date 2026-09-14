@@ -2,21 +2,26 @@
   "id": "spx",
   "symbol": "SPX",
   "currency": "USD",
-  "generatedAt": "2026-09-14T14:43:11.613Z",
-  "price": 7596.38,
+  "generatedAt": "2026-09-14T18:58:32.153Z",
+  "price": 7634.07,
   "dataFrom": "1996-10",
   "dailyBars": 500,
   "allTimeHigh": {
     "price": 7816.700195,
     "at": "2026-08",
-    "distancePct": -2.82
+    "distancePct": -2.34
   },
   "allTimeLow": {
     "price": 666.789978,
     "at": "2009-03",
-    "distancePct": 1039.25
+    "distancePct": 1044.9
   },
   "supports": [
+    {
+      "price": 7605.937988,
+      "touches": 5,
+      "lastTouch": "2026-09-01"
+    },
     {
       "price": 7469.469971,
       "touches": 2,
@@ -31,19 +36,9 @@
       "price": 6976.073926,
       "touches": 5,
       "lastTouch": "2026-02-25"
-    },
-    {
-      "price": 6879.505005,
-      "touches": 4,
-      "lastTouch": "2026-01-02"
     }
   ],
   "resistances": [
-    {
-      "price": 7605.937988,
-      "touches": 5,
-      "lastTouch": "2026-09-01"
-    },
     {
       "price": 7793.953451,
       "touches": 3,
@@ -61,21 +56,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 45.03,
-    "sma20": 7675.719019,
-    "sma50": 7609.602002,
-    "sma200": 7167.007856,
-    "ema12": 7656.240615,
-    "ema26": 7654.088378,
-    "macd": 2.152237,
-    "macdSignal": 18.712853,
-    "macdHistogram": -16.560615,
-    "bollingerUpper": 7761.289334,
-    "bollingerMiddle": 7675.719019,
-    "bollingerLower": 7590.148703,
-    "bollingerBandwidth": 0.0223,
-    "atr14": 62.303353,
-    "stochK": 8.53,
-    "stochD": 18.26
+    "rsi14": 47.99,
+    "sma20": 7677.603516,
+    "sma50": 7610.355801,
+    "sma200": 7167.196306,
+    "ema12": 7662.039068,
+    "ema26": 7656.880225,
+    "macd": 5.158842,
+    "macdSignal": 19.314174,
+    "macdHistogram": -14.155331,
+    "bollingerUpper": 7757.578918,
+    "bollingerMiddle": 7677.603516,
+    "bollingerLower": 7597.628113,
+    "bollingerBandwidth": 0.0208,
+    "atr14": 62.455522,
+    "stochK": 28.22,
+    "stochD": 24.83
   }
 }
