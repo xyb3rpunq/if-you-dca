@@ -2,26 +2,21 @@
   "id": "spx",
   "symbol": "SPX",
   "currency": "USD",
-  "generatedAt": "2026-09-15T13:08:09.939Z",
-  "price": 7619.98,
+  "generatedAt": "2026-09-15T17:51:30.118Z",
+  "price": 7582.06,
   "dataFrom": "1996-10",
-  "dailyBars": 500,
+  "dailyBars": 501,
   "allTimeHigh": {
     "price": 7816.700195,
     "at": "2026-08",
-    "distancePct": -2.52
+    "distancePct": -3
   },
   "allTimeLow": {
     "price": 666.789978,
     "at": "2009-03",
-    "distancePct": 1042.79
+    "distancePct": 1037.1
   },
   "supports": [
-    {
-      "price": 7605.937988,
-      "touches": 5,
-      "lastTouch": "2026-09-01"
-    },
     {
       "price": 7469.469971,
       "touches": 2,
@@ -36,9 +31,19 @@
       "price": 6976.073926,
       "touches": 5,
       "lastTouch": "2026-02-25"
+    },
+    {
+      "price": 6879.505005,
+      "touches": 4,
+      "lastTouch": "2026-01-02"
     }
   ],
   "resistances": [
+    {
+      "price": 7605.937988,
+      "touches": 5,
+      "lastTouch": "2026-09-01"
+    },
     {
       "price": 7793.953451,
       "touches": 3,
@@ -56,21 +61,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 46.84,
-    "sma20": 7676.899023,
-    "sma50": 7610.074004,
-    "sma200": 7167.125857,
-    "ema12": 7659.871399,
-    "ema26": 7655.836533,
-    "macd": 4.034866,
-    "macdSignal": 19.089378,
-    "macdHistogram": -15.054512,
-    "bollingerUpper": 7758.625015,
-    "bollingerMiddle": 7676.899023,
-    "bollingerLower": 7595.173032,
-    "bollingerBandwidth": 0.0213,
-    "atr14": 62.455522,
-    "stochK": 20.85,
-    "stochD": 22.37
+    "rsi14": 43.79,
+    "sma20": 7668.749023,
+    "sma50": 7610.966602,
+    "sma200": 7171.206758,
+    "ema12": 7647.900424,
+    "ema26": 7650.371609,
+    "macd": -2.471185,
+    "macdSignal": 14.777266,
+    "macdHistogram": -17.248451,
+    "bollingerUpper": 7754.090386,
+    "bollingerMiddle": 7668.749023,
+    "bollingerLower": 7583.407661,
+    "bollingerBandwidth": 0.0223,
+    "atr14": 61.372273,
+    "stochK": 4.71,
+    "stochD": 21.92
   }
 }
