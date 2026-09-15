@@ -2,19 +2,19 @@
   "id": "oil",
   "symbol": "USOIL",
   "currency": "USD",
-  "generatedAt": "2026-09-14T22:53:38.556Z",
-  "price": 101.99,
+  "generatedAt": "2026-09-15T07:10:12.651Z",
+  "price": 103.38,
   "dataFrom": "2000-09",
-  "dailyBars": 502,
+  "dailyBars": 503,
   "allTimeHigh": {
     "price": 147.270004,
     "at": "2008-07",
-    "distancePct": -30.75
+    "distancePct": -29.8
   },
   "allTimeLow": {
     "price": 16.700001,
     "at": "2001-11",
-    "distancePct": 510.72
+    "distancePct": 519.04
   },
   "supports": [
     {
@@ -66,21 +66,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 73.44,
-    "sma20": 89.503001,
-    "sma50": 83.8938,
-    "sma200": 79.80185,
-    "ema12": 94.216247,
-    "ema26": 89.601373,
-    "macd": 4.614873,
-    "macdSignal": 3.089322,
-    "macdHistogram": 1.525552,
-    "bollingerUpper": 101.992527,
-    "bollingerMiddle": 89.503001,
-    "bollingerLower": 77.013476,
-    "bollingerBandwidth": 0.2791,
-    "atr14": 3.988703,
-    "stochK": 90.06,
-    "stochD": 88.64
+    "rsi14": 74.79,
+    "sma20": 90.417001,
+    "sma50": 84.5784,
+    "sma200": 80.026,
+    "ema12": 95.547948,
+    "ema26": 90.58086,
+    "macd": 4.967088,
+    "macdSignal": 3.457217,
+    "macdHistogram": 1.509871,
+    "bollingerUpper": 103.953249,
+    "bollingerMiddle": 90.417001,
+    "bollingerLower": 76.880754,
+    "bollingerBandwidth": 0.2994,
+    "atr14": 4.045479,
+    "stochK": 93.8,
+    "stochD": 87.33
   }
 }

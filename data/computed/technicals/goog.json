@@ -2,7 +2,7 @@
   "id": "goog",
   "symbol": "GOOG",
   "currency": "USD",
-  "generatedAt": "2026-09-14T22:53:38.556Z",
+  "generatedAt": "2026-09-15T07:10:12.651Z",
   "price": 345.71,
   "dataFrom": "2004-09",
   "dailyBars": 500,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 338.146002,
     "bollingerLower": 328.776837,
     "bollingerBandwidth": 0.0554,
-    "atr14": 8.026685,
+    "atr14": 8.0274,
     "stochK": 95.3,
     "stochD": 53.42
   }
