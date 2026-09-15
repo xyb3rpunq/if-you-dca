@@ -2,19 +2,19 @@
   "id": "orcl",
   "symbol": "ORCL",
   "currency": "USD",
-  "generatedAt": "2026-09-15T17:51:30.118Z",
-  "price": 142.85,
+  "generatedAt": "2026-09-15T20:42:42.523Z",
+  "price": 140.35,
   "dataFrom": "1996-10",
   "dailyBars": 501,
   "allTimeHigh": {
     "price": 345.720001,
     "at": "2025-09",
-    "distancePct": -58.68
+    "distancePct": -59.4
   },
   "allTimeLow": {
     "price": 2.958333,
     "at": "1998-01",
-    "distancePct": 4728.73
+    "distancePct": 4644.23
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 44.84,
-    "sma20": 148.9015,
-    "sma50": 140.7514,
-    "sma200": 167.09615,
-    "ema12": 149.97439,
-    "ema26": 148.461162,
-    "macd": 1.513228,
-    "macdSignal": 2.432834,
-    "macdHistogram": -0.919606,
-    "bollingerUpper": 161.537325,
-    "bollingerMiddle": 148.9015,
-    "bollingerLower": 136.265675,
-    "bollingerBandwidth": 0.1697,
-    "atr14": 7.634299,
-    "stochK": 10.1,
-    "stochD": 20.19
+    "rsi14": 42.99,
+    "sma20": 148.7765,
+    "sma50": 140.7014,
+    "sma200": 167.08365,
+    "ema12": 149.589775,
+    "ema26": 148.275977,
+    "macd": 1.313798,
+    "macdSignal": 2.392948,
+    "macdHistogram": -1.07915,
+    "bollingerUpper": 161.695597,
+    "bollingerMiddle": 148.7765,
+    "bollingerLower": 135.857403,
+    "bollingerBandwidth": 0.1737,
+    "atr14": 7.662156,
+    "stochK": 2.03,
+    "stochD": 17.5
   }
 }
