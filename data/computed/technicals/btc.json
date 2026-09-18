@@ -2,19 +2,19 @@
   "id": "btc",
   "symbol": "BTC",
   "currency": "USD",
-  "generatedAt": "2026-09-18T07:02:28.775Z",
-  "price": 77566.25,
+  "generatedAt": "2026-09-18T12:41:20.108Z",
+  "price": 78073.51,
   "dataFrom": "2014-10",
-  "dailyBars": 730,
+  "dailyBars": 731,
   "allTimeHigh": {
     "price": 126198.070313,
     "at": "2025-10",
-    "distancePct": -38.54
+    "distancePct": -38.13
   },
   "allTimeLow": {
     "price": 171.509995,
     "at": "2015-01",
-    "distancePct": 45125.5
+    "distancePct": 45421.26
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 54.75,
-    "sma20": 78072.035156,
-    "sma50": 72172.428594,
-    "sma200": 70342.638945,
-    "ema12": 77313.501492,
-    "ema26": 76341.869067,
-    "macd": 971.632425,
-    "macdSignal": 1640.875318,
-    "macdHistogram": -669.242893,
-    "bollingerUpper": 80865.534882,
-    "bollingerMiddle": 78072.035156,
-    "bollingerLower": 75278.535431,
-    "bollingerBandwidth": 0.0716,
-    "atr14": 2127.50218,
-    "stochK": 40.4,
-    "stochD": 22
+    "rsi14": 56.57,
+    "sma20": 78005.296094,
+    "sma50": 72416.143047,
+    "sma200": 70383.314844,
+    "ema12": 77279.097231,
+    "ema26": 76390.407701,
+    "macd": 888.689531,
+    "macdSignal": 1475.600853,
+    "macdHistogram": -586.911322,
+    "bollingerUpper": 80883.705504,
+    "bollingerMiddle": 78005.296094,
+    "bollingerLower": 75126.886683,
+    "bollingerBandwidth": 0.0738,
+    "atr14": 2101.468463,
+    "stochK": 56.01,
+    "stochD": 31.66
   }
 }
