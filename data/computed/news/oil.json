@@ -1,14 +1,21 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-09-21T19:00:45.820Z",
-  "count": 2,
+  "generatedAt": "2026-09-21T22:57:21.451Z",
+  "count": 3,
   "items": [
     {
-      "title": "Update: US Equity Indexes Advance as Communication Services, Technology Giants Jump Amid Slumping Crude Oil",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-advance-communication-180405761.html",
+      "title": "Crude oil is falling, but when will pump relief arrive?",
+      "url": "https://finance.yahoo.com/energy/articles/crude-oil-falling-pump-relief-214808572.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-09-21T21:48:08.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Update: Communication Services, Tech Heavyweights Push US Equity Indexes Higher as Crude Oil Slides With Treasury Yields",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/communication-services-tech-heavyweights-push-210945542.html",
       "publisher": "MT Newswires",
-      "publishedAt": "2026-09-21T18:04:05.000Z",
+      "publishedAt": "2026-09-21T21:09:45.000Z",
       "source": "yahoo"
     },
     {
