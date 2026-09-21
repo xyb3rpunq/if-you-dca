@@ -2,47 +2,25 @@
   "id": "btc",
   "symbol": "BTC",
   "currency": "USD",
-  "generatedAt": "2026-09-21T07:36:52.748Z",
-  "price": 81528.85,
+  "generatedAt": "2026-09-21T14:50:13.628Z",
+  "price": 86025.08,
   "dataFrom": "2014-10",
-  "dailyBars": 730,
+  "dailyBars": 731,
   "allTimeHigh": {
     "price": 126198.070313,
     "at": "2025-10",
-    "distancePct": -35.4
+    "distancePct": -31.83
   },
   "allTimeLow": {
     "price": 171.509995,
     "at": "2015-01",
-    "distancePct": 47435.92
+    "distancePct": 50057.47
   },
   "supports": [
     {
-      "price": 80073.992188,
-      "touches": 2,
-      "lastTouch": "2026-04-27"
-    },
-    {
-      "price": 78248.914063,
+      "price": 84436.3125,
       "touches": 1,
-      "lastTouch": "2025-02-28"
-    },
-    {
-      "price": 76436.277344,
-      "touches": 2,
-      "lastTouch": "2026-09-02"
-    },
-    {
-      "price": 75297.1875,
-      "touches": 3,
-      "lastTouch": "2026-09-15"
-    }
-  ],
-  "resistances": [
-    {
-      "price": 81804.582031,
-      "touches": 2,
-      "lastTouch": "2026-09-03"
+      "lastTouch": "2025-12-18"
     },
     {
       "price": 83327.230469,
@@ -50,14 +28,36 @@
       "lastTouch": "2026-05-06"
     },
     {
-      "price": 84436.3125,
-      "touches": 1,
-      "lastTouch": "2025-12-18"
+      "price": 81804.582031,
+      "touches": 2,
+      "lastTouch": "2026-09-03"
     },
+    {
+      "price": 80073.992188,
+      "touches": 2,
+      "lastTouch": "2026-04-27"
+    }
+  ],
+  "resistances": [
     {
       "price": 86429.351563,
       "touches": 1,
       "lastTouch": "2025-04-15"
+    },
+    {
+      "price": 88929.914063,
+      "touches": 4,
+      "lastTouch": "2026-01-08"
+    },
+    {
+      "price": 90958.191406,
+      "touches": 4,
+      "lastTouch": "2025-12-22"
+    },
+    {
+      "price": 92086.980469,
+      "touches": 2,
+      "lastTouch": "2024-12-20"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 64.98,
-    "sma20": 78474.010156,
-    "sma50": 73216.411406,
-    "sma200": 70506.246133,
-    "ema12": 78759.202922,
-    "ema26": 77282.812808,
-    "macd": 1476.390114,
-    "macdSignal": 1478.538424,
-    "macdHistogram": -2.14831,
-    "bollingerUpper": 82157.597931,
-    "bollingerMiddle": 78474.010156,
-    "bollingerLower": 74790.422382,
-    "bollingerBandwidth": 0.0939,
-    "atr14": 2135.602593,
-    "stochK": 94.51,
-    "stochD": 92.68
+    "rsi14": 73.07,
+    "sma20": 78885.770703,
+    "sma50": 73659.548125,
+    "sma200": 70580.234687,
+    "ema12": 79826.749828,
+    "ema26": 77903.896783,
+    "macd": 1922.853045,
+    "macdSignal": 1562.471533,
+    "macdHistogram": 360.381511,
+    "bollingerUpper": 83746.129298,
+    "bollingerMiddle": 78885.770703,
+    "bollingerLower": 74025.412108,
+    "bollingerBandwidth": 0.1232,
+    "atr14": 2373.06254,
+    "stochK": 100.59,
+    "stochD": 93.28
   }
 }

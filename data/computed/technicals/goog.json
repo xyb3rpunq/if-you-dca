@@ -2,21 +2,26 @@
   "id": "goog",
   "symbol": "GOOG",
   "currency": "USD",
-  "generatedAt": "2026-09-21T07:36:52.748Z",
-  "price": 344.41,
+  "generatedAt": "2026-09-21T14:50:13.628Z",
+  "price": 351.382,
   "dataFrom": "2004-09",
-  "dailyBars": 501,
+  "dailyBars": 500,
   "allTimeHigh": {
     "price": 404.470001,
     "at": "2026-05",
-    "distancePct": -14.85
+    "distancePct": -13.13
   },
   "allTimeLow": {
     "price": 2.464263,
     "at": "2004-09",
-    "distancePct": 13876.19
+    "distancePct": 14159.11
   },
   "supports": [
+    {
+      "price": 348.963328,
+      "touches": 3,
+      "lastTouch": "2026-08-24"
+    },
     {
       "price": 342.415009,
       "touches": 2,
@@ -31,19 +36,9 @@
       "price": 327.150009,
       "touches": 2,
       "lastTouch": "2026-09-09"
-    },
-    {
-      "price": 317.96167,
-      "touches": 3,
-      "lastTouch": "2026-07-23"
     }
   ],
   "resistances": [
-    {
-      "price": 348.963328,
-      "touches": 3,
-      "lastTouch": "2026-08-24"
-    },
     {
       "price": 372.946676,
       "touches": 3,
@@ -71,21 +66,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 53.51,
-    "sma20": 338.458499,
-    "sma50": 343.4772,
-    "sma200": 336.178699,
-    "ema12": 339.736321,
-    "ema26": 340.519876,
-    "macd": -0.783555,
-    "macdSignal": -2.229052,
-    "macdHistogram": 1.445497,
-    "bollingerUpper": 348.314482,
-    "bollingerMiddle": 338.458499,
-    "bollingerLower": 328.602516,
-    "bollingerBandwidth": 0.0582,
-    "atr14": 8.044015,
-    "stochK": 63.66,
-    "stochD": 72.1
+    "rsi14": 58.86,
+    "sma20": 338.940074,
+    "sma50": 343.40423,
+    "sma200": 336.355507,
+    "ema12": 341.527887,
+    "ema26": 341.32444,
+    "macd": 0.203447,
+    "macdSignal": -1.742552,
+    "macdHistogram": 1.945999,
+    "bollingerUpper": 350.229305,
+    "bollingerMiddle": 338.940074,
+    "bollingerLower": 327.650843,
+    "bollingerBandwidth": 0.0666,
+    "atr14": 8.104441,
+    "stochK": 87.29,
+    "stochD": 79.22
   }
 }
