@@ -2,19 +2,19 @@
   "id": "eth",
   "symbol": "ETH",
   "currency": "USD",
-  "generatedAt": "2026-09-22T07:16:48.542Z",
-  "price": 2729.2,
+  "generatedAt": "2026-09-22T13:05:05.903Z",
+  "price": 2759.66,
   "dataFrom": "2017-12",
   "dailyBars": 731,
   "allTimeHigh": {
     "price": 4953.73291,
     "at": "2025-08",
-    "distancePct": -44.91
+    "distancePct": -44.29
   },
   "allTimeLow": {
     "price": 82.829887,
     "at": "2018-12",
-    "distancePct": 3194.95
+    "distancePct": 3231.72
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 67.57,
-    "sma20": 2526.284521,
-    "sma50": 2308.725486,
-    "sma200": 2083.406904,
-    "ema12": 2589.602585,
-    "ema26": 2494.035138,
-    "macd": 95.567446,
-    "macdSignal": 80.230389,
-    "macdHistogram": 15.337057,
-    "bollingerUpper": 2723.76329,
-    "bollingerMiddle": 2526.284521,
-    "bollingerLower": 2328.805753,
-    "bollingerBandwidth": 0.1563,
+    "rsi14": 70.47,
+    "sma20": 2527.80752,
+    "sma50": 2309.334685,
+    "sma200": 2083.559204,
+    "ema12": 2594.288733,
+    "ema26": 2496.291432,
+    "macd": 97.997301,
+    "macdSignal": 80.71636,
+    "macdHistogram": 17.280941,
+    "bollingerUpper": 2731.882178,
+    "bollingerMiddle": 2527.80752,
+    "bollingerLower": 2323.732861,
+    "bollingerBandwidth": 0.1615,
     "atr14": 99.686517,
-    "stochK": 82.95,
-    "stochD": 89.96
+    "stochK": 89.76,
+    "stochD": 92.23
   }
 }
