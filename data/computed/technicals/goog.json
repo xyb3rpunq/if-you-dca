@@ -2,26 +2,21 @@
   "id": "goog",
   "symbol": "GOOG",
   "currency": "USD",
-  "generatedAt": "2026-09-22T13:05:05.903Z",
-  "price": 350.87,
+  "generatedAt": "2026-09-22T17:51:53.872Z",
+  "price": 348.11,
   "dataFrom": "2004-09",
-  "dailyBars": 500,
+  "dailyBars": 501,
   "allTimeHigh": {
     "price": 404.470001,
     "at": "2026-05",
-    "distancePct": -13.25
+    "distancePct": -13.93
   },
   "allTimeLow": {
     "price": 2.464263,
     "at": "2004-09",
-    "distancePct": 14138.33
+    "distancePct": 14026.33
   },
   "supports": [
-    {
-      "price": 348.963328,
-      "touches": 3,
-      "lastTouch": "2026-08-24"
-    },
     {
       "price": 342.415009,
       "touches": 2,
@@ -36,9 +31,19 @@
       "price": 327.150009,
       "touches": 2,
       "lastTouch": "2026-09-09"
+    },
+    {
+      "price": 317.96167,
+      "touches": 3,
+      "lastTouch": "2026-07-23"
     }
   ],
   "resistances": [
+    {
+      "price": 348.963328,
+      "touches": 3,
+      "lastTouch": "2026-08-24"
+    },
     {
       "price": 372.946676,
       "touches": 3,
@@ -66,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 58.51,
-    "sma20": 338.914499,
-    "sma50": 343.394,
-    "sma200": 336.352949,
-    "ema12": 341.449194,
-    "ema26": 341.286551,
-    "macd": 0.162643,
-    "macdSignal": -1.750713,
-    "macdHistogram": 1.913356,
-    "bollingerUpper": 350.092643,
-    "bollingerMiddle": 338.914499,
-    "bollingerLower": 327.736355,
-    "bollingerBandwidth": 0.066,
-    "atr14": 8.104441,
-    "stochK": 85.56,
-    "stochD": 78.64
+    "rsi14": 55.75,
+    "sma20": 339.090498,
+    "sma50": 343.3428,
+    "sma200": 336.490399,
+    "ema12": 342.473931,
+    "ema26": 341.791991,
+    "macd": 0.68194,
+    "macdSignal": -1.264182,
+    "macdHistogram": 1.946123,
+    "bollingerUpper": 350.722185,
+    "bollingerMiddle": 339.090498,
+    "bollingerLower": 327.458811,
+    "bollingerBandwidth": 0.0686,
+    "atr14": 8.542697,
+    "stochK": 65.44,
+    "stochD": 71.55
   }
 }
