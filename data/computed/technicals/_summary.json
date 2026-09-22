@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-21T22:56:43.051Z",
+  "generatedAt": "2026-09-22T07:16:48.542Z",
   "assets": {
     "usdidr": {
       "status": "ok",
       "ath": 197804,
-      "fromAth": -91,
-      "rsi14": 57.18,
+      "fromAth": -90.97,
+      "rsi14": 60.9,
       "supports": 4,
       "resistances": 1
     },
@@ -20,40 +20,40 @@
     "gold": {
       "status": "ok",
       "ath": 5586.200195,
-      "fromAth": -21.38,
-      "rsi14": 47.56,
+      "fromAth": -22.08,
+      "rsi14": 44.48,
       "supports": 4,
       "resistances": 4
     },
     "silver": {
       "status": "ok",
       "ath": 121.300003,
-      "fromAth": -45.01,
-      "rsi14": 55.07,
+      "fromAth": -45.83,
+      "rsi14": 51.79,
       "supports": 4,
       "resistances": 4
     },
     "oil": {
       "status": "ok",
       "ath": 147.270004,
-      "fromAth": -37.5,
-      "rsi14": 49.07,
+      "fromAth": -36.52,
+      "rsi14": 50.87,
       "supports": 4,
       "resistances": 4
     },
     "btc": {
       "status": "ok",
       "ath": 126198.070313,
-      "fromAth": -31.56,
-      "rsi14": 73.54,
+      "fromAth": -32.35,
+      "rsi14": 69.24,
       "supports": 4,
       "resistances": 4
     },
     "eth": {
       "status": "ok",
       "ath": 4953.73291,
-      "fromAth": -43.95,
-      "rsi14": 72.19,
+      "fromAth": -44.91,
+      "rsi14": 67.57,
       "supports": 4,
       "resistances": 4
     },
@@ -116,16 +116,16 @@
     "bbca": {
       "status": "ok",
       "ath": 10950,
-      "fromAth": -43.15,
-      "rsi14": 40.72,
+      "fromAth": -42.92,
+      "rsi14": 42.13,
       "supports": 2,
       "resistances": 4
     },
     "bmri": {
       "status": "ok",
       "ath": 7550,
-      "fromAth": -44.37,
-      "rsi14": 43.71,
+      "fromAth": -44.77,
+      "rsi14": 41.98,
       "supports": 4,
       "resistances": 4
     },
@@ -140,16 +140,16 @@
     "bumi": {
       "status": "ok",
       "ath": 8750,
-      "fromAth": -97.81,
-      "rsi14": 44.8,
+      "fromAth": -97.89,
+      "rsi14": 39.95,
       "supports": 4,
       "resistances": 4
     },
     "arci": {
       "status": "ok",
       "ath": 2120,
-      "fromAth": -36.56,
-      "rsi14": 55.34,
+      "fromAth": -38.21,
+      "rsi14": 50.64,
       "supports": 4,
       "resistances": 4
     },
@@ -164,40 +164,40 @@
     "asii": {
       "status": "ok",
       "ath": 9350,
-      "fromAth": -48.45,
-      "rsi14": 45.8,
+      "fromAth": -48.56,
+      "rsi14": 45.17,
       "supports": 4,
       "resistances": 4
     },
     "bbni": {
       "status": "ok",
       "ath": 6250,
-      "fromAth": -42.08,
-      "rsi14": 40.97,
-      "supports": 4,
+      "fromAth": -43.04,
+      "rsi14": 37.41,
+      "supports": 3,
       "resistances": 4
     },
     "adro": {
       "status": "ok",
       "ath": 4300,
-      "fromAth": -39.07,
-      "rsi14": 49.5,
+      "fromAth": -39.53,
+      "rsi14": 47.54,
       "supports": 4,
       "resistances": 4
     },
     "indf": {
       "status": "ok",
       "ath": 9200,
-      "fromAth": -23.91,
-      "rsi14": 38.08,
+      "fromAth": -25,
+      "rsi14": 34.43,
       "supports": 4,
       "resistances": 4
     },
     "antm": {
       "status": "ok",
       "ath": 4970,
-      "fromAth": -34.81,
-      "rsi14": 54.96,
+      "fromAth": -36.42,
+      "rsi14": 49.57,
       "supports": 4,
       "resistances": 4
     }
