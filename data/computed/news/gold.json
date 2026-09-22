@@ -1,9 +1,23 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-22T17:52:34.060Z",
-  "count": 4,
+  "generatedAt": "2026-09-22T20:43:16.043Z",
+  "count": 5,
   "items": [
+    {
+      "title": "BC-Gold-Silver",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-190014162.html",
+      "publisher": "Associated Press",
+      "publishedAt": "2026-09-22T19:00:14.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Eldorado Gold upgraded to 'buy' by Bank of America on Skouries de-risking",
+      "url": "https://finance.yahoo.com/m/3bbcb231-8af9-3398-82f1-39e8ecb2ab16/eldorado-gold-upgraded-to.html",
+      "publisher": "Proactive",
+      "publishedAt": "2026-09-22T17:30:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Quimbaya Gold Mobilizes Additional Drill Rig and Commences Phase 2 Drilling at Tahami South",
       "url": "https://finance.yahoo.com/m/1ae74718-420a-3dcd-b51a-438170989c74/quimbaya-gold-mobilizes.html",
@@ -16,13 +30,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-upgrades-eldorado-gold-buy-144318265.html",
       "publisher": "MT Newswires",
       "publishedAt": "2026-09-22T14:43:18.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "BC-Gold Futures",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140028595.html",
-      "publisher": "Associated Press",
-      "publishedAt": "2026-09-22T14:00:28.000Z",
       "source": "yahoo"
     },
     {
