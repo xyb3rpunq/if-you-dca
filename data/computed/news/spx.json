@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-09-23T13:22:00.958Z",
-  "count": 6,
+  "generatedAt": "2026-09-23T18:07:22.499Z",
+  "count": 7,
   "items": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip as oil steadies, markets eye looming Trump-Xi meeting",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq fall as 10-year yield surges to 2007 high ahead of Trump-Xi meeting",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-09-23T13:21:03.000Z",
+      "publishedAt": "2026-09-23T18:04:31.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Vanguard S&P 500 ETF Long-Term Outlook: What History Tells Investors",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-p-500-etf-long-172000201.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-23T17:20:00.000Z",
       "source": "yahoo"
     },
     {
