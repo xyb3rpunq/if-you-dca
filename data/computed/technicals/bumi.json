@@ -2,21 +2,26 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-09-23T07:20:02.819Z",
-  "price": 186,
+  "generatedAt": "2026-09-23T13:21:17.842Z",
+  "price": 193,
   "dataFrom": "2001-07",
   "dailyBars": 480,
   "allTimeHigh": {
     "price": 8750,
     "at": "2008-06",
-    "distancePct": -97.87
+    "distancePct": -97.79
   },
   "allTimeLow": {
     "price": 15,
     "at": "2002-09",
-    "distancePct": 1140
+    "distancePct": 1186.67
   },
   "supports": [
+    {
+      "price": 191,
+      "touches": 1,
+      "lastTouch": "2026-06-15"
+    },
     {
       "price": 181,
       "touches": 1,
@@ -31,19 +36,9 @@
       "price": 168,
       "touches": 1,
       "lastTouch": "2025-10-03"
-    },
-    {
-      "price": 157,
-      "touches": 2,
-      "lastTouch": "2026-07-29"
     }
   ],
   "resistances": [
-    {
-      "price": 191,
-      "touches": 1,
-      "lastTouch": "2026-06-15"
-    },
     {
       "price": 195,
       "touches": 2,
@@ -58,6 +53,11 @@
       "price": 216,
       "touches": 1,
       "lastTouch": "2026-04-24"
+    },
+    {
+      "price": 232,
+      "touches": 1,
+      "lastTouch": "2026-09-08"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 41.27,
-    "sma20": 203.55,
-    "sma50": 186.04,
-    "sma200": 232.27,
-    "ema12": 197.648031,
-    "ema26": 196.528373,
-    "macd": 1.119658,
-    "macdSignal": 5.547667,
-    "macdHistogram": -4.428009,
-    "bollingerUpper": 226.809192,
-    "bollingerMiddle": 203.55,
-    "bollingerLower": 180.290808,
-    "bollingerBandwidth": 0.2285,
-    "atr14": 9.606935,
-    "stochK": 8,
-    "stochD": 4.81
+    "rsi14": 47.14,
+    "sma20": 203.9,
+    "sma50": 186.18,
+    "sma200": 232.305,
+    "ema12": 198.724954,
+    "ema26": 197.046891,
+    "macd": 1.678063,
+    "macdSignal": 5.659348,
+    "macdHistogram": -3.981285,
+    "bollingerUpper": 226.286603,
+    "bollingerMiddle": 203.9,
+    "bollingerLower": 181.513397,
+    "bollingerBandwidth": 0.2196,
+    "atr14": 10.106935,
+    "stochK": 22,
+    "stochD": 9.48
   }
 }
