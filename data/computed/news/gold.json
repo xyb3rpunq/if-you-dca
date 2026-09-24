@@ -1,14 +1,35 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-09-24T18:06:15.318Z",
-  "count": 2,
+  "generatedAt": "2026-09-24T22:53:43.189Z",
+  "count": 5,
   "items": [
     {
-      "title": "BC-Gold Futures",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140021064.html",
-      "publisher": "Associated Press",
-      "publishedAt": "2026-09-24T14:00:21.000Z",
+      "title": "Lundin Gold Reports High-Grade Drill Results at Bonza Sur, Identifies New Epithermal Vein System",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/lundin-gold-reports-high-grade-211816615.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-09-24T21:18:16.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Lundin Gold Reports 204.26 g/t Au over 3.05 Metres at Bonza Sur; Quebrada Dorada Discovery Extends Gold Epithermal Trend to 8 km",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/lundin-gold-reports-204-26-210000564.html",
+      "publisher": "CNW Group",
+      "publishedAt": "2026-09-24T21:00:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Why Kinross Gold Stock Is Crashing Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-kinross-gold-stock-crashing-200913504.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-09-24T20:09:13.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold Futures Settle Lower With As U.S. Yields Rise",
+      "url": "https://finance.yahoo.com/m/76a76088-7e08-3914-9ac3-515a8dfc8e3a/gold-futures-settle-lower.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-09-24T18:24:00.000Z",
       "source": "yahoo"
     },
     {
