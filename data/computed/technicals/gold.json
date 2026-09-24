@@ -2,19 +2,19 @@
   "id": "gold",
   "symbol": "XAUUSD",
   "currency": "USD",
-  "generatedAt": "2026-09-24T13:10:50.311Z",
-  "price": 4317.7,
+  "generatedAt": "2026-09-24T18:05:36.321Z",
+  "price": 4296.9,
   "dataFrom": "2000-09",
   "dailyBars": 504,
   "allTimeHigh": {
     "price": 5586.200195,
     "at": "2026-01",
-    "distancePct": -22.71
+    "distancePct": -23.08
   },
   "allTimeLow": {
     "price": 255,
     "at": "2001-02",
-    "distancePct": 1593.22
+    "distancePct": 1585.06
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 41.72,
-    "sma20": 4425.599976,
-    "sma50": 4348.359995,
-    "sma200": 4555.636503,
-    "ema12": 4383.646454,
-    "ema26": 4402.68936,
-    "macd": -19.042905,
-    "macdSignal": 0.599347,
-    "macdHistogram": -19.642253,
-    "bollingerUpper": 4588.672102,
-    "bollingerMiddle": 4425.599976,
-    "bollingerLower": 4262.527849,
-    "bollingerBandwidth": 0.0737,
+    "rsi14": 40.2,
+    "sma20": 4424.559961,
+    "sma50": 4347.943989,
+    "sma200": 4555.532501,
+    "ema12": 4380.446409,
+    "ema26": 4401.148597,
+    "macd": -20.702188,
+    "macdSignal": 0.267491,
+    "macdHistogram": -20.969679,
+    "bollingerUpper": 4590.609535,
+    "bollingerMiddle": 4424.559961,
+    "bollingerLower": 4258.510387,
+    "bollingerBandwidth": 0.0751,
     "atr14": 100.506661,
-    "stochK": 16.79,
-    "stochD": 22.92
+    "stochK": 8.92,
+    "stochD": 20.3
   }
 }
