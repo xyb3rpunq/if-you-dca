@@ -2,7 +2,7 @@
   "id": "bbni",
   "symbol": "BBNI",
   "currency": "IDR",
-  "generatedAt": "2026-09-24T07:09:52.245Z",
+  "generatedAt": "2026-09-24T13:10:50.311Z",
   "price": 3520,
   "dataFrom": "2004-01",
   "dailyBars": 480,
@@ -79,8 +79,8 @@
     "bollingerMiddle": 3775,
     "bollingerLower": 3522.928582,
     "bollingerBandwidth": 0.1335,
-    "atr14": 86.462685,
-    "stochK": 0,
-    "stochD": 5.1
+    "atr14": 87.176971,
+    "stochK": 2.38,
+    "stochD": 5.9
   }
 }
