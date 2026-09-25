@@ -6,7 +6,7 @@
   "description": "Ethereum all time history index",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-09-25T13:14:11.971Z",
+  "fetchedAt": "2026-09-25T18:09:20.586Z",
   "historicalSnapshotAt": "2026-08-09T21:41:40.731Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 1,
     "note": "1 bulan terbaru diskalakan ×0.7798 agar sejajar dengan deret historis"
   },
-  "marketPrice": 2713.98,
+  "marketPrice": 2687.84,
   "lastMonthIsPartial": true,
   "count": 134,
   "from": "2015-08",
@@ -558,7 +558,7 @@
     },
     {
       "m": "2026-09",
-      "c": 2116.4644792211
+      "c": 2096.079599991924
     }
   ],
   "monthlyTotal": [
@@ -1096,7 +1096,7 @@
     },
     {
       "m": "2026-09",
-      "c": 2116.4644792211
+      "c": 2096.079599991924
     }
   ]
 }
