@@ -1,63 +1,28 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-09-26T08:05:42.548Z",
-  "count": 8,
+  "generatedAt": "2026-09-28T08:12:49.091Z",
+  "count": 3,
   "items": [
     {
-      "title": "Google Moves Up its Space Data Center Timeline — Project Suncatcher Launches Oct. 1",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-moves-space-data-center-023007693.html",
-      "publisher": "Benzinga",
-      "publishedAt": "2026-09-26T02:30:07.000Z",
+      "title": "Zacks Investment Ideas feature highlights: Alphabet, Apple and NVIDIA",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-051900169.html",
+      "publisher": "Zacks",
+      "publishedAt": "2026-09-28T05:19:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI Agents Raise its Risks?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-faces-gemini-security-012732374.html",
+      "title": "Is Gemini 4 the Catalyst Alphabet (GOOGL) Needs to Win the AI Race?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/gemini-4-catalyst-alphabet-googl-213837552.html",
       "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-26T01:27:32.000Z",
+      "publishedAt": "2026-09-27T21:38:37.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Alphabet (GOOGL) Plans Waymo’s Singapore Launch for 2028. Can Robotaxis Scale Abroad?",
-      "url": "https://finance.yahoo.com/technology/articles/alphabet-googl-plans-waymo-singapore-005319808.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-09-26T00:53:19.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Alphabet tetap jadi pilihan beli kuat meski had... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWkVxMTJobGtWd2pTQmF5RzNRTXg2a1ZJZmpTMWRGRjJVbVFtdEZWT2hMdDNKWExQbzZsMFFqVnlGamF1X2ZxYWdhNmlmWGNNQ05jN0xqVmlTY2pfeEUzVW42Tlk2VHgwSTNqOXBUVmJXTXpsY0VVS1U4ZEZFYktuSVJhN0VxejlUOFpPWF9NMzN6RXc?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-25T12:24:21.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Alphabet fokus ke chip AI dan cloud, dorong per... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15LVIwYUkwVXZEaE1UZHJQR0U3ZmN2NmZBS0pMMVpySFNsb1NERnJyN0hfS01uTGJ6dV84X2g2OWpvZFVUQlVXXzY3LWtMel95Tl9zWnJOdkdOeVNrYmZZR3hhSHJwbXVMR25kVGx0cnc?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-24T16:20:28.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Alphabet dinilai undervalued dengan poten... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYXRicGh1Tndsd0ZaYlMtTHNFX0poeXc0TW5KMmd1VU45T3ZWVktNVXNuVmJFa1hMbERWZnJGNDQ1WnQxcXVCTHV4WmRnX1V3bVVLeXZodnA1QTdRUUtKNENVN0xwT3JCYUU0SHRqaDVmUC1SekRNbWpPb0h5MkljQk5KWm1WUTE4MnhQb3drY0dpSzBTLUJQVVFzUUswNy16ZkdNcA?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-23T13:43:47.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Alphabet undervalued meski Google Cloud d... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMmp0dENBOTNEeEY0QUFLT2dHLUhSZXhqai0wZ2lKOHJsb21aaVRUSl9uNFR6bnhLS0JpM1RiWGhFQndfOFRMWUFNUlVuVjNEak9LM3gwSWQ3UEpUUlM1QVN1aEJxMGlBN2lERTk3Rnd0MFBuVldiUWVuVFk1aVE?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-18T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Alphabet diprediksi tembus $450 setelah l... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZU5YTlVmU3VJSVZQeWhpU3U5R2k0b2JvaTZodXNzX3BXS21wQmJIbGppcFl4QjJnN2VTMEhFcmdIVFJuSi1INS01M3oyQkQ2ZFRILXR0Q19ic0t0Q2x0SFgtb1JLQlFaOHZtN2YtWTFCbGwzMFRLRUpoV1hROUw4QUs4LUJOdGR5VEdBYVQtRQ?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-17T07:00:00.000Z",
+      "title": "Harga Saham Alphabet (Google) (GOOG) Hari Ini 7 September 2026: Turun ke $335,31 - pintu.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1BRRGstVG9Ed29iMDVaRVd5Nk00MjZtd3ctRVpUeDJlNThvbzFVTkpxUXdyRjZBdDRsczQyYWxGTTFlV1NSaldNM0FBRlYwWU9ZTm1jYWFkczJFN2I3WnpaNzdzMU43ZlRLaHVMYUhDNmloV3Jra2NyVy1WeU91WVdzNVZ4ekNC?oc=5",
+      "publisher": "pintu.co.id",
+      "publishedAt": "2026-09-07T07:00:00.000Z",
       "source": "google-news"
     }
   ]

@@ -2,31 +2,21 @@
   "id": "gold",
   "symbol": "XAUUSD",
   "currency": "USD",
-  "generatedAt": "2026-09-26T08:05:04.446Z",
-  "price": 4321.2,
+  "generatedAt": "2026-09-28T08:12:11.243Z",
+  "price": 4189,
   "dataFrom": "2000-09",
-  "dailyBars": 503,
+  "dailyBars": 502,
   "allTimeHigh": {
     "price": 5586.200195,
     "at": "2026-01",
-    "distancePct": -22.65
+    "distancePct": -25.01
   },
   "allTimeLow": {
     "price": 255,
     "at": "2001-02",
-    "distancePct": 1594.59
+    "distancePct": 1542.75
   },
   "supports": [
-    {
-      "price": 4276.799927,
-      "touches": 4,
-      "lastTouch": "2026-09-16"
-    },
-    {
-      "price": 4193.449951,
-      "touches": 2,
-      "lastTouch": "2026-07-22"
-    },
     {
       "price": 4073.099976,
       "touches": 2,
@@ -36,9 +26,29 @@
       "price": 3984.733317,
       "touches": 3,
       "lastTouch": "2026-07-29"
+    },
+    {
+      "price": 3928.349976,
+      "touches": 2,
+      "lastTouch": "2026-06-30"
+    },
+    {
+      "price": 3522,
+      "touches": 2,
+      "lastTouch": "2025-08-08"
     }
   ],
   "resistances": [
+    {
+      "price": 4193.449951,
+      "touches": 2,
+      "lastTouch": "2026-07-22"
+    },
+    {
+      "price": 4276.799927,
+      "touches": 4,
+      "lastTouch": "2026-09-16"
+    },
     {
       "price": 4346.350098,
       "touches": 2,
@@ -48,16 +58,6 @@
       "price": 4408.266764,
       "touches": 3,
       "lastTouch": "2026-06-17"
-    },
-    {
-      "price": 4510.100098,
-      "touches": 1,
-      "lastTouch": "2026-05-04"
-    },
-    {
-      "price": 4612.366699,
-      "touches": 3,
-      "lastTouch": "2026-05-29"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 42.79,
-    "sma20": 4407.474976,
-    "sma50": 4354.547993,
-    "sma200": 4556.055502,
-    "ema12": 4371.474815,
-    "ema26": 4395.301946,
-    "macd": -23.827131,
-    "macdSignal": -4.537393,
-    "macdHistogram": -19.289738,
-    "bollingerUpper": 4537.932948,
-    "bollingerMiddle": 4407.474976,
-    "bollingerLower": 4277.017003,
-    "bollingerBandwidth": 0.0592,
-    "atr14": 97.78475,
-    "stochK": 22.23,
-    "stochD": 15.79
+    "rsi14": 34.01,
+    "sma20": 4390.42998,
+    "sma50": 4357.951992,
+    "sma200": 4555.819501,
+    "ema12": 4343.401767,
+    "ema26": 4380.02032,
+    "macd": -36.618554,
+    "macdSignal": -10.953625,
+    "macdHistogram": -25.664929,
+    "bollingerUpper": 4540.115804,
+    "bollingerMiddle": 4390.42998,
+    "bollingerLower": 4240.744157,
+    "bollingerBandwidth": 0.0682,
+    "atr14": 100.692982,
+    "stochK": 2.12,
+    "stochD": 11.23
   }
 }
