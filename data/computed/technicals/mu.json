@@ -2,7 +2,7 @@
   "id": "mu",
   "symbol": "MU",
   "currency": "USD",
-  "generatedAt": "2026-09-29T23:18:47.729Z",
+  "generatedAt": "2026-09-30T07:57:04.237Z",
   "price": 1065.08,
   "dataFrom": "1996-10",
   "dailyBars": 501,
@@ -74,7 +74,7 @@
     "bollingerMiddle": 1005.516,
     "bollingerLower": 892.74686,
     "bollingerBandwidth": 0.2243,
-    "atr14": 46.9254,
+    "atr14": 46.925409,
     "stochK": 78.83,
     "stochD": 79.81
   }
