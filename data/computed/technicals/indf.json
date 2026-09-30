@@ -2,26 +2,21 @@
   "id": "indf",
   "symbol": "INDF",
   "currency": "IDR",
-  "generatedAt": "2026-09-30T07:57:04.237Z",
-  "price": 6875,
+  "generatedAt": "2026-09-30T14:41:59.176Z",
+  "price": 6725,
   "dataFrom": "2000-11",
   "dailyBars": 480,
   "allTimeHigh": {
     "price": 9200,
     "at": "2016-09",
-    "distancePct": -25.27
+    "distancePct": -26.9
   },
   "allTimeLow": {
     "price": 475,
     "at": "2002-10",
-    "distancePct": 1347.37
+    "distancePct": 1315.79
   },
   "supports": [
-    {
-      "price": 6862.5,
-      "touches": 4,
-      "lastTouch": "2026-06-17"
-    },
     {
       "price": 6533.333333,
       "touches": 3,
@@ -40,6 +35,11 @@
   ],
   "resistances": [
     {
+      "price": 6862.5,
+      "touches": 4,
+      "lastTouch": "2026-06-17"
+    },
+    {
       "price": 7034.375,
       "touches": 8,
       "lastTouch": "2026-09-02"
@@ -53,11 +53,6 @@
       "price": 7358.333333,
       "touches": 3,
       "lastTouch": "2025-09-10"
-    },
-    {
-      "price": 7500,
-      "touches": 4,
-      "lastTouch": "2025-12-02"
     }
   ],
   "pivots": {
@@ -71,21 +66,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 41.28,
-    "sma20": 7108.75,
-    "sma50": 7164.5,
-    "sma200": 6803.875,
-    "ema12": 6930.652849,
-    "ema26": 7055.98913,
-    "macd": -125.336281,
-    "macdSignal": -75.652922,
-    "macdHistogram": -49.683359,
-    "bollingerUpper": 7602.530062,
-    "bollingerMiddle": 7108.75,
-    "bollingerLower": 6614.969938,
-    "bollingerBandwidth": 0.1389,
+    "rsi14": 32.39,
+    "sma20": 7101.25,
+    "sma50": 7161.5,
+    "sma200": 6803.125,
+    "ema12": 6907.575926,
+    "ema26": 7044.878019,
+    "macd": -137.302093,
+    "macdSignal": -78.046084,
+    "macdHistogram": -59.256009,
+    "bollingerUpper": 7613.225341,
+    "bollingerMiddle": 7101.25,
+    "bollingerLower": 6589.274659,
+    "bollingerBandwidth": 0.1442,
     "atr14": 166.278726,
-    "stochK": 32.35,
-    "stochD": 14.29
+    "stochK": 14.71,
+    "stochD": 8.41
   }
 }

@@ -2,26 +2,21 @@
   "id": "adro",
   "symbol": "ADRO",
   "currency": "IDR",
-  "generatedAt": "2026-09-30T07:57:04.237Z",
-  "price": 2440,
+  "generatedAt": "2026-09-30T14:41:59.176Z",
+  "price": 2430,
   "dataFrom": "2008-08",
   "dailyBars": 479,
   "allTimeHigh": {
     "price": 4300,
     "at": "2024-11",
-    "distancePct": -43.26
+    "distancePct": -43.49
   },
   "allTimeLow": {
     "price": 437,
     "at": "2016-01",
-    "distancePct": 458.35
+    "distancePct": 456.06
   },
   "supports": [
-    {
-      "price": 2430,
-      "touches": 2,
-      "lastTouch": "2026-01-26"
-    },
     {
       "price": 2390,
       "touches": 4,
@@ -36,6 +31,11 @@
       "price": 2300,
       "touches": 1,
       "lastTouch": "2025-01-13"
+    },
+    {
+      "price": 2265,
+      "touches": 2,
+      "lastTouch": "2026-03-09"
     }
   ],
   "resistances": [
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-08",
   "indicators": {
-    "rsi14": 34.69,
-    "sma20": 2623,
-    "sma50": 2586.8,
-    "sma200": 2353.925,
-    "ema12": 2568.347282,
-    "ema26": 2592.630012,
-    "macd": -24.28273,
-    "macdSignal": 0.913188,
-    "macdHistogram": -25.195918,
-    "bollingerUpper": 2769.846859,
-    "bollingerMiddle": 2623,
-    "bollingerLower": 2476.153141,
-    "bollingerBandwidth": 0.112,
-    "atr14": 78.727919,
-    "stochK": 6.67,
-    "stochD": 16.37
+    "rsi14": 34.06,
+    "sma20": 2622.5,
+    "sma50": 2586.6,
+    "sma200": 2353.875,
+    "ema12": 2566.80882,
+    "ema26": 2591.889271,
+    "macd": -25.080451,
+    "macdSignal": 0.753644,
+    "macdHistogram": -25.834095,
+    "bollingerUpper": 2771.882061,
+    "bollingerMiddle": 2622.5,
+    "bollingerLower": 2473.117939,
+    "bollingerBandwidth": 0.1139,
+    "atr14": 79.442204,
+    "stochK": 3.33,
+    "stochD": 15.26
   }
 }
