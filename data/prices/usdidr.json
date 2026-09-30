@@ -6,7 +6,7 @@
   "description": "U.S. DOLLAR / INDONESIAN RUPIAH",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-09-30T18:44:20.389Z",
+  "fetchedAt": "2026-09-30T23:21:22.685Z",
   "historicalSnapshotAt": "2026-08-09T21:41:33.321Z",
   "seam": {
     "mode": "merged",
@@ -1226,7 +1226,7 @@
     },
     {
       "m": "2026-09",
-      "c": 18032.101864893797
+      "c": 17997.091801826864
     }
   ],
   "monthlyTotal": [
@@ -2432,7 +2432,7 @@
     },
     {
       "m": "2026-09",
-      "c": 18032.101864893797
+      "c": 17997.091801826864
     }
   ]
 }
