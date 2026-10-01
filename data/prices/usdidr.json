@@ -6,20 +6,20 @@
   "description": "U.S. DOLLAR / INDONESIAN RUPIAH",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-09-30T23:21:22.685Z",
+  "fetchedAt": "2026-10-01T08:17:18.451Z",
   "historicalSnapshotAt": "2026-08-09T21:41:33.321Z",
   "seam": {
     "mode": "merged",
     "anchorMonth": "2026-08",
     "ratio": 1.008958,
-    "tailMonths": 1,
-    "note": "1 bulan terbaru diskalakan ×1.0090 agar sejajar dengan deret historis"
+    "tailMonths": 2,
+    "note": "2 bulan terbaru diskalakan ×1.0090 agar sejajar dengan deret historis"
   },
-  "marketPrice": 17872,
+  "marketPrice": 17945,
   "lastMonthIsPartial": true,
-  "count": 301,
+  "count": 302,
   "from": "2001-09",
-  "to": "2026-09",
+  "to": "2026-10",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -1227,6 +1227,10 @@
     {
       "m": "2026-09",
       "c": 17997.091801826864
+    },
+    {
+      "m": "2026-10",
+      "c": 18105.75581722914
     }
   ],
   "monthlyTotal": [
@@ -2433,6 +2437,10 @@
     {
       "m": "2026-09",
       "c": 17997.091801826864
+    },
+    {
+      "m": "2026-10",
+      "c": 18105.75581722914
     }
   ]
 }

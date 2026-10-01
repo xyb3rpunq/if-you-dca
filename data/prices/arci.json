@@ -6,20 +6,20 @@
   "description": "PT Archi Indonesia Tbk",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-09-30T23:21:22.685Z",
+  "fetchedAt": "2026-10-01T08:17:18.451Z",
   "historicalSnapshotAt": "2026-08-09T21:41:56.247Z",
   "seam": {
     "mode": "merged",
     "anchorMonth": "2026-08",
     "ratio": 0.918216,
-    "tailMonths": 1,
-    "note": "1 bulan terbaru diskalakan ×0.9182 agar sejajar dengan deret historis"
+    "tailMonths": 2,
+    "note": "2 bulan terbaru diskalakan ×0.9182 agar sejajar dengan deret historis"
   },
-  "marketPrice": 1230,
+  "marketPrice": 1220,
   "lastMonthIsPartial": true,
-  "count": 64,
+  "count": 65,
   "from": "2021-06",
-  "to": "2026-09",
+  "to": "2026-10",
   "hasDividendData": true,
   "dividendContributionPct": 3.22,
   "dividendFactorAtStart": 0.968791,
@@ -278,7 +278,11 @@
     },
     {
       "m": "2026-09",
-      "c": 1129.4052044609664
+      "c": 1198.271375464684
+    },
+    {
+      "m": "2026-10",
+      "c": 1120.2230483271376
     }
   ],
   "monthlyTotal": [
@@ -536,7 +540,11 @@
     },
     {
       "m": "2026-09",
-      "c": 1129.4052044609664
+      "c": 1198.271375464684
+    },
+    {
+      "m": "2026-10",
+      "c": 1120.2230483271376
     }
   ]
 }
