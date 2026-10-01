@@ -1,14 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-01T19:11:40.319Z",
-  "count": 6,
+  "generatedAt": "2026-10-01T23:36:59.936Z",
+  "count": 8,
   "items": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq fluctuate as Treasury yields retreat, AI trade regains momentum",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-01T18:53:23.000Z",
+      "title": "Vylor Takes Corteva’s S&P 500 Seat, Twilio Set To Replace Warner Bros. Discovery — Both Stocks Rise After-Hours",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vylor-takes-corteva-p-500-225146711.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-01T22:51:46.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Vylor Added to the S&P 500; Twilio Set to Join S&P 500; Others to Join S&P MidCap 400 and S&P SmallCap 600",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vylor-added-p-500-twilio-220000540.html",
+      "publisher": "PR Newswire",
+      "publishedAt": "2026-10-01T22:00:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Vylor Added to S&P 500 Index Following Corteva Split",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vylor-added-p-500-index-214846040.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-01T21:48:46.000Z",
       "source": "yahoo"
     },
     {
@@ -26,16 +40,16 @@
       "source": "google-news"
     },
     {
-      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - id.beincrypto.com",
+      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSTVqTUQ0ai11U213Y1pTWnFFeE12MWZuTjAycVpvQ1JNZ2N5Q2RfLVRzTWJXZjVhbFJJZzRORE1Wa3JlRGxYeVRTenl2TkhHV3lYXzZPT2tqcW43MHFWOTRnYWNvYlFhZl9WVDltV1RHRDI1bm5WaVQ3MUQ?oc=5",
-      "publisher": "id.beincrypto.com",
+      "publisher": "BeInCrypto",
       "publishedAt": "2026-09-22T22:00:00.000Z",
       "source": "google-news"
     },
     {
-      "title": "S&P 500 Naik 12% di 2026 tapi Sinyal Crash 1907 Kembali - id.beincrypto.com",
+      "title": "S&P 500 Naik 12% di 2026 tapi Sinyal Crash 1907 Kembali - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94Qi1tM3BLLWt5LTZlRTZGQ3VXV2VTYjJGaW5NWjhENWxxaTBvY1BzVmJRRnQzak9sb2RMcG9hYmRsNU1rUEppUlFjd3JERWt3Tzh6SjgtOHJVN2RqOEo4SG5wRTlDWTRJX1V3MkdkYzFMcFk?oc=5",
-      "publisher": "id.beincrypto.com",
+      "publisher": "BeInCrypto",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "source": "google-news"
     },
