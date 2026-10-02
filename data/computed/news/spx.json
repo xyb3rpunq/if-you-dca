@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-02T07:56:04.178Z",
-  "count": 5,
+  "generatedAt": "2026-10-02T14:26:57.503Z",
+  "count": 6,
   "items": [
     {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-054725536.html",
-      "publisher": "Benzinga Prediction Markets",
-      "publishedAt": "2026-10-02T05:47:25.000Z",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq jump as traders pare Fed rate-hike bets after September jobs miss",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-10-02T14:16:09.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Jobs Report: Soft Hiring Lifts S&P 500, Sinks Rate-Hike Odds; AI Effect? (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/3e182634-ed94-3343-806f-8c347a8e5466/jobs-report%3A-soft-hiring.html",
+      "publisher": "Investor's Business Daily",
+      "publishedAt": "2026-10-02T13:46:11.000Z",
       "source": "yahoo"
     },
     {
@@ -26,16 +33,16 @@
       "source": "google-news"
     },
     {
-      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - BeInCrypto",
+      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - id.beincrypto.com",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSTVqTUQ0ai11U213Y1pTWnFFeE12MWZuTjAycVpvQ1JNZ2N5Q2RfLVRzTWJXZjVhbFJJZzRORE1Wa3JlRGxYeVRTenl2TkhHV3lYXzZPT2tqcW43MHFWOTRnYWNvYlFhZl9WVDltV1RHRDI1bm5WaVQ3MUQ?oc=5",
-      "publisher": "BeInCrypto",
+      "publisher": "id.beincrypto.com",
       "publishedAt": "2026-09-22T22:00:00.000Z",
       "source": "google-news"
     },
     {
-      "title": "S&P 500 Naik 12% di 2026 tapi Sinyal Crash 1907 Kembali - BeInCrypto",
+      "title": "S&P 500 Naik 12% di 2026 tapi Sinyal Crash 1907 Kembali - id.beincrypto.com",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE94Qi1tM3BLLWt5LTZlRTZGQ3VXV2VTYjJGaW5NWjhENWxxaTBvY1BzVmJRRnQzak9sb2RMcG9hYmRsNU1rUEppUlFjd3JERWt3Tzh6SjgtOHJVN2RqOEo4SG5wRTlDWTRJX1V3MkdkYzFMcFk?oc=5",
-      "publisher": "BeInCrypto",
+      "publisher": "id.beincrypto.com",
       "publishedAt": "2026-08-31T07:00:00.000Z",
       "source": "google-news"
     }

@@ -1,14 +1,28 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-10-02T07:56:04.178Z",
+  "generatedAt": "2026-10-02T14:26:57.503Z",
   "count": 8,
   "items": [
     {
-      "title": "Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For AI Agents",
-      "url": "https://finance.yahoo.com/technology/ai/articles/stocktwits-ai-roundup-micron-blowout-071150791.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-10-02T07:11:50.000Z",
+      "title": "Nvidia stock hits new all-time high, market cap at $5.7 trillion",
+      "url": "https://finance.yahoo.com/technology/article/nvidia-stock-hits-new-all-time-high-market-cap-at-57-trillion-141332917.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-10-02T14:13:32.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Einride taps Nvidia to scale autonomous trucking",
+      "url": "https://finance.yahoo.com/technology/ai/articles/einride-taps-nvidia-scale-autonomous-140200132.html",
+      "publisher": "Trucking Dive",
+      "publishedAt": "2026-10-02T14:02:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Nvidia Adds 64GB DGX Spark Option for Local AI Workloads",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-adds-64gb-dgx-spark-135701271.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-02T13:57:01.000Z",
       "source": "yahoo"
     },
     {
@@ -44,20 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPREFsOEZ1a19WM2N2eUt1dFlSbEVBb25HZDZyOVhleUFIWDYyZUZzRHdNR1dpbXZhUHVlUHNMNElaaWtNMy1JcjZHTlJacno1VFpibjNyaWJDbXdXRjg5ZG5yd1habERzeER5Z0E0MENFOFFDbzB4QVhmT2JhQUkxa0NjTjRnQQ?oc=5",
       "publisher": "PT. Agrodana Futures",
       "publishedAt": "2026-09-30T08:53:10.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Harga Saham Nvidia (NVDA) Hari Ini 30 September 2026: Melemah ke $227,21 - pintu crypto",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOFdqRGhScEp0NUVDNGUtTlQ2SEoycWJWVnpsVmhaY1RCblBQZ1N5WnpkZmdfQnNWWm5jS2o4eFM5VWQta3B0SWNxZ1hURjZHQ2hWbm5JVy1UQTB0N2RpTmVJT25kQjM1ZlpwRTJadU5aeUZyVl9GbVdrbGx6cFBNTnlIVElXVGFDcVHSAY8BQVVfeXFMTzdRQ0ZtRDBodGdHLS1OZ1ZBTFZ6dzg4bXZxX0huX2VBaVJVNktCYTNPRzR2X2FRdVVxY0ZERHN1QVB4TGV5S2Jwam9pYVloR1JXaXZwbE4wRkYwZGZvQ0NRTm5kWXBrcHM0cy1zb3pWV3ZNMm5OQVJCb09yZnVDbDF6SGpJRmZMc2dRR3Y3RHc?oc=5",
-      "publisher": "pintu crypto",
-      "publishedAt": "2026-09-30T03:38:56.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Nvidia luncurkan platform keamanan AI; OpenAI d... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeEpEYkFpeFFKWG94TmNBYWhfdHRLaEt3OUxZeTY1cWlOcHRRYmE0UFB3WTRJaHpNWlhqanpkZlQtU1QtSTJaOTNtbmZ6OGVIOVl2V29ucFQ0MGVKNDhQQXVKWENYSmhXRFdLY0puMV9veks1VlQwOWU4cXdDS2RFQ3U4ZGI5RlpHWG50WWJlTHRmYWhNYXd5NkhFMkpmanM?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-29T18:55:25.000Z",
       "source": "google-news"
     }
   ]

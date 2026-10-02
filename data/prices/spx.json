@@ -6,20 +6,20 @@
   "description": "S&P 500",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-10-02T07:55:01.837Z",
+  "fetchedAt": "2026-10-02T14:25:54.032Z",
   "historicalSnapshotAt": "2026-08-09T21:41:34.506Z",
   "seam": {
     "mode": "merged",
     "anchorMonth": "2026-08",
     "ratio": 1.009302,
-    "tailMonths": 1,
-    "note": "1 bulan terbaru diskalakan ×1.0093 agar sejajar dengan deret historis"
+    "tailMonths": 2,
+    "note": "2 bulan terbaru diskalakan ×1.0093 agar sejajar dengan deret historis"
   },
-  "marketPrice": 7666.45,
-  "lastMonthIsPartial": false,
-  "count": 301,
+  "marketPrice": 7751.32,
+  "lastMonthIsPartial": true,
+  "count": 302,
   "from": "2001-09",
-  "to": "2026-09",
+  "to": "2026-10",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -1227,6 +1227,10 @@
     {
       "m": "2026-09",
       "c": 7722.718036985074
+    },
+    {
+      "m": "2026-10",
+      "c": 7823.426017681608
     }
   ],
   "monthlyTotal": [
@@ -2433,6 +2437,10 @@
     {
       "m": "2026-09",
       "c": 7722.718036985074
+    },
+    {
+      "m": "2026-10",
+      "c": 7823.426017681608
     }
   ]
 }
