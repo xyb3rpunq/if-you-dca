@@ -1,14 +1,42 @@
 {
   "id": "mu",
   "symbol": "MU",
-  "generatedAt": "2026-10-01T23:36:59.936Z",
+  "generatedAt": "2026-10-02T07:56:04.178Z",
   "count": 8,
   "items": [
     {
-      "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Tumble, Micron, Meta In Focus; Tesla, Jobs Report Due",
+      "title": "Stocktwits AI Roundup: Micron’s Blowout Quarter, Nvidia’s $150B Buyback And The Race For AI Agents",
+      "url": "https://finance.yahoo.com/technology/ai/articles/stocktwits-ai-roundup-micron-blowout-071150791.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-02T07:11:50.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Micron Says Memory Supply Will Be Much Tighter in 2028. Sandisk's Contracts Limit How Much It Can Gain.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-says-memory-supply-much-035802290.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-10-02T03:58:02.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow Jones Futures: Stocks Rise Off Support As Yields Skid, Micron In Buy Area; Tesla, Jobs Report Due",
       "url": "https://finance.yahoo.com/m/f6c899dd-7f15-3879-b266-51980008982d/dow-jones-futures%3A-stocks.html",
       "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-10-01T23:13:33.000Z",
+      "publishedAt": "2026-10-02T03:03:28.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Elon Musk Says Cutting Optimus Memory Was Tesla's 'Only Way' to Scale, As Micron Says Humanoid Robots Need 200GB+ of Memory Each",
+      "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-cutting-optimus-030226823.html",
+      "publisher": "Benzinga",
+      "publishedAt": "2026-10-02T03:02:26.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields — GOOGL, MU, MAT, NVDA In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-232759547.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-01T23:27:59.000Z",
       "source": "yahoo"
     },
     {
@@ -16,34 +44,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/microns-bull-run-isnt-over-210501620.html",
       "publisher": "Motley Fool",
       "publishedAt": "2026-10-01T21:05:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Stock Market Today: S&P Climbs To Start October, Micron Gains; Barbie Maker Soars On Deal News",
-      "url": "https://finance.yahoo.com/m/5f6e8554-d4a8-3f1c-bce8-2f5074e2e587/stock-market-today%3A-s%26p.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-10-01T20:42:04.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "MU Q3 Deep Dive: AI Demand, HBM Momentum, and Supply Constraints Shape Outlook",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mu-q3-deep-dive-ai-202907567.html",
-      "publisher": "StockStory",
-      "publishedAt": "2026-10-01T20:29:07.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Micron Reverses Higher After Fiscal Q4 Beat-And-Raise Report",
-      "url": "https://finance.yahoo.com/m/50ce89fb-2ca7-3d2b-988b-d3e6f9409abc/micron-reverses-higher-after.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-10-01T20:20:56.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Micron, Accenture, Google, IBM, Fair Isaac, Synopsys, and More Stocks That Explain Today’s Market",
-      "url": "https://finance.yahoo.com/m/ff733662-6b3b-3329-895d-f9bd4d70a5b2/micron%2C-accenture%2C-google%2C.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-10-01T20:15:00.000Z",
       "source": "yahoo"
     },
     {

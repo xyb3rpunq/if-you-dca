@@ -6,20 +6,20 @@
   "description": "Strategy Inc Class A",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-10-01T23:35:57.631Z",
+  "fetchedAt": "2026-10-02T07:55:01.837Z",
   "historicalSnapshotAt": "2026-08-09T21:41:48.926Z",
   "seam": {
     "mode": "merged",
     "anchorMonth": "2026-08",
     "ratio": 0.752294,
-    "tailMonths": 2,
-    "note": "2 bulan terbaru diskalakan ×0.7523 agar sejajar dengan deret historis"
+    "tailMonths": 1,
+    "note": "1 bulan terbaru diskalakan ×0.7523 agar sejajar dengan deret historis"
   },
   "marketPrice": 160.5,
-  "lastMonthIsPartial": true,
-  "count": 302,
+  "lastMonthIsPartial": false,
+  "count": 301,
   "from": "2001-09",
-  "to": "2026-10",
+  "to": "2026-09",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -1227,10 +1227,6 @@
     {
       "m": "2026-09",
       "c": 115.16872463200541
-    },
-    {
-      "m": "2026-10",
-      "c": 120.74322781116842
     }
   ],
   "monthlyTotal": [
@@ -2437,10 +2433,6 @@
     {
       "m": "2026-09",
       "c": 115.16872463200541
-    },
-    {
-      "m": "2026-10",
-      "c": 120.74322781116842
     }
   ]
 }
