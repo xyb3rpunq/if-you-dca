@@ -1,28 +1,42 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-10-05T08:18:57.169Z",
-  "count": 4,
+  "generatedAt": "2026-10-05T21:19:28.511Z",
+  "count": 6,
   "items": [
     {
-      "title": "Prediction: Alphabet's Profit Growth Carries It to $5 Trillion Before 2028",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-alphabets-profit-growth-carries-075701761.html",
+      "title": "The Simple Reason Meta and Google Will Win AI: Only “2% of US Households” Pay for It.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/simple-reason-meta-google-win-194212341.html",
+      "publisher": "TIKR",
+      "publishedAt": "2026-10-05T19:42:12.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Alphabet Stocks Rise although Gemini 4 Faces Monetization Test",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stocks-rise-although-gemini-191925331.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-05T19:19:25.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Here's What a $1,000 Investment in Alphabet Stock Could Be Worth in 5 Years. (Hint: It Could More Than Double.)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-1-000-investment-alphabet-173500892.html",
       "publisher": "Motley Fool",
-      "publishedAt": "2026-10-05T07:57:01.000Z",
+      "publishedAt": "2026-10-05T17:35:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "The Trade Desk vs. Alphabet: Is the Cheaper AI Advertising Stock Worth the Risk?",
-      "url": "https://finance.yahoo.com/media-advertising/articles/trade-desk-vs-alphabet-cheaper-232525950.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-10-04T23:25:25.000Z",
+      "title": "Google Faces New Antitrust Threat in Key Market",
+      "url": "https://finance.yahoo.com/technology/articles/google-faces-antitrust-threat-key-172431024.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-05T17:24:31.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-vs-alphabet-ai-cloud-232415267.html",
-      "publisher": "Insider Monkey",
-      "publishedAt": "2026-10-04T23:24:15.000Z",
+      "title": "Airbnb CEO: ChatGPT Traffic “Converts Better” Than Google’s. That’s a Problem for Alphabet",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-ceo-chatgpt-traffic-converts-172255864.html",
+      "publisher": "TIKR",
+      "publishedAt": "2026-10-05T17:22:55.000Z",
       "source": "yahoo"
     },
     {

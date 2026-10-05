@@ -2,19 +2,19 @@
   "id": "bbca",
   "symbol": "BBCA",
   "currency": "IDR",
-  "generatedAt": "2026-10-05T08:18:17.501Z",
-  "price": 6125,
+  "generatedAt": "2026-10-05T21:18:49.330Z",
+  "price": 6175,
   "dataFrom": "2004-07",
   "dailyBars": 477,
   "allTimeHigh": {
     "price": 10950,
     "at": "2024-09",
-    "distancePct": -44.06
+    "distancePct": -43.61
   },
   "allTimeLow": {
     "price": 175,
     "at": "2004-07",
-    "distancePct": 3400
+    "distancePct": 3428.57
   },
   "supports": [
     {
@@ -56,21 +56,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 41.56,
-    "sma20": 6285,
-    "sma50": 6364,
-    "sma200": 6695.75,
-    "ema12": 6184.266262,
-    "ema26": 6273.735966,
-    "macd": -89.469704,
-    "macdSignal": -63.95566,
-    "macdHistogram": -25.514044,
-    "bollingerUpper": 6607.257661,
-    "bollingerMiddle": 6285,
-    "bollingerLower": 5962.742339,
-    "bollingerBandwidth": 0.1025,
-    "atr14": 123.225444,
-    "stochK": 33.33,
-    "stochD": 19.05
+    "rsi14": 44.43,
+    "sma20": 6287.5,
+    "sma50": 6365,
+    "sma200": 6696,
+    "ema12": 6191.95857,
+    "ema26": 6277.43967,
+    "macd": -85.4811,
+    "macdSignal": -63.15794,
+    "macdHistogram": -22.323161,
+    "bollingerUpper": 6605.501572,
+    "bollingerMiddle": 6287.5,
+    "bollingerLower": 5969.498428,
+    "bollingerBandwidth": 0.1012,
+    "atr14": 125.011159,
+    "stochK": 44.44,
+    "stochD": 22.75
   }
 }

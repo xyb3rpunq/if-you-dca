@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-10-05T08:18:57.169Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-10-05T21:19:28.511Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "US Equity Markets End Higher as Crude Oil Prices Drop",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-higher-202144838.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-05T20:21:44.000Z",
+      "source": "yahoo"
+    }
+  ]
 }

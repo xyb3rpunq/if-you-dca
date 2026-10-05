@@ -2,19 +2,19 @@
   "id": "bbni",
   "symbol": "BBNI",
   "currency": "IDR",
-  "generatedAt": "2026-10-05T08:18:17.501Z",
-  "price": 3440,
+  "generatedAt": "2026-10-05T21:18:49.330Z",
+  "price": 3460,
   "dataFrom": "2004-01",
   "dailyBars": 478,
   "allTimeHigh": {
     "price": 6250,
     "at": "2024-03",
-    "distancePct": -44.96
+    "distancePct": -44.64
   },
   "allTimeLow": {
     "price": 187.230408,
     "at": "2008-11",
-    "distancePct": 1737.31
+    "distancePct": 1747.99
   },
   "supports": [
     {
@@ -61,21 +61,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 34.97,
-    "sma20": 3617,
-    "sma50": 3648,
-    "sma200": 3888.75,
-    "ema12": 3505.900485,
-    "ema26": 3589.025305,
-    "macd": -83.124821,
-    "macdSignal": -55.406688,
-    "macdHistogram": -27.718132,
-    "bollingerUpper": 3937.50585,
-    "bollingerMiddle": 3617,
-    "bollingerLower": 3296.49415,
-    "bollingerBandwidth": 0.1772,
-    "atr14": 77.826494,
-    "stochK": 15,
-    "stochD": 9.64
+    "rsi14": 37.27,
+    "sma20": 3618,
+    "sma50": 3648.4,
+    "sma200": 3888.85,
+    "ema12": 3508.977408,
+    "ema26": 3590.506787,
+    "macd": -81.529379,
+    "macdSignal": -55.0876,
+    "macdHistogram": -26.441779,
+    "bollingerUpper": 3936.408543,
+    "bollingerMiddle": 3618,
+    "bollingerLower": 3299.591457,
+    "bollingerBandwidth": 0.176,
+    "atr14": 79.969351,
+    "stochK": 20,
+    "stochD": 11.31
   }
 }
