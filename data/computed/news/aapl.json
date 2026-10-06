@@ -1,28 +1,21 @@
 {
   "id": "aapl",
   "symbol": "AAPL",
-  "generatedAt": "2026-10-06T19:16:23.749Z",
+  "generatedAt": "2026-10-06T23:29:48.482Z",
   "count": 8,
   "items": [
+    {
+      "title": "Apple's App Store Rebounds, but UBS Is Not Ready to Call a Turnaround",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-app-store-rebounds-ubs-193942589.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-06T19:39:42.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Scott Galloway: “Apple Wins by Showing Up Late” in AI, and Its New Home Hub Is the Test",
       "url": "https://finance.yahoo.com/technology/ai/articles/scott-galloway-apple-wins-showing-184416497.html",
       "publisher": "TIKR",
       "publishedAt": "2026-10-06T18:44:16.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple's Market Value Grew From $350 Billion to $4.75 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Betting on Apple's Next Chapter Under John Ternus.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apples-market-value-grew-350-171200527.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-10-06T17:12:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Apple (AAPL): Buy, Sell, or Hold Post Q2 Earnings?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-buy-sell-hold-164834942.html",
-      "publisher": "StockStory",
-      "publishedAt": "2026-10-06T16:48:34.000Z",
       "source": "yahoo"
     },
     {
@@ -58,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS1hQajFaX2Rfam9OeEJOcnE0WFcwR0RBbTluSi0zNkE5LU01WkRhZXpRVmJjVHdOTEM2eGVtMWZCVTJ3OHA0WC1TSHBxXzJ4VEdMM1g2UE16RmROcS1Ja25uUXd1aW9ZbllVZ20yQjYzTDc3MVFMT2pOQVl5QXBoc0tYeUfSAYoBQVVfeXFMT2NRYm9HdWU1cFFqcVNoWWVxOFo4a09VVE5uQ3JYd2hETk1KSWxwUGw1d2NIbWNpdjFwbXFwU2pUd2NSSXZ6LWVYZW9YYk1VcTlYMGhtaklYa2o2MjE3eUJ0dlhKNHVCbktwV1ZMQlZiVHMzTHFlTy1pRkI0QXRreWdNXzU4Rk9ZT2xB?oc=5",
       "publisher": "pintu crypto",
       "publishedAt": "2026-10-02T04:12:48.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Usai Rilis iPhone Duo, Apa Langkah Apple Selanjutnya? - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43ZTZXUnB6Y0plS3BpamJlSGRDSzFjcTQzeDAtT3otblg4ZHdxd09pTnFqcTlTZnFZdWlNWkoybjVHay00c3pwV1NSbGxyT3EzZk5NOW1PZmtRZk5pbVI0MDRjOWxicDRHWm5V?oc=5",
+      "publisher": "Ajaib",
+      "publishedAt": "2026-09-30T16:50:53.000Z",
       "source": "google-news"
     }
   ]
