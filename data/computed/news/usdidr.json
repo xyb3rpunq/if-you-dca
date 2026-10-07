@@ -1,7 +1,7 @@
 {
   "id": "usdidr",
   "symbol": "USDIDR",
-  "generatedAt": "2026-10-07T08:09:03.163Z",
+  "generatedAt": "2026-10-07T19:40:39.968Z",
   "count": 8,
   "items": [
     {
@@ -33,13 +33,6 @@
       "source": "google-news"
     },
     {
-      "title": "Analisis Kurs Rupiah Hari Ini: Peluang Buy USDIDR di Tengah Tekanan Makro - https://cetro.or.id/",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNblVYU09oMmZoWHlteGxydC1NbFBBZ3pUVjAzSHd3eVRjamxmMmstWEcxVWU0b2FYcnhkNDlWNWtiNjFXQ2VRSl9NLVRsb3IzYW1XUGFNWFJWQTRnZU9FQWU4MXRXUTBwcExGWVJQaURjd2RWdmtFdko4eGJvbmhlWUhvMmlKUzBOQTcxMmlOMGtPZll5UDQtRkstWjZaZEhacl81ZWF0TXN3UWpXaDlMYXhFSkE0YkRDdGRCMHQyTDRrWGxOY2NrMk02Yw?oc=5",
-      "publisher": "https://cetro.or.id/",
-      "publishedAt": "2026-09-30T14:43:40.000Z",
-      "source": "google-news"
-    },
-    {
       "title": "USD/IDR: Rupiah Menguat 0,50% ke Rp17.870, Pasar Tunggu PCE AS - FXStreet",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWNmLUVlZmxuTmRDMU9yUE5qMElwbTlDSkJnVEFzdnBnMERpc05SZXRPQlE5UFZxUUZJdm9uZ1Y4UVFjTE5ueVJleHNsRjhHOE1VMlZRdGRNY0U4Tm5rSG5mRDFTbFFhb0RHaWl1a2x6RjZNR1FuMG5ZTlFiTDZjX1A1NTBKU3lnUnJjSTRwSk1mckwtX0xJeExnOE5ZdUdBSkdRTm52SdIBrAFBVV95cUxOOXRJR200WjRZV3M5XzlSSjBUMF9UX2UteVRIMHRibW5XYW5nNFVWT1R5ZDNKQW5zODRYdURfbjktWTJOdHJHVFVVQXpMTmstQ0FTZFBqV2tEN3pIOEZoYUFDUVNhZGRIZmJyUlhGd2R0ci1SeVhXcy1IVlJ5VkRrWTBjeTY0VmVoY3hjUzg2cmNWQlZOXy0tZ2VGWF9MaG5yNmFzbVRPUTlNcUV5?oc=5",
       "publisher": "FXStreet",
@@ -59,6 +52,13 @@
       "publisher": "FXStreet",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "source": "google-news"
+    },
+    {
+      "title": "Bank Indonesia Holds Steady as It Keeps Watchful Eye on Rupiah",
+      "url": "https://finance.yahoo.com/m/a7bddcf7-408f-37a5-b925-a3c8342169a9/bank-indonesia-holds-steady.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-09-23T09:49:00.000Z",
+      "source": "yahoo"
     }
   ]
 }
