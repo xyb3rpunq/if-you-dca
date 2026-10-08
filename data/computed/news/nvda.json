@@ -1,21 +1,49 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-10-08T08:25:08.822Z",
+  "generatedAt": "2026-10-08T19:36:29.854Z",
   "count": 8,
   "items": [
+    {
+      "title": "Nvidia Puts $1 Billion Behind America's Next Tech Wave",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-puts-1-billion-behind-190436736.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-08T19:04:36.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "MSFT, ORCL, NVDA, QQQ In Focus: OpenAI’s Annualized Revenue Reportedly Trails Prior Expectations By $20B",
+      "url": "https://finance.yahoo.com/technology/ai/articles/msft-orcl-nvda-qqq-focus-190141481.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-08T19:01:41.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Nvidia alihkan fokus ke pembiayaan infrastruktu... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmtoRzBLd1V0TDZXZUxudmtXZW4yNEZzNDV4LVBBTTR2Sm9qUW01Umc4N01SbE9Wb2Z2UnJ3ZFJYZUMwMjFaQjVjRXhlbUp5elVsdnlPb21veDB4QTRPZFhjSXdhX3l4bWozVmFfaUN4N0gwX2JTanY5TVNKNk5kY0d3?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-10-08T17:08:05.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Saham Nvidia turun ke valuasi terendah dekade m... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YY0lNTUt4T3lWSW9HZEtwcEt3cDZ3dlI0N2J1bjlYeEt3NDVpZEZwSmVMTTRnV0QyMTRQbHpaTzd2U01pdHJRYVJwQXBnMklPWWozNXJUWFlZd25CRXViNmxsQTlvWHJFdVdIY1lKR01haHE4?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-10-08T14:17:50.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "NVIDIA capai harga tertinggi 52-minggu dengan p... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWJTSC1RWi0xbU11ZzFXTlVZcFlPdG4zT1pJR3JXbkwyVUpxQUtWXzhudHBjMkZna3BTMjBtekFsMDVVdGgzZ2ttWm5qQ0M1Nkwta3JJYkFvNDFrWHl5blpWcjFCLVhhLUlvck9NVTRuXzRTNVM4QnZURVdyNlU2OXIzOHlNc1hiTGlyT0FqMXd0bmJOMzNQaDJSZjZldw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-10-08T13:43:50.000Z",
+      "source": "google-news"
+    },
     {
       "title": "3 Saham AI dengan Pertumbuhan Pendapatan hingga 34%: NVDA hingga GOOG - Ajaib",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEhjcHhHMXg2ZGpiVWt2a1J0SGF2Qm5waTVpNGtzcFkzcUVYbENwRUhBVF9TSzYtWF9Gd2Qwd1JBS01uWEpNcjY5NS0teFpjU1pxSGJRUXBGRzNBc1FXYlNyMmJvWWRkdnBieU9qU1BEMWVUMkdsNERwN016Rmp6UWZCWW96MXc?oc=5",
       "publisher": "Ajaib",
       "publishedAt": "2026-10-08T02:38:53.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "NVDA Vs. AVGO: Which One Will Outperform In 2027? Governor Of Louisiana (ikCYowiYcR) - Unisba Media",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tdTFYdDZ0Y3hIT29RVm5MWERXUVZrRHo3LUc5aUZUWE5oRmNyOHVMalN6eUFSSlgxTDJvbFp2NE9SNmZUQlRwMHNCaFpHZnRKYmJKLXpldnFRSGRyeUEtOEpld292S2drOEsxRw?oc=5",
-      "publisher": "Unisba Media",
-      "publishedAt": "2026-10-08T00:06:09.000Z",
       "source": "google-news"
     },
     {
@@ -26,38 +54,10 @@
       "source": "google-news"
     },
     {
-      "title": "Yorkville Ives mulai liput saham Nvidia dengan rating outperform - Investing.com Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY1RCa3Zva0psUnFUYVV0Tm9HZDgtdFMxWjRRNjROeGxJUXFMS0E0bk1OTHhHaHB1dXFHSGhyVm1qUTQ4VWQyZ0xnelZnUWhlNnQwN1BEM2hzbnQxX3VmMWZyM3FkSTY1ck5fYVNuWEprcWdOUU5KdjZRZUlsQ3ZpTEdxOGd1NHRCYVpMcnlvYndHM0xHUXJDUjVXeUxEYV83Yk44a2djTW9mSWVnazBuSFExN3RtTW9kZjMzdENWT1E?oc=5",
-      "publisher": "Investing.com Indonesia",
-      "publishedAt": "2026-10-07T15:47:07.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "SpaceX, IREN Both Buy Nvidia Chips: Their AI Margins Couldn't Be More Different - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR2xZNV95VWhuTmgtQmxTYzM1MXZZbTVhS3kteUZPTlVDYkwwMzZDb3Q2R0hZZEhBWmR3R1k3c2JuMUI4clpLRFo5V3JqUWFaN0RMMWx2aGFSQ2tGSEtpZmpvTGFCRHNwVGh3WVQ3TGhBaHlFY1RxbnpKb2ZmbVowdHNqVExoeW5FX3JxWXBiSDBqRE1xSlVDN0FXNlFSUTJKT0NzWUdnejlma3Bkem1PZVJyeVVVRVZOWjQyZlR4SnhGZHJ0MDlMWk9KbTFNTlJu?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-07T15:35:31.000Z",
-      "source": "google-news"
-    },
-    {
       "title": "SpaceX Siapkan US$40 Miliar untuk Beli Chip AI Nvidia - Ajaib",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM3lIQWNVMXFHd2YzdkdFNVJWMW1fZ3hBVXJXZTlEblhGODBOVXFwRE9IOTA0N1hfNnVmaEJSbzJpbVFvV0U3RUNJYXBYVUJkcm1PY0NKTm5uWi0wOUxJcnhuRE5vUlNLU1NTcUtKQ09SMVJvbXNhdkE2QXA2bm5YclBOMDdOcHRzZDVNSXllaFM?oc=5",
       "publisher": "Ajaib",
       "publishedAt": "2026-10-07T10:12:56.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Harga Saham Nvidia (NVDA) Hari Ini 7 Oktober 2026: Naik Tipis ke $239,24 - pintu crypto",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQXdPYTNCaEd5Z1N0VWpDX3NtbU9oMXFENjgwMEFmN0tzYWRYUWxiVUJ4YlZWNzdHOE1abGFUZFFYWENrNDBFV3dRM2w4MjgteExiSks4WC1wcHdid1NBb1laRjJLbWxkZ1RxSmNuZ0tXYU03OUNxUHM5WjRjOGRmdF85WVlJUdIBiwFBVV95cUxPZkNQaWh5NG8zX0pBZzRjUFBOLWFkM0lHSTFLcmhrTlFxcVQybHE2eDA2QnJfNERWMnpHRnRwWWdOck1QTlpUVDFzWjN0X3Y2V1FHM3dUdlRMWHZaRm9nNVRVelVNa1V6UXRBakR2bzdWM0FlTUN4M1g3SjNHdUI1bEI0aEhCX0hoN0Vr?oc=5",
-      "publisher": "pintu crypto",
-      "publishedAt": "2026-10-07T07:34:58.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Nvidia (NVDA) Naik 0,1%, Ini Sentimennya (7 Oktober 2026) - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94Q3FtaGdFOExpdER3SW5lOGRleTZQWnBkaDFVYW8yWmlkOUMzRnlmUGlfNFp3T1hXdXZyT0JiV05xS3ZQQkFjYVhOUTVOQkJULUgxR1FMM3N4ZmJWdkg0TzhJcmE0MzIzdWtLdTlyeG9wbVFVOGpDYjBHZ0ZlZw?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-10-07T05:00:00.000Z",
       "source": "google-news"
     }
   ]

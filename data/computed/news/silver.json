@@ -1,7 +1,36 @@
 {
   "id": "silver",
   "symbol": "XAGUSD",
-  "generatedAt": "2026-10-08T08:25:08.822Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-10-08T19:36:29.854Z",
+  "count": 4,
+  "items": [
+    {
+      "title": "First Majestic Reports 11% YoY Drop in Q3 Silver Production",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/first-majestic-reports-11-yoy-133408501.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-08T13:34:08.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Endeavour Silver Posts Higher Q3 Silver Equivalent Production",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/endeavour-silver-posts-higher-q3-120441817.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-08T12:04:41.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Endeavour Silver Reports Q3 Production of 2.1 Million Silver Ounces; to Recalculate Full-Year Guidance",
+      "url": "https://finance.yahoo.com/news/endeavour-silver-reports-q3-production-115738309.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-08T11:57:38.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Silver X Grows the AgEq Processed by 42% and Gold 119% YoY As Nueva Recuperada Plant Expansion to 1,000 tpd Advances",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/silver-x-grows-ageq-processed-113500396.html",
+      "publisher": "ACCESS Newswire",
+      "publishedAt": "2026-10-08T11:35:00.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
