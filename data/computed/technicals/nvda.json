@@ -2,7 +2,7 @@
   "id": "nvda",
   "symbol": "NVDA",
   "currency": "USD",
-  "generatedAt": "2026-10-07T23:57:19.676Z",
+  "generatedAt": "2026-10-08T08:24:29.692Z",
   "price": 237.47,
   "dataFrom": "1999-02",
   "dailyBars": 501,
@@ -63,7 +63,7 @@
     "bollingerMiddle": 225.5785,
     "bollingerLower": 209.299244,
     "bollingerBandwidth": 0.1443,
-    "atr14": 5.610767,
+    "atr14": 5.611481,
     "stochK": 76.72,
     "stochD": 85.54
   }
