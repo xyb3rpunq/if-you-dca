@@ -1,9 +1,44 @@
 {
   "id": "orcl",
   "symbol": "ORCL",
-  "generatedAt": "2026-10-09T23:45:22.552Z",
+  "generatedAt": "2026-10-10T09:12:21.727Z",
   "count": 8,
   "items": [
+    {
+      "title": "CPI FIM (BDL:ORCL) Stock Looks Below Fair Value On Its 74% Three Year Run",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cpi-fim-bdl-orcl-stock-010811610.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-10-10T01:08:11.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "How much ORCL stock does Oracle founder & CTO Larry Ellison actually own?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/much-orcl-stock-does-oracle-010128016.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-10-10T01:01:28.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "CPI FIM (BDL:ORCL) Slides to €0.73 As Fair Value Questions Come Into Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cpi-fim-bdl-orcl-slides-002017954.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-10-10T00:20:17.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "C3.ai, Dynatrace, Amplitude, and Oracle Shares Skyrocket, What You Need To Know",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-dynatrace-amplitude-oracle-000310788.html",
+      "publisher": "StockStory",
+      "publishedAt": "2026-10-10T00:03:10.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Oracle vs. Cisco: The Dividend Battle Wall Street Didn’t See Coming",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-vs-cisco-dividend-battle-230002680.html",
+      "publisher": "Barchart",
+      "publishedAt": "2026-10-09T23:00:02.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Oracle's AI Story Just Got a Lift",
       "url": "https://finance.yahoo.com/technology/ai/articles/oracles-ai-story-just-got-195917742.html",
@@ -12,52 +47,17 @@
       "source": "yahoo"
     },
     {
-      "title": "Oracle Stocks Jump 4.9% as Insider Risks $3.5 Million",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-jump-4-9-182852748.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-10-09T18:28:52.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Gitlab vs Oracle: Perbandingan Saham GTLB dan ORCL - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBldFFSUXUtQWFNMjR6R3RCR0hJTl82LVNpR2hxU2ZITUtZRVR1U1g4V3dVdkpHc0FzZDZzbUFfRnYtaFRSNW1jU2o3X1UzSXN4MGVDQ0oxUTdlRG1YSG5RVlM5M3NJbFFaa205ZXFiQkI?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-10-09T03:31:39.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Why Oracle (ORCL) Shares Are Trading Lower Today - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcUxfNTRwYVB2X2VXajBscHdHS2hqaFFCN1E5U1hIR3VaMnRDVENYYW1wMVBnRF8wNkQ0MU9lUjJ4M1RSMjFqTnF3ZF9HQ2ViY1I0VTJMbDlYVjlNMFBnREdrUEg4SXVsMEs0VEpiT2VOY0NDYWdiMFpLN0d2Nm4ySHREb0wxZFVUSkpXMWtVY2N1T1FhLTF4dDlxemRzR0pFVXdsYS1ZZnVLUQ?oc=5",
+      "title": "Oracle Stocks Jump 4.9% as Insider Risks $3.5 Million - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORS1oYU03eHhiWEpwdHhMekNxcEpfVFRnT19DSVVHLUMxMVRqOThoV0NPbkkxb0VZRUs2dGg4a1dzWTBvVVVMcVg0S2xuQlg3S3VtYjlfeGI1S19uX1dkSUIwMjZ5aS1zM0VqT2dOTkVCNk5OWlJZTTAyajhVVDdlanNtLVdETGdZU2lwV1daOGg0eU96TzBtVndzMmlVVjJlb3hWSnF3YmpUQWczTzNZ?oc=5",
       "publisher": "TradingView",
-      "publishedAt": "2026-10-08T19:40:59.000Z",
+      "publishedAt": "2026-10-09T18:28:52.000Z",
       "source": "google-news"
     },
     {
-      "title": "Apa Itu $ORCL, Saham dari Oracle? - TokoNews",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xenhhODlicnoxcTItcDBqMWlOLTVoZ3F4b0doaTRhMm95WEMtVkxsV0ZYVjFteWtKUmpzY2NvVEE0N0FRdGxOMi1KaF9JbmJraUFVNEdvUjN3Z3A3U3ZjczdOdUl3MU9YOTRr0gFrQVVfeXFMTXF6eGE4OWJyejFxMi1wMGoxaU4tNWhncXhvR2hpNGEyb3lYQy1WTGxXRlhWMW15a0pSanNjY29UQTQ3QVF0bE4yLUpoX0luYmtpQVU0R29SM3dncDdTdmNzN051SXcxT1g5NGs?oc=5",
-      "publisher": "TokoNews",
-      "publishedAt": "2026-10-07T17:15:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Oracle (ORCL) Naik 1,6%, Ini Sentimennya (7 Oktober 2026) - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WekZDczkzbzVUdjdqZktFc0g1Rk9xY2dHNkprMzJzSzNNU21PWERIVFJQMUVIaUJTTE9fUDhzVkl1TDJaZks3NldkX1ZWV1FmRTlOWDEydlpOdGVGdGNPM0ttVEdGLUU5NG9uci1obGhHUTFkTEJaZl9KY3R3QQ?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-10-07T06:10:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "$ORCL: Oracle And Bloom Energy's Project Jupiter AI Power Play Breakdown Vincent Tout Le Monde Veut Prendre Sa Place (9csZXcnEo9) - Unisba Media",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSjNyeG1uZEtPYW1GTHgxTG5nQWh0d1ZldkNrTXBDeW00Q0pZUEEwc1huZXlBRVZHRXFFMWZpRFhVNWpHR1plTXphVXFJd3NaVlZldXJqOWJVcnRsUzUyMjQ0WWJCOEwyMFBLMTUzb2VXVGZZQnhSaFpLdXRkZWhTS0JkSQ?oc=5",
-      "publisher": "Unisba Media",
-      "publishedAt": "2026-10-02T07:37:18.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Oracle Pastikan Tak Ada Infrastruktur Kritis Rusak di Project Jupiter - Ajaib",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWUV3MHo1WjdXSVZBcHhJaklNeHpmQVFaZEhiRl9vbWlHNWtwSmp2Z2VTR0J3RTQybkRCSlBkZ25ES1J6U2FkcWtzQkJBbGtpLWJRdTNLQVpJR09Hd2FmSXlZeFhGUGZISEdMQ19rVzZoeTNudGZGNXhPbHJ5a2l5QzVOVEN3TjZ2eXNzdkF4aGdjdF92?oc=5",
-      "publisher": "Ajaib",
-      "publishedAt": "2026-10-01T15:17:40.000Z",
+      "title": "Oracle Stock Reverses: What's Going On? - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWZSVHhvX3JrVE83UE9RcDdiSFYxTDdGaEM5YlNqNDhhN1BtRkxZNlFtQmx4RVRSd0s2NjJwMjJ1alV1ZDRCZFY3LWo2T19raUluT2U2QnF4YU9kMm9IaExPNjlLUW9xcHJOdjZKMHdVTzZIaGljT1VpOWNpWHZvaGVmNmpBRmVtRnZ1R2JoSFF5NE5oS3p1c1M3NA?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-09T17:01:13.000Z",
       "source": "google-news"
     }
   ]

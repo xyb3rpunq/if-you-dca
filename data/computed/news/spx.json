@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-09T23:45:22.552Z",
+  "generatedAt": "2026-10-10T09:12:21.727Z",
   "count": 5,
   "items": [
     {
-      "title": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-100-dow-225311213.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-10-09T22:53:11.000Z",
+      "title": "Why “VOO and Chill” Lost Money for 8 Straight Years: What $100,000 in the S&P 500 Did From 2000 to 2008",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-voo-chill-lost-money-083417958.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-10-10T08:34:17.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Should Twilio’s (TWLO) Inclusion in the S&P 500 Require Action From Existing Investors?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-inclusion-p-500-061642280.html",
+      "publisher": "Simply Wall St.",
+      "publishedAt": "2026-10-10T06:16:42.000Z",
       "source": "yahoo"
     },
     {
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONnNXVUl3OURRRHZvelJzVmRWTTQ5R3FaYUxjb19JZ0pHSGwxUVdZTkVGQlQzb04wczU1bS1PZWFlRHlhMmFUYV9VQTNab1dQU1l0MDFBeFZHM3VUbnlzTnc2S2VkdlM1bHFoM0NudkhNVnJ5cnR3XzYyQUlrUkl1UnYySzlfLTIxdlRNVFlfand0WHljMHhhSmY2NXNSU1ZnVHVMcVVJSXBvTFkwWjlMX2VB?oc=5",
       "publisher": "Investing.com Indonesia",
       "publishedAt": "2026-09-29T12:34:34.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Nvidia Kerek S&P 500, Dorong Reli Saham Teknologi AS - Bloomberg Technoz",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd0lLMXluT2JPdTVYNi14bFJVQTNGUGZ1dF9FUTNoYllLc0xaWmJpei1qcVo3T3NIbXFaaC1OUXlCOVhLbUtXc0JtU1RLRkdBbHJDWmlkc2dMYVRGX1lPVmV3MWpXQ2YtclJuREhTNTdUNzA5VnhRdTJlamh1OHVFNHlYZWtyMkhIMXp5TkNtSWhONTJxOWs2T0hBdFNDMkpxcWxaTlRR?oc=5",
-      "publisher": "Bloomberg Technoz",
-      "publishedAt": "2026-08-28T07:00:00.000Z",
       "source": "google-news"
     }
   ]
