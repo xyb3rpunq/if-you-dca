@@ -1,7 +1,7 @@
 {
   "id": "usdidr",
   "symbol": "USDIDR",
-  "generatedAt": "2026-10-12T08:37:29.436Z",
+  "generatedAt": "2026-10-12T21:57:14.548Z",
   "count": 8,
   "items": [
     {
@@ -23,6 +23,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFNncjFNaVRFQUJvSk9MeXZuU0ZDYVMyQnhRNWI2aTQxQmxlb29lNU03QkFQN085VzUtU3pRX0hxeWNVLXgxNlpoMW9zbFcycGpoRTRIUk8wVVhDN1o0RmhEYjJKRDJ4dVViWHpDdzhJWEY1dUJPblBtV2E4SDBOT01jbTc5aHZ2aG1ZQnF4b1ljMmtaRFVlSVdXVmw5Uzlnelgwdi1zSC1keS0xWHVsZFdIMEpaY2lMeUpsU0ZESy1rRE3SAcgBQVVfeXFMTVQ2MEp6UFBEY1c1ZTlTV21ZOEM1Uzdlc0MtWmxTSXh4eHVoX1BjdEd4aklwb1M0azRPM09VQjVqR2ZIZ1VmNlhaOUx4ZFVTN251SmI2WFMyNG8ySzViV1Jnb3hOcEZLdUZrTmVseGNFaERfQ0hIU3l6cXhIbjgwazNXY1YwS3VQVkRkN0x3Qk5pX1NWVEhySERRMHYwMG03UVg2YXFKZWItY29sWjJUUEtiUnlaY3ZjV01RODRWZTVoazRkR3lhV20?oc=5",
       "publisher": "FXStreet",
       "publishedAt": "2026-10-06T09:22:13.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Melemah ke Rp17.895 saat DXY Menguat jelang PMI Jasa ISM AS - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLXItLVdEY3FJanU1a0piaTFtWS1ZX1l1YjJZd2lTQk8zTXk2MDktR05GUnhvQTd5UE81azVRWVREVFliMG5PR2JEWXBiQ0k3c2haN3l0eWpTa2lXNjFHS0EzMy1teWYzQ09COXJZOHVoMk9VU1N0YkVPc1JXUGxhSzZMYVdQb1BtMTVwMXhxa0l2VEJwS25BdFZ3MXlSeHBTZUtYRGZiUWtnWGpKYTVSc1ZRZG0zcmlGX2tv0gHAAUFVX3lxTE1YN0Y0bVZ0UmU0WnFvQ1BQZnAyWkpJX25pWkdCRXp4YmpiY3ZJNGNKd3k0eUlIbkNqT0ZBTEhYTzg2a2sxUnFad1RJd2dpTGJ5REZxMnFQUWNqaW1aUGZzX2FCbklXX1l3ejVYaS1aVnRwMzZhQmE0T0FTaVRETVo2eUJ2b0t3Y0xQU21jRmROQXFnQUQzOHlCWC0zMXQtQlVnbmx1Um5yUnZRbnAtaWxxa2VqVFNBX1lTWnZ1MjNWWQ?oc=5",
+      "publisher": "FXStreet",
+      "publishedAt": "2026-10-05T09:07:04.000Z",
       "source": "google-news"
     },
     {
@@ -52,13 +59,6 @@
       "publisher": "FXStreet",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "source": "google-news"
-    },
-    {
-      "title": "Bank Indonesia Holds Steady as It Keeps Watchful Eye on Rupiah",
-      "url": "https://finance.yahoo.com/m/a7bddcf7-408f-37a5-b925-a3c8342169a9/bank-indonesia-holds-steady.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-09-23T09:49:00.000Z",
-      "source": "yahoo"
     }
   ]
 }
