@@ -1,22 +1,50 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-10-13T08:56:19.084Z",
+  "generatedAt": "2026-10-13T20:01:05.402Z",
   "count": 8,
   "items": [
     {
-      "title": "Nasdaq Futures Sink, Dow Rises Premarket As AI Chip Stocks Wobble Ahead Of Big Bank Earnings: MU, SNDK, NVTS, NVDA, SPCX, ASTS, UNH, V Stocks In Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-dow-rises-083730803.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-10-13T08:37:30.000Z",
+      "title": "Nvidia Stocks Fall as Copenhagen Adds a Blackwell Deployment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-fall-copenhagen-adds-190901620.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-13T19:09:01.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Broadcom’s AI Durability Warning Triggers Sharp Drop In SK Hynix, Samsung In Korea; Nvidia's China AI Chip Share Falls As Huawei Closes In",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-ai-durability-warning-triggers-072109558.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-10-13T07:21:09.000Z",
-      "source": "yahoo"
+      "title": "Pangsa Chip AI Nvidia di China Menyusut, Huawei Kian Mendekat - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBMHhNeHJrOU9qc3hrZWplT3pWV25iRi1laUl4M0lhZTFQSzlEVFhVWXNYUUpObU1SR05iUXB4RFc5S21WRmdnNDBVZ0RNVlFCMmNEM25FTW82b3FZYWpPV3UyUVV6VkdOUEJjTXV1RDdGWDF4U2c?oc=5",
+      "publisher": "Ajaib",
+      "publishedAt": "2026-10-13T16:33:29.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Nvidia dinilai Buy dengan potensi kenaikan 33%, didorong pertumbuhan AI dan laporan laba mendatang. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbTJqbnlCeVpwclVubjRCTFdrLU5YNTY5VW1TQlVEb283Mk5QNmpkUzU2bVpZX29KeTB1aTYyeVlwd0lPcExrQ2o1MUZhY2o5R3ZKR0JhM01Xb1luVGw1aHB4TWh3YUlJSkdWMFUzMGFkTjlyci1UU1Y3cG1CNXlnUEhJUHJTOEoxWkROYXowNHBIWUx5TTBfUXJzbjF6TEhUTkw4?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-10-13T14:09:25.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Nvidia akan bayar dividen $0,25 per saham pada 26 Des 2026, naik 1800% dari tahun lalu. - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTFpiSmhDWUstQnZ2SWZra1lqWlFtOVRTRktRdkc0Mk5QTUNuUk1MVlFWakdyUFJhV0xzTjhONFdyc2t5N0hONlFJd290ZXlSSnVoWnlIb1hlalFwcDlBMThla0ZrZXg2MWh0MWp0VjBmM2pXQXBPZnpLcVRFMkJYc1dQZ3hZcHJyVEVjelhzdldackE3VTZROV9YREwyNUJHV0E?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-10-13T12:11:32.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Dan Ives Says Semiconductor Sell-Off Is ‘Way Overdone’ As AI Spending Fears Rattle NVDA, MU, SKHY, SNDK - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSEduM0Q5dnMxSXNXaERiZ09qczFHbXoxM0J5MDJOYmxMMFYxWUhrMDZodHQ5eWZHdWtkMVJkdS1lVFNnclNkUktDUE1uSW04bmV3MTJWcHZtN0pDYXI2dHhXUG1tR1QydVM3MDVkZDFiTEdqaks5Ym1DbDFONDFTd2xQQ3ZzNktNSU13R2hoU2dZUGl4dEw5NVJoS0FONFlWc3Vnd2k2Umx4Q1NaOGo0UW5TVmFJOFdSXzc1UkJNS1VvLXQ1a2RJR0R4N2JtNUxUR24tRU1aTWdCQWpVTTlwN0hxSzZMczE4dldyYlRxVQ?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-13T10:52:58.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Saham NVIDIA (NVDA), kenapa jadi sorotan di era AI - IDNFinancials",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVU1mdGNiYWxUNElxZ0x5TEdLRFRncU9faVB6ay14SVh1ZXFoYUozby1pXzVoc3BLM3dyMmtRSDhCNmhlZVp2MlVTYVZHM1A1cW8tQ3dMMHBJWlVBOXhGVFp3LXVINmtndUpPMGlTa21JeXZkZFdKZGlHWm1ZTmtNazl2OGkxSGFNRXQ5QjhsSzBBekUwR0hxMDZ3?oc=5",
+      "publisher": "IDNFinancials",
+      "publishedAt": "2026-10-13T09:48:17.000Z",
+      "source": "google-news"
     },
     {
       "title": "NVIDIA unggul di 2026 dengan platform AI yang s... - Pluang",
@@ -30,34 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX1h2dDhEdkllV1lPMGNRX29DX2RuMFJtSzlIUzZtYWlFUEhFbEF2MG5lUzk0a29lUUx6VFU3VDdNaTFtOG5rcnQyZ2EtQ0dsSEpzaXgyR0F2WmhlbEJueFdGQnYxMkdqSUoyR0hzb1hxdzM0VGZOcUtSTnY1VlJUc09UdFlzd3FoRkxHM1UxeXVwMzRPTUZjUjZ6SUhIUQ?oc=5",
       "publisher": "Pluang",
       "publishedAt": "2026-10-12T16:34:10.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Pertumbuhan AI Nvidia dorong valuasi $5,5T, pot... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNEttc0hFMS16dl9UdkJkS1dxTTIzb2pYcE0ySHF0R2ZPSU1BOVh6d2ZRd2kxc0lPZ3d1OTBReHVYdmgwMGRQU2l5UTVnQUExOTNUZDNVRVdUem1wbUUwT19LOExHNzVVUmFRR1hVOGhqWHVHcElkbnZuOTN0YUhqcWFOOFNzdUVLUGExaUdVYmJVVlg1d1Z3?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-10-12T14:33:34.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Microchip Technology vs Nvidia: Perbandingan Saham MCHP dan NVDA - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JcU1wOGVqSndqNF95cERsbEN4anJjZGhwVHlBWVpkSVliam91VEdNN0EzY1dvNkR6SUlpOXVjTllsUGgxbTZvVTVvVXBpT3Y0RTdUVkdXU3p2Q2g3aFRTa21fb2RuNGpwVkZVZjdlemc?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-10-10T03:39:46.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Harga Saham Nvidia (NVDA) Hari Ini 9 Oktober 2026: Turun ke $230,48 - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdjBGZG81NkZxSFFLWXNabHFydFFUb3ZLbGdETXljUmV5cTNEZF9hdjgtd2daOVE4bG9kUVlKQ09UVUdzWWhOdUR4SEFJSzU4TDFzQ1F1MUFJWXVQbXppa1lUV1N5TGlOcWlDeWYyS2F4YzhLc2ZSNDFVa2oyZ3lOejA0YzlMZ9IBiwFBVV95cUxNc2tDVjBoOHBPZENLa2Jpc0xHTVZ2T21sYU9LQ0NJTWFuYlA4OU5SNWhjbXhyMzdoNlVtX25SdzlZazRmNEJ2RThRbnhtRDVWQU9kUE5uZVRKUkR0cG9JXzFyd05BWU9KemEwQ2NUTVI0WFJnUldnaWRNREtSLWhadTlIZHdOZWVudnpv?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-10-09T04:21:19.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "IPO Firmus Batal, Data Center AI Nvidia Pilih Dana Privat - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNThCeVptNG1BS1U0R1RRNjVpcUhOemQzRi1XdFNDX1BmOTFaUndrMkQ3aHpUekJySTdhSmFTdEJadVFKNFdPeXhPZEQtWGkwUjJ3RzhSMzBqdE1XNmRuVWZVakVjamp2elpyWHhDNUVidW8zaEVyWDV5Q09QTkdiWE5fd2g4TE5Md1E?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-10-09T04:10:00.000Z",
       "source": "google-news"
     }
   ]

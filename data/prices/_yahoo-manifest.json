@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "fetchedAt": "2026-10-13T08:55:11.026Z",
+  "fetchedAt": "2026-10-13T19:59:54.074Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -273,7 +273,7 @@
       },
       "count": 302,
       "to": "2026-10",
-      "dividendContributionPct": 166.02
+      "dividendContributionPct": 171.55
     },
     "bbni": {
       "status": "ok",
