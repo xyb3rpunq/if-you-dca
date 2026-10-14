@@ -2,7 +2,7 @@
   "id": "orcl",
   "symbol": "ORCL",
   "currency": "USD",
-  "generatedAt": "2026-10-13T23:40:59.504Z",
+  "generatedAt": "2026-10-14T07:05:18.579Z",
   "price": 143.2,
   "dataFrom": "1996-11",
   "dailyBars": 501,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 141.8435,
     "bollingerLower": 132.309156,
     "bollingerBandwidth": 0.1344,
-    "atr14": 6.592658,
+    "atr14": 6.593778,
     "stochK": 75.65,
     "stochD": 51.42
   }
