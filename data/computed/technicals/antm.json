@@ -2,31 +2,21 @@
   "id": "antm",
   "symbol": "ANTM",
   "currency": "IDR",
-  "generatedAt": "2026-10-14T22:54:24.830Z",
-  "price": 3050,
+  "generatedAt": "2026-10-15T06:56:33.399Z",
+  "price": 2910,
   "dataFrom": "2005-10",
   "dailyBars": 475,
   "allTimeHigh": {
     "price": 4970,
     "at": "2026-01",
-    "distancePct": -38.63
+    "distancePct": -41.45
   },
   "allTimeLow": {
     "price": 285,
     "at": "2015-12",
-    "distancePct": 970.18
+    "distancePct": 921.05
   },
   "supports": [
-    {
-      "price": 3030,
-      "touches": 3,
-      "lastTouch": "2026-09-29"
-    },
-    {
-      "price": 2970,
-      "touches": 1,
-      "lastTouch": "2026-08-14"
-    },
     {
       "price": 2872.5,
       "touches": 4,
@@ -36,9 +26,29 @@
       "price": 2786.666667,
       "touches": 3,
       "lastTouch": "2026-07-29"
+    },
+    {
+      "price": 2550,
+      "touches": 1,
+      "lastTouch": "2026-07-01"
+    },
+    {
+      "price": 2450,
+      "touches": 1,
+      "lastTouch": "2026-06-04"
     }
   ],
   "resistances": [
+    {
+      "price": 2970,
+      "touches": 1,
+      "lastTouch": "2026-08-14"
+    },
+    {
+      "price": 3030,
+      "touches": 3,
+      "lastTouch": "2026-09-29"
+    },
     {
       "price": 3085,
       "touches": 2,
@@ -48,16 +58,6 @@
       "price": 3140,
       "touches": 3,
       "lastTouch": "2025-11-17"
-    },
-    {
-      "price": 3205,
-      "touches": 2,
-      "lastTouch": "2026-08-10"
-    },
-    {
-      "price": 3270,
-      "touches": 4,
-      "lastTouch": "2026-08-26"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 43.01,
-    "sma20": 3187,
-    "sma50": 3150.4,
-    "sma200": 3410.95,
-    "ema12": 3141.912547,
-    "ema26": 3158.018241,
-    "macd": -16.105694,
-    "macdSignal": 4.041677,
-    "macdHistogram": -20.147371,
-    "bollingerUpper": 3342.061278,
-    "bollingerMiddle": 3187,
-    "bollingerLower": 3031.938722,
-    "bollingerBandwidth": 0.0973,
-    "atr14": 107.781471,
+    "rsi14": 36.4,
+    "sma20": 3168.5,
+    "sma50": 3150.8,
+    "sma200": 3410.9,
+    "ema12": 3106.233693,
+    "ema26": 3139.646519,
+    "macd": -33.412826,
+    "macdSignal": -3.449224,
+    "macdHistogram": -29.963602,
+    "bollingerUpper": 3359.001968,
+    "bollingerMiddle": 3168.5,
+    "bollingerLower": 2977.998032,
+    "bollingerBandwidth": 0.1202,
+    "atr14": 113.654223,
     "stochK": 10,
-    "stochD": 14.52
+    "stochD": 15.56
   }
 }
