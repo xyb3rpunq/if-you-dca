@@ -1,7 +1,15 @@
 {
   "id": "oil",
   "symbol": "USOIL",
-  "generatedAt": "2026-10-15T20:55:33.710Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-10-16T06:44:00.248Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "Oil prices edge lower on improving supplies; WTI set for strong week",
+      "url": "https://finance.yahoo.com/energy/articles/oil-prices-edge-lower-improving-002739163.html",
+      "publisher": "Investing.com",
+      "publishedAt": "2026-10-16T00:27:39.000Z",
+      "source": "yahoo"
+    }
+  ]
 }
