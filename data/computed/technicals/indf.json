@@ -2,26 +2,21 @@
   "id": "indf",
   "symbol": "INDF",
   "currency": "IDR",
-  "generatedAt": "2026-10-17T07:16:46.402Z",
-  "price": 6625,
+  "generatedAt": "2026-10-19T07:17:59.877Z",
+  "price": 6425,
   "dataFrom": "2000-11",
-  "dailyBars": 475,
+  "dailyBars": 473,
   "allTimeHigh": {
     "price": 9200,
     "at": "2016-09",
-    "distancePct": -27.99
+    "distancePct": -30.16
   },
   "allTimeLow": {
     "price": 475,
     "at": "2002-10",
-    "distancePct": 1294.74
+    "distancePct": 1252.63
   },
   "supports": [
-    {
-      "price": 6550,
-      "touches": 4,
-      "lastTouch": "2026-09-29"
-    },
     {
       "price": 6200,
       "touches": 1,
@@ -34,6 +29,11 @@
     }
   ],
   "resistances": [
+    {
+      "price": 6550,
+      "touches": 4,
+      "lastTouch": "2026-09-29"
+    },
     {
       "price": 6875,
       "touches": 3,
@@ -48,11 +48,6 @@
       "price": 7245,
       "touches": 5,
       "lastTouch": "2026-05-07"
-    },
-    {
-      "price": 7358.333333,
-      "touches": 3,
-      "lastTouch": "2025-09-10"
     }
   ],
   "pivots": {
@@ -66,21 +61,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 33.91,
-    "sma20": 6858.75,
-    "sma50": 7130.5,
-    "sma200": 6797,
-    "ema12": 6881.687354,
-    "ema26": 6945.473393,
-    "macd": -63.786039,
-    "macdSignal": -70.001674,
-    "macdHistogram": 6.215635,
-    "bollingerUpper": 7091.813832,
-    "bollingerMiddle": 6858.75,
-    "bollingerLower": 6625.686168,
-    "bollingerBandwidth": 0.068,
-    "atr14": 213.51526,
-    "stochK": 60.87,
-    "stochD": 72.92
+    "rsi14": 28.3,
+    "sma20": 6830,
+    "sma50": 7113.5,
+    "sma200": 6796.25,
+    "ema12": 6811.427761,
+    "ema26": 6906.919808,
+    "macd": -95.492047,
+    "macdSignal": -75.099748,
+    "macdHistogram": -20.392299,
+    "bollingerUpper": 7120.946731,
+    "bollingerMiddle": 6830,
+    "bollingerLower": 6539.053269,
+    "bollingerBandwidth": 0.0852,
+    "atr14": 217.907027,
+    "stochK": 43.48,
+    "stochD": 59.34
   }
 }
