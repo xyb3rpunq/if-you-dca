@@ -1,7 +1,7 @@
 {
   "id": "antm",
   "symbol": "ANTM",
-  "generatedAt": "2026-10-21T18:20:12.356Z",
+  "generatedAt": "2026-10-21T22:57:03.358Z",
   "count": 6,
   "items": [
     {
@@ -9,13 +9,6 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxekxuQlpKYUozaEtkUUFMZEdDRVNETnRvckdNYlFrSXN5LVJ1dXJ0T192VlFuYmxxQ2FiQVpTZTNLUTFHZ20zWC1ha1UtSFZrN1FvWFhxZ09IV09KMGFVcy02Yw?oc=5",
       "publisher": "Demokratis.co.id",
       "publishedAt": "2026-10-18T10:01:02.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Hilirisasi Mulai Tuai Hasil, Saham Aneka Tambang (ANTM) Dapat Katalis Baru - Bisnis.com - Market",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV2ZqM184RUtWMHR3UThOQi1hQ092NW5aQnBwTE5vYk9IVHFDNGUtSUUzSWVrcG9HT2RKX0twMGJ3Wl9EeGNYNVBsQVBOVm8tODhjR0g5UU8zNlpwMWhjRXFoWlZOTzVnRnVmSjZueWJoeVdrSzI0ZlNmNFlNRlJDZHlLYVMzUjh4OTFEMzdXSFNXM3NHMkQ1U0V1Um16ay1aTFhqT09GQnptOC14aGJLNVRUc1gzYno4RXFWOVVoaUE?oc=5",
-      "publisher": "Bisnis.com - Market",
-      "publishedAt": "2026-10-14T13:13:20.000Z",
       "source": "google-news"
     },
     {
@@ -44,6 +37,13 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sSkhfWTNES2Y2SGw5QTRpTDhtU3g2akRXTWJpQmJpRlR6VEZrWUlfRU9BWnZJbVZpbVFQa1FPLXo4T0xuQkdpYWo1eVQtRkdPd2NRSWVxcjIwYXlyMGxkZU1nZnZQUQ?oc=5",
       "publisher": "investor.id",
       "publishedAt": "2026-09-10T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Saham ANTM Ramai Diserok - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5UWtiY1VMdWV5cy1KeWJEeXFsZ1RsTkVjRHF0SEpRMmdyMmVUNzFURHl1MVd1UldPd0JMLXRqU0N6ZWZ6UnlRdTRVSncwMkxCaDh6Y1FvenhtSW1OZFZSWUxrNnBDdVBHVUE?oc=5",
+      "publisher": "investor.id",
+      "publishedAt": "2026-09-09T07:00:00.000Z",
       "source": "google-news"
     }
   ]
