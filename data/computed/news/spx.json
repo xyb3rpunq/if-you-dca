@@ -1,14 +1,14 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-21T13:25:37.587Z",
-  "count": 6,
+  "generatedAt": "2026-10-21T18:20:12.356Z",
+  "count": 8,
   "items": [
     {
-      "title": "Stock market today: DOW, S&P 500, Nasdaq futures rise as earnings roll in, SpaceX stock surges",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq gain as tech rallies, SpaceX stock surges",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-21T13:04:51.000Z",
+      "publishedAt": "2026-10-21T18:11:41.000Z",
       "source": "yahoo"
     },
     {
@@ -40,10 +40,24 @@
       "source": "google-news"
     },
     {
+      "title": "S&P 500 nears record high despite the struggling underlining breadth - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSUhFOV9aT0I3RUV1cWVUb1VocDE2d0dGaGcxeXlFcGRNbU92NXlDMGloSWgzb0gwbURsZjdGelQtZGJheVJVeDl6S252V2RvSXE2RG9zMWppX2k5c2JMc3QwVVVnVnEzYVFkeS15MTNXdFFQeE9IY1B6RUhKdFRURktVUTM4Qmx6MXREWVE2NVpUT1BkcmpCYWJuMnFGOWZhSzFYVko5QTFyNUZQSXFsQkNJN3N0cHR4akZabFRhMm9PZUNGVFYtRnNR?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-05T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
       "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-10-03T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSTVqTUQ0ai11U213Y1pTWnFFeE12MWZuTjAycVpvQ1JNZ2N5Q2RfLVRzTWJXZjVhbFJJZzRORE1Wa3JlRGxYeVRTenl2TkhHV3lYXzZPT2tqcW43MHFWOTRnYWNvYlFhZl9WVDltV1RHRDI1bm5WaVQ3MUQ?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-22T22:00:00.000Z",
       "source": "google-news"
     }
   ]
