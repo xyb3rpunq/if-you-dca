@@ -2,26 +2,21 @@
   "id": "asii",
   "symbol": "ASII",
   "currency": "IDR",
-  "generatedAt": "2026-10-20T22:51:30.722Z",
-  "price": 4500,
+  "generatedAt": "2026-10-21T07:02:10.435Z",
+  "price": 4470,
   "dataFrom": "2000-11",
-  "dailyBars": 474,
+  "dailyBars": 475,
   "allTimeHigh": {
     "price": 9350,
     "at": "2017-04",
-    "distancePct": -51.87
+    "distancePct": -52.19
   },
   "allTimeLow": {
     "price": 85.008781,
     "at": "2001-04",
-    "distancePct": 5193.57
+    "distancePct": 5158.28
   },
   "supports": [
-    {
-      "price": 4472.5,
-      "touches": 4,
-      "lastTouch": "2026-10-01"
-    },
     {
       "price": 4373.333333,
       "touches": 3,
@@ -29,6 +24,11 @@
     }
   ],
   "resistances": [
+    {
+      "price": 4472.5,
+      "touches": 4,
+      "lastTouch": "2026-10-01"
+    },
     {
       "price": 4570,
       "touches": 1,
@@ -43,11 +43,6 @@
       "price": 4867.142857,
       "touches": 7,
       "lastTouch": "2026-10-12"
-    },
-    {
-      "price": 4967.142857,
-      "touches": 7,
-      "lastTouch": "2026-09-14"
     }
   ],
   "pivots": {
@@ -61,21 +56,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 43.53,
-    "sma20": 4663,
-    "sma50": 4776.8,
-    "sma200": 5604.05,
-    "ema12": 4581.491642,
-    "ema26": 4678.805392,
-    "macd": -97.31375,
-    "macdSignal": -55.764741,
-    "macdHistogram": -41.549009,
-    "bollingerUpper": 5047.140599,
-    "bollingerMiddle": 4663,
-    "bollingerLower": 4278.859401,
-    "bollingerBandwidth": 0.1648,
-    "atr14": 172.942235,
-    "stochK": 58,
-    "stochD": 31.04
+    "rsi14": 42.63,
+    "sma20": 4649,
+    "sma50": 4766.2,
+    "sma200": 5593.4,
+    "ema12": 4564.339082,
+    "ema26": 4663.338326,
+    "macd": -98.999245,
+    "macdSignal": -64.411642,
+    "macdHistogram": -34.587603,
+    "bollingerUpper": 5039.788946,
+    "bollingerMiddle": 4649,
+    "bollingerLower": 4258.211054,
+    "bollingerBandwidth": 0.1681,
+    "atr14": 167.732075,
+    "stochK": 55,
+    "stochD": 44.67
   }
 }
