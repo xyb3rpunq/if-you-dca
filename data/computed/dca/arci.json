@@ -16,9 +16,9 @@
   "dataFrom": "2021-06",
   "dataTo": "2026-10",
   "lastMonthIsPartial": true,
-  "lastPriceNative": 950.35316,
-  "lastPriceIDR": 950,
-  "changeMoMPct": -15.854,
+  "lastPriceNative": 954.944238,
+  "lastPriceIDR": 955,
+  "changeMoMPct": -15.447,
   "hasDividendData": true,
   "dividendContributionPct": 3.22,
   "note_id": null,
@@ -31,25 +31,25 @@
         "months": 12,
         "contribution": 1000000,
         "totalInvested": 12000000,
-        "currentValue": 9137551,
-        "units": 9614.90087022,
-        "lastPrice": 950.3532,
-        "totalReturnPct": -23.8537,
-        "multiple": 0.761463,
-        "xirr": -0.467405,
-        "twr": -0.2187,
-        "volatility": 0.722328,
+        "currentValue": 9176863,
+        "units": 9609.84202209,
+        "lastPrice": 954.9442,
+        "totalReturnPct": -23.5261,
+        "multiple": 0.764739,
+        "xirr": -0.461762,
+        "twr": -0.214581,
+        "volatility": 0.721271,
         "maxDrawdown": -0.13786,
         "assetMaxDrawdown": -0.523772,
-        "sharpe": -0.0575,
-        "sortino": -0.0794,
-        "beta": 0.6467,
-        "alpha": -0.167589,
+        "sharpe": -0.0515,
+        "sortino": -0.0711,
+        "beta": 0.6883,
+        "alpha": -0.168058,
         "partial": false,
         "realTotalInvested": 12104871,
-        "realTotalReturnPct": -24.5134,
-        "realXirr": -0.477399,
-        "inflationDragPct": 0.6597
+        "realTotalReturnPct": -24.1887,
+        "realXirr": -0.471861,
+        "inflationDragPct": 0.6625
       },
       "3y": {
         "from": "2023-11",
@@ -57,25 +57,25 @@
         "months": 36,
         "contribution": 1000000,
         "totalInvested": 36000000,
-        "currentValue": 78149283,
-        "units": 82231.83369325,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 117.0813,
-        "multiple": 2.170813,
-        "xirr": 0.607101,
-        "twr": 0.386752,
-        "volatility": 0.630749,
+        "currentValue": 78521985,
+        "units": 82226.77513178,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 118.1166,
+        "multiple": 2.181166,
+        "xirr": 0.611345,
+        "twr": 0.389045,
+        "volatility": 0.630296,
         "maxDrawdown": -0.50252,
         "assetMaxDrawdown": -0.523772,
-        "sharpe": 0.7486,
-        "sortino": 1.4236,
-        "beta": 0.6323,
-        "alpha": 0.397506,
+        "sharpe": 0.7513,
+        "sortino": 1.4308,
+        "beta": 0.6591,
+        "alpha": 0.393383,
         "partial": false,
         "realTotalInvested": 37022169,
-        "realTotalReturnPct": 111.0878,
-        "realXirr": 0.576616,
-        "inflationDragPct": 5.9935
+        "realTotalReturnPct": 112.0945,
+        "realXirr": 0.580779,
+        "inflationDragPct": 6.0221
       },
       "5y": {
         "from": "2021-11",
@@ -83,25 +83,25 @@
         "months": 60,
         "contribution": 1000000,
         "totalInvested": 60000000,
-        "currentValue": 141896068,
-        "units": 149308.77646203,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 136.4934,
-        "multiple": 2.364934,
-        "xirr": 0.363403,
-        "twr": 0.124891,
-        "volatility": 0.520425,
+        "currentValue": 142576725,
+        "units": 149303.71809136,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 137.6279,
+        "multiple": 2.376279,
+        "xirr": 0.365521,
+        "twr": 0.125994,
+        "volatility": 0.520139,
         "maxDrawdown": -0.512539,
         "assetMaxDrawdown": -0.575221,
-        "sharpe": 0.3905,
-        "sortino": 0.6913,
-        "beta": 0.6978,
-        "alpha": 0.11738,
+        "sharpe": 0.3923,
+        "sortino": 0.6952,
+        "beta": 0.7078,
+        "alpha": 0.117698,
         "partial": false,
         "realTotalInvested": 63306667,
-        "realTotalReturnPct": 124.1408,
-        "realXirr": 0.333298,
-        "inflationDragPct": 12.3526
+        "realTotalReturnPct": 125.216,
+        "realXirr": 0.335364,
+        "inflationDragPct": 12.4119
       },
       "10y": {
         "from": "2021-06",
@@ -109,25 +109,25 @@
         "months": 65,
         "contribution": 1000000,
         "totalInvested": 65000000,
-        "currentValue": 149652647,
-        "units": 157470.56337712,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 130.2348,
-        "multiple": 2.302348,
-        "xirr": 0.32021,
-        "twr": 0.051626,
-        "volatility": 0.509653,
+        "currentValue": 150370776,
+        "units": 157465.50462797,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 131.3397,
+        "multiple": 2.313397,
+        "xirr": 0.322112,
+        "twr": 0.052577,
+        "volatility": 0.509394,
         "maxDrawdown": -0.513149,
         "assetMaxDrawdown": -0.68,
-        "sharpe": 0.2559,
-        "sortino": 0.442,
-        "beta": 0.7434,
-        "alpha": 0.036437,
+        "sharpe": 0.2575,
+        "sortino": 0.4452,
+        "beta": 0.7527,
+        "alpha": 0.036792,
         "partial": true,
         "realTotalInvested": 69044462,
-        "realTotalReturnPct": 116.7482,
-        "realXirr": 0.289914,
-        "inflationDragPct": 13.4866
+        "realTotalReturnPct": 117.7883,
+        "realXirr": 0.291766,
+        "inflationDragPct": 13.5513
       },
       "max": {
         "from": "2021-06",
@@ -135,25 +135,25 @@
         "months": 65,
         "contribution": 1000000,
         "totalInvested": 65000000,
-        "currentValue": 149652647,
-        "units": 157470.56337712,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 130.2348,
-        "multiple": 2.302348,
-        "xirr": 0.32021,
-        "twr": 0.051626,
-        "volatility": 0.509653,
+        "currentValue": 150370776,
+        "units": 157465.50462797,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 131.3397,
+        "multiple": 2.313397,
+        "xirr": 0.322112,
+        "twr": 0.052577,
+        "volatility": 0.509394,
         "maxDrawdown": -0.513149,
         "assetMaxDrawdown": -0.68,
-        "sharpe": 0.2559,
-        "sortino": 0.442,
-        "beta": 0.7434,
-        "alpha": 0.036437,
+        "sharpe": 0.2575,
+        "sortino": 0.4452,
+        "beta": 0.7527,
+        "alpha": 0.036792,
         "partial": false,
         "realTotalInvested": 69044462,
-        "realTotalReturnPct": 116.7482,
-        "realXirr": 0.289914,
-        "inflationDragPct": 13.4866
+        "realTotalReturnPct": 117.7883,
+        "realXirr": 0.291766,
+        "inflationDragPct": 13.5513
       }
     },
     "price": {
@@ -163,25 +163,25 @@
         "months": 12,
         "contribution": 1000000,
         "totalInvested": 12000000,
-        "currentValue": 9061657,
-        "units": 9535.04155598,
-        "lastPrice": 950.3532,
-        "totalReturnPct": -24.4862,
-        "multiple": 0.755138,
-        "xirr": -0.478235,
-        "twr": -0.245262,
-        "volatility": 0.716546,
+        "currentValue": 9100602,
+        "units": 9529.98270784,
+        "lastPrice": 954.9442,
+        "totalReturnPct": -24.1616,
+        "multiple": 0.758384,
+        "xirr": -0.472689,
+        "twr": -0.241284,
+        "volatility": 0.7155,
         "maxDrawdown": -0.146873,
         "assetMaxDrawdown": -0.531915,
-        "sharpe": -0.108,
-        "sortino": -0.146,
-        "beta": 0.6253,
-        "alpha": -0.193546,
+        "sharpe": -0.1019,
+        "sortino": -0.138,
+        "beta": 0.6661,
+        "alpha": -0.193967,
         "partial": false,
         "realTotalInvested": 12104871,
-        "realTotalReturnPct": -25.1404,
-        "realXirr": -0.488025,
-        "inflationDragPct": 0.6542
+        "realTotalReturnPct": -24.8187,
+        "realXirr": -0.482583,
+        "inflationDragPct": 0.657
       },
       "3y": {
         "from": "2023-11",
@@ -189,25 +189,25 @@
         "months": 36,
         "contribution": 1000000,
         "totalInvested": 36000000,
-        "currentValue": 75919615,
-        "units": 79885.68671363,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 110.8878,
-        "multiple": 2.108878,
-        "xirr": 0.581431,
-        "twr": 0.371759,
-        "volatility": 0.629613,
+        "currentValue": 76281545,
+        "units": 79880.6278655,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 111.8932,
+        "multiple": 2.118932,
+        "xirr": 0.585631,
+        "twr": 0.374027,
+        "volatility": 0.629161,
         "maxDrawdown": -0.510514,
         "assetMaxDrawdown": -0.531915,
-        "sharpe": 0.732,
-        "sortino": 1.3769,
-        "beta": 0.6207,
-        "alpha": 0.385548,
+        "sharpe": 0.7348,
+        "sortino": 1.3839,
+        "beta": 0.6475,
+        "alpha": 0.381467,
         "partial": false,
         "realTotalInvested": 37022169,
-        "realTotalReturnPct": 105.0653,
-        "realXirr": 0.551436,
-        "inflationDragPct": 5.8225
+        "realTotalReturnPct": 106.0429,
+        "realXirr": 0.555556,
+        "inflationDragPct": 5.8503
       },
       "5y": {
         "from": "2021-11",
@@ -215,25 +215,25 @@
         "months": 60,
         "contribution": 1000000,
         "totalInvested": 60000000,
-        "currentValue": 137676938,
-        "units": 144869.2380419,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 129.4616,
-        "multiple": 2.294616,
-        "xirr": 0.350074,
-        "twr": 0.11766,
-        "volatility": 0.519327,
+        "currentValue": 138337213,
+        "units": 144864.17919376,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 130.562,
+        "multiple": 2.30562,
+        "xirr": 0.352184,
+        "twr": 0.118756,
+        "volatility": 0.519042,
         "maxDrawdown": -0.520602,
         "assetMaxDrawdown": -0.575221,
-        "sharpe": 0.3784,
-        "sortino": 0.664,
-        "beta": 0.6915,
-        "alpha": 0.110933,
+        "sharpe": 0.3802,
+        "sortino": 0.6678,
+        "beta": 0.7014,
+        "alpha": 0.111247,
         "partial": false,
         "realTotalInvested": 63306667,
-        "realTotalReturnPct": 117.4762,
-        "realXirr": 0.320294,
-        "inflationDragPct": 11.9854
+        "realTotalReturnPct": 118.5192,
+        "realXirr": 0.322352,
+        "inflationDragPct": 12.0428
       },
       "10y": {
         "from": "2021-06",
@@ -241,25 +241,25 @@
         "months": 65,
         "contribution": 1000000,
         "totalInvested": 65000000,
-        "currentValue": 145191444,
-        "units": 152776.30494057,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 123.3715,
-        "multiple": 2.233715,
-        "xirr": 0.308208,
-        "twr": 0.045393,
-        "volatility": 0.508547,
+        "currentValue": 145888021,
+        "units": 152771.24609244,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 124.4431,
+        "multiple": 2.244431,
+        "xirr": 0.310104,
+        "twr": 0.046338,
+        "volatility": 0.508288,
         "maxDrawdown": -0.521216,
         "assetMaxDrawdown": -0.68,
-        "sharpe": 0.2443,
-        "sortino": 0.4185,
-        "beta": 0.7373,
-        "alpha": 0.030895,
+        "sharpe": 0.246,
+        "sortino": 0.4216,
+        "beta": 0.7466,
+        "alpha": 0.031246,
         "partial": true,
         "realTotalInvested": 69044462,
-        "realTotalReturnPct": 110.2869,
-        "realXirr": 0.278222,
-        "inflationDragPct": 13.0846
+        "realTotalReturnPct": 111.2958,
+        "realXirr": 0.280069,
+        "inflationDragPct": 13.1473
       },
       "max": {
         "from": "2021-06",
@@ -267,25 +267,25 @@
         "months": 65,
         "contribution": 1000000,
         "totalInvested": 65000000,
-        "currentValue": 145191444,
-        "units": 152776.30494057,
-        "lastPrice": 950.3532,
-        "totalReturnPct": 123.3715,
-        "multiple": 2.233715,
-        "xirr": 0.308208,
-        "twr": 0.045393,
-        "volatility": 0.508547,
+        "currentValue": 145888021,
+        "units": 152771.24609244,
+        "lastPrice": 954.9442,
+        "totalReturnPct": 124.4431,
+        "multiple": 2.244431,
+        "xirr": 0.310104,
+        "twr": 0.046338,
+        "volatility": 0.508288,
         "maxDrawdown": -0.521216,
         "assetMaxDrawdown": -0.68,
-        "sharpe": 0.2443,
-        "sortino": 0.4185,
-        "beta": 0.7373,
-        "alpha": 0.030895,
+        "sharpe": 0.246,
+        "sortino": 0.4216,
+        "beta": 0.7466,
+        "alpha": 0.031246,
         "partial": false,
         "realTotalInvested": 69044462,
-        "realTotalReturnPct": 110.2869,
-        "realXirr": 0.278222,
-        "inflationDragPct": 13.0846
+        "realTotalReturnPct": 111.2958,
+        "realXirr": 0.280069,
+        "inflationDragPct": 13.1473
       }
     }
   },
@@ -310,7 +310,7 @@
         {
           "m": "2021-09",
           "i": 4000000,
-          "v": 3541263
+          "v": 3541264
         },
         {
           "m": "2021-10",
@@ -325,7 +325,7 @@
         {
           "m": "2021-12",
           "i": 7000000,
-          "v": 6494765
+          "v": 6494766
         },
         {
           "m": "2022-01",
@@ -340,7 +340,7 @@
         {
           "m": "2022-03",
           "i": 10000000,
-          "v": 8483666
+          "v": 8483665
         },
         {
           "m": "2022-04",
@@ -350,7 +350,7 @@
         {
           "m": "2022-05",
           "i": 12000000,
-          "v": 8749377
+          "v": 8749376
         },
         {
           "m": "2022-06",
@@ -360,17 +360,17 @@
         {
           "m": "2022-07",
           "i": 14000000,
-          "v": 9687246
+          "v": 9687245
         },
         {
           "m": "2022-08",
           "i": 15000000,
-          "v": 11615365
+          "v": 11615364
         },
         {
           "m": "2022-09",
           "i": 16000000,
-          "v": 11663286
+          "v": 11663285
         },
         {
           "m": "2022-10",
@@ -380,12 +380,12 @@
         {
           "m": "2022-11",
           "i": 18000000,
-          "v": 13706764
+          "v": 13706763
         },
         {
           "m": "2022-12",
           "i": 19000000,
-          "v": 14543588
+          "v": 14543589
         },
         {
           "m": "2023-01",
@@ -395,7 +395,7 @@
         {
           "m": "2023-02",
           "i": 21000000,
-          "v": 16444001
+          "v": 16443999
         },
         {
           "m": "2023-03",
@@ -425,7 +425,7 @@
         {
           "m": "2023-08",
           "i": 27000000,
-          "v": 23854408
+          "v": 23854411
         },
         {
           "m": "2023-09",
@@ -450,7 +450,7 @@
         {
           "m": "2024-01",
           "i": 32000000,
-          "v": 28763409
+          "v": 28763407
         },
         {
           "m": "2024-02",
@@ -460,7 +460,7 @@
         {
           "m": "2024-03",
           "i": 34000000,
-          "v": 29776714
+          "v": 29776711
         },
         {
           "m": "2024-04",
@@ -485,7 +485,7 @@
         {
           "m": "2024-08",
           "i": 39000000,
-          "v": 30299568
+          "v": 30299571
         },
         {
           "m": "2024-09",
@@ -505,12 +505,12 @@
         {
           "m": "2024-12",
           "i": 43000000,
-          "v": 29566242
+          "v": 29566241
         },
         {
           "m": "2025-01",
           "i": 44000000,
-          "v": 31758430
+          "v": 31758428
         },
         {
           "m": "2025-02",
@@ -520,12 +520,12 @@
         {
           "m": "2025-03",
           "i": 46000000,
-          "v": 33552889
+          "v": 33552890
         },
         {
           "m": "2025-04",
           "i": 47000000,
-          "v": 43989637
+          "v": 43989641
         },
         {
           "m": "2025-05",
@@ -550,12 +550,12 @@
         {
           "m": "2025-09",
           "i": 52000000,
-          "v": 143116463
+          "v": 143116472
         },
         {
           "m": "2025-10",
           "i": 53000000,
-          "v": 171173305
+          "v": 171173306
         },
         {
           "m": "2025-11",
@@ -575,7 +575,7 @@
         {
           "m": "2026-02",
           "i": 57000000,
-          "v": 277985970
+          "v": 277985971
         },
         {
           "m": "2026-03",
@@ -600,7 +600,7 @@
         {
           "m": "2026-07",
           "i": 62000000,
-          "v": 166327423
+          "v": 166327424
         },
         {
           "m": "2026-08",
@@ -615,7 +615,7 @@
         {
           "m": "2026-10",
           "i": 65000000,
-          "v": 149652647
+          "v": 150370776
         }
       ],
       "max": [
@@ -637,7 +637,7 @@
         {
           "m": "2021-09",
           "i": 4000000,
-          "v": 3541263
+          "v": 3541264
         },
         {
           "m": "2021-10",
@@ -652,7 +652,7 @@
         {
           "m": "2021-12",
           "i": 7000000,
-          "v": 6494765
+          "v": 6494766
         },
         {
           "m": "2022-01",
@@ -667,7 +667,7 @@
         {
           "m": "2022-03",
           "i": 10000000,
-          "v": 8483666
+          "v": 8483665
         },
         {
           "m": "2022-04",
@@ -677,7 +677,7 @@
         {
           "m": "2022-05",
           "i": 12000000,
-          "v": 8749377
+          "v": 8749376
         },
         {
           "m": "2022-06",
@@ -687,17 +687,17 @@
         {
           "m": "2022-07",
           "i": 14000000,
-          "v": 9687246
+          "v": 9687245
         },
         {
           "m": "2022-08",
           "i": 15000000,
-          "v": 11615365
+          "v": 11615364
         },
         {
           "m": "2022-09",
           "i": 16000000,
-          "v": 11663286
+          "v": 11663285
         },
         {
           "m": "2022-10",
@@ -707,12 +707,12 @@
         {
           "m": "2022-11",
           "i": 18000000,
-          "v": 13706764
+          "v": 13706763
         },
         {
           "m": "2022-12",
           "i": 19000000,
-          "v": 14543588
+          "v": 14543589
         },
         {
           "m": "2023-01",
@@ -722,7 +722,7 @@
         {
           "m": "2023-02",
           "i": 21000000,
-          "v": 16444001
+          "v": 16443999
         },
         {
           "m": "2023-03",
@@ -752,7 +752,7 @@
         {
           "m": "2023-08",
           "i": 27000000,
-          "v": 23854408
+          "v": 23854411
         },
         {
           "m": "2023-09",
@@ -777,7 +777,7 @@
         {
           "m": "2024-01",
           "i": 32000000,
-          "v": 28763409
+          "v": 28763407
         },
         {
           "m": "2024-02",
@@ -787,7 +787,7 @@
         {
           "m": "2024-03",
           "i": 34000000,
-          "v": 29776714
+          "v": 29776711
         },
         {
           "m": "2024-04",
@@ -812,7 +812,7 @@
         {
           "m": "2024-08",
           "i": 39000000,
-          "v": 30299568
+          "v": 30299571
         },
         {
           "m": "2024-09",
@@ -832,12 +832,12 @@
         {
           "m": "2024-12",
           "i": 43000000,
-          "v": 29566242
+          "v": 29566241
         },
         {
           "m": "2025-01",
           "i": 44000000,
-          "v": 31758430
+          "v": 31758428
         },
         {
           "m": "2025-02",
@@ -847,12 +847,12 @@
         {
           "m": "2025-03",
           "i": 46000000,
-          "v": 33552889
+          "v": 33552890
         },
         {
           "m": "2025-04",
           "i": 47000000,
-          "v": 43989637
+          "v": 43989641
         },
         {
           "m": "2025-05",
@@ -877,12 +877,12 @@
         {
           "m": "2025-09",
           "i": 52000000,
-          "v": 143116463
+          "v": 143116472
         },
         {
           "m": "2025-10",
           "i": 53000000,
-          "v": 171173305
+          "v": 171173306
         },
         {
           "m": "2025-11",
@@ -902,7 +902,7 @@
         {
           "m": "2026-02",
           "i": 57000000,
-          "v": 277985970
+          "v": 277985971
         },
         {
           "m": "2026-03",
@@ -927,7 +927,7 @@
         {
           "m": "2026-07",
           "i": 62000000,
-          "v": 166327423
+          "v": 166327424
         },
         {
           "m": "2026-08",
@@ -942,7 +942,7 @@
         {
           "m": "2026-10",
           "i": 65000000,
-          "v": 149652647
+          "v": 150370776
         }
       ]
     },
@@ -1271,7 +1271,7 @@
         {
           "m": "2026-10",
           "i": 65000000,
-          "v": 145191444
+          "v": 145888021
         }
       ],
       "max": [
@@ -1598,7 +1598,7 @@
         {
           "m": "2026-10",
           "i": 65000000,
-          "v": 145191444
+          "v": 145888021
         }
       ]
     }
