@@ -2,10 +2,10 @@
   "id": "indf",
   "symbol": "INDF",
   "currency": "IDR",
-  "generatedAt": "2026-10-23T18:02:15.612Z",
+  "generatedAt": "2026-10-23T22:47:19.150Z",
   "price": 6750,
   "dataFrom": "2000-11",
-  "dailyBars": 474,
+  "dailyBars": 475,
   "allTimeHigh": {
     "price": 9200,
     "at": "2016-09",
@@ -28,9 +28,9 @@
       "lastTouch": "2026-01-29"
     },
     {
-      "price": 5850,
-      "touches": 1,
-      "lastTouch": "2026-06-08"
+      "price": 5887.5,
+      "touches": 2,
+      "lastTouch": "2026-10-16"
     }
   ],
   "resistances": [
@@ -66,21 +66,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 38.77,
+    "rsi14": 45.4,
     "sma20": 6785,
-    "sma50": 7070.5,
-    "sma200": 6794.125,
-    "ema12": 6740.349937,
-    "ema26": 6850.276501,
-    "macd": -109.926564,
-    "macdSignal": -90.481626,
-    "macdHistogram": -19.444938,
+    "sma50": 7058,
+    "sma200": 6794,
+    "ema12": 6741.834562,
+    "ema26": 6842.848612,
+    "macd": -101.01405,
+    "macdSignal": -92.588111,
+    "macdHistogram": -8.425939,
     "bollingerUpper": 7085.582767,
     "bollingerMiddle": 6785,
     "bollingerLower": 6484.417233,
     "bollingerBandwidth": 0.0886,
-    "atr14": 210.529059,
-    "stochK": 60.87,
-    "stochD": 60.14
+    "atr14": 211.562698,
+    "stochK": 71.74,
+    "stochD": 65.22
   }
 }
