@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-23T22:47:19.150Z",
+  "generatedAt": "2026-10-24T07:42:17.336Z",
   "assets": {
     "usdidr": {
       "status": "ok",
       "ath": 197804,
-      "fromAth": -90.92,
-      "rsi14": 53.16,
+      "fromAth": -90.87,
+      "rsi14": 59.03,
       "supports": 4,
       "resistances": 1
     },
@@ -20,8 +20,8 @@
     "gold": {
       "status": "ok",
       "ath": 5586.200195,
-      "fromAth": -28.22,
-      "rsi14": 30.84,
+      "fromAth": -28.25,
+      "rsi14": 30.72,
       "supports": 4,
       "resistances": 4
     },
@@ -29,31 +29,31 @@
       "status": "ok",
       "ath": 121.300003,
       "fromAth": -55.52,
-      "rsi14": 30.18,
+      "rsi14": 29.68,
       "supports": 4,
       "resistances": 4
     },
     "oil": {
       "status": "ok",
       "ath": 147.270004,
-      "fromAth": -29.76,
-      "rsi14": 63.15,
+      "fromAth": -29.88,
+      "rsi14": 62.95,
       "supports": 4,
       "resistances": 4
     },
     "btc": {
       "status": "ok",
       "ath": 126198.070313,
-      "fromAth": -35.82,
-      "rsi14": 44.94,
+      "fromAth": -36.03,
+      "rsi14": 44.01,
       "supports": 4,
       "resistances": 4
     },
     "eth": {
       "status": "ok",
       "ath": 4953.73291,
-      "fromAth": -52.01,
-      "rsi14": 38.06,
+      "fromAth": -52.02,
+      "rsi14": 37.97,
       "supports": 4,
       "resistances": 4
     },
@@ -77,7 +77,7 @@
       "status": "ok",
       "ath": 351.730011,
       "fromAth": -1.14,
-      "rsi14": 63.91,
+      "rsi14": 63.92,
       "supports": 4,
       "resistances": 0
     },
