@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-24T07:42:55.934Z",
+  "generatedAt": "2026-10-26T07:24:40.501Z",
   "count": 8,
   "items": [
     {
-      "title": "Pfizer's Dividend Yield Is One of the Highest in the S&P 500. Here's Why the Dividend Is Safer Than It Might Seem",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pfizers-dividend-yield-one-highest-072000621.html",
+      "title": "Nasdaq Futures Slip Amid Tech Selloff While S&P 500, Dow Edge Higher Ahead Of Crucial Earnings Week: IREN, CRWV, NBIS, MRNA, EWZ In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-slip-amid-tech-024459193.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-26T02:44:59.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Microsoft, Alphabet, and Amazon Make Up About 15% of the S&P 500. All 3 Report Earnings Within 2 Days.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-alphabet-amazon-15-p-002701547.html",
       "publisher": "Motley Fool",
-      "publishedAt": "2026-10-24T07:20:00.000Z",
+      "publishedAt": "2026-10-26T00:27:01.000Z",
       "source": "yahoo"
     },
     {
@@ -23,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObkNaVEdlRFEtZE1TUFdqVVZFa1lCVWtEUmRoaV9CbzJIZUxlempqNl94MVhSNzJHQVd3d21KQ2NJYnNkY0FxWXJ3Q1ZsUzJFYUVqbm40T0hRZGx3N1RmNzBaRndNTTJyLU9QOHRFR0RTSlhxYmk2VWJpYjBZRmVfMzZGd2ZkVkYteE1xWmc4SmdqakZQVlV3Z29JaHYxSHc2eGJCMHNVZjQ?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-20T06:36:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "SPX melemah karena momentum yang lemah membebani S&P 500 - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUGRLbUU3S2Y5ZGt0Vy1FUGVJdXdNTGNtVERVV1g3aHQtOURTMWVHanYtcGMySmU3OUNkQ204WmthQ3VKMmJFbUxDWXM4Z1dfVmE1MmV1X2lNZngyX1lYZVVveU8xejlRVTMwbzFaU29GYWJUTlNrcmtpSFJpOHlrb3RUcWdlbUlkYXRsVWJfUmhnRldUaW81Yw?oc=5",
+      "publisher": "Traders Union",
+      "publishedAt": "2026-10-14T16:14:54.000Z",
       "source": "google-news"
     },
     {
@@ -44,20 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSUhFOV9aT0I3RUV1cWVUb1VocDE2d0dGaGcxeXlFcGRNbU92NXlDMGloSWgzb0gwbURsZjdGelQtZGJheVJVeDl6S252V2RvSXE2RG9zMWppX2k5c2JMc3QwVVVnVnEzYVFkeS15MTNXdFFQeE9IY1B6RUhKdFRURktVUTM4Qmx6MXREWVE2NVpUT1BkcmpCYWJuMnFGOWZhSzFYVko5QTFyNUZQSXFsQkNJN3N0cHR4akZabFRhMm9PZUNGVFYtRnNR?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-05T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-10-03T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSTVqTUQ0ai11U213Y1pTWnFFeE12MWZuTjAycVpvQ1JNZ2N5Q2RfLVRzTWJXZjVhbFJJZzRORE1Wa3JlRGxYeVRTenl2TkhHV3lYXzZPT2tqcW43MHFWOTRnYWNvYlFhZl9WVDltV1RHRDI1bm5WaVQ3MUQ?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-09-22T22:00:00.000Z",
       "source": "google-news"
     }
   ]
