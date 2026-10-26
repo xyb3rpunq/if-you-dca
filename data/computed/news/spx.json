@@ -1,14 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-26T14:50:51.268Z",
+  "generatedAt": "2026-10-26T19:41:13.284Z",
   "count": 8,
   "items": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq rise as investors parse Anthropic IPO filing, busy week of tech earnings",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-26-dow-sp-500-nasdaq-101153035.html",
+      "title": "Oppenheimer Names 16 Buys as S&P 500 Rally Stalls",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-names-16-buys-p-193527998.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-26T19:35:27.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rally as investors parse Anthropic IPO filing, busy week of tech earnings",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rally-as-investors-parse-anthropic-ipo-filing-busy-week-of-tech-earnings-153428995.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-26T14:47:30.000Z",
+      "publishedAt": "2026-10-26T19:17:46.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Why Investing in S&P 500 Index Funds Is a Whole Lot Riskier These Days",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-p-500-index-190501775.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-10-26T19:05:01.000Z",
       "source": "yahoo"
     },
     {
@@ -40,22 +54,8 @@
       "source": "google-news"
     },
     {
-      "title": "SPX: S&P 500 Parked Just Below Record as Traders Go Risk-Off Ahead of September CPI - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNnMyWTFTdVBOV25seTBTbWFVMW1TOVJmYktrSDdyMlBhR2dzNHZvVHZDRzBXV04yc25PRmFqSExMTWJIQUR4b0FCaU1CNzdrZFZoaTJLbEdMUndDYkNXaEc4V3BpVVdNYmVJd1VBUHRWVlRGS0cxUUFsQ0xMeElQSTBlaFk3azhQNmFUaDVtVlVod2dMQl9CTlNULTdfTEpWSnR3V2RuZXdGWnpzRTZhTXJtNGN1dGp4NTBISUF3U1dTSDhqNjhiUDBQemFVNk1UcXhsMUQ4bEwycDg?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-14T06:59:43.000Z",
-      "source": "google-news"
-    },
-    {
       "title": "SPX: S&P 500 Nears Record as Stocks Defy Bond Selloff. Yields Hit 24-Year High. - TradingView",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0plQTZuVC1hVEVwVi1zdEl6XzVXeXdzYkk5NmlQVGhRenZzNlhjNDZPLVRndV8xQjJtTjVDOTdyVzg3MzVZZUVWaG53bXdlZXdnSXZlTFByVkRWVnpBQ1V3Sk1uekdwVUJkX0tYTTY1NkZfdG5EeVVMV1NQQUR4bWVXQ1hncU1pN0Z3Mm41VndGQmdacG9HQncxNzVES3pVVTN5VG1hWU8xZ241ZW9zcFhjLWEzTEtXRXo5alV4LVdNclVOT255MVl0Zkk4M2hQNFdN?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-05T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "S&P 500 nears record high despite the struggling underlining breadth - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSUhFOV9aT0I3RUV1cWVUb1VocDE2d0dGaGcxeXlFcGRNbU92NXlDMGloSWgzb0gwbURsZjdGelQtZGJheVJVeDl6S252V2RvSXE2RG9zMWppX2k5c2JMc3QwVVVnVnEzYVFkeS15MTNXdFFQeE9IY1B6RUhKdFRURktVUTM4Qmx6MXREWVE2NVpUT1BkcmpCYWJuMnFGOWZhSzFYVko5QTFyNUZQSXFsQkNJN3N0cHR4akZabFRhMm9PZUNGVFYtRnNR?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-05T07:00:00.000Z",
       "source": "google-news"

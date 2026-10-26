@@ -1,21 +1,56 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-10-26T14:50:51.268Z",
-  "count": 5,
+  "generatedAt": "2026-10-26T19:41:13.284Z",
+  "count": 8,
   "items": [
     {
-      "title": "Alphabet (GOOGL) Pushes Google Play Into Cars With Native In Vehicle Integration",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-pushes-google-play-140835659.html",
-      "publisher": "Simply Wall St.",
-      "publishedAt": "2026-10-26T14:08:35.000Z",
+      "title": "Amazon and Alphabet Backed Anthropic Early. They’re Betting Even More on Its IPO.",
+      "url": "https://finance.yahoo.com/m/63406466-1d97-3464-9ca2-1d24de22d3d3/amazon-and-alphabet-backed.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-10-26T18:12:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Google Cloud Has “a Meaningful Shot” at Lapping Microsoft, and Nobody Is Pricing It",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/google-cloud-meaningful-shot-lapping-180820825.html",
+      "publisher": "TIKR",
+      "publishedAt": "2026-10-26T18:08:20.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Apple and Alphabet Stocks Look Vulnerable. Here’s How Far They Could Drop.",
+      "url": "https://finance.yahoo.com/m/3ec15341-8d18-30cb-b884-f78a7e0387aa/apple-and-alphabet-stocks.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-10-26T18:02:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Alphabet Stocks Move Lower Before Cloud Margin Test",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-move-lower-cloud-175836585.html",
+      "publisher": "GuruFocus.com",
+      "publishedAt": "2026-10-26T17:58:36.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Prediction: Earnings Will “Double” at Amazon, Alphabet and Meta in Five Years",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-earnings-double-amazon-alphabet-175835684.html",
+      "publisher": "TIKR",
+      "publishedAt": "2026-10-26T17:58:35.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Anthropic relies on Google, Amazon and Microsoft for nearly half its revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-relies-google-amazon-microsoft-175139044.html",
+      "publisher": "Investing.com",
+      "publishedAt": "2026-10-26T17:51:39.000Z",
       "source": "yahoo"
     },
     {
       "title": "Saham Alphabet (GOOG): Harga, Kinerja, dan Laporan Keuangan - Pluang",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MT0RSOTdEMk9rNVV6NUF4ZzdhU2hRbDUxV2RyRFAtQ1ZKdUk5UDJ1aFhNb1p4a0hxdjdrT2N5czh2QWlPUFB0TG5kbGlqMlR6NndJMnFmVE9YeHNLaXNCRC1hV3hMQU0?oc=5",
       "publisher": "Pluang",
-      "publishedAt": "2026-10-21T14:34:00.000Z",
+      "publishedAt": "2026-10-22T01:03:13.000Z",
       "source": "google-news"
     },
     {
@@ -23,20 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQc1FmUlpoN0Y1S0NfTHBJZHY1UG40ejQ1Sm9tUEczTVZXSXo0TWc1R1FoMnlHbEZFQkNib0IzR3lJZE5HYV9nQjU5TDRKME5PZE1iZTZkR1labVVoYWI0d201N2tSZWI2UnBIS0dkR0tDT3ZCOUNzek9tYThGMVdSamtneDI3d24wQkJkZUxCWDVQdkZTcWVubFlnTVV4elROVUZ4VDZPcG55NlJlNUgtZGFRWjM1dzVqRUUtRDRJWDQ2ZDQtSFQ1Z0xOdURqcEJk?oc=5",
       "publisher": "CoinDesk",
       "publishedAt": "2026-10-20T12:40:17.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Alphabet Inc. (GOOG) Faces Securities Fraud Class Action - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeVc2VWR1UHdMTXhMOGUyZDlZZlNQTWVnZENnSTdnTTJoSERRSEw1ZVhMXzcwSm9XS05QWENpYlFLQjJKYm1NdHBXU3hxbWZZZWVyM3VkNHdfNE03c190ZlZFWDlaZk0zZ0VtMFJuNGFrVTk3VEp6aElSX3JTdHdDT0lwV3phUUw4clhPWWlsX281S1l2ZzdaMmRjaHRLSEdoZXpRZ1l0OTZEZE1IMXNIMDNxMDY?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-06T09:36:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Alphabet undervalued meski Google Cloud d... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NMmp0dENBOTNEeEY0QUFLT2dHLUhSZXhqai0wZ2lKOHJsb21aaVRUSl9uNFR6bnhLS0JpM1RiWGhFQndfOFRMWUFNUlVuVjNEak9LM3gwSWQ3UEpUUlM1QVN1aEJxMGlBN2lERTk3Rnd0MFBuVldiUWVuVFk1aVE?oc=5",
-      "publisher": "Pluang",
-      "publishedAt": "2026-09-18T07:00:00.000Z",
       "source": "google-news"
     }
   ]
