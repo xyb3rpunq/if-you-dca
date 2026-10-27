@@ -2,7 +2,7 @@
   "id": "usdidr",
   "symbol": "USDIDR",
   "currency": "IDR",
-  "generatedAt": "2026-10-27T19:08:53.572Z",
+  "generatedAt": "2026-10-27T23:24:27.401Z",
   "price": 18025,
   "dataFrom": "2001-07",
   "dailyBars": 517,
@@ -69,7 +69,7 @@
     "bollingerMiddle": 17931.880078,
     "bollingerLower": 17743.133667,
     "bollingerBandwidth": 0.0211,
-    "atr14": 147.157665,
+    "atr14": 147.800522,
     "stochK": 62.47,
     "stochD": 74.35
   }
