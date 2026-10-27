@@ -1,7 +1,7 @@
 {
   "id": "bbni",
   "symbol": "BBNI",
-  "generatedAt": "2026-10-27T07:17:27.075Z",
+  "generatedAt": "2026-10-27T13:57:18.170Z",
   "count": 8,
   "items": [
     {
@@ -16,6 +16,13 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRnRaOGNjMzVPNWtfaWRSV09fR1I2TmpqbFo3dmNZbUFCR18yLVZQMWhTZ1RuNTdEblFfbGZzV3NOQ3FXWHBVNHhVMHFDYWtnSy0tSHZhSENBVGpNQ2dEWGtfTXBXU1hvc3lSdERWM0NaY21yZF9SeEVIdDlxczlqNDZCMEdMNDRkODhTNkV6RUI2YVZ0MndOQmlBQV8zdjhNTXJrMlhn?oc=5",
       "publisher": "Bloomberg Technoz",
       "publishedAt": "2026-10-27T05:39:28.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Kredit BNI (BBNI) Melonjak 22,2%, Laba Tumbuh 6,6%, Mirae Tetap Rekomendasi Netral - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRFJJNGE5SzZmVVgzemJkYmlGSHllNzZxTWR2VmJ1UHBnNy1ybzdnc1hMZ2txY2hidFdhbzBDUjkxdkZHSll0OHdnN1dqZ29lUDVHRWFLaGxmVnlTYzZiWWM1WV9kazhQV0RZd0ZfQU83N1hWUkpBTnRuRHNGWHVNbDJyZk9HT01BTFM2OG1DTE1pSHR5RS1ySlV4QWtqaF9CUTA4QWliLVBsamZsa1HSAacBQVVfeXFMTm9SRmxEQXRHNW5tZjB5ZTZkd0ZTQ0NZWHVGc3JEZTNqWXllWXJ6bV81U01ETkJoY1YtVW1YdXljUFdGVV9zbUlCU0NvQVZ0ZUNRYW9iLVFtN1pub1JpZVB0c3AyQk5jczhuaFllNEc5c05STE4zRlk3UXFFaVBKSkstTm1WM0ZsUmFwaTlWVUNrWlY2cW5mRXJlNzhHT1RDZkpWdHNOaFk?oc=5",
+      "publisher": "kontan.co.id",
+      "publishedAt": "2026-10-27T04:46:21.000Z",
       "source": "google-news"
     },
     {
@@ -40,13 +47,6 @@
       "source": "google-news"
     },
     {
-      "title": "BNI (BBNI) Cetak Laba Rp16,1 T di Kuartal III-2026 - CNBC Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1NZeGdwa3dQZDVtdWNaTk5Xc0dmRzkwWHJ6UEkxYnpOZ1BEbXRSWHBCMG9aclEzQjFtanlNcmpDOWMxRUpJYkpUVk9jOFhXQzRvZVQtTUdrVmFGV0RYMDRiV3VGQnM2UlR4RXhhTlA3eVBXakxiVG1sQjQ2bFF0NktzU19oU014VTk1TGFzRWlCWXhmY2J0X3lqSTRGMV9pV0h1MjNYb3UzbXk4YmRpatIBtgFBVV95cUxPbjl4UE9zRnlhNmRxNEdXTnlGYTUzMXpPZldDeVVlR1B5cjIwOEFnNDJSYXFwYkkwa18wVEJnZVh4WkRfNUdqSW9iQnp6ZWJfQ244Yk5pS1FtWnY4STJYZTFnT3hDTV9McHM4R01ZM1dDSHdNcFFhNy0xaTNrZlZnYXlqdzYtWE5WS1kzZWplWVZYUHU1ZkZoSnduREhKMENSeVVGUFJFenMxT29nYUxpQ1pVbTQ1dw?oc=5",
-      "publisher": "CNBC Indonesia",
-      "publishedAt": "2026-10-27T02:17:28.000Z",
-      "source": "google-news"
-    },
-    {
       "title": "BBNI Cetak Laba Bersih Rp 16,15 Triliun hingga September 2026, Tumbuh 6% - InvestorTrust",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmpQNHlScVZ5Qnl1UUJLNUpuTjN5TzhBVmlyUUMtNTJjV2ZZR3FBclU0N3I3SXAzclVxMDQ0d2JycWNPeGZGV2VaOVh0azFOMVY4Znc3OXoyQkgyN05HQ3NsaUowNnhKSzhfcE1TRUtmbjBHLURWWjRWVTZJbkN4MC05RHFWZmw5ZkctR2JnUlRYRFNXRUN0VUhYVU9tRjA0WWdEekItYVNaNGN1VlE?oc=5",
       "publisher": "InvestorTrust",
@@ -54,10 +54,10 @@
       "source": "google-news"
     },
     {
-      "title": "IHSG Masih Bearish, BRI Danareksa Rekomendasikan BBNI, TLKM dan AADI - kontan.co.id",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaHdrTXRhS0p5c0hVRjhSbmpBc2xmMGVaTEowaUswOGZJUENEY2FsbmxxSk5UaF9rbDlfd01tWmROQWtuM1ZDNjJlRms2UjZ0Mlp5ZWJMWkVMRXVCekVBcVhTdTJmTmtYOWdFdzBkY2RQQnVHM2RZWE5sQzIzcXZBV1pUMDE3ejE3b0hqVzhvS0hWUnRnbGNOdFNRVmM0eHpNdUJRddIBnAFBVV95cUxPVTQ0ejhGNVBKNzZ2WGNSd0JTcUYzcVlmaDdQbHBQSTVqZy1GLWhucmpHR3dyWncyVmFmelg4djlmMFBUUFdYZzhlc1RhZzMyeVE5a2xTSzNiMFhPM2dWMGZiazd2Qk40OFY3WXB0Z2ZWeGk4cUxmN3I4YzZPXzV1TlpHZDhtQlB1b2JJc1p6aVdLOE8td3ZEY0NObGw?oc=5",
+      "title": "IHSG Diprediksi Sideways, Cermati Saham AADI, BBNI, dan TLKM pada Selasa (27/10) - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXA1aEZpSEFlM1VwRklnRF9wT09RLUplenM1azI5VDNpb3VPTGRnVnp4cFRiUGNVV0tiVUdwdnFEMVBESEFEUHhrZUY1amFxY1RFRzlFbWtsLVBwdEJEMl9Lb3JueklvTXpKVFVQMy0wZDZ4TWcwRXBiMTV1VWZoMDd4cFIycmt4bmFQWkZMSk1yNndULXZfLUpZb1dLT0ZMZG9PWEttRVVXbHNDbENV0gGnAUFVX3lxTFB5Q3pFc2JoLVRxYTB6WEtoUEViMEY4eHdZNW5wcXJQaEVwbFc3WlRGNEdrUktFaFpUdlRaQXJaZUw2ajlTQ3JBd1NzOW1PQUdVOUM1YTJoNkhMaU80Mjg5U0xZeUg4cmpOVm1hRm5PR21RdlVTYVpDMU9VdGRYalkyeWVwWlpwYkZweHJOUkpmeWNVeGwxR29EeFdxZmdKTmFJclluM2JZ?oc=5",
       "publisher": "kontan.co.id",
-      "publishedAt": "2026-10-26T23:09:33.000Z",
+      "publishedAt": "2026-10-26T13:22:59.000Z",
       "source": "google-news"
     }
   ]
