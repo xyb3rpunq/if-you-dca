@@ -1,14 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-26T23:30:19.570Z",
+  "generatedAt": "2026-10-27T07:17:27.075Z",
   "count": 8,
   "items": [
     {
-      "title": "S&P 500, Nasdaq, Dow Begin Week Higher As Anthropic IPO Filing Rekindles AI Enthusiasm — MSFT, AAPL, CART, VZ In Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-begin-223516076.html",
+      "title": "Warren Buffett Says Buy an S&P 500 Index Fund. Here's What $500 a Month Is Worth in 20 Years at 3 Different Return Rates.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-says-buy-p-062000437.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-10-27T06:20:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "US futures and Asian stocks advance following a rally on Wall Street",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/us-futures-asian-stocks-advance-040552073.html",
+      "publisher": "Associated Press",
+      "publishedAt": "2026-10-27T04:05:52.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Climb As Tech Stocks Get A Boost From Anthropic IPO Listing: SOFI, BB, PYPL, CLS In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-024554043.html",
       "publisher": "Stocktwits",
-      "publishedAt": "2026-10-26T22:35:16.000Z",
+      "publishedAt": "2026-10-27T02:45:54.000Z",
       "source": "yahoo"
     },
     {
@@ -44,20 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0plQTZuVC1hVEVwVi1zdEl6XzVXeXdzYkk5NmlQVGhRenZzNlhjNDZPLVRndV8xQjJtTjVDOTdyVzg3MzVZZUVWaG53bXdlZXdnSXZlTFByVkRWVnpBQ1V3Sk1uekdwVUJkX0tYTTY1NkZfdG5EeVVMV1NQQUR4bWVXQ1hncU1pN0Z3Mm41VndGQmdacG9HQncxNzVES3pVVTN5VG1hWU8xZ241ZW9zcFhjLWEzTEtXRXo5alV4LVdNclVOT255MVl0Zkk4M2hQNFdN?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-05T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "S&P 500 nears record high despite the struggling underlining breadth - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSUhFOV9aT0I3RUV1cWVUb1VocDE2d0dGaGcxeXlFcGRNbU92NXlDMGloSWgzb0gwbURsZjdGelQtZGJheVJVeDl6S252V2RvSXE2RG9zMWppX2k5c2JMc3QwVVVnVnEzYVFkeS15MTNXdFFQeE9IY1B6RUhKdFRURktVUTM4Qmx6MXREWVE2NVpUT1BkcmpCYWJuMnFGOWZhSzFYVko5QTFyNUZQSXFsQkNJN3N0cHR4akZabFRhMm9PZUNGVFYtRnNR?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-05T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-10-03T07:00:00.000Z",
       "source": "google-news"
     }
   ]
