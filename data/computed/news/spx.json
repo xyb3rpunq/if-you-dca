@@ -1,30 +1,9 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-28T19:13:20.257Z",
-  "count": 8,
+  "generatedAt": "2026-10-28T23:46:03.861Z",
+  "count": 6,
   "items": [
-    {
-      "title": "Stock market today: Nasdaq wavers, Dow, S&P 500, rise as Fed holds rates steady in split vote",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-rise-as-fed-holds-rates-steady-in-split-vote-185837696.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-28T19:10:58.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Fed Stands Pat But with Two Dissents; S&P 500 Higher After Warsh Comments (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/bef4666b-d5e1-36af-b2b7-cc6fedc39677/fed-stands-pat-but-with-two.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-10-28T19:07:47.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Meet the Dividend King That's Quietly Crushing the S&P 500 in 2026. Here's Why It's a Buy in November.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meet-dividend-king-thats-quietly-182200652.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-10-28T18:22:00.000Z",
-      "source": "yahoo"
-    },
     {
       "title": "SPX: S&P 500 Futures Steady as Big Fed Decision Keeps a Lid on Optimism - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUFBJclAybnZxZU41NDFDOUlLdXNTaWd6R3hWM0N5alhIM2VQS21rS2RVbkVhdFdSRlJFc2RpM0tDbVk4WVBzZGc1RWpKbW9RQ0lpSXlRdXNxaU1SNGZHYW1FREZ3UVF1UHNiTVhqcDl6c0VDTlJvWG1kRjZUSmxYRVIzRkFJeGNBVG1Vd19hYm8wT3RtRExnTnVYQmFla2QwN21vNlZ3Mk1WZGVhLTdTS1pycjAwUV9DZC1jT2kxUEhZSGdxQXNhd0dmMA?oc=5",
@@ -58,6 +37,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0plQTZuVC1hVEVwVi1zdEl6XzVXeXdzYkk5NmlQVGhRenZzNlhjNDZPLVRndV8xQjJtTjVDOTdyVzg3MzVZZUVWaG53bXdlZXdnSXZlTFByVkRWVnpBQ1V3Sk1uekdwVUJkX0tYTTY1NkZfdG5EeVVMV1NQQUR4bWVXQ1hncU1pN0Z3Mm41VndGQmdacG9HQncxNzVES3pVVTN5VG1hWU8xZ241ZW9zcFhjLWEzTEtXRXo5alV4LVdNclVOT255MVl0Zkk4M2hQNFdN?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-05T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-10-03T07:00:00.000Z",
       "source": "google-news"
     }
   ]
