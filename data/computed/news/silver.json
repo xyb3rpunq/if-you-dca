@@ -1,21 +1,28 @@
 {
   "id": "silver",
   "symbol": "XAGUSD",
-  "generatedAt": "2026-10-28T14:51:29.814Z",
-  "count": 2,
+  "generatedAt": "2026-10-28T19:13:20.257Z",
+  "count": 3,
   "items": [
+    {
+      "title": "Tartisan Nickel Gets Early Exploration Permit for the Sill Lake Silver Project",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/tartisan-nickel-gets-early-exploration-173527081.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-28T17:35:27.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Americore Resources to Begin Drilling at Trinity Silver Project in Nevada",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/americore-resources-begin-drilling-trinity-145939942.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-10-28T14:59:39.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Americore Resources to Commence Drilling This Week at Trinity Silver Project, Nevada",
       "url": "https://finance.yahoo.com/markets/commodities/articles/americore-resources-commence-drilling-week-120000287.html",
       "publisher": "TMX Newsfile",
       "publishedAt": "2026-10-28T12:00:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Tartisan Nickel Receives Early Exploration Permit for the Sill Lake Silver Project, Vankoughnet, Sault Ste. Marie, Ontario",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/tartisan-nickel-receives-early-exploration-115000442.html",
-      "publisher": "TMX Newsfile",
-      "publishedAt": "2026-10-28T11:50:00.000Z",
       "source": "yahoo"
     }
   ]
