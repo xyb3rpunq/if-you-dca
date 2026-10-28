@@ -2,21 +2,26 @@
   "id": "usdidr",
   "symbol": "USDIDR",
   "currency": "IDR",
-  "generatedAt": "2026-10-27T23:24:27.401Z",
-  "price": 18025,
+  "generatedAt": "2026-10-28T07:54:53.398Z",
+  "price": 18180,
   "dataFrom": "2001-07",
-  "dailyBars": 517,
+  "dailyBars": 518,
   "allTimeHigh": {
     "price": 197804,
     "at": "2008-03",
-    "distancePct": -90.89
+    "distancePct": -90.81
   },
   "allTimeLow": {
     "price": 0.896861,
     "at": "2012-01",
-    "distancePct": 2009687.43
+    "distancePct": 2026969.93
   },
   "supports": [
+    {
+      "price": 18137.225098,
+      "touches": 4,
+      "lastTouch": "2026-09-28"
+    },
     {
       "price": 17693.60026,
       "touches": 3,
@@ -31,20 +36,9 @@
       "price": 16980.419922,
       "touches": 5,
       "lastTouch": "2026-03-19"
-    },
-    {
-      "price": 16741.767741,
-      "touches": 12,
-      "lastTouch": "2026-03-26"
     }
   ],
-  "resistances": [
-    {
-      "price": 18137.225098,
-      "touches": 4,
-      "lastTouch": "2026-09-28"
-    }
-  ],
+  "resistances": [],
   "pivots": {
     "pivot": 17741.80013,
     "r1": 18047.60026,
@@ -56,21 +50,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 56.64,
-    "sma20": 17931.880078,
-    "sma50": 17804.122031,
-    "sma200": 17500.251533,
-    "ema12": 17988.463678,
-    "ema26": 17921.045325,
-    "macd": 67.418353,
-    "macdSignal": 57.534415,
-    "macdHistogram": 9.883937,
-    "bollingerUpper": 18120.62649,
-    "bollingerMiddle": 17931.880078,
-    "bollingerLower": 17743.133667,
-    "bollingerBandwidth": 0.0211,
-    "atr14": 147.800522,
-    "stochK": 62.47,
-    "stochD": 74.35
+    "rsi14": 64.92,
+    "sma20": 17960.010059,
+    "sma50": 17814.732031,
+    "sma200": 17506.946035,
+    "ema12": 18033.421928,
+    "ema26": 17948.389018,
+    "macd": 85.03291,
+    "macdSignal": 64.552975,
+    "macdHistogram": 20.479935,
+    "bollingerUpper": 18170.711199,
+    "bollingerMiddle": 17960.010059,
+    "bollingerLower": 17749.308919,
+    "bollingerBandwidth": 0.0235,
+    "atr14": 151.102577,
+    "stochK": 100,
+    "stochD": 90.2
   }
 }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T23:24:27.326Z",
+  "generatedAt": "2026-10-28T07:54:53.293Z",
   "latestMonth": "2026-10",
   "baseCurrency": "IDR",
   "contribution": 1000000,
   "assetCount": 25,
-  "fxRate": 18186.47,
+  "fxRate": 18342.86,
   "sources": [
     "tradingview+yahoo"
   ],
@@ -12,7 +12,7 @@
     "source": "World Bank — FP.CPI.TOTL (Indonesia)",
     "latestActualYear": 2025,
     "estimatedFrom": "2025-08",
-    "fetchedAt": "2026-10-27T23:24:27.128Z"
+    "fetchedAt": "2026-10-28T07:54:52.982Z"
   },
   "dividendCoverage": 16,
   "anomalies": {},
@@ -24,8 +24,8 @@
     "basis": "total",
     "contributionPerAsset": 1000000,
     "totalInvested": 240000000,
-    "currentValue": 422053553,
-    "totalReturnPct": 75.856,
-    "xirr": 0.110323
+    "currentValue": 433098608,
+    "totalReturnPct": 80.458,
+    "xirr": 0.115249
   }
 }

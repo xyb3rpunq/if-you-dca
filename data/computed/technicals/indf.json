@@ -2,26 +2,21 @@
   "id": "indf",
   "symbol": "INDF",
   "currency": "IDR",
-  "generatedAt": "2026-10-27T23:24:27.401Z",
-  "price": 6650,
+  "generatedAt": "2026-10-28T07:54:53.398Z",
+  "price": 6375,
   "dataFrom": "2000-11",
-  "dailyBars": 474,
+  "dailyBars": 475,
   "allTimeHigh": {
     "price": 9200,
     "at": "2016-09",
-    "distancePct": -27.72
+    "distancePct": -30.71
   },
   "allTimeLow": {
     "price": 475,
     "at": "2002-10",
-    "distancePct": 1300
+    "distancePct": 1242.11
   },
   "supports": [
-    {
-      "price": 6550,
-      "touches": 4,
-      "lastTouch": "2026-09-29"
-    },
     {
       "price": 6200,
       "touches": 1,
@@ -34,6 +29,11 @@
     }
   ],
   "resistances": [
+    {
+      "price": 6550,
+      "touches": 4,
+      "lastTouch": "2026-09-29"
+    },
     {
       "price": 6875,
       "touches": 3,
@@ -48,11 +48,6 @@
       "price": 7243.75,
       "touches": 4,
       "lastTouch": "2026-05-07"
-    },
-    {
-      "price": 7358.333333,
-      "touches": 3,
-      "lastTouch": "2025-09-10"
     }
   ],
   "pivots": {
@@ -66,21 +61,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 41.46,
-    "sma20": 6783.75,
-    "sma50": 7029,
-    "sma200": 6792.5,
-    "ema12": 6719.005811,
-    "ema26": 6817.051279,
-    "macd": -98.045469,
-    "macdSignal": -94.683574,
-    "macdHistogram": -3.361894,
-    "bollingerUpper": 7085.939924,
-    "bollingerMiddle": 6783.75,
-    "bollingerLower": 6481.560076,
-    "bollingerBandwidth": 0.0891,
-    "atr14": 212.138245,
-    "stochK": 63.04,
-    "stochD": 66.67
+    "rsi14": 32.6,
+    "sma20": 6766.25,
+    "sma50": 7009.5,
+    "sma200": 6790.125,
+    "ema12": 6666.08184,
+    "ema26": 6784.30674,
+    "macd": -118.2249,
+    "macdSignal": -99.391839,
+    "macdHistogram": -18.833061,
+    "bollingerUpper": 7116.705061,
+    "bollingerMiddle": 6766.25,
+    "bollingerLower": 6415.794939,
+    "bollingerBandwidth": 0.1036,
+    "atr14": 221.985513,
+    "stochK": 39.13,
+    "stochD": 55.8
   }
 }
