@@ -2,7 +2,7 @@
   "id": "bbca",
   "symbol": "BBCA",
   "currency": "IDR",
-  "generatedAt": "2026-10-28T07:54:53.398Z",
+  "generatedAt": "2026-10-28T14:50:47.894Z",
   "price": 5275,
   "dataFrom": "2004-07",
   "dailyBars": 475,
@@ -74,7 +74,7 @@
     "bollingerMiddle": 5618,
     "bollingerLower": 4628.806389,
     "bollingerBandwidth": 0.3522,
-    "atr14": 218.083331,
+    "atr14": 219.869045,
     "stochK": 38.63,
     "stochD": 21.39
   }
