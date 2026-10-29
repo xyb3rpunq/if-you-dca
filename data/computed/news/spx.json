@@ -1,14 +1,14 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-29T15:10:27.831Z",
-  "count": 7,
+  "generatedAt": "2026-10-29T19:22:41.140Z",
+  "count": 8,
   "items": [
     {
       "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Alphabet stock sell-off drags on tech, AI jitters return",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-29T15:06:58.000Z",
+      "publishedAt": "2026-10-29T19:17:40.000Z",
       "source": "yahoo"
     },
     {
@@ -30,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0kyMEVqRzBoWE00WXRSdDhWajA3Mi1SWFBzX2M0cnBrcXV0VXQ5NC1hMkRMNFZyV0tBUjBuelQ5NGhoald5MlFaN2Z3TDJFY3hqX0xkcjRaZkxhdWp4aVktbW96THZyVXpqQnFRNWlXR3puVV9RMU1UcnlZcmJCenFyVE55VzZVZjBfUm40YjlMcndvQ1drMw?oc=5",
       "publisher": "Traders Union",
       "publishedAt": "2026-10-22T14:32:49.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "The S&P 500 had its largest ever put volume day on Friday - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbzByRXFXMDRpTGFHczBmTWpIZGxkVnBpWDFwRXJ3ZmVra3dMSGkzMHZPZGdmWHo5WFJzbG1JUDdMRmNucXM4aTJqMDk5ams5ZkpCMUt5dWN6LVNaenRWcDdLRjYyMkNhQV9LX2J4VUtFQzZPWFp1eE1BOXRZZ3NESTZzbTlXdDI3YlB0YnBtUFZFY1RIb0lnLU05NGR0YXhaYk9FR08xeTFEYlUycUVfZnNpVHByMHJXbmtn?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-19T18:40:24.000Z",
       "source": "google-news"
     },
     {
