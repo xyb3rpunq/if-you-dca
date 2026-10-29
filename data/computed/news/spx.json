@@ -1,14 +1,21 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-29T19:22:41.140Z",
+  "generatedAt": "2026-10-29T23:44:19.308Z",
   "count": 8,
   "items": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq fall as Alphabet stock sell-off drags on tech, AI jitters return",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
-      "publisher": "Yahoo Finance",
-      "publishedAt": "2026-10-29T19:17:40.000Z",
+      "title": "20 Years of S&P 500 History Show: This Simple Strategy Is Only 8.3% Less Than \"Perfect\"",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/20-years-p-500-history-232000321.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-10-29T23:20:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "ServiceNow Stock Is Worst in S&P 500 After a Key Revenue Measure Fell Short",
+      "url": "https://finance.yahoo.com/m/5f9750f9-b04e-3830-9f5a-d06f079281de/servicenow-stock-is-worst-in.html",
+      "publisher": "Barrons.com",
+      "publishedAt": "2026-10-29T23:07:00.000Z",
       "source": "yahoo"
     },
     {
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0plQTZuVC1hVEVwVi1zdEl6XzVXeXdzYkk5NmlQVGhRenZzNlhjNDZPLVRndV8xQjJtTjVDOTdyVzg3MzVZZUVWaG53bXdlZXdnSXZlTFByVkRWVnpBQ1V3Sk1uekdwVUJkX0tYTTY1NkZfdG5EeVVMV1NQQUR4bWVXQ1hncU1pN0Z3Mm41VndGQmdacG9HQncxNzVES3pVVTN5VG1hWU8xZ241ZW9zcFhjLWEzTEtXRXo5alV4LVdNclVOT255MVl0Zkk4M2hQNFdN?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-05T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-10-03T07:00:00.000Z",
       "source": "google-news"
     }
   ]
