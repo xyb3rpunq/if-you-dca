@@ -2,7 +2,7 @@
   "id": "arci",
   "symbol": "ARCI",
   "currency": "IDR",
-  "generatedAt": "2026-10-29T08:00:06.481Z",
+  "generatedAt": "2026-10-29T15:09:47.248Z",
   "price": 930,
   "dataFrom": "2021-07",
   "dailyBars": 475,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 1126.5,
     "bollingerLower": 863.344153,
     "bollingerBandwidth": 0.4672,
-    "atr14": 67.740633,
+    "atr14": 68.097776,
     "stochK": 9.2,
     "stochD": 17.24
   }
