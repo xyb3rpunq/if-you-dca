@@ -1,9 +1,16 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-10-28T23:46:03.861Z",
-  "count": 6,
+  "generatedAt": "2026-10-29T08:00:45.421Z",
+  "count": 8,
   "items": [
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-025932477.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-29T02:59:32.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "SPX: S&P 500 Futures Steady as Big Fed Decision Keeps a Lid on Optimism - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUFBJclAybnZxZU41NDFDOUlLdXNTaWd6R3hWM0N5alhIM2VQS21rS2RVbkVhdFdSRlJFc2RpM0tDbVk4WVBzZGc1RWpKbW9RQ0lpSXlRdXNxaU1SNGZHYW1FREZ3UVF1UHNiTVhqcDl6c0VDTlJvWG1kRjZUSmxYRVIzRkFJeGNBVG1Vd19hYm8wT3RtRExnTnVYQmFla2QwN21vNlZ3Mk1WZGVhLTdTS1pycjAwUV9DZC1jT2kxUEhZSGdxQXNhd0dmMA?oc=5",
@@ -44,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-10-03T07:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Goldman Sachs dan Deutsche Bank Sepakat: Reli S&P 500 Belum Berakhir - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QSTVqTUQ0ai11U213Y1pTWnFFeE12MWZuTjAycVpvQ1JNZ2N5Q2RfLVRzTWJXZjVhbFJJZzRORE1Wa3JlRGxYeVRTenl2TkhHV3lYXzZPT2tqcW43MHFWOTRnYWNvYlFhZl9WVDltV1RHRDI1bm5WaVQ3MUQ?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-09-23T07:00:00.000Z",
       "source": "google-news"
     }
   ]

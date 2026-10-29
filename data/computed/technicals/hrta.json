@@ -2,19 +2,19 @@
   "id": "hrta",
   "symbol": "HRTA",
   "currency": "IDR",
-  "generatedAt": "2026-10-28T23:45:24.619Z",
-  "price": 1595,
+  "generatedAt": "2026-10-29T08:00:06.481Z",
+  "price": 1515,
   "dataFrom": "2017-07",
   "dailyBars": 475,
   "allTimeHigh": {
     "price": 3440,
     "at": "2026-03",
-    "distancePct": -53.63
+    "distancePct": -55.96
   },
   "allTimeLow": {
     "price": 170,
     "at": "2019-12",
-    "distancePct": 838.24
+    "distancePct": 791.18
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 30.97,
-    "sma20": 1883.25,
-    "sma50": 2097.7,
-    "sma200": 2280.675,
-    "ema12": 1719.53467,
-    "ema26": 1874.580685,
-    "macd": -155.046015,
-    "macdSignal": -130.969762,
-    "macdHistogram": -24.076253,
-    "bollingerUpper": 2402.887133,
-    "bollingerMiddle": 1883.25,
-    "bollingerLower": 1363.612867,
-    "bollingerBandwidth": 0.5519,
-    "atr14": 111.149265,
-    "stochK": 22.84,
-    "stochD": 25.93
+    "rsi14": 28,
+    "sma20": 1849.5,
+    "sma50": 2084.6,
+    "sma200": 2278.625,
+    "ema12": 1688.067798,
+    "ema26": 1847.945079,
+    "macd": -159.877281,
+    "macdSignal": -136.751265,
+    "macdHistogram": -23.126016,
+    "bollingerUpper": 2372.729395,
+    "bollingerMiddle": 1849.5,
+    "bollingerLower": 1326.270605,
+    "bollingerBandwidth": 0.5658,
+    "atr14": 110.710032,
+    "stochK": 12.96,
+    "stochD": 19.96
   }
 }
