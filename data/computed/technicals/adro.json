@@ -2,7 +2,7 @@
   "id": "adro",
   "symbol": "ADRO",
   "currency": "IDR",
-  "generatedAt": "2026-10-30T08:01:54.807Z",
+  "generatedAt": "2026-10-30T18:56:26.537Z",
   "price": 2400,
   "dataFrom": "2008-08",
   "dailyBars": 475,
@@ -84,7 +84,7 @@
     "bollingerMiddle": 2457,
     "bollingerLower": 2242.421343,
     "bollingerBandwidth": 0.1747,
-    "atr14": 101.373588,
+    "atr14": 104.230731,
     "stochK": 62.5,
     "stochD": 61.87
   }

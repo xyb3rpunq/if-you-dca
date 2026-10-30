@@ -1,28 +1,49 @@
 {
   "id": "gold",
   "symbol": "XAUUSD",
-  "generatedAt": "2026-10-30T08:02:35.360Z",
+  "generatedAt": "2026-10-30T18:57:05.923Z",
   "count": 8,
   "items": [
     {
-      "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
-      "url": "https://finance.yahoo.com/news/a2gold-signs-agreement-sell-bolo-070321856.html",
-      "publisher": "Mining Technology",
-      "publishedAt": "2026-10-30T07:03:21.000Z",
+      "title": "The Gold-Silver Ratio Just Hit 80. Here's What History Says Happens Next.",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-ratio-just-hit-181500588.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-10-30T18:15:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "What Alamos Gold (AGI) Said on Its Q3 Earnings Call",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alamos-gold-agi-said-q3-061414742.html",
-      "publisher": "MarketBeat",
-      "publishedAt": "2026-10-30T06:14:14.000Z",
+      "title": "Comex Gold Ends the Month 6.49% Lower at $3885.70",
+      "url": "https://finance.yahoo.com/m/5dcf998d-21c7-3395-9d43-2a07378da7fe/comex-gold-ends-the-month.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-10-30T17:54:00.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Gold falls below $4,000 as inflation concerns keep bullion under pressure",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-hovers-near-4-000-014613798.html",
+      "title": "Goldman Sachs Revises China Jewelry Stocks Amid Gold Price Retreat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-revises-china-jewelry-172512898.html",
       "publisher": "Investing.com",
-      "publishedAt": "2026-10-30T01:46:13.000Z",
+      "publishedAt": "2026-10-30T17:25:12.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold plunges, but UBS isn't budging on its price target",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-plunges-ubs-isnt-budging-171700390.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-10-30T17:17:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Gold, Silver In Spotlight After GLD Hits 52-Week Low, SLV Sinks To 11-Month Low – Peter Brandt Sees Signs Of A Potential Bottom",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-spotlight-gld-hits-171058200.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-10-30T17:10:58.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/deutsche-banks-ai-dollar-warning-170000797.html",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
       "source": "yahoo"
     },
     {
@@ -33,31 +54,10 @@
       "source": "google-news"
     },
     {
-      "title": "Gold Declines, Weighed by Tighter Monetary Policy Expectations",
-      "url": "https://finance.yahoo.com/m/5dcf998d-21c7-3395-9d43-2a07378da7fe/gold-declines%2C-weighed-by.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-10-30T01:21:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Eldorado Gold Corp (EGO) (Q3 2026) Earnings Call Highlights: Record Revenue and Skouries ...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eldorado-gold-corp-ego-q3-011008875.html",
-      "publisher": "GuruFocus.com",
-      "publishedAt": "2026-10-30T01:10:08.000Z",
-      "source": "yahoo"
-    },
-    {
       "title": "$XAUUSD JUAL DI 4035 4040 untuk FX:XAUUSD oleh Pras_XAUUSD - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1RTFNYcF9VWlpBREQtdFc0dmFMUlJzWEg5eWdRVFJBX2RkYlRTd2hiYmhJS2xsSi1uc3hwdkhodFVpbjFFekFsbllUWkgyT3k5WUFUNFlHYlEyN2E0clE?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-10-29T16:01:12.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "$XAUUSD BELI untuk FX:XAUUSD oleh Pras_XAUUSD - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zWkl3RmhZVlZmLUVrYllWOHNXRndtaFRubGZZbWlFSjF4Ui1VNGtvYzlkNF8tOEZfNUNDODRDM0dwMTVsbzhmUXhQN2lfQlNNODhEaDJIWnNVS3VrVHc?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-10-28T07:16:37.000Z",
       "source": "google-news"
     }
   ]

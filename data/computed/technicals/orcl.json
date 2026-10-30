@@ -2,25 +2,42 @@
   "id": "orcl",
   "symbol": "ORCL",
   "currency": "USD",
-  "generatedAt": "2026-10-30T08:01:54.807Z",
-  "price": 139.56,
+  "generatedAt": "2026-10-30T18:56:26.537Z",
+  "price": 129.89,
   "dataFrom": "1996-11",
-  "dailyBars": 501,
+  "dailyBars": 502,
   "allTimeHigh": {
     "price": 345.720001,
     "at": "2025-09",
-    "distancePct": -59.63
+    "distancePct": -62.43
   },
   "allTimeLow": {
     "price": 2.958333,
     "at": "1998-01",
-    "distancePct": 4617.52
+    "distancePct": 4290.65
   },
   "supports": [
     {
-      "price": 137.933997,
-      "touches": 5,
-      "lastTouch": "2026-09-16"
+      "price": 122,
+      "touches": 2,
+      "lastTouch": "2026-10-22"
+    },
+    {
+      "price": 118.860001,
+      "touches": 1,
+      "lastTouch": "2025-04-07"
+    },
+    {
+      "price": 114.5,
+      "touches": 1,
+      "lastTouch": "2026-07-28"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 131.580002,
+      "touches": 1,
+      "lastTouch": "2026-09-28"
     },
     {
       "price": 134.910004,
@@ -28,36 +45,14 @@
       "lastTouch": "2026-04-10"
     },
     {
-      "price": 131.580002,
-      "touches": 1,
-      "lastTouch": "2026-09-28"
+      "price": 137.933997,
+      "touches": 5,
+      "lastTouch": "2026-09-16"
     },
-    {
-      "price": 122,
-      "touches": 2,
-      "lastTouch": "2026-10-22"
-    }
-  ],
-  "resistances": [
     {
       "price": 139.720001,
       "touches": 1,
       "lastTouch": "2026-09-02"
-    },
-    {
-      "price": 148.005005,
-      "touches": 2,
-      "lastTouch": "2026-10-06"
-    },
-    {
-      "price": 153.2,
-      "touches": 5,
-      "lastTouch": "2026-09-22"
-    },
-    {
-      "price": 156.600006,
-      "touches": 1,
-      "lastTouch": "2025-03-24"
     }
   ],
   "pivots": {
@@ -71,21 +66,21 @@
   },
   "pivotBasis": "2026-09",
   "indicators": {
-    "rsi14": 52.85,
-    "sma20": 135.314499,
-    "sma50": 142.026,
-    "sma200": 157.27925,
-    "ema12": 134.014257,
-    "ema26": 136.19459,
-    "macd": -2.180333,
-    "macdSignal": -3.357073,
-    "macdHistogram": 1.17674,
-    "bollingerUpper": 148.83681,
-    "bollingerMiddle": 135.314499,
-    "bollingerLower": 121.792189,
-    "bollingerBandwidth": 0.1999,
-    "atr14": 7.410251,
-    "stochK": 65.32,
-    "stochD": 62.09
+    "rsi14": 45.08,
+    "sma20": 134.693999,
+    "sma50": 141.7824,
+    "sma200": 156.96065,
+    "ema12": 133.379756,
+    "ema26": 135.727583,
+    "macd": -2.347828,
+    "macdSignal": -3.155224,
+    "macdHistogram": 0.807396,
+    "bollingerUpper": 148.014599,
+    "bollingerMiddle": 134.693999,
+    "bollingerLower": 121.373399,
+    "bollingerBandwidth": 0.1978,
+    "atr14": 7.603805,
+    "stochK": 27.72,
+    "stochD": 59.24
   }
 }
