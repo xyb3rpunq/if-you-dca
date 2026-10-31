@@ -2,7 +2,7 @@
   "id": "pltr",
   "symbol": "PLTR",
   "currency": "USD",
-  "generatedAt": "2026-10-30T23:24:23.275Z",
+  "generatedAt": "2026-10-31T09:02:11.873Z",
   "price": 184.11,
   "dataFrom": "2020-10",
   "dailyBars": 501,
@@ -84,8 +84,8 @@
     "bollingerMiddle": 197.245499,
     "bollingerLower": 183.907972,
     "bollingerBandwidth": 0.1352,
-    "atr14": 8.077058,
-    "stochK": 1.58,
-    "stochD": 28.99
+    "atr14": 8.282058,
+    "stochK": 10.97,
+    "stochD": 32.12
   }
 }
