@@ -6,20 +6,20 @@
   "description": "Ethereum all time history index",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-10-31T09:01:46.854Z",
+  "fetchedAt": "2026-11-02T08:51:24.367Z",
   "historicalSnapshotAt": "2026-08-09T21:41:40.731Z",
   "seam": {
     "mode": "merged",
     "anchorMonth": "2026-08",
     "ratio": 0.779838,
-    "tailMonths": 2,
-    "note": "2 bulan terbaru diskalakan ×0.7798 agar sejajar dengan deret historis"
+    "tailMonths": 3,
+    "note": "3 bulan terbaru diskalakan ×0.7798 agar sejajar dengan deret historis"
   },
-  "marketPrice": 2240.36,
+  "marketPrice": 2297.76,
   "lastMonthIsPartial": true,
-  "count": 135,
+  "count": 136,
   "from": "2015-08",
-  "to": "2026-10",
+  "to": "2026-11",
   "hasDividendData": false,
   "dividendContributionPct": 0,
   "dividendFactorAtStart": 1,
@@ -562,7 +562,11 @@
     },
     {
       "m": "2026-10",
-      "c": 1747.117746684117
+      "c": 1756.7781411221745
+    },
+    {
+      "m": "2026-11",
+      "c": 1791.8803666354713
     }
   ],
   "monthlyTotal": [
@@ -1104,7 +1108,11 @@
     },
     {
       "m": "2026-10",
-      "c": 1747.117746684117
+      "c": 1756.7781411221745
+    },
+    {
+      "m": "2026-11",
+      "c": 1791.8803666354713
     }
   ]
 }

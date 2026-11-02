@@ -2,52 +2,25 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-10-31T09:02:11.873Z",
-  "price": 119,
+  "generatedAt": "2026-11-02T08:51:53.086Z",
+  "price": 130,
   "dataFrom": "2001-07",
-  "dailyBars": 475,
+  "dailyBars": 473,
   "allTimeHigh": {
     "price": 8750,
     "at": "2008-06",
-    "distancePct": -98.64
+    "distancePct": -98.51
   },
   "allTimeLow": {
     "price": 15,
     "at": "2002-09",
-    "distancePct": 693.33
+    "distancePct": 766.67
   },
   "supports": [
     {
-      "price": 117,
-      "touches": 1,
-      "lastTouch": "2026-10-20"
-    },
-    {
-      "price": 115.75,
-      "touches": 4,
-      "lastTouch": "2025-08-20"
-    },
-    {
-      "price": 113,
-      "touches": 1,
-      "lastTouch": "2024-12-24"
-    },
-    {
-      "price": 109,
-      "touches": 1,
-      "lastTouch": "2025-07-02"
-    }
-  ],
-  "resistances": [
-    {
-      "price": 120,
-      "touches": 1,
-      "lastTouch": "2025-09-04"
-    },
-    {
-      "price": 124,
-      "touches": 1,
-      "lastTouch": "2025-07-22"
+      "price": 128.333333,
+      "touches": 3,
+      "lastTouch": "2026-07-01"
     },
     {
       "price": 126,
@@ -55,37 +28,64 @@
       "lastTouch": "2026-06-08"
     },
     {
-      "price": 128.333333,
-      "touches": 3,
-      "lastTouch": "2026-07-01"
+      "price": 124,
+      "touches": 1,
+      "lastTouch": "2025-07-22"
+    },
+    {
+      "price": 120,
+      "touches": 1,
+      "lastTouch": "2025-09-04"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 137,
+      "touches": 1,
+      "lastTouch": "2025-11-05"
+    },
+    {
+      "price": 149,
+      "touches": 2,
+      "lastTouch": "2025-06-12"
+    },
+    {
+      "price": 154,
+      "touches": 1,
+      "lastTouch": "2024-12-11"
+    },
+    {
+      "price": 157,
+      "touches": 2,
+      "lastTouch": "2026-07-29"
     }
   ],
   "pivots": {
-    "pivot": 192.666667,
-    "r1": 214.333333,
-    "s1": 153.333333,
-    "r2": 253.666667,
-    "s2": 131.666667,
-    "r3": 275.333333,
-    "s3": 92.333333
+    "pivot": 140.333333,
+    "r1": 165.666667,
+    "s1": 93.666667,
+    "r2": 212.333333,
+    "s2": 68.333333,
+    "r3": 237.666667,
+    "s3": 21.666667
   },
-  "pivotBasis": "2026-09",
+  "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 26.16,
-    "sma20": 149.5,
-    "sma50": 177.72,
-    "sma200": 215.565,
-    "ema12": 135.439034,
-    "ema26": 151.225873,
-    "macd": -15.786838,
-    "macdSignal": -13.906812,
-    "macdHistogram": -1.880026,
-    "bollingerUpper": 193.397608,
-    "bollingerMiddle": 149.5,
-    "bollingerLower": 105.602392,
-    "bollingerBandwidth": 0.5873,
-    "atr14": 10.455424,
-    "stochK": 7.14,
-    "stochD": 9.56
+    "rsi14": 36.27,
+    "sma20": 147.1,
+    "sma50": 176.4,
+    "sma200": 214.385,
+    "ema12": 134.60226,
+    "ema26": 149.653586,
+    "macd": -15.051326,
+    "macdSignal": -14.135715,
+    "macdHistogram": -0.915611,
+    "bollingerUpper": 189.732851,
+    "bollingerMiddle": 147.1,
+    "bollingerLower": 104.467149,
+    "bollingerBandwidth": 0.5796,
+    "atr14": 10.708608,
+    "stochK": 26.79,
+    "stochD": 13.36
   }
 }
