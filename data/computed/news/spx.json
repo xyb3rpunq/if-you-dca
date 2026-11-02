@@ -1,9 +1,16 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-11-02T08:52:34.524Z",
-  "count": 6,
+  "generatedAt": "2026-11-02T22:33:16.070Z",
+  "count": 8,
   "items": [
+    {
+      "title": "S&P 500 ends down; Apple dips ahead of quarterly report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-rise-ai-105736981.html",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-02T21:41:43.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "SPX: S&P 500 Futures Steady as Big Fed Decision Keeps a Lid on Optimism - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUFBJclAybnZxZU41NDFDOUlLdXNTaWd6R3hWM0N5alhIM2VQS21rS2RVbkVhdFdSRlJFc2RpM0tDbVk4WVBzZGc1RWpKbW9RQ0lpSXlRdXNxaU1SNGZHYW1FREZ3UVF1UHNiTVhqcDl6c0VDTlJvWG1kRjZUSmxYRVIzRkFJeGNBVG1Vd19hYm8wT3RtRExnTnVYQmFla2QwN21vNlZ3Mk1WZGVhLTdTS1pycjAwUV9DZC1jT2kxUEhZSGdxQXNhd0dmMA?oc=5",
@@ -23,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0kyMEVqRzBoWE00WXRSdDhWajA3Mi1SWFBzX2M0cnBrcXV0VXQ5NC1hMkRMNFZyV0tBUjBuelQ5NGhoald5MlFaN2Z3TDJFY3hqX0xkcjRaZkxhdWp4aVktbW96THZyVXpqQnFRNWlXR3puVV9RMU1UcnlZcmJCenFyVE55VzZVZjBfUm40YjlMcndvQ1drMw?oc=5",
       "publisher": "Traders Union",
       "publishedAt": "2026-10-22T14:32:49.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "SPX: S&P 500 Parked Just Below Record as Traders Go Risk-Off Ahead of September CPI - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNnMyWTFTdVBOV25seTBTbWFVMW1TOVJmYktrSDdyMlBhR2dzNHZvVHZDRzBXV04yc25PRmFqSExMTWJIQUR4b0FCaU1CNzdrZFZoaTJLbEdMUndDYkNXaEc4V3BpVVdNYmVJd1VBUHRWVlRGS0cxUUFsQ0xMeElQSTBlaFk3azhQNmFUaDVtVlVod2dMQl9CTlNULTdfTEpWSnR3V2RuZXdGWnpzRTZhTXJtNGN1dGp4NTBISUF3U1dTSDhqNjhiUDBQemFVNk1UcXhsMUQ4bEwycDg?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-14T06:59:43.000Z",
       "source": "google-news"
     },
     {

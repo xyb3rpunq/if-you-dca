@@ -2,19 +2,19 @@
   "id": "arci",
   "symbol": "ARCI",
   "currency": "IDR",
-  "generatedAt": "2026-11-02T08:51:53.086Z",
-  "price": 885,
+  "generatedAt": "2026-11-02T22:32:35.343Z",
+  "price": 875,
   "dataFrom": "2021-07",
   "dailyBars": 473,
   "allTimeHigh": {
     "price": 2120,
     "at": "2026-01",
-    "distancePct": -58.25
+    "distancePct": -58.73
   },
   "allTimeLow": {
     "price": 199,
     "at": "2024-06",
-    "distancePct": 344.72
+    "distancePct": 339.7
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 29.14,
-    "sma20": 1087.75,
-    "sma50": 1226.9,
-    "sma200": 1372.1,
-    "ema12": 993.653533,
-    "ema26": 1086.675942,
-    "macd": -93.022409,
-    "macdSignal": -75.005088,
-    "macdHistogram": -18.017322,
-    "bollingerUpper": 1372.328197,
-    "bollingerMiddle": 1087.75,
-    "bollingerLower": 803.171803,
-    "bollingerBandwidth": 0.5232,
+    "rsi14": 27.78,
+    "sma20": 1087.25,
+    "sma50": 1226.7,
+    "sma200": 1372.05,
+    "ema12": 992.115071,
+    "ema26": 1085.935201,
+    "macd": -93.82013,
+    "macdSignal": -75.164632,
+    "macdHistogram": -18.655498,
+    "bollingerUpper": 1373.282778,
+    "bollingerMiddle": 1087.25,
+    "bollingerLower": 801.217222,
+    "bollingerBandwidth": 0.5262,
     "atr14": 69.456756,
-    "stochK": 16.85,
-    "stochD": 8.68
+    "stochK": 14.61,
+    "stochD": 7.93
   }
 }

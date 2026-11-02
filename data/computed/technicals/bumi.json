@@ -2,26 +2,21 @@
   "id": "bumi",
   "symbol": "BUMI",
   "currency": "IDR",
-  "generatedAt": "2026-11-02T08:51:53.086Z",
-  "price": 130,
+  "generatedAt": "2026-11-02T22:32:35.343Z",
+  "price": 128,
   "dataFrom": "2001-07",
   "dailyBars": 473,
   "allTimeHigh": {
     "price": 8750,
     "at": "2008-06",
-    "distancePct": -98.51
+    "distancePct": -98.54
   },
   "allTimeLow": {
     "price": 15,
     "at": "2002-09",
-    "distancePct": 766.67
+    "distancePct": 753.33
   },
   "supports": [
-    {
-      "price": 128.333333,
-      "touches": 3,
-      "lastTouch": "2026-07-01"
-    },
     {
       "price": 126,
       "touches": 2,
@@ -36,9 +31,19 @@
       "price": 120,
       "touches": 1,
       "lastTouch": "2025-09-04"
+    },
+    {
+      "price": 117,
+      "touches": 1,
+      "lastTouch": "2026-10-20"
     }
   ],
   "resistances": [
+    {
+      "price": 128.333333,
+      "touches": 3,
+      "lastTouch": "2026-07-01"
+    },
     {
       "price": 137,
       "touches": 1,
@@ -53,11 +58,6 @@
       "price": 154,
       "touches": 1,
       "lastTouch": "2024-12-11"
-    },
-    {
-      "price": 157,
-      "touches": 2,
-      "lastTouch": "2026-07-29"
     }
   ],
   "pivots": {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 36.27,
-    "sma20": 147.1,
-    "sma50": 176.4,
-    "sma200": 214.385,
-    "ema12": 134.60226,
-    "ema26": 149.653586,
-    "macd": -15.051326,
-    "macdSignal": -14.135715,
-    "macdHistogram": -0.915611,
-    "bollingerUpper": 189.732851,
-    "bollingerMiddle": 147.1,
-    "bollingerLower": 104.467149,
-    "bollingerBandwidth": 0.5796,
+    "rsi14": 34.64,
+    "sma20": 147,
+    "sma50": 176.36,
+    "sma200": 214.375,
+    "ema12": 134.294567,
+    "ema26": 149.505438,
+    "macd": -15.21087,
+    "macdSignal": -14.167624,
+    "macdHistogram": -1.043246,
+    "bollingerUpper": 189.801869,
+    "bollingerMiddle": 147,
+    "bollingerLower": 104.198131,
+    "bollingerBandwidth": 0.5823,
     "atr14": 10.708608,
-    "stochK": 26.79,
-    "stochD": 13.36
+    "stochK": 23.21,
+    "stochD": 12.17
   }
 }
