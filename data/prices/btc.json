@@ -6,7 +6,7 @@
   "description": "Bitcoin all time history index",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-11-02T22:32:09.028Z",
+  "fetchedAt": "2026-11-03T08:59:07.988Z",
   "historicalSnapshotAt": "2026-08-09T21:41:39.770Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 3,
     "note": "3 bulan terbaru diskalakan ×0.8296 agar sejajar dengan deret historis"
   },
-  "marketPrice": 76703.85,
+  "marketPrice": 76506.06,
   "lastMonthIsPartial": true,
   "count": 206,
   "from": "2009-10",
@@ -846,7 +846,7 @@
     },
     {
       "m": "2026-11",
-      "c": 63636.10713842191
+      "c": 63472.01464872728
     }
   ],
   "monthlyTotal": [
@@ -1672,7 +1672,7 @@
     },
     {
       "m": "2026-11",
-      "c": 63636.10713842191
+      "c": 63472.01464872728
     }
   ]
 }
