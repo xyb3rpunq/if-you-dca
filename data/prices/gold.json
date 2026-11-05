@@ -6,7 +6,7 @@
   "description": "GOLD (US$/OZ)",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-11-05T08:56:18.561Z",
+  "fetchedAt": "2026-11-05T20:53:26.371Z",
   "historicalSnapshotAt": "2026-08-09T21:41:35.971Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 3,
     "note": "3 bulan terbaru diskalakan ×0.9688 agar sejajar dengan deret historis"
   },
-  "marketPrice": 4134.1,
+  "marketPrice": 4111.8,
   "lastMonthIsPartial": true,
   "count": 303,
   "from": "2001-09",
@@ -1234,7 +1234,7 @@
     },
     {
       "m": "2026-11",
-      "c": 4004.9711605436937
+      "c": 3983.3674189550097
     }
   ],
   "monthlyTotal": [
@@ -2448,7 +2448,7 @@
     },
     {
       "m": "2026-11",
-      "c": 4004.9711605436937
+      "c": 3983.3674189550097
     }
   ]
 }
