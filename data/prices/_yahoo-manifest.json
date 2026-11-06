@@ -1,6 +1,6 @@
 {
   "source": "yahoo-finance",
-  "fetchedAt": "2026-11-05T20:53:26.371Z",
+  "fetchedAt": "2026-11-06T08:54:39.558Z",
   "assets": {
     "usdidr": {
       "status": "ok",
@@ -260,7 +260,7 @@
       },
       "count": 303,
       "to": "2026-11",
-      "dividendContributionPct": 187.12
+      "dividendContributionPct": 192.48
     },
     "asii": {
       "status": "ok",
