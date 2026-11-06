@@ -1,28 +1,35 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-11-06T08:55:43.124Z",
+  "generatedAt": "2026-11-06T20:11:40.119Z",
   "count": 8,
   "items": [
     {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-055608096.html",
-      "publisher": "Benzinga Prediction Markets",
-      "publishedAt": "2026-11-06T05:56:08.000Z",
+      "title": "Wall Street stocks in relief rally after heavy AI-related selloff",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-drop-ai-rout-235808955.html",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-06T19:52:11.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "Stock market today: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-11-06T19:19:25.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "S&P 500 mengamankan kendali Partai Demokrat di Kongres AS: Dapatkah SPX pulih setelah kerugian baru-baru ini? - Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUU1kT01PVlY0dUhqYUZHYXMwMUhJeU9XalJXLXNSaHlST0RyQVFGRkZnYjBiMU51dnZudXZSZUlXMkhLYkNMSVdVNUhfbVhFRGlSUHZhaEQ2azFZSjA4cEFUSWp5eXlhRWZWZ3Z4MU1xMG9FM2FsLUxwUnRZVmdZMjJlX1BIM184TTRxekFR?oc=5",
+      "publisher": "Traders Union",
+      "publishedAt": "2026-11-05T14:55:56.000Z",
+      "source": "google-news"
     },
     {
       "title": "Stock Market: Will S&P 500 Open Up or Down Today? - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNc19JVjRsdTJLam5hUE1vLU9qUzZQSEZyTU9qc0JUcmlsME9VdzhueXZrc3c0SjA0QXBHUUg5bU1HVFdUSjM2SlpWSWxyMjJDSmt3R3doMlFVLVZ6RHBIS0dWcjMyTzJfc096WnBuSlA4T1NVT041NjFwUUEwdW5xdG9tUEFINmhmd20yUHo3b0xzWVZ5Z0xPbFFZRUxWbUZUMzJXU1l0cTc?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-11-02T05:47:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "SPX turun karena momentum lemah membebani indeks S&P 500 - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0kyMEVqRzBoWE00WXRSdDhWajA3Mi1SWFBzX2M0cnBrcXV0VXQ5NC1hMkRMNFZyV0tBUjBuelQ5NGhoald5MlFaN2Z3TDJFY3hqX0xkcjRaZkxhdWp4aVktbW96THZyVXpqQnFRNWlXR3puVV9RMU1UcnlZcmJCenFyVE55VzZVZjBfUm40YjlMcndvQ1drMw?oc=5",
-      "publisher": "Traders Union",
-      "publishedAt": "2026-10-22T14:32:49.000Z",
       "source": "google-news"
     },
     {
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzT9IBngFBVV95cUxOc3djTWxPMWMxcVRwNDJ4d29JUERUcmtVRndqRk1PM29HME8zc2lCNHg3dVlEcXl2ZlBIODZNdkZaZlI3TEE3WmFpTVdodE9LZU1LNER3MS1oTjQzZVQ4OEJ3U24xZUF2OFV6VnVNdjE0c0pERmZ4MF9jaGZReHN6RXhhX3JSbGlBZllOQnFjNlV5NEt2ZUh0SkdvR2ZHUQ?oc=5",
       "publisher": "Pintu",
       "publishedAt": "2026-10-03T07:00:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Saham Cboe melonjak 5% berkat perpanjangan lisensi S&P 500 - Investing.com Indonesia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONnNXVUl3OURRRHZvelJzVmRWTTQ5R3FaYUxjb19JZ0pHSGwxUVdZTkVGQlQzb04wczU1bS1PZWFlRHlhMmFUYV9VQTNab1dQU1l0MDFBeFZHM3VUbnlzTnc2S2VkdlM1bHFoM0NudkhNVnJ5cnR3XzYyQUlrUkl1UnYySzlfLTIxdlRNVFlfand0WHljMHhhSmY2NXNSU1ZnVHVMcVVJSXBvTFkwWjlMX2VB?oc=5",
-      "publisher": "Investing.com Indonesia",
-      "publishedAt": "2026-09-29T07:00:00.000Z",
       "source": "google-news"
     }
   ]
