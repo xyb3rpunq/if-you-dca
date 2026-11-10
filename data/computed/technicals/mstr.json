@@ -2,7 +2,7 @@
   "id": "mstr",
   "symbol": "MSTR",
   "currency": "USD",
-  "generatedAt": "2026-11-09T23:14:15.125Z",
+  "generatedAt": "2026-11-10T09:14:37.135Z",
   "price": 125.59,
   "dataFrom": "1998-07",
   "dailyBars": 500,
@@ -84,8 +84,8 @@
     "bollingerMiddle": 139.941499,
     "bollingerLower": 124.143301,
     "bollingerBandwidth": 0.2258,
-    "atr14": 9.454373,
-    "stochK": 9.35,
-    "stochD": 14.05
+    "atr14": 9.455036,
+    "stochK": 9.36,
+    "stochD": 14.06
   }
 }
