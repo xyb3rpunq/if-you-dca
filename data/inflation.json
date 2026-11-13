@@ -1,7 +1,7 @@
 {
   "source": "World Bank — FP.CPI.TOTL (Indonesia)",
   "sourceUrl": "https://api.worldbank.org/v2/country/IDN/indicator/FP.CPI.TOTL?format=json&per_page=200",
-  "fetchedAt": "2026-11-12T21:19:59.186Z",
+  "fetchedAt": "2026-11-13T09:03:50.407Z",
   "note": "CPI tahunan (indeks 2010 = 100) diinterpolasi jadi bulanan secara geometrik, diangkurkan ke pertengahan tahun. Bulan setelah data resmi terakhir diekstrapolasi.",
   "baseYear": 2010,
   "latestActualYear": 2025,
