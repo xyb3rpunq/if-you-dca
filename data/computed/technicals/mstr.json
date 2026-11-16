@@ -2,26 +2,21 @@
   "id": "mstr",
   "symbol": "MSTR",
   "currency": "USD",
-  "generatedAt": "2026-11-16T08:59:20.180Z",
-  "price": 111.62,
+  "generatedAt": "2026-11-16T23:08:26.208Z",
+  "price": 103.03,
   "dataFrom": "1998-07",
-  "dailyBars": 501,
+  "dailyBars": 500,
   "allTimeHigh": {
     "price": 543,
     "at": "2024-11",
-    "distancePct": -79.44
+    "distancePct": -81.03
   },
   "allTimeLow": {
     "price": 0.42,
     "at": "2002-07",
-    "distancePct": 26476.19
+    "distancePct": 24430.95
   },
   "supports": [
-    {
-      "price": 104.762499,
-      "touches": 4,
-      "lastTouch": "2026-08-07"
-    },
     {
       "price": 91.669998,
       "touches": 1,
@@ -40,6 +35,11 @@
   ],
   "resistances": [
     {
+      "price": 104.762499,
+      "touches": 4,
+      "lastTouch": "2026-08-07"
+    },
+    {
       "price": 116.400002,
       "touches": 1,
       "lastTouch": "2026-04-02"
@@ -53,11 +53,6 @@
       "price": 123.330002,
       "touches": 1,
       "lastTouch": "2026-09-16"
-    },
-    {
-      "price": 133.600006,
-      "touches": 1,
-      "lastTouch": "2026-10-20"
     }
   ],
   "pivots": {
@@ -71,21 +66,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 32.57,
-    "sma20": 134.236999,
-    "sma50": 143.264399,
-    "sma200": 132.7835,
-    "ema12": 126.25316,
-    "ema26": 133.757762,
-    "macd": -7.504602,
-    "macdSignal": -4.827147,
-    "macdHistogram": -2.677455,
-    "bollingerUpper": 156.22571,
-    "bollingerMiddle": 134.236999,
-    "bollingerLower": 112.248288,
-    "bollingerBandwidth": 0.3276,
-    "atr14": 8.832602,
-    "stochK": 8.91,
-    "stochD": 8.9
+    "rsi14": 28.73,
+    "sma20": 132.587499,
+    "sma50": 142.468999,
+    "sma200": 132.5501,
+    "ema12": 122.680366,
+    "ema26": 131.481632,
+    "macd": -8.801265,
+    "macdSignal": -5.62197,
+    "macdHistogram": -3.179295,
+    "bollingerUpper": 158.409187,
+    "bollingerMiddle": 132.587499,
+    "bollingerLower": 106.765811,
+    "bollingerBandwidth": 0.3895,
+    "atr14": 8.910274,
+    "stochK": 3,
+    "stochD": 6.03
   }
 }
