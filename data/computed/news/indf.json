@@ -1,10 +1,15 @@
 {
   "id": "indf",
   "symbol": "INDF",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 429"
-  ],
-  "items": []
+  "generatedAt": "2026-11-17T10:11:49.336Z",
+  "count": 1,
+  "items": [
+    {
+      "title": "Begini Prospek dan Target Terbaru Saham Indofood CBP (ICBP), Sahamnya Layak Diakumulasi? - InvestorTrust",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXBRNlRDc3Z2QXNta25qb1hGSFB4VWhKMER2ZW5idlN4bkljNjhFSjRJRzBQMTZrb3RmTmg4M1M2S2dMOU1Ubklza2o4eE41ajhYNS1CTUp1emVPOWZUV0pSV3hPZnJhdkItXzV6SG5uSldUTENjMnFTSy1GZUc5MHlaUzJiOU5VQmFZTUZBTlpNNDRjcFZOSVFXNkJCVm11STBXaG85TS11VVhiWlFHS2twanBGVEV1YWhhdEExbDQ?oc=5",
+      "publisher": "InvestorTrust",
+      "publishedAt": "2026-11-08T23:36:00.000Z",
+      "source": "google-news"
+    }
+  ]
 }

@@ -1,14 +1,35 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
-  "count": 4,
+  "generatedAt": "2026-11-17T10:11:49.336Z",
+  "count": 6,
   "items": [
     {
-      "title": "Stock market today: Dow and S&P 500 drop, Nasdaq sinks over 2% as Nvidia leads AI trade lower, Anthropic IPO looms",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+      "title": "Stock market today: Dow, S&P 500 futures slip, and Nasdaq futures slip in countdown to Nvidia earnings",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-091546152.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-11-16T22:37:30.000Z",
+      "publishedAt": "2026-11-17T10:00:50.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "The S&P 500 Had Its Worst Day in Over a Year. Here's Why I'm Still Investing.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-had-worst-day-091502913.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-11-17T09:15:02.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061440103.html",
+      "publisher": "Benzinga Prediction Markets",
+      "publishedAt": "2026-11-17T06:14:40.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Dow, S&P 500, Nasdaq Futures Mixed Ahead Of Much-Anticipated Nvidia Earnings, Anthropic IPO: SLS, BABA, JPM, OMER In Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-040622667.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-11-17T04:06:22.000Z",
       "source": "yahoo"
     },
     {
@@ -23,13 +44,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUkyUW5LRGw2UW1ocENZVWJiRmVZY2V4QzQzVElPdW1TcDBLTkVTUHNsdDVXVGpqeWU3eVctbE5jNmRqek9HNGJVV0FqZ1Y4SmN4T1BuTlU1dkI1dW80QWVXaWVTZV9TekcwYS1QYTYwa2JSbWNKTjg2c2pJdHdYTlZvaDQ3aVVLSnBuQWpyU01OaDBvNjJkdzFGZVZ1MWVXZm5GVnR6ZUF1MWhwVWE5ZGdjM0VTeU54V3JWLU5rWUs2UQ?oc=5",
       "publisher": "TradingView",
       "publishedAt": "2026-11-06T05:56:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Cboe Perpanjang Opsi S&P 500 hingga 2051, Buka Jalan Tokenisasi? - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGNzYU01QnlNUU1hVjJlSWlKSmt1dHoyc255MDJUSXI2SHNUb2hEMXg4TUV1OU9QRkU1Q19SeExqTmNlQXV5REI2amFLc2pJb2VIaHdoZFltRGV2VGROVnlKV2JKNmxTVGN3SFFrOHBxYkxtWlVoQkF3SUk5YUVwSFprZGNwek9BZ1R0VlNTOGVYS1EzQXRzTw?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-10-03T07:00:00.000Z",
       "source": "google-news"
     }
   ]

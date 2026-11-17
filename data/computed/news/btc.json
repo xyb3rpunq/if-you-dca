@@ -1,10 +1,64 @@
 {
   "id": "btc",
   "symbol": "BTC",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 429"
-  ],
-  "items": []
+  "generatedAt": "2026-11-17T10:11:49.336Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "Dompet Hacker Binance dan Bitget Pindahkan ETH serta BTC Senilai $298 Juta - Cryptowave",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNUoyZEtYMEZsWndFWnhfSU5DMkU4ZHRMdUpJTkZ6NGxncVdXVEVvdHA0ek9zTlB2eHJMUWNOdU41ZWVka2pMTHMzSldoZzh4dGw4UHp6TkJqanF5eW1YeWl0TlZ1QnpKRzZFUEltNkJ3b3ZjU0hCNnFuWjhkeURybmRaR3BGYVZ6WmlpeGFlWVFMMlh1T3VVM3k3bmlLNXY2SmJjREk2LWxhb1k?oc=5",
+      "publisher": "Cryptowave",
+      "publishedAt": "2026-11-17T09:48:02.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Prakiraan Harga Bitcoin: Pendapatan Nvidia, IPO Anthropic Menguji Pemulihan BTC yang Rapuh - www.fxstreet-id.com",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVJxaXhwWnNxSHFEcEtQbFhyRlZFYnNSei1DaG82UVpsMVZON3JfVktfSXUyb0tEMVhocjZaN0lnT0wxRjV6bVF4QkFFSTVsd0dyZXlJMnFSb1ZadVQ3MTc3TUtyalNWRlpsMXYyeUV3UFVlQ0s2ME42SjZvNm0tYU04NEJxeFlvTm9LNGxZZUxRaFBkM3BXaDVYU1ZKQkw0MzF4RTVrTE1pU3VLcXlHVVQ0eVBteldSc3JFRU1TWXEyVE1LY1JaNGpPaWtfTC03NGpzU3hGeGgwWHB2Ti0tTnFFb1FZdw?oc=5",
+      "publisher": "www.fxstreet-id.com",
+      "publishedAt": "2026-11-17T09:22:59.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Perusahaan Bitcoin Tether Beli Saat Harga Turun, Sementara Sahamnya Sendiri Turun - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd2lGU2I2bUU1WGlzOHRFRjQwYmp4NGJkblQtb2xUYXA2WGg3RTFfc1g5VkV0cjYtWUFKZzcwNnByMkdmbG05OEtiaFAxR1FzSTk1VWY3dTZUTHpFZTYtSjctLWRpa05jM0dfbElVUGJoV1hzbTZTR05MUUlHN3BNZw?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-11-17T08:36:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bitcoin Hari Ini Sulit Bangkit, ETF dan Likuidasi Menekan - Nanovest",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGVRMlJINldLMXZFVGNOQVJvd1JNblBHZmd4aFZqSTU4Tmhlb2tjNVh6clE3dVl3a2F1MHZXOGJhWkhPQVY4akktcDNDQlRRd1BtbTcxNjZ5Y3NRRHFxVGRHdVBITTFFUXVlZ0hnb0NncGxoMWdfN0NDVnpHdXpyLWF1X255NUw2U1E?oc=5",
+      "publisher": "Nanovest",
+      "publishedAt": "2026-11-17T08:01:31.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Kapan Bear Market Bitcoin Berakhir? - Coinvestasi",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15UEtRakMxdmdtaW9GaThZTmVtUHNfajNiMUwzYmRWRzdkY0pGV0laVzdLM2w4SmIwNHprTS14YmdJTm51MkdPQjBzZ185RlpjbG0yQ3p2djU3djh0SzhESmxzZ0N4SzJIOXZtdFBFbmNNa1k?oc=5",
+      "publisher": "Coinvestasi",
+      "publishedAt": "2026-11-17T07:42:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Prakiraan BTC: Harga bisa turun ke kisaran $50.000, peringatan dari Wintermute - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTVZYRS0xc1k0Z2ZneFYzUHdHUDk1b29LYVc5bWpOZHpEdW9RWGFqNEpEV3BKOWlpSVFJWVhFcmJxWUtwT1lnd0ZqTlBhTlBDem5KZ3N3Tm5vaFE4bGdUYjRJVEFkUmNnc2lLTEdfQWZQUHo3bjZNTEdzX0tHdnRBYW5FdFZpTFJEbks5TjN6VHdUY2o5MkZtcWxOa0N0UWJSSW05MXI0NWJBZWpORXpmdU8yUzV5RXF6VkZPcWlUcGZtbUFtM3dYUWtR?oc=5",
+      "publisher": "CoinDesk",
+      "publishedAt": "2026-11-17T07:38:07.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Tambah Muatan Setara 30.553 BTC, Wells Fargo Jadi Holder ETF Bitcoin Terbesar - Cryptowave",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcmthUFB0TUo0bFRQTEdybWdCdHozcGRzUzdjWGRGYzlweVlGRnltVkloM0Z0V0s3LWFQOTBDSUhOYXFSOGJkbnM3OFNwLWQ4ZVZRTXo5X3BIX0xpUEpwVVVjTVdnSkRJWDlDakFSN3F2clItcGxDNEFoTnlQY25VRDZrMkZicVFGQ1RqUWU1ejBZTnNiWU9VUFNXbzdLY2xYekw5UEJHelFKTl9KRy1J?oc=5",
+      "publisher": "Cryptowave",
+      "publishedAt": "2026-11-17T07:09:43.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Garis Waktu Bubble AI Gary Gensler Tempatkan Halving Bitcoin 2028 di Zona Ledakan - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WclJsMEZ6Sk1pOG1BanQxNEpFVUNmcFlGMmpyT0c5VlJoNFJKbi16bzU2QUJkUW95ckg0U1NRWG5aalVtRmk5aG1UX2lZQW8xZXM3QlRWWTlqQ2V2WHJIMVh2dDhtWVl1M1A1eW52amxyY1gzSUpWanRicm9TTTQ?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-11-17T07:04:00.000Z",
+      "source": "google-news"
+    }
+  ]
 }

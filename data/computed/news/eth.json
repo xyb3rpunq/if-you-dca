@@ -1,10 +1,64 @@
 {
   "id": "eth",
   "symbol": "ETH",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 429"
-  ],
-  "items": []
+  "generatedAt": "2026-11-17T10:11:49.336Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "Dompet Hacker Binance dan Bitget Pindahkan ETH serta BTC Senilai $298 Juta - Cryptowave",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNUoyZEtYMEZsWndFWnhfSU5DMkU4ZHRMdUpJTkZ6NGxncVdXVEVvdHA0ek9zTlB2eHJMUWNOdU41ZWVka2pMTHMzSldoZzh4dGw4UHp6TkJqanF5eW1YeWl0TlZ1QnpKRzZFUEltNkJ3b3ZjU0hCNnFuWjhkeURybmRaR3BGYVZ6WmlpeGFlWVFMMlh1T3VVM3k3bmlLNXY2SmJjREk2LWxhb1k?oc=5",
+      "publisher": "Cryptowave",
+      "publishedAt": "2026-11-17T09:48:02.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Peretas di balik pelanggaran rekor Binance memindahkan $63 juta dalam ether setelah penyitaan DOJ - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPellfWmsxQUxBUERQd29pQjBQU2ZpNWxfTE80M0JYR0hBQkxsQkpOTUpJbmRWMGNaZHRvYWVWWGs0Sy1mczJTWEFTSTM2NTVRN2plX1p5a1A2VTNUbjdHbThpd1lObFk0dGxnLTl2Z2dOWDFrOHVkeHpRcnd4WHYxMjY5dy1pSFpWcmo5ekNRa0lxYmxaVjUxemlIeENKaEh3clNYcVQzaTFYbThVNWdQNzNKNzJaNU1nRTBLSzh4VHJOZ2M?oc=5",
+      "publisher": "CoinDesk",
+      "publishedAt": "2026-11-17T09:21:19.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Ethereum Tertekan dan Investor Pantau Level US$ 2.000 - cwibc.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40WVZib3dxaF9IQUFtSG9LUHdWLU84V1ViSmw4TTVXSXRjRHg0VHFuTHlHNEVGOFNrQWhMbTdpLVZvUVZYb1VnbjJDVGVFVnYxaUo3c3RzY2xGUWpRMnYyZXFSOA?oc=5",
+      "publisher": "cwibc.co.id",
+      "publishedAt": "2026-11-17T08:12:14.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Bitmine Borong 7.653 ETH, Kepemilikan Tembus 6,07 Juta dan Dekati Target 5% Suplai Ethereum - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNnZiMmNXOFNGbS1xSG5xdmM0RzZseFpRZjZ6dXJ5eHRvcDlreHloc1YxOUwtT3lMZmFrS2paQXdUNk9ERUhfUk9SNDkwTzU2Zk82ZGsyakJVUEdxMXkxRFVTaXhFbWZVVU93TFdSSmE2MGw3TXN0RE10WVZzdFhoenB5OGtBLVBQVkZBM25mTWJNdw?oc=5",
+      "publisher": "Ajaib",
+      "publishedAt": "2026-11-17T07:12:16.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Ethereum Anjlok 28% dalam Dua Pekan, Tom Lee Soroti Efek Nvidia dan IPO Anthropic - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU0Y2Z1NOVEkxX3FMQlFFQXdsT2tEUXZMTXE1UmNrbGwwdG9GYnJyUXYwUENsMUxHLTRCYWZTenR2eUNjVk95Um9VaFpQY2NDQS1aUWwwbHlHc0V6Y1NXM2c5WEcyb21JSnNvczgySEIwVXdYYk9JZ1N2WXhBUTNrT3Aya3ItQ2dESVZMMGZjdl8tdjNOY25jR1ppcEo?oc=5",
+      "publisher": "Ajaib",
+      "publishedAt": "2026-11-17T07:02:24.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Hakim AS membebaskan kakak beradik yang dituduh melakukan eksploitasi MEV Ethereum senilai $25 Juta - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYWFjNjc3RFQtdDNWWTJCYnNsU0pGaHdEa1c5ZXlKWkVNRW1QRERVZlJ0Yjl5Wjc5VzdpZ280amZKbUJzRkhoV2FtaEZ3U2ZjT3k0MEJVWUIyWnZYWV9mTjBUTV8wSExzbi1rVVpuU2pFWnBpcXF2bzZuaDZiZEoteUFQdnB6dkFCNjZfT2JIa0pTX0t5YmRFVjFkN3o5M3dlSkdLa0Z3TG1OTXNKckI0aDFxLVNrbm1rTXJndXFxdzNLYnhaXzBKNEdWbXNzUFB3WlJnak9oNUttcy1ZbnpiX2Z4UEJ4RHR5OVFBNm1pU1VfWVE?oc=5",
+      "publisher": "FXStreet",
+      "publishedAt": "2026-11-17T06:05:10.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Posisi long futures ETH Binance senilai $2,9 ju... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeXJUcUkyWUl3OGZHVHFmYTUxODB1bGlCbEN1dVdUNUd0RjFGN1ppWndRNmRneXJiZUoxeDFqczBuSmJPWnZxeFFjMkNuTFhhSkZLU0R6ckpLM2RVdTBuSGd3U3NEYmhjMTRNMmkycmV1bGNvcDgybXhvZllQa1ZzOUNydw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-11-17T04:14:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Prakiraan Harga Ethereum: BitMine Melihat Tren ETH yang Mirip IPO SpaceX Jelang IPO Anthropic - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZEhuUzNERXRINmJkRU5GSWJvU0Z5THdjRm5DdC1veDA1NFNfNjFHeC1LLTlXa0trSWZOaUczRlRzdkUyQXlWN2xXQ1lOVmc4OEJJOFV0N1VLekJ6SUR5Vk12RzZjLTN5cTFrNExZOFRRQmtnX19abVNWbTFXWUNGblVybnRSN2VuZGpQcUVsSWx1ci0xZlgwWld2Ym1LcjAzT3pUdU5rUFNGX3FrQXN4blZ2bjFiZ2NDVGFzbGZQRGFBanc1elE3UjE3TTF6eUFCQ0xhd1lGV1ZHbXUyLUItVzFXRm5zUi1iRkFmSHVNYw?oc=5",
+      "publisher": "FXStreet",
+      "publishedAt": "2026-11-16T22:00:19.000Z",
+      "source": "google-news"
+    }
+  ]
 }

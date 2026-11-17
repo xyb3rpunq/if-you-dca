@@ -1,10 +1,64 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
-  "count": 0,
-  "errors": [
-    "Google News HTTP 429"
-  ],
-  "items": []
+  "generatedAt": "2026-11-17T10:11:49.336Z",
+  "count": 8,
+  "items": [
+    {
+      "title": "Harga Saham Google (GOOG) Hari Ini 17 November 2026: Turun ke $281,26 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTFViaVJNUjREUkxFUHVnMEs2QmdlRzA2LTN1cHYzVVlMU1VlZGhycHdsMTl4ZEJhRzBIdkZEZURQeUdiLXN1UHhxNjFzcHBTaFBjRk5vR2x5em5HSmJaczViMmR3X3U0MTdlMUNZdDFFOXhZbFVMS043TE02XzMydWdOaVZoem1p?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-11-17T08:45:01.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Jensen’s Exit Is “Great for Anthropic,” Says Dylan Patel. Alphabet and Amazon Should See the Benefit Immediately",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jensen-exit-great-anthropic-says-075013719.html",
+      "publisher": "TIKR",
+      "publishedAt": "2026-11-17T07:50:13.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Brad Gerstner Says AI Is at Its ‘Google 2005’ Moment. Here’s Who He Thinks Wins",
+      "url": "https://finance.yahoo.com/technology/ai/articles/brad-gerstner-says-ai-google-000704866.html",
+      "publisher": "24/7 Wall St.",
+      "publishedAt": "2026-11-17T00:07:04.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Harga Saham Google (GOOG) Hari Ini 16 November 2026: Turun ke $292,52 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeDJUN2VUeTZyUUs5aWxOWnNWbWNoZkRkam5rUEhtLW12amJQUERQa3VrLWp1STFDcy1yQi10V214d19xaG9hRWpTa05YcHhKa3dEeDdvbWI0NmowZV84NUpweU5HWkpGc2hYa29YbENHbGRoUjVlMmEyUEF5ODNBdnV0aEV0UHBR?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-11-16T06:27:11.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Alphabet catat pertumbuhan pendapatan 25% denga... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcm9CblB3UXBWVFNFZ3JRZmViRURTUEZFa0E2Y0tFMG9nY25qTDVjbkdicmIzQUNISHBXeWxQRlZoR0Fxbktta0F0dVk0S2RQVWJ3V0h2amMtcHdUcHk1S2JlbW1IWUVucFh2T0tjVVpyTG44bGtDYXY4cjVkMU10QzluSW1LaEdaNV9MYWdDVG1kUUJscDFNUF9MbG1Idi11MkI5MEo4cw?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-11-15T08:20:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Alphabet miliki saham Anthropic senilai $10 mil... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ0tjSjROa1JQNGtuSlpNMzNWYUJCcTlLaTdoNThpY0szcmJSN1gtWmdHdE9jOU1VZGxRemlkNDFoWlJrM3lVd0F2UGY5bF95WFRDTWlLdC13TXdwTnpSN1RlYWtSV2JJSGRGRFVQMzRBQTZYNE9vVV9RdklvNFBabGJOSjJjQ2l4T09idXBTbGxrYkVHNG16aVg0R1VWdmRveDdkMnJsSQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-11-13T11:58:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Google (GOOG) Hari Ini 13 November 2026: Naik ke $295,35 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeEEzYWQ1TDR3REVHajF4SE5HTGhoNEJ6Y0IyeW40dFg0cHdZR2xtQzZ6MVBVSEpaYlVMZGxDNElYV3RQOFg3cG00MUtUQWNOemNLRTNtVEg2M1cyQ3VIRTdLMHducW1ibC02S21SLWRySFVRcHVibkFCSmlwSVJWQmpwVTJOaERp?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-11-13T09:21:34.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Harga Saham Google (GOOG) Hari Ini 12 November 2026: Naik ke $290,63 - Pintu",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS29OWWc4WXc3bllmOXpDblVsYnY5MGhqNjVmQ1dSNTdPaXBNRnBmYU5IOGdBZXZBVkkyd242TVdaMnVGQ0VLajFGdE5INklvRzBRUDlOY25wOGNfOXpWMzhpelBsWlFQTTZZblZubU1LdXA1cjUtbnVZZDkxYUoyVmNMV284d0tk0gGOAUFVX3lxTFBlTUlVNFlfd0ROMzlFVE40WjJFdy1zVXNIQ0NUTnJBQXZDUHphMDBzblNiS1IxNFFYVEx5d3pNWS1FaS1JSGUxZ3ZiODVjQ3VqM1hGT25NTG50MW1VdldFc1IxYklfWWZueXd1blJHU190M3JYSVYwUUNldDNhYndyclVIeGpJaWpERWswZFE?oc=5",
+      "publisher": "Pintu",
+      "publishedAt": "2026-11-12T06:06:27.000Z",
+      "source": "google-news"
+    }
+  ]
 }

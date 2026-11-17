@@ -1,12 +1,23 @@
 {
   "id": "silver",
   "symbol": "XAGUSD",
-  "generatedAt": "2026-11-16T23:09:06.313Z",
+  "generatedAt": "2026-11-17T10:11:49.336Z",
   "count": 4,
-  "errors": [
-    "Google News HTTP 429"
-  ],
   "items": [
+    {
+      "title": "Silver Crashes 61% From All-Time High: One Wall Street Bull Sees A Buy Signal, Another Critic Says Wait",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/silver-crashes-61-time-high-014304768.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-11-17T01:43:04.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Silverco Mining Ships First Cusi Concentrate, Provides Cusi Restart Update",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/silverco-mining-ships-first-cusi-005900563.html",
+      "publisher": "TMX Newsfile",
+      "publishedAt": "2026-11-17T00:59:00.000Z",
+      "source": "yahoo"
+    },
     {
       "title": "Endeavour Silver Intersects 3,431 g/t Silver Equivalent over 1.42 Metres at Guanaceví; Multiple High-Grade Intercepts Highlight Contraria Vein Potential",
       "url": "https://finance.yahoo.com/markets/commodities/articles/endeavour-silver-intersects-3-431-220000131.html",
@@ -15,25 +26,11 @@
       "source": "yahoo"
     },
     {
-      "title": "Lumina Metals Joins the Silver Institute and Its Shares Are Added to the Nasdaq Junior Silver Miners Index",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/lumina-metals-joins-silver-institute-210000534.html",
-      "publisher": "TMX Newsfile",
-      "publishedAt": "2026-11-16T21:00:00.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Silver Has Given Up All of the Past Year’s Gains",
-      "url": "https://finance.yahoo.com/m/9c8a7984-8e54-3e7b-9470-86a70e5910cb/silver-has-given-up-all-of.html",
-      "publisher": "The Wall Street Journal",
-      "publishedAt": "2026-11-16T20:23:50.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "BC-Gold-Silver",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-silver-200014301.html",
-      "publisher": "Associated Press",
-      "publishedAt": "2026-11-16T20:00:14.000Z",
-      "source": "yahoo"
+      "title": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeVVscnFpbWxTZnRWM2I3Sy1Hd1duZDVfQ2Vaa0pyN1lNY2dRdGpfMjRURWdrcGV5aUNrYUNRYWloWlk0MXpFbkJzZ2ZmZ1lNRkxTU09uRm5BVndOZkdGLTFCUHN3RjNwT0p4YkR3STBUTkF0SEwwOVlERG4xS0lMV1lYTWIwUnlYNl80cVd1VU10b2t5dy1QanozaURyVHJ4NTlVVTRHYkQzbjVxZzFIY0J4LXctam9VLTUxb2ozOU5qNlJsVk5waC1hV1NvQ2EtYmc3Zmt3U1FZdU9RbUE?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-10-30T21:58:31.000Z",
+      "source": "google-news"
     }
   ]
 }
