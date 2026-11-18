@@ -2,26 +2,21 @@
   "id": "mstr",
   "symbol": "MSTR",
   "currency": "USD",
-  "generatedAt": "2026-11-18T09:43:12.160Z",
-  "price": 96.5,
+  "generatedAt": "2026-11-18T21:40:35.080Z",
+  "price": 90.32,
   "dataFrom": "1998-07",
   "dailyBars": 501,
   "allTimeHigh": {
     "price": 543,
     "at": "2024-11",
-    "distancePct": -82.23
+    "distancePct": -83.37
   },
   "allTimeLow": {
     "price": 0.42,
     "at": "2002-07",
-    "distancePct": 22876.19
+    "distancePct": 21404.76
   },
   "supports": [
-    {
-      "price": 91.669998,
-      "touches": 1,
-      "lastTouch": "2026-08-14"
-    },
     {
       "price": 89.614998,
       "touches": 2,
@@ -34,6 +29,11 @@
     }
   ],
   "resistances": [
+    {
+      "price": 91.669998,
+      "touches": 1,
+      "lastTouch": "2026-08-14"
+    },
     {
       "price": 104.762499,
       "touches": 4,
@@ -48,11 +48,6 @@
       "price": 118.400002,
       "touches": 1,
       "lastTouch": "2026-02-24"
-    },
-    {
-      "price": 123.330002,
-      "touches": 1,
-      "lastTouch": "2026-09-16"
     }
   ],
   "pivots": {
@@ -66,21 +61,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 26.2,
-    "sma20": 130.276499,
-    "sma50": 141.668599,
-    "sma200": 132.33445,
-    "ema12": 118.652618,
-    "ema26": 128.8904,
-    "macd": -10.237782,
-    "macdSignal": -6.545133,
-    "macdHistogram": -3.692649,
-    "bollingerUpper": 160.030905,
-    "bollingerMiddle": 130.276499,
-    "bollingerLower": 100.522093,
-    "bollingerBandwidth": 0.4568,
-    "atr14": 8.803112,
-    "stochK": 0.3,
-    "stochD": 4.07
+    "rsi14": 24.04,
+    "sma20": 127.118499,
+    "sma50": 140.820999,
+    "sma200": 132.11975,
+    "ema12": 114.293753,
+    "ema26": 126.033333,
+    "macd": -11.73958,
+    "macdSignal": -7.584022,
+    "macdHistogram": -4.155558,
+    "bollingerUpper": 159.630908,
+    "bollingerMiddle": 127.118499,
+    "bollingerLower": 94.60609,
+    "bollingerBandwidth": 0.5115,
+    "atr14": 8.624318,
+    "stochK": 0.21,
+    "stochD": 1.17
   }
 }

@@ -1,35 +1,28 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-11-18T09:43:50.738Z",
-  "count": 7,
+  "generatedAt": "2026-11-18T21:41:17.148Z",
+  "count": 6,
   "items": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise after Nvidia clears hurdle, Anthropic prepares to price its IPO",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html",
+      "title": "ExxonMobil (XOM) Just Achieved Something 95% of S&P 500 (GSPC) Members Haven't Done",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-just-achieved-something-212500319.html",
+      "publisher": "Motley Fool",
+      "publishedAt": "2026-11-18T21:25:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Stock market today: Dow and S&P 500 slide, Nasdaq rises in anticipation of Anthropic IPO",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
       "publisher": "Yahoo Finance",
-      "publishedAt": "2026-11-18T09:06:13.000Z",
+      "publishedAt": "2026-11-18T21:15:47.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-063713829.html",
-      "publisher": "Benzinga Prediction Markets",
-      "publishedAt": "2026-11-18T06:37:13.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Asia stocks mixed as Nvidia optimism offsets Wall Street rout, Fed mins in focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-mixed-nvidia-optimism-050505174.html",
-      "publisher": "Investing.com",
-      "publishedAt": "2026-11-18T05:05:05.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-lead-wall-street-034627099.html",
-      "publisher": "Stocktwits",
-      "publishedAt": "2026-11-18T03:46:27.000Z",
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-18T21:00:46.000Z",
       "source": "yahoo"
     },
     {
