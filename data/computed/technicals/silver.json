@@ -2,19 +2,19 @@
   "id": "silver",
   "symbol": "XAGUSD",
   "currency": "USD",
-  "generatedAt": "2026-11-18T21:40:35.080Z",
-  "price": 45.005,
+  "generatedAt": "2026-11-19T09:52:34.753Z",
+  "price": 45.185,
   "dataFrom": "2000-09",
   "dailyBars": 504,
   "allTimeHigh": {
     "price": 121.300003,
     "at": "2026-01",
-    "distancePct": -62.9
+    "distancePct": -62.75
   },
   "allTimeLow": {
     "price": 4.026,
     "at": "2001-11",
-    "distancePct": 1017.86
+    "distancePct": 1022.33
   },
   "supports": [
     {
@@ -71,21 +71,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 27.08,
-    "sma20": 51.08555,
-    "sma50": 57.25194,
-    "sma200": 67.886575,
-    "ema12": 49.456899,
-    "ema26": 52.302519,
-    "macd": -2.84562,
-    "macdSignal": -2.537001,
-    "macdHistogram": -0.308619,
-    "bollingerUpper": 56.264295,
-    "bollingerMiddle": 51.08555,
-    "bollingerLower": 45.906806,
-    "bollingerBandwidth": 0.2027,
-    "atr14": 1.590255,
-    "stochK": 4.09,
-    "stochD": 6.85
+    "rsi14": 27.89,
+    "sma20": 50.6063,
+    "sma50": 56.86984,
+    "sma200": 67.691645,
+    "ema12": 48.798903,
+    "ema26": 51.774884,
+    "macd": -2.975981,
+    "macdSignal": -2.624873,
+    "macdHistogram": -0.351107,
+    "bollingerUpper": 56.099239,
+    "bollingerMiddle": 50.6063,
+    "bollingerLower": 45.113362,
+    "bollingerBandwidth": 0.2171,
+    "atr14": 1.560308,
+    "stochK": 8.44,
+    "stochD": 8.42
   }
 }
