@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:40:36.359Z",
+  "generatedAt": "2026-11-21T10:26:39.170Z",
   "available": true,
   "provider": "yahoo-finance",
   "coverage": "18/18",
@@ -14,11 +14,11 @@
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 6.889471,
-      "peg": 0.99,
+      "peg": 0.96,
       "eps": 19.15,
       "forwardEps": 15.29738,
       "bookValuePerShare": 53.646,
-      "enterpriseValue": 3235175989248,
+      "enterpriseValue": 3148871892992,
       "earningsYield": 0.072538,
       "freeCashflowYield": -0.000358,
       "roe": 0.44286,
@@ -131,22 +131,22 @@
       },
       "ticker": "GOOG",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "mu": {
       "price": 594.51,
       "marketCap": 672642433024,
       "pe": 7.998251,
-      "forwardPe": 2.861516,
+      "forwardPe": 2.846877,
       "pb": 4.859093,
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 5.050323,
       "peg": 0.16,
       "eps": 74.33,
-      "forwardEps": 207.76048,
+      "forwardEps": 208.82883,
       "bookValuePerShare": 122.35,
-      "enterpriseValue": 742924812288,
+      "enterpriseValue": 634387431424,
       "earningsYield": 0.125027,
       "freeCashflowYield": 0.043322,
       "roe": 0.8826,
@@ -163,7 +163,7 @@
       "totalDebt": 5178999808,
       "freeCashflow": 29140250624,
       "operatingCashflow": 89674997760,
-      "dividendYield": 0.0009,
+      "dividendYield": 0.001,
       "payoutRatio": 0.0071,
       "history": {
         "netIncome": [
@@ -259,7 +259,7 @@
       },
       "ticker": "MU",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "aapl": {
       "price": 342.56,
@@ -270,11 +270,11 @@
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 10.396389,
-      "peg": 2.85,
+      "peg": 2.82,
       "eps": 8.98,
       "forwardEps": 10.57273,
       "bookValuePerShare": 7.713,
-      "enterpriseValue": 5112540430336,
+      "enterpriseValue": 5015901044736,
       "earningsYield": 0.026214,
       "freeCashflowYield": 0.021224,
       "roe": 1.42257,
@@ -291,7 +291,7 @@
       "totalDebt": 94478999552,
       "freeCashflow": 105658376192,
       "operatingCashflow": 145096998912,
-      "dividendYield": 0.0031,
+      "dividendYield": 0.0032,
       "payoutRatio": 0.118,
       "history": {
         "netIncome": [
@@ -387,7 +387,7 @@
       },
       "ticker": "AAPL",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "nvda": {
       "price": 125.53,
@@ -402,7 +402,7 @@
       "eps": 9.31,
       "forwardEps": 16.60528,
       "bookValuePerShare": 11.062,
-      "enterpriseValue": 3459410821120,
+      "enterpriseValue": 2966443261952,
       "earningsYield": 0.074166,
       "freeCashflowYield": 0.03274,
       "roe": 1.17364,
@@ -419,7 +419,7 @@
       "totalDebt": 38148001792,
       "freeCashflow": 99241377792,
       "operatingCashflow": 158862999552,
-      "dividendYield": 0.0069,
+      "dividendYield": 0.008,
       "payoutRatio": 0.0354,
       "history": {
         "netIncome": [
@@ -515,7 +515,7 @@
       },
       "ticker": "NVDA",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "orcl": {
       "price": 101.19,
@@ -526,11 +526,11 @@
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 4.395353,
-      "peg": 0.62,
+      "peg": 0.6,
       "eps": 6.38,
       "forwardEps": 11.05881,
       "bookValuePerShare": 20.444,
-      "enterpriseValue": 471778492416,
+      "enterpriseValue": 443415855104,
       "earningsYield": 0.06305,
       "freeCashflowYield": -0.145345,
       "roe": 0.41192,
@@ -547,7 +547,7 @@
       "totalDebt": 169142992896,
       "freeCashflow": -45853626368,
       "operatingCashflow": 46940000256,
-      "dividendYield": 0.0181,
+      "dividendYield": 0.0198,
       "payoutRatio": 0.3135,
       "history": {
         "netIncome": [
@@ -643,7 +643,7 @@
       },
       "ticker": "ORCL",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "mstr": {
       "price": 77.8,
@@ -658,7 +658,7 @@
       "eps": -52.33,
       "forwardEps": 17.24,
       "bookValuePerShare": 131.384,
-      "enterpriseValue": 50303967232,
+      "enterpriseValue": 46785753088,
       "earningsYield": null,
       "freeCashflowYield": -0.098403,
       "roe": -0.21587,
@@ -771,7 +771,7 @@
       },
       "ticker": "MSTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "pltr": {
       "price": 143.49,
@@ -782,11 +782,11 @@
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 47.437775,
-      "peg": 1.24,
+      "peg": 1.22,
       "eps": 1.42,
       "forwardEps": 2.53877,
       "bookValuePerShare": 4.661,
-      "enterpriseValue": 360072413184,
+      "enterpriseValue": 335519645696,
       "earningsYield": 0.009896,
       "freeCashflowYield": 0.007672,
       "roe": 0.40907,
@@ -899,18 +899,18 @@
       },
       "ticker": "PLTR",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "bbca": {
       "price": 5550,
-      "marketCap": 681771700060160,
+      "marketCap": 681963161649152,
       "pe": 11.490684,
       "forwardPe": 11.503067,
       "pb": 2.405523,
       "bookValueConverted": false,
       "bookValueNote": null,
-      "ps": 6.122668,
-      "peg": 2.68,
+      "ps": 6.124387,
+      "peg": 2.63,
       "eps": 483,
       "forwardEps": 482.48,
       "bookValuePerShare": 2307.191,
@@ -931,7 +931,7 @@
       "totalDebt": 2426982891520,
       "freeCashflow": null,
       "operatingCashflow": -35777564114944,
-      "dividendYield": 0.0674,
+      "dividendYield": 0.0686,
       "payoutRatio": 0.7888,
       "history": {
         "netIncome": [
@@ -1027,7 +1027,7 @@
       },
       "ticker": "BBCA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "bmri": {
       "price": 3890,
@@ -1038,7 +1038,7 @@
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 2.596242,
-      "peg": 3.21,
+      "peg": 3.13,
       "eps": 687.11,
       "forwardEps": 663.48,
       "bookValuePerShare": 3150.444,
@@ -1059,7 +1059,7 @@
       "totalDebt": 334588823994368,
       "freeCashflow": null,
       "operatingCashflow": -294274046361600,
-      "dividendYield": 0.1389,
+      "dividendYield": 0.1396,
       "payoutRatio": 0.7902,
       "history": {
         "netIncome": [
@@ -1155,7 +1155,7 @@
       },
       "ticker": "BMRI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "hrta": {
       "price": 1285,
@@ -1187,7 +1187,7 @@
       "totalDebt": 4140302073856,
       "freeCashflow": 12460467200,
       "operatingCashflow": 460468224000,
-      "dividendYield": 0.0296,
+      "dividendYield": 0.0311,
       "payoutRatio": 0.1415,
       "history": {
         "netIncome": [
@@ -1283,21 +1283,21 @@
       },
       "ticker": "HRTA.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "bumi": {
       "price": 119,
       "marketCap": 44188913631232,
       "pe": 21.518986,
       "forwardPe": null,
-      "pb": 1.623849,
+      "pb": 1.614779,
       "bookValueConverted": true,
-      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18321",
-      "ps": 1.49479,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18424",
+      "ps": 1.48644,
       "peg": 0.1,
       "eps": 5.53,
       "forwardEps": null,
-      "bookValuePerShare": 73.282656,
+      "bookValuePerShare": 73.694311,
       "enterpriseValue": 44190750736384,
       "earningsYield": 0.046471,
       "freeCashflowYield": -0.000003,
@@ -1411,21 +1411,21 @@
       },
       "ticker": "BUMI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "arci": {
       "price": 785,
       "marketCap": 19809475493888,
       "pe": 7.914104,
       "forwardPe": null,
-      "pb": 2.677987,
+      "pb": 2.663028,
       "bookValueConverted": true,
-      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18321",
-      "ps": 1.72702,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18424",
+      "ps": 1.717373,
       "peg": null,
       "eps": 99.19,
       "forwardEps": null,
-      "bookValuePerShare": 293.130623,
+      "bookValuePerShare": 294.777243,
       "enterpriseValue": 19809945255936,
       "earningsYield": 0.126357,
       "freeCashflowYield": 0,
@@ -1443,7 +1443,7 @@
       "totalDebt": 491512256,
       "freeCashflow": 3704010,
       "operatingCashflow": 99207040,
-      "dividendYield": 0.0509,
+      "dividendYield": 0.0516,
       "payoutRatio": 0.4134,
       "history": {
         "netIncome": [
@@ -1539,19 +1539,19 @@
       },
       "ticker": "ARCI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "untr": {
       "price": 23900,
       "marketCap": 82060349800448,
-      "pe": 10.888433,
+      "pe": 10.888383,
       "forwardPe": 4.809221,
       "pb": 0.83155,
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 0.677232,
       "peg": 0.43,
-      "eps": 2194.99,
+      "eps": 2195,
       "forwardEps": 4969.62,
       "bookValuePerShare": 28741.498,
       "enterpriseValue": 91797627863040,
@@ -1571,7 +1571,7 @@
       "totalDebt": 27631439314944,
       "freeCashflow": 9218080899072,
       "operatingCashflow": 18470951452672,
-      "dividendYield": 0.0358,
+      "dividendYield": 0.036,
       "payoutRatio": 0.9535,
       "history": {
         "netIncome": [
@@ -1667,7 +1667,7 @@
       },
       "ticker": "UNTR.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "asii": {
       "price": 5300,
@@ -1699,7 +1699,7 @@
       "totalDebt": 117612998557696,
       "freeCashflow": 22677999845376,
       "operatingCashflow": 38231001268224,
-      "dividendYield": 0.0726,
+      "dividendYield": 0.0736,
       "payoutRatio": 0.5228,
       "history": {
         "netIncome": [
@@ -1795,7 +1795,7 @@
       },
       "ticker": "ASII.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "bbni": {
       "price": 3560,
@@ -1827,7 +1827,7 @@
       "totalDebt": 109794312585216,
       "freeCashflow": null,
       "operatingCashflow": -178189569622016,
-      "dividendYield": 0.0976,
+      "dividendYield": 0.0982,
       "payoutRatio": 0.6195,
       "history": {
         "netIncome": [
@@ -1923,21 +1923,21 @@
       },
       "ticker": "BBNI.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "adro": {
       "price": 2320,
       "marketCap": 66817145962496,
       "pe": 5.852969,
       "forwardPe": 4.49299,
-      "pb": 0.723617,
+      "pb": 0.719575,
       "bookValueConverted": true,
-      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18321",
-      "ps": 1.502807,
+      "bookValueNote": "nilai buku dilaporkan dalam mata uang lain — dikalikan kurs 18424",
+      "ps": 1.494412,
       "peg": 0.85,
       "eps": 396.38,
       "forwardEps": 516.36,
-      "bookValuePerShare": 3206.116187,
+      "bookValuePerShare": 3224.126092,
       "enterpriseValue": 66817531838464,
       "earningsYield": 0.170853,
       "freeCashflowYield": 0.000002,
@@ -2051,23 +2051,23 @@
       },
       "ticker": "ADRO.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "indf": {
       "price": 7200,
       "marketCap": 63219070664704,
-      "pe": 5.925926,
+      "pe": 5.905366,
       "forwardPe": 5.538419,
       "pb": 0.791619,
       "bookValueConverted": false,
       "bookValueNote": null,
       "ps": 0.471777,
-      "peg": 0.36,
-      "eps": 1215,
+      "peg": 0.37,
+      "eps": 1219.23,
       "forwardEps": 1300.01,
       "bookValuePerShare": 9095.28,
       "enterpriseValue": 128771340369920,
-      "earningsYield": 0.16875,
+      "earningsYield": 0.169338,
       "freeCashflowYield": 0.210874,
       "roe": 0.13095,
       "roa": 0.07239,
@@ -2083,7 +2083,7 @@
       "totalDebt": 77915203043328,
       "freeCashflow": 13331261816832,
       "operatingCashflow": 21428323745792,
-      "dividendYield": 0.0404,
+      "dividendYield": 0.0403,
       "payoutRatio": 0.2387,
       "history": {
         "netIncome": [
@@ -2179,7 +2179,7 @@
       },
       "ticker": "INDF.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     },
     "antm": {
       "price": 2610,
@@ -2307,7 +2307,7 @@
       },
       "ticker": "ANTM.JK",
       "provider": "yahoo",
-      "fetchedAt": "2026-11-20T21:40:36.359Z"
+      "fetchedAt": "2026-11-21T10:26:39.170Z"
     }
   }
 }
