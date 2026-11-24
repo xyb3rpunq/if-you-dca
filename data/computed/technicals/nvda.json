@@ -2,62 +2,62 @@
   "id": "nvda",
   "symbol": "NVDA",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 125.53,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 165.05,
   "dataFrom": "1999-02",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 243.369995,
     "at": "2026-10",
-    "distancePct": -48.42
+    "distancePct": -32.18
   },
   "allTimeLow": {
     "price": 0.033333,
     "at": "1999-04",
-    "distancePct": 376493.77
+    "distancePct": 495054.95
   },
   "supports": [
     {
-      "price": 122.889999,
-      "touches": 1,
-      "lastTouch": "2025-03-17"
+      "price": 164.306671,
+      "touches": 3,
+      "lastTouch": "2026-03-30"
     },
     {
-      "price": 115.099998,
+      "price": 153.130005,
       "touches": 1,
-      "lastTouch": "2025-04-09"
+      "lastTouch": "2025-01-07"
     },
     {
-      "price": 113.010002,
+      "price": 148.970001,
       "touches": 1,
-      "lastTouch": "2025-02-03"
+      "lastTouch": "2025-01-24"
     },
     {
-      "price": 104.769997,
+      "price": 146.539993,
       "touches": 1,
-      "lastTouch": "2025-03-11"
+      "lastTouch": "2024-12-05"
     }
   ],
   "resistances": [
     {
-      "price": 126.860001,
+      "price": 169.592001,
+      "touches": 5,
+      "lastTouch": "2025-12-17"
+    },
+    {
+      "price": 171.029999,
       "touches": 1,
-      "lastTouch": "2024-12-17"
+      "lastTouch": "2026-02-05"
     },
     {
-      "price": 129.334999,
+      "price": 175.699997,
       "touches": 2,
-      "lastTouch": "2025-05-23"
+      "lastTouch": "2026-03-02"
     },
     {
-      "price": 133.830002,
-      "touches": 1,
-      "lastTouch": "2024-12-31"
-    },
-    {
-      "price": 141.375,
-      "touches": 2,
-      "lastTouch": "2025-06-13"
+      "price": 178.566666,
+      "touches": 3,
+      "lastTouch": "2026-02-17"
     }
   ],
   "pivots": {

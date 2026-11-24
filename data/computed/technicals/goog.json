@@ -2,21 +2,26 @@
   "id": "goog",
   "symbol": "GOOG",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 264,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 279.53,
   "dataFrom": "2004-09",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 404.470001,
     "at": "2026-05",
-    "distancePct": -34.73
+    "distancePct": -30.89
   },
   "allTimeLow": {
     "price": 2.464263,
     "at": "2004-09",
-    "distancePct": 10613.14
+    "distancePct": 11243.35
   },
   "supports": [
+    {
+      "price": 271.648336,
+      "touches": 3,
+      "lastTouch": "2026-11-03"
+    },
     {
       "price": 256.700012,
       "touches": 1,
@@ -31,19 +36,9 @@
       "price": 237.942497,
       "touches": 2,
       "lastTouch": "2025-10-10"
-    },
-    {
-      "price": 208.699997,
-      "touches": 1,
-      "lastTouch": "2025-02-04"
     }
   ],
   "resistances": [
-    {
-      "price": 271.648336,
-      "touches": 3,
-      "lastTouch": "2026-11-03"
-    },
     {
       "price": 292.929993,
       "touches": 2,
@@ -58,6 +53,11 @@
       "price": 301.619995,
       "touches": 1,
       "lastTouch": "2026-11-13"
+    },
+    {
+      "price": 309.546336,
+      "touches": 3,
+      "lastTouch": "2026-03-11"
     }
   ],
   "pivots": {

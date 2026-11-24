@@ -2,21 +2,26 @@
   "id": "aapl",
   "symbol": "AAPL",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 342.56,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 349.08,
   "dataFrom": "1996-12",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 360.829987,
     "at": "2026-11",
-    "distancePct": -5.06
+    "distancePct": -3.26
   },
   "allTimeLow": {
     "price": 0.113839,
     "at": "1997-07",
-    "distancePct": 300816.2
+    "distancePct": 306543.59
   },
   "supports": [
+    {
+      "price": 346.019999,
+      "touches": 3,
+      "lastTouch": "2026-10-13"
+    },
     {
       "price": 336.845001,
       "touches": 2,
@@ -31,19 +36,9 @@
       "price": 319.01,
       "touches": 3,
       "lastTouch": "2026-08-20"
-    },
-    {
-      "price": 309.899994,
-      "touches": 1,
-      "lastTouch": "2026-09-09"
     }
   ],
   "resistances": [
-    {
-      "price": 346.019999,
-      "touches": 3,
-      "lastTouch": "2026-10-13"
-    },
     {
       "price": 351.730011,
       "touches": 1,

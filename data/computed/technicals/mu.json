@@ -2,21 +2,26 @@
   "id": "mu",
   "symbol": "MU",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 594.51,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 707.7,
   "dataFrom": "1996-12",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 1255,
     "at": "2026-06",
-    "distancePct": -52.63
+    "distancePct": -43.61
   },
   "allTimeLow": {
     "price": 1.59,
     "at": "2008-11",
-    "distancePct": 37290.57
+    "distancePct": 44409.43
   },
   "supports": [
+    {
+      "price": 651.105011,
+      "touches": 2,
+      "lastTouch": "2026-11-05"
+    },
     {
       "price": 471.339996,
       "touches": 1,
@@ -31,19 +36,9 @@
       "price": 437.830002,
       "touches": 2,
       "lastTouch": "2026-02-25"
-    },
-    {
-      "price": 363.899994,
-      "touches": 1,
-      "lastTouch": "2026-02-04"
     }
   ],
   "resistances": [
-    {
-      "price": 651.105011,
-      "touches": 2,
-      "lastTouch": "2026-11-05"
-    },
     {
       "price": 737.880005,
       "touches": 1,
@@ -58,6 +53,11 @@
       "price": 818.669983,
       "touches": 1,
       "lastTouch": "2026-05-11"
+    },
+    {
+      "price": 851.799988,
+      "touches": 2,
+      "lastTouch": "2026-10-22"
     }
   ],
   "pivots": {

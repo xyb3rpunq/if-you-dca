@@ -2,27 +2,28 @@
   "id": "mstr",
   "symbol": "MSTR",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 77.8,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 84.4,
   "dataFrom": "1998-07",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 543,
     "at": "2024-11",
-    "distancePct": -85.67
+    "distancePct": -84.46
   },
   "allTimeLow": {
     "price": 0.42,
     "at": "2002-07",
-    "distancePct": 18423.81
+    "distancePct": 19995.24
   },
-  "supports": [],
-  "resistances": [
+  "supports": [
     {
       "price": 81.809998,
       "touches": 1,
       "lastTouch": "2026-06-26"
-    },
+    }
+  ],
+  "resistances": [
     {
       "price": 89.614998,
       "touches": 2,
@@ -37,6 +38,11 @@
       "price": 104.762499,
       "touches": 4,
       "lastTouch": "2026-08-07"
+    },
+    {
+      "price": 116.400002,
+      "touches": 1,
+      "lastTouch": "2026-04-02"
     }
   ],
   "pivots": {

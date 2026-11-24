@@ -2,52 +2,25 @@
   "id": "pltr",
   "symbol": "PLTR",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 143.49,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 159.36,
   "dataFrom": "2020-10",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 212.940002,
     "at": "2026-10",
-    "distancePct": -32.61
+    "distancePct": -25.16
   },
   "allTimeLow": {
     "price": 5.92,
     "at": "2022-12",
-    "distancePct": 2323.82
+    "distancePct": 2591.89
   },
   "supports": [
     {
-      "price": 142.339996,
-      "touches": 1,
-      "lastTouch": "2025-08-20"
-    },
-    {
-      "price": 138.899994,
-      "touches": 1,
-      "lastTouch": "2026-07-07"
-    },
-    {
-      "price": 136.140003,
-      "touches": 4,
-      "lastTouch": "2026-07-15"
-    },
-    {
-      "price": 132.560005,
+      "price": 155.979996,
       "touches": 2,
-      "lastTouch": "2026-05-27"
-    }
-  ],
-  "resistances": [
-    {
-      "price": 144.960999,
-      "touches": 2,
-      "lastTouch": "2025-07-22"
-    },
-    {
-      "price": 148.406998,
-      "touches": 5,
-      "lastTouch": "2026-05-04"
+      "lastTouch": "2026-04-08"
     },
     {
       "price": 152.112666,
@@ -55,9 +28,36 @@
       "lastTouch": "2026-11-05"
     },
     {
-      "price": 155.979996,
+      "price": 148.406998,
+      "touches": 5,
+      "lastTouch": "2026-05-04"
+    },
+    {
+      "price": 144.960999,
       "touches": 2,
-      "lastTouch": "2026-04-08"
+      "lastTouch": "2025-07-22"
+    }
+  ],
+  "resistances": [
+    {
+      "price": 161.706665,
+      "touches": 3,
+      "lastTouch": "2026-03-24"
+    },
+    {
+      "price": 164.125,
+      "touches": 2,
+      "lastTouch": "2026-09-10"
+    },
+    {
+      "price": 166.350006,
+      "touches": 1,
+      "lastTouch": "2026-01-02"
+    },
+    {
+      "price": 170.33667,
+      "touches": 3,
+      "lastTouch": "2025-10-22"
     }
   ],
   "pivots": {

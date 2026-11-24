@@ -6,7 +6,7 @@
   "description": "S&P 500",
   "currency": "USD",
   "interval": "1M",
-  "fetchedAt": "2026-11-23T10:15:56.864Z",
+  "fetchedAt": "2026-11-24T01:24:59.173Z",
   "historicalSnapshotAt": "2026-08-09T21:41:34.506Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 3,
     "note": "3 bulan terbaru diskalakan ×1.0093 agar sejajar dengan deret historis"
   },
-  "marketPrice": 6910.39,
+  "marketPrice": 7237.17,
   "lastMonthIsPartial": true,
   "count": 303,
   "from": "2001-09",
@@ -1234,7 +1234,7 @@
     },
     {
       "m": "2026-11",
-      "c": 6974.673631581806
+      "c": 7304.493266330458
     }
   ],
   "monthlyTotal": [
@@ -2448,7 +2448,7 @@
     },
     {
       "m": "2026-11",
-      "c": 6974.673631581806
+      "c": 7304.493266330458
     }
   ]
 }

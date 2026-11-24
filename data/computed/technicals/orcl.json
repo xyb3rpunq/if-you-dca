@@ -2,27 +2,28 @@
   "id": "orcl",
   "symbol": "ORCL",
   "currency": "USD",
-  "generatedAt": "2026-11-23T10:16:22.703Z",
-  "price": 101.19,
+  "generatedAt": "2026-11-24T01:25:24.520Z",
+  "price": 113.68,
   "dataFrom": "1996-12",
-  "dailyBars": 501,
+  "dailyBars": 499,
   "allTimeHigh": {
     "price": 345.720001,
     "at": "2025-09",
-    "distancePct": -70.73
+    "distancePct": -67.12
   },
   "allTimeLow": {
     "price": 2.958333,
     "at": "1998-01",
-    "distancePct": 3320.51
+    "distancePct": 3742.7
   },
-  "supports": [],
-  "resistances": [
+  "supports": [
     {
       "price": 109.209999,
       "touches": 1,
       "lastTouch": "2026-11-06"
-    },
+    }
+  ],
+  "resistances": [
     {
       "price": 114.5,
       "touches": 1,
@@ -37,6 +38,11 @@
       "price": 122,
       "touches": 2,
       "lastTouch": "2026-10-22"
+    },
+    {
+      "price": 131.175003,
+      "touches": 2,
+      "lastTouch": "2026-11-11"
     }
   ],
   "pivots": {
