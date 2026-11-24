@@ -1,29 +1,43 @@
 {
   "id": "spx",
   "symbol": "SPX",
-  "generatedAt": "2026-11-24T01:26:03.426Z",
-  "count": 4,
+  "generatedAt": "2026-11-24T11:59:48.058Z",
+  "count": 6,
   "items": [
     {
-      "title": "U.S. stock futures steady after Nvidia-led Wall Street rally",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-nvidia-004836470.html",
-      "publisher": "Investing.com",
-      "publishedAt": "2026-11-24T00:48:36.000Z",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as investors test Nvidia-fueled rally",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html",
+      "publisher": "Yahoo Finance",
+      "publishedAt": "2026-11-24T11:52:27.000Z",
       "source": "yahoo"
     },
     {
-      "title": "SharkNinja To Join S&P 500 Index",
-      "url": "https://finance.yahoo.com/m/cc396177-40de-3092-88f3-436b29060cbe/sharkninja-to-join-s%26p-500.html",
-      "publisher": "Investor's Business Daily",
-      "publishedAt": "2026-11-24T00:09:34.000Z",
+      "title": "Huang-Over Damps Wall Street Pre-Bell; Asia Up, Europe Off",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/huang-over-damps-wall-street-110942839.html",
+      "publisher": "MT Newswires",
+      "publishedAt": "2026-11-24T11:09:42.000Z",
       "source": "yahoo"
     },
     {
-      "title": "SharkNinja Stock to Join the S&P 500 as AES Leaves",
-      "url": "https://finance.yahoo.com/m/e7ad2b58-935d-3b0f-93a0-2e01ee4531b5/sharkninja-stock-to-join-the.html",
-      "publisher": "Barrons.com",
-      "publishedAt": "2026-11-24T00:04:00.000Z",
-      "source": "yahoo"
+      "title": "Goldman Sachs Warns S&P 500 Selloff May Not Be Over - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQalo2cUl3QUhtcllBRm96dTlJZktKUjV2SDgxWkdkQWxWVDdsNEhnN3NmMURzeHZfMVA1SkcxSjVpbDJpdnZweDlwdUM1LU1YQ2JNQlpnOEMybThHb3JRb1NkYy1IZmRNMGhPT0d2bGM2anRyOEFaRG9scllEMHFzXzB1Sk5rVTMzSEZteVFMalRlT1dIZ0xfV1NxZ21tMF8tVzFDOXZ3VmtlU2tlSEtz?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-11-23T11:07:51.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "S&P 500 is on track for the worst week since the April 2025 'Liberation Day' sell-off - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaktQdmhKNzNYR3RzR1pBRmlOMUxMTk1zYmpISXRuYnJjUThrR0wzMmIwZllDMlZuZ09pa2VfXzRBX0wyNDd5ZHlUdE5qaUdyRHBwb0lDTGFEUFNSU2o4UVVSa2txTjVvYlJzUTN1LUgxMndCYTdjWE9fanhLU0M4bk1VazUtQjl3MHZ3SkpDVlFrY1MwYjFjOEVwaXprR21KQUI4cWQ1NlUxa0t0eFk0cEM3TjlOSkZVYlY2N3ZiVFBOWEV3Yk9wOFhyRVR1NzkxaTl3NmZBTVBiRG50Umc?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-11-20T14:00:47.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "S&P 500 Tembus Support Kritis: Apakah Crash Pasar Saham Lebih Besar Akan Terjadi? - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yV3BWOFlSV0RHY3NtNWVvQWc3dExtMDRGSXc5dE9DWFFYazY1eFpWUUxWZzlqVUtmZEZZMy1nUENzTHl0bDEyZGdYVkFiTWRFVlExajlqMEppM3hSTXJUaUlXZk5MUkg0RzFqN1FNbkY?oc=5",
+      "publisher": "BeInCrypto",
+      "publishedAt": "2026-11-18T21:56:00.000Z",
+      "source": "google-news"
     },
     {
       "title": "SPX: S&P 500 Futures Rise as Volatile Trading Continues, AI Rebound Faces a Near-5% Yield - TradingView",
