@@ -2,26 +2,21 @@
   "id": "usdidr",
   "symbol": "USDIDR",
   "currency": "IDR",
-  "generatedAt": "2026-11-24T11:59:07.940Z",
-  "price": 18158,
+  "generatedAt": "2026-11-24T23:20:11.314Z",
+  "price": 18131,
   "dataFrom": "2001-07",
   "dailyBars": 517,
   "allTimeHigh": {
     "price": 197804,
     "at": "2008-03",
-    "distancePct": -90.82
+    "distancePct": -90.83
   },
   "allTimeLow": {
     "price": 0.896861,
     "at": "2012-01",
-    "distancePct": 2024516.93
+    "distancePct": 2021506.43
   },
   "supports": [
-    {
-      "price": 18148.980078,
-      "touches": 5,
-      "lastTouch": "2026-11-02"
-    },
     {
       "price": 17693.60026,
       "touches": 3,
@@ -36,9 +31,20 @@
       "price": 17074.049805,
       "touches": 4,
       "lastTouch": "2026-05-06"
+    },
+    {
+      "price": 16817.845703,
+      "touches": 9,
+      "lastTouch": "2026-03-26"
     }
   ],
-  "resistances": [],
+  "resistances": [
+    {
+      "price": 18148.980078,
+      "touches": 5,
+      "lastTouch": "2026-11-02"
+    }
+  ],
   "pivots": {
     "pivot": 18028.033203,
     "r1": 18265.466797,
@@ -50,21 +56,21 @@
   },
   "pivotBasis": "2026-10",
   "indicators": {
-    "rsi14": 54.72,
-    "sma20": 17880.759961,
-    "sma50": 17885.918047,
-    "sma200": 17609.094023,
-    "ema12": 17955.659155,
-    "ema26": 17911.238448,
-    "macd": 44.420707,
-    "macdSignal": -0.758032,
-    "macdHistogram": 45.178739,
-    "bollingerUpper": 18484.446781,
-    "bollingerMiddle": 17880.759961,
-    "bollingerLower": 17277.073141,
-    "bollingerBandwidth": 0.0675,
-    "atr14": 342.039036,
-    "stochK": 81.78,
-    "stochD": 91.2
+    "rsi14": 54.2,
+    "sma20": 17879.409961,
+    "sma50": 17885.378047,
+    "sma200": 17608.959023,
+    "ema12": 17951.505309,
+    "ema26": 17909.238448,
+    "macd": 42.266861,
+    "macdSignal": -1.188801,
+    "macdHistogram": 43.455662,
+    "bollingerUpper": 18480.726927,
+    "bollingerMiddle": 17879.409961,
+    "bollingerLower": 17278.092995,
+    "bollingerBandwidth": 0.0673,
+    "atr14": 343.967607,
+    "stochK": 78.38,
+    "stochD": 90.06
   }
 }
