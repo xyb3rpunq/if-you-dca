@@ -1,22 +1,43 @@
 {
   "id": "nvda",
   "symbol": "NVDA",
-  "generatedAt": "2026-11-25T10:52:15.638Z",
+  "generatedAt": "2026-11-25T22:53:36.016Z",
   "count": 8,
   "items": [
     {
-      "title": "Nvidia scandal reveals cracks in US corporate governance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-scandal-reveals-cracks-us-104339315.html",
-      "publisher": "AFP",
-      "publishedAt": "2026-11-25T10:43:39.000Z",
+      "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+      "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html",
+      "publisher": "Investor's Business Daily",
+      "publishedAt": "2026-11-25T22:35:25.000Z",
       "source": "yahoo"
     },
     {
-      "title": "Market Chatter: Nvidia Chip Buyer's Associates Helped Finance Chinese AI Infrastructure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-chip-buyer-103020824.html",
-      "publisher": "MT Newswires",
-      "publishedAt": "2026-11-25T10:30:20.000Z",
+      "title": "Nvidia settles 8-year-old investor suit for $290M",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-settles-8-old-investor-223000783.html",
+      "publisher": "TheStreet",
+      "publishedAt": "2026-11-25T22:30:00.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "Jensen Huang, Trump and the 11 Days That Rocked Nvidia",
+      "url": "https://finance.yahoo.com/m/99b8dc77-0515-3fb4-9627-338e16bb2ed5/jensen-huang%2C-trump-and-the.html",
+      "publisher": "The Wall Street Journal",
+      "publishedAt": "2026-11-25T22:27:00.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Nvidia May Get A Credit Rating Cut Amid Governance Issues, While US Officials Reportedly Say No Chinese Interference in Huang’s Affair",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-may-credit-rating-cut-222654879.html",
+      "publisher": "Stocktwits",
+      "publishedAt": "2026-11-25T22:26:54.000Z",
+      "source": "yahoo"
+    },
+    {
+      "title": "Intelijen AS Tak Temukan Bukti China Arahkan Mata-Mata ke CEO Nvidia Jensen Huang - Cryptowave",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYjdfektKb1ZYNGFxbE9rVXhibzljeHBMNjdXcWxfbWtWbTl5QWZrTEJLZ0xlUy1iaWhSUHVEd1VPenJhY01zRi1MUktkNHBXWnJYYXhWT0s0RUVNUVMwQXlSbHR0bVBBU0xXSjNIdW90Yy12a2x5eXRPUEphWENkWkNybDJucWRVcVFNT292S1pLQmRmSkNkWnd0eURVdEV6YnpySnE4NGdXN1ZKTC16YjhhVjh2Zw?oc=5",
+      "publisher": "Cryptowave",
+      "publishedAt": "2026-11-25T18:08:30.000Z",
+      "source": "google-news"
     },
     {
       "title": "Jensen Huang Hadapi Kongres AS, Saham Nvidia Tertekan Isu Ekspor Chip China - Ajaib",
@@ -33,31 +54,10 @@
       "source": "google-news"
     },
     {
-      "title": "Saham Nvidia (NVDA) Turun 5,9% Usai Reli Kembalinya Huang (25 November 2026) - Gotrade",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd1hteVNQcHN6Rm9ueDBJdVVpeS1mOWd4Z0Z4Y25pMVVBYlZWMjlJOFBHSTZGc1RmMHh3TUxyTC1oWnNWMm5abWczanp0b2JIc00xQzRMUmZRRDZ2NTNKMWRocE9uQzV4RGZVZ3F5dTVVbmZrdzZJVnJPVjRjaFFhYThn?oc=5",
-      "publisher": "Gotrade",
-      "publishedAt": "2026-11-25T04:15:00.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Reli Nvidia Tak Bertahan Lama, Saham Berbalik Turun 7% - Nanovest",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtdk9sMDB4Vm10czhyTnNtLTQ0R3p3bnQ2NU1UMFNrbV9tcVBXY0pqb1RlY3NPX1d4d0tWN2VUN0RydDNEMkVOWTZqcmlIa0ZVdDVvcE1NcTdIU1pueldsU1lEaWhVdElDeE5HNzl0ZkhkWFRfaXpjWmRsTGk?oc=5",
-      "publisher": "Nanovest",
-      "publishedAt": "2026-11-25T02:44:21.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Trump Buka Opsi Pengampunan untuk CEO Nvidia Jensen Huang Jelang Sidang Kongres - Cryptowave",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUGJWVXpUVHBmeEh1Y0pqa0RzMDNOM3lrdWxYR3F2aWRfYXBNNUIwdDQxRDNyREtEUE81bk9VWGxLV3R4a0MweEJnOXRUYm1CTjlzUXlEN0dWYUgwdEQ5aW1sQlF3VzBTWnRhc1pCV0ZlbzZKZHVlYnFiT3lCaUpnQVQyb1JlX3dubnFMbnprTUZ2dGhMQnlpRHJwRGRFTWJYY2t1U0VsVVZ3QlExUThSR2l5NA?oc=5",
-      "publisher": "Cryptowave",
-      "publishedAt": "2026-11-25T00:26:02.000Z",
-      "source": "google-news"
-    },
-    {
-      "title": "Wall Street Turunkan Target Harga Nvidia Sebesar 25% meski Ada Reversal Terbaru - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FNlFoSTB3VThrYU5UekVIQldta0t6WjdXZU9ERzR4Vll0eGxSYTJWSXFONld4UklLVEpreVZWTWYyZFZGRHFJV2ZmYktGUGlJbWV4YThBS2lOLUU3bDdtWjlodXdKbDhnRUF1OG9lY3htSU42QzNyWQ?oc=5",
-      "publisher": "BeInCrypto",
-      "publishedAt": "2026-11-24T20:12:00.000Z",
+      "title": "Trader kripto kini dapat melakukan lindung nilai taruhan Nvidia, Anthropic, dan minyak di Derive - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHA2MldTRWZpMWRFdUQ1NzJ0dEZRRDMxY1NNd1lva1NhalZ3eUNVVzdCWk94cWl0Mkthd1BOZElXLTJtWTlOYTk4emJvSXo1MUtsbUdiekI5ZmtQSjA0M3RfY2R3WVozLVQ0SktaRjRoRWZOdU4xUHlCZk9ubXhIS2pGM1FPbjZxR3hwbjNCTVlfTW55Zk5EUF92MzBSbXQtbkdBb3lFSVI?oc=5",
+      "publisher": "CoinDesk",
+      "publishedAt": "2026-11-25T04:57:00.000Z",
       "source": "google-news"
     }
   ]
