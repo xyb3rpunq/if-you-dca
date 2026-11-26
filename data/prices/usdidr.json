@@ -6,7 +6,7 @@
   "description": "U.S. DOLLAR / INDONESIAN RUPIAH",
   "currency": "IDR",
   "interval": "1M",
-  "fetchedAt": "2026-11-25T22:52:31.670Z",
+  "fetchedAt": "2026-11-26T10:26:01.908Z",
   "historicalSnapshotAt": "2026-08-09T21:41:33.321Z",
   "seam": {
     "mode": "merged",
@@ -15,7 +15,7 @@
     "tailMonths": 3,
     "note": "3 bulan terbaru diskalakan ×1.0090 agar sejajar dengan deret historis"
   },
-  "marketPrice": 18303,
+  "marketPrice": 18345,
   "lastMonthIsPartial": true,
   "count": 303,
   "from": "2001-09",
@@ -1234,7 +1234,7 @@
     },
     {
       "m": "2026-11",
-      "c": 18466.962871147673
+      "c": 18509.339117696774
     }
   ],
   "monthlyTotal": [
@@ -2448,7 +2448,7 @@
     },
     {
       "m": "2026-11",
-      "c": 18466.962871147673
+      "c": 18509.339117696774
     }
   ]
 }
