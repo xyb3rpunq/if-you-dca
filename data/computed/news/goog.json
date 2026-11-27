@@ -1,7 +1,7 @@
 {
   "id": "goog",
   "symbol": "GOOG",
-  "generatedAt": "2026-11-26T22:43:58.608Z",
+  "generatedAt": "2026-11-27T10:31:19.871Z",
   "count": 8,
   "items": [
     {
@@ -16,20 +16,6 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
       "publisher": "GuruFocus.com",
       "publishedAt": "2026-11-26T18:26:01.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Alphabet Could Be the Safest Way to Own Anthropic. Here’s the Math.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-could-safest-way-own-174702827.html",
-      "publisher": "Motley Fool",
-      "publishedAt": "2026-11-26T17:47:02.000Z",
-      "source": "yahoo"
-    },
-    {
-      "title": "Alphabet (GOOGL) Dropped, So What Is Behind The Latest Attention?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-dropped-behind-latest-170937914.html",
-      "publisher": "Simply Wall St.",
-      "publishedAt": "2026-11-26T17:09:37.000Z",
       "source": "yahoo"
     },
     {
@@ -54,10 +40,24 @@
       "source": "google-news"
     },
     {
-      "title": "Sundar Pichai: Profil CEO Google dan Alphabet - Pintu",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1oWTAwclhiRGxTYmw0SkFmaTl3MTZ4STFSdGtwNi1HTnN4bVE0OFR4Tk5kT3p6RUYwVVN4XzNxVXM5ZlkxLWx5c3NyTDdQTnc?oc=5",
-      "publisher": "Pintu",
-      "publishedAt": "2026-11-22T13:48:20.000Z",
+      "title": "Pendapatan Google Cloud naik dua kali lipat, ta... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV0tyMGp0blo5eEtIVTJIdnlvSEJqZVhJUHpXNzJJbEhvRUdXZ3RwUFdOekhQd2VIOFdZYURzOHluTE90eWE3cjVocG42TnpnMk41aVRCek00RWw0STZIZ1pEMkoxUlFLSkZIZDZoMlloYW9hRUY5ZDhrdGlSWVpqSmdrMVE4czI2ZXdVdjc1SE1Ydjdoa3VYVThfV1c3Z1Nj?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-11-18T19:47:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Apa Itu Google? Mengenal Bisnis Alphabet dan Sumber Pendapatannya - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zME5CVmwyUXlIcktFX0t4NHdmUlRtc2xMeGVSNUlrY0FVUmtkb192ZVpxTy1BUk1XYXRTOWdoMXF4VU1zMGsyVFYzVjdTdTdXMVNkdmxMbWFQUmhZMUlmT1JiSlBYQQ?oc=5",
+      "publisher": "TradingView",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "Alphabet miliki saham Anthropic senilai $10 mil... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ0tjSjROa1JQNGtuSlpNMzNWYUJCcTlLaTdoNThpY0szcmJSN1gtWmdHdE9jOU1VZGxRemlkNDFoWlJrM3lVd0F2UGY5bF95WFRDTWlLdC13TXdwTnpSN1RlYWtSV2JJSGRGRFVQMzRBQTZYNE9vVV9RdklvNFBabGJOSjJjQ2l4T09idXBTbGxrYkVHNG16aVg0R1VWdmRveDdkMnJsSQ?oc=5",
+      "publisher": "Pluang",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
       "source": "google-news"
     }
   ]
