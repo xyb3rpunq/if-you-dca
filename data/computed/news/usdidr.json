@@ -1,8 +1,8 @@
 {
   "id": "usdidr",
   "symbol": "USDIDR",
-  "generatedAt": "2026-11-27T10:31:19.871Z",
-  "count": 7,
+  "generatedAt": "2026-11-27T22:26:43.579Z",
+  "count": 8,
   "items": [
     {
       "title": "USD/IDR: Rupiah Melemah ke Rp18.220, MSCI Beri Klarifikasi dan Dolar AS Tetap Kuat - www.fxstreet-id.com",
@@ -33,13 +33,6 @@
       "source": "yahoo"
     },
     {
-      "title": "USD/IDR: Rupiah Melemah ke Rp18.235, Dolar AS Menguat Usai Risalah FOMC - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51LUdFelVaZTJGLTNJVzV4TW9hZGpfa3llbVhsOHpFTHRzemxzZHBtaGNfX1AxX1pGaFFfbXgxdUc3MUtCemY3elV2WUhndk1iajA3XzdGQnVTVFJ3YmI0MXAtYm1RRnJZ?oc=5",
-      "publisher": "TradingView",
-      "publishedAt": "2026-11-19T09:46:42.000Z",
-      "source": "google-news"
-    },
-    {
       "title": "Indonesia hikes to 6% to prop up rupiah, with two more rises to come - Capital Economics",
       "url": "https://finance.yahoo.com/economy/policy/articles/indonesia-hikes-6-prop-rupiah-140619967.html",
       "publisher": "IntelliNews",
@@ -52,6 +45,20 @@
       "publisher": "The Wall Street Journal",
       "publishedAt": "2026-11-18T11:27:00.000Z",
       "source": "yahoo"
+    },
+    {
+      "title": "USD/IDR: Rupiah Ditutup di Rp18.245 setelah Cetak Rekor Terlemah, Pasar Tunggu BI - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdS1tZ2R2bE54NTFtTHltR1RjTlpHLVJJSnZiM29kMzJucnBqWTgwWWtBNkN1V1pmbllzdzZvX0liQWxRQUJNc1lQc1ItNlZWeHBiV0swR1lranNQdGZLbFNYOWRrTV83d3gyU0VlVDhpOUl2aUZxYVhZZl9jUTM4VG1KSmVoMkMwb291NUYxbm1vcEJiZVpqRGdUb09IVHBOckNhY3BFb1owUFBiMmt2M2hzeWxKMjQwb25EZURkbUY1QQ?oc=5",
+      "publisher": "FXStreet",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "source": "google-news"
+    },
+    {
+      "title": "USD/IDR: Rupiah Pulih ke Rp18.190 dari Rekor Terlemah, tetapi Turun 0,61% dalam Sepekan, Pasar Tunggu PPI AS - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcWtrTUtzTllaaGJkbmZGSFhzXzRGS205UXZ0V0k0VDhhczRZaVFWal9CeWdYTFFWVl9SUTBxRllwUzRFeTlHN0NlNWVQM0xWMjJBT3lqY0UwUlFyQjZZSmxzUTUwYmZPbThLSjVqdlVJQjYxbW1HOHdmN19pUGNUaUNqcGVyenE2MV9XQVNtbWpaVnJqRWRIZzBMN0JjQXNzQ0F2M24tN1ZzY3ZaTUhiTXJRZzdqTndfeGpsQ09tWlR5NWdJeDVSX2tmYWN2R0s0TVJuMktTeWI3MGF0WVJjbmotSQ?oc=5",
+      "publisher": "FXStreet",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "source": "google-news"
     }
   ]
 }
